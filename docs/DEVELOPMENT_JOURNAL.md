@@ -121,3 +121,61 @@ The project now has evidence for a conservative historical reconstruction rule r
 ### Next action
 P0-S3 — Canonical Data Architecture & Dataset Contract. No model training yet.
 
+---
+
+# P0-S3 S1 — Canonical Data Architecture & Dataset Contract
+
+## Goal
+Translate P0-S2 feasibility evidence into an explicit data architecture before building permanent ingestion or model pipelines.
+
+## Problem
+The project now knows that core historical NBA statistics, play-by-play, advanced/tracking data, and D-1 historical statistical reconstruction are feasible, but feasibility alone does not define a safe permanent dataset. Without a contract, later code could mix source schemas, targets, timestamps, identities, and unproven intraday information.
+
+## Options considered
+1. Start building collectors immediately.
+2. Build one large modeling dataset directly from NBA endpoints.
+3. Define canonical layers/contracts first, then implement them incrementally.
+
+## Advantages / disadvantages
+Option 1 is fast but risks architecture-by-accident.
+Option 2 is simple initially but couples research to source schemas and increases leakage/reproducibility risk.
+Option 3 adds design work now but creates enforceable boundaries for raw evidence, validation, canonical facts, historical snapshots, features, and targets.
+
+## Selected solution
+Option 3.
+
+## Reason
+NBA_MIKE v2 exists to prove model usefulness. That requires proving the historical information set first. The data architecture must therefore preserve source evidence, provenance, identity, time boundaries, and feature/target separation.
+
+## Decisions
+- Raw source responses are immutable evidence.
+- Validated source-shaped data is separate from canonical data.
+- Canonical downstream tables use stable NBA IDs, not names, as primary identities.
+- Player-game identity is `game_id + player_id`.
+- Initial historical statistical features use the proven conservative D-1 boundary.
+- Pregame features and realized targets use separate namespaces/layers.
+- Intraday injury/lineup/news/market history remains unresolved and quarantined.
+- Ambiguous rotation/lineup reconstruction must not be guessed.
+- No predictive model training is authorized in P0-S3 S1.
+
+## Files added
+- `docs/P0_S3_CANONICAL_DATA_ARCHITECTURE.md`
+- `docs/CANONICAL_DATA_CONTRACT.md`
+- `docs/P0_S3_MILESTONE_PLAN.md`
+- `research/p0_s3/s1/README.md`
+
+## Tests
+Design-content checks for required architecture concepts, D-1 boundary, identity keys, provenance, leakage, and explicit no-model-training rule.
+
+## Result
+PENDING USER INSTALLATION / VALIDATION.
+
+## Remaining risks
+- Exact physical storage/file-format choices are not yet locked.
+- Intraday historical injuries, lineups, news, and market data remain unresolved.
+- Canonical builder and automated schema/leakage tests do not exist yet.
+- Source reliability/caching policy remains to be implemented.
+
+## Next action
+P0-S3 S2 — Storage & Manifest Standard.
+
