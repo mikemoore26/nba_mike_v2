@@ -1,0 +1,17 @@
+P0-S2 POC-01 — Core NBA Historical Data & Identity Test
+Run UTC: 2026-10-03T23:30:13.413625+00:00
+
+Season 2025-26
+  TEAM: PASS | rows=2460 | seconds=0.838
+  PLAYER: PASS | rows=26651 | seconds=1.967
+
+Season 2023-24
+  TEAM: PASS | rows=2460 | seconds=0.2
+  PLAYER: PASS | rows=26401 | seconds=1.479
+
+Season 2019-20
+  TEAM: PASS | rows=2118 | seconds=0.179
+  PLAYER: PASS | rows=22393 | seconds=1.253
+
+OVERALL: PASS
+NOTE: Endpoint access failure is a valid feasibility finding; do not work around it silently.

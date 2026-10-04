@@ -1,0 +1,33 @@
+P0-S2 POC-07 — Advanced Stats & Opportunity Data Feasibility
+Run UTC: 2026-10-03T23:59:31.941312+00:00
+
+Season 2025-26 | STATUS: PASS
+  BASE: PASS | rows=582 | seconds=0.609 | missing=[]
+  ADVANCED: PASS | rows=582 | seconds=0.699 | missing=[]
+  TRACKING Possessions: PASS | rows=582 | seconds=0.246
+  TRACKING Passing: PASS | rows=582 | seconds=0.206
+  TRACKING Drives: PASS | rows=582 | seconds=0.302
+  TRACKING PaintTouch: PASS | rows=582 | seconds=0.392
+
+Season 2023-24 | STATUS: PASS
+  BASE: PASS | rows=572 | seconds=0.175 | missing=[]
+  ADVANCED: PASS | rows=572 | seconds=1.484 | missing=[]
+  TRACKING Possessions: PASS | rows=572 | seconds=0.146
+  TRACKING Passing: PASS | rows=572 | seconds=0.263
+  TRACKING Drives: PASS | rows=572 | seconds=0.195
+  TRACKING PaintTouch: PASS | rows=572 | seconds=0.165
+
+Season 2019-20 | STATUS: PASS
+  BASE: PASS | rows=529 | seconds=1.346 | missing=[]
+  ADVANCED: PASS | rows=529 | seconds=1.561 | missing=[]
+  TRACKING Possessions: PASS | rows=529 | seconds=0.127
+  TRACKING Passing: PASS | rows=529 | seconds=0.107
+  TRACKING Drives: PASS | rows=529 | seconds=0.169
+  TRACKING PaintTouch: PASS | rows=529 | seconds=0.331
+
+INTERPRETATION:
+- Base box/opportunity fields are candidates for CORE only if historically stable.
+- Advanced stats are SUPPORTING candidates; availability does not prove predictive value.
+- Tracking fields are OPTIONAL/ADVANCED until historical depth, stability, and AS_OF_TIME-safe construction are proven.
+- Endpoint timeout/error is a feasibility result; do not silently replace it or call it production-ready.
+- This POC tests season-level access/schema, not game-by-game historical timestamp reconstruction.

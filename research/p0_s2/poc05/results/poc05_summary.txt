@@ -1,0 +1,32 @@
+P0-S2 POC-05 — Starter & Period-Start Lineup Feasibility
+Run UTC: 2026-10-03T23:51:38.596255+00:00
+
+Season 2025-26 | GAME_ID=0022500616
+  STATUS: PASS
+  starter field=position
+  game starters by team={'1610612750': 5, '1610612762': 5}
+  unique team-period starts=3/8
+  ambiguous team-period starts=5
+  Q1 TEAM 1610612750: official starters available=True | satisfy substitution constraints=True | constraint solutions=3
+  Q1 TEAM 1610612762: official starters available=True | satisfy substitution constraints=True | constraint solutions=3
+
+Season 2023-24 | GAME_ID=0022300616
+  STATUS: PASS
+  starter field=position
+  game starters by team={'1610612740': 5, '1610612762': 5}
+  unique team-period starts=7/8
+  ambiguous team-period starts=1
+  Q1 TEAM 1610612740: official starters available=True | satisfy substitution constraints=True | constraint solutions=1
+  Q1 TEAM 1610612762: official starters available=True | satisfy substitution constraints=True | constraint solutions=1
+
+Season 2019-20 | GAME_ID=0021900530
+  STATUS: PASS
+  starter field=position
+  game starters by team={'1610612742': 5, '1610612766': 5}
+  unique team-period starts=7/10
+  ambiguous team-period starts=3
+  Q1 TEAM 1610612742: official starters available=True | satisfy substitution constraints=True | constraint solutions=1
+  Q1 TEAM 1610612766: official starters available=True | satisfy substitution constraints=True | constraint solutions=1
+
+INTERPRETATION RULE:
+A unique constraint solution is evidence. Multiple valid solutions remain ambiguous and must not be guessed.

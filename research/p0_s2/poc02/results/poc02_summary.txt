@@ -1,0 +1,26 @@
+P0-S2 POC-02 — Play-by-Play & Rotation Feasibility
+Run UTC: 2026-10-03T23:33:07.714181+00:00
+
+Season 2025-26 | GAME_ID=0022500616
+  STATUS: PASS
+  rows=518 | seconds=0.233
+  period=period | clock=clock | action=actionType
+  person_id=personId | substitutions=37
+  score_home=scoreHome | score_away=scoreAway
+
+Season 2023-24 | GAME_ID=0022300616
+  STATUS: PASS
+  rows=493 | seconds=0.206
+  period=period | clock=clock | action=actionType
+  person_id=personId | substitutions=47
+  score_home=scoreHome | score_away=scoreAway
+
+Season 2019-20 | GAME_ID=0021900530
+  STATUS: PASS
+  rows=526 | seconds=0.358
+  period=period | clock=clock | action=actionType
+  person_id=personId | substitutions=67
+  score_home=scoreHome | score_away=scoreAway
+
+OVERALL: PASS
+NOTE: PBP access does not by itself prove reliable lineup reconstruction.

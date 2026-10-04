@@ -1,0 +1,61 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId,_sub_anchor_index,_source_row_index
+0021900530,49,PT06M40.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,11,10,1,Made,1,14,13,27,v,Bridges 1' Cutting Dunk Shot (4 PTS) (Rozier 1 AST),Made Shot,Cutting Dunk Shot,1,2,36,37,35
+0021900530,51,PT06M39.00S,1,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,37,37,36
+0021900530,55,PT06M39.00S,1,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,h,SUB: Kleber FOR Jackson,Substitution,,0,0,38,37,37
+0021900530,56,PT06M39.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: Curry FOR Doncic,Substitution,,0,0,39,37,38
+0021900530,57,PT06M39.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Bacon FOR Rozier,Substitution,,0,0,40,37,39
+0021900530,51,PT06M39.00S,1,0,,1610612742,,,0,0,0,,0,,,0,h,MAVERICKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,37,38,36
+0021900530,55,PT06M39.00S,1,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,h,SUB: Kleber FOR Jackson,Substitution,,0,0,38,38,37
+0021900530,56,PT06M39.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: Curry FOR Doncic,Substitution,,0,0,39,38,38
+0021900530,57,PT06M39.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Bacon FOR Rozier,Substitution,,0,0,40,38,39
+0021900530,61,PT06M16.00S,1,1610612742,DAL,200826,Barea,J. Barea,-172,193,26,Missed,1,,,0,h,MISS Barea 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,41,38,40
+0021900530,55,PT06M39.00S,1,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,h,SUB: Kleber FOR Jackson,Substitution,,0,0,38,39,37
+0021900530,56,PT06M39.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,h,SUB: Curry FOR Doncic,Substitution,,0,0,39,39,38
+0021900530,57,PT06M39.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Bacon FOR Rozier,Substitution,,0,0,40,39,39
+0021900530,61,PT06M16.00S,1,1610612742,DAL,200826,Barea,J. Barea,-172,193,26,Missed,1,,,0,h,MISS Barea 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,41,39,40
+0021900530,62,PT06M12.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,42,39,41
+0021900530,72,PT05M06.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,-5,13,1,Made,1,14,17,31,v,Biyombo 1' Reverse Layup (4 PTS) (Graham 3 AST),Made Shot,Reverse Layup Shot,1,2,50,51,49
+0021900530,74,PT05M06.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,h,Kleber S.FOUL (P1.T2) (K.Cutler),Foul,Shooting,1,0,51,51,50
+0021900530,76,PT05M06.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,SUB: Monk FOR Bridges,Substitution,,0,0,52,51,51
+0021900530,78,PT05M06.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,14,18,32,v,Biyombo Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,53,51,52
+0021900530,79,PT04M49.00S,1,1610612742,DAL,203939,Powell,D. Powell,-13,2,1,Missed,1,,,0,h,MISS Powell 1' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,54,51,53
+0021900530,94,PT03M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,-6,1,Made,1,16,20,36,h,Finney-Smith 1' Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,69,70,68
+0021900530,95,PT03M13.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,70,70,69
+0021900530,96,PT03M13.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,h,SUB: Wright FOR Barea,Substitution,,0,0,71,70,70
+0021900530,97,PT03M13.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,h,SUB: Marjanovic FOR Powell,Substitution,,0,0,72,70,71
+0021900530,98,PT03M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,73,70,72
+0021900530,95,PT03M13.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,70,71,69
+0021900530,96,PT03M13.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,h,SUB: Wright FOR Barea,Substitution,,0,0,71,71,70
+0021900530,97,PT03M13.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,h,SUB: Marjanovic FOR Powell,Substitution,,0,0,72,71,71
+0021900530,98,PT03M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,73,71,72
+0021900530,99,PT03M13.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,SUB: Williams FOR Biyombo,Substitution,,0,0,74,71,73
+0021900530,96,PT03M13.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,h,SUB: Wright FOR Barea,Substitution,,0,0,71,72,70
+0021900530,97,PT03M13.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,h,SUB: Marjanovic FOR Powell,Substitution,,0,0,72,72,71
+0021900530,98,PT03M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,73,72,72
+0021900530,99,PT03M13.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,SUB: Williams FOR Biyombo,Substitution,,0,0,74,72,73
+0021900530,100,PT03M13.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,SUB: Zeller FOR Washington,Substitution,,0,0,75,72,74
+0021900530,97,PT03M13.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,h,SUB: Marjanovic FOR Powell,Substitution,,0,0,72,73,71
+0021900530,98,PT03M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,73,73,72
+0021900530,99,PT03M13.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,SUB: Williams FOR Biyombo,Substitution,,0,0,74,73,73
+0021900530,100,PT03M13.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,SUB: Zeller FOR Washington,Substitution,,0,0,75,73,74
+0021900530,106,PT02M59.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,-57,88,10,Missed,1,,,0,v,MISS Bacon 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,76,73,75
+0021900530,98,PT03M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,h,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,73,74,72
+0021900530,99,PT03M13.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,SUB: Williams FOR Biyombo,Substitution,,0,0,74,74,73
+0021900530,100,PT03M13.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,SUB: Zeller FOR Washington,Substitution,,0,0,75,74,74
+0021900530,106,PT02M59.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,-57,88,10,Missed,1,,,0,v,MISS Bacon 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,76,74,75
+0021900530,107,PT02M56.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,77,74,76
+0021900530,116,PT01M58.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,h,Marjanovic S.FOUL (P1.T3) (S.Foster),Foul,Shooting,1,0,84,85,83
+0021900530,118,PT01M58.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,16,25,41,v,Zeller Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,85,85,84
+0021900530,119,PT01M58.00S,1,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,SUB: Rozier FOR Graham,Substitution,,0,0,86,85,85
+0021900530,121,PT01M58.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,16,26,42,v,Zeller Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,87,85,86
+0021900530,122,PT01M40.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,228,-8,0,Missed,1,,,0,h,MISS Kleber 3PT Jump Shot,Missed Shot,Jump Shot,1,3,88,85,87
+0021900530,152,PT11M16.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,20,33,53,v,Williams Free Throw 1 of 3 (1 PTS),Free Throw,Free Throw 1 of 3,1,0,110,111,109
+0021900530,153,PT11M16.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,20,34,54,v,Williams Free Throw 2 of 3 (2 PTS),Free Throw,Free Throw 2 of 3,1,0,111,111,110
+0021900530,154,PT11M16.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,h,SUB: Powell FOR Kleber,Substitution,,0,0,112,111,111
+0021900530,155,PT11M16.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,SUB: Bridges FOR Bacon,Substitution,,0,0,113,111,112
+0021900530,158,PT11M16.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,20,35,55,v,Williams Free Throw 3 of 3 (3 PTS),Free Throw,Free Throw 3 of 3,1,0,114,111,113
+0021900530,153,PT11M16.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,20,34,54,v,Williams Free Throw 2 of 3 (2 PTS),Free Throw,Free Throw 2 of 3,1,0,111,112,110
+0021900530,154,PT11M16.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,h,SUB: Powell FOR Kleber,Substitution,,0,0,112,112,111
+0021900530,155,PT11M16.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,SUB: Bridges FOR Bacon,Substitution,,0,0,113,112,112
+0021900530,158,PT11M16.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,20,35,55,v,Williams Free Throw 3 of 3 (3 PTS),Free Throw,Free Throw 3 of 3,1,0,114,112,113
+0021900530,159,PT10M59.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk P.FOUL (P1.T1) (S.Foster),Foul,Personal,1,0,115,112,114

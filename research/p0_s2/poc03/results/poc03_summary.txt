@@ -1,0 +1,41 @@
+P0-S2 POC-03 — PBP Event Ordering & Substitution Semantics
+Run UTC: 2026-10-03T23:36:14.189964+00:00
+
+Season 2025-26 | GAME_ID=0022500616
+  STATUS: PASS
+  rows=518 | seconds=0.238
+  actionNumber reversals=5
+  actionId reversals=0
+  clock chronology violations=0
+  substitutions=37
+  substitution subTypes=['']
+  same-clock multi-event groups=92
+  max events at same clock=8
+  periods=[1, 2, 3, 4]
+
+Season 2023-24 | GAME_ID=0022300616
+  STATUS: PASS
+  rows=493 | seconds=0.234
+  actionNumber reversals=2
+  actionId reversals=0
+  clock chronology violations=0
+  substitutions=47
+  substitution subTypes=['']
+  same-clock multi-event groups=73
+  max events at same clock=7
+  periods=[1, 2, 3, 4]
+
+Season 2019-20 | GAME_ID=0021900530
+  STATUS: PASS
+  rows=526 | seconds=0.338
+  actionNumber reversals=4
+  actionId reversals=0
+  clock chronology violations=0
+  substitutions=67
+  substitution subTypes=['']
+  same-clock multi-event groups=87
+  max events at same clock=8
+  periods=[1, 2, 3, 4, 5]
+
+OVERALL SCRIPT/SCHEMA: PASS
+IMPORTANT: Interpret ordering and substitution semantics from the generated evidence before rotation reconstruction.

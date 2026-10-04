@@ -1,0 +1,42 @@
+P0-S2 POC-09 — Game-Level Historical Reconstruction & Leakage Boundary
+Run UTC: 2026-10-04T00:07:25.704881+00:00
+
+Season 2025-26 | TARGET=11/15/2025 | PRE-GAME CUTOFF=11/14/2025 | STATUS: PASS
+  BASE PRE: PASS | rows=463 | seconds=2.661
+  BASE THROUGH TARGET: PASS | rows=465 | seconds=1.292
+  TARGET DAY LOGS: PASS | rows=110 | seconds=1.215
+  LEAKAGE BOUNDARY: PASS | target players=110 | +1 GP=110 | wrong target delta=0 | non-target changed=0
+  ADVANCED PRE: PASS | rows=463 | seconds=1.342
+  TRACKING Possessions PRE: PASS | rows=463 | seconds=0.797
+  TRACKING Passing PRE: PASS | rows=463 | seconds=0.953
+  TRACKING Drives PRE: PASS | rows=463 | seconds=2.223
+  TRACKING PaintTouch PRE: PASS | rows=463 | seconds=0.847
+
+Season 2023-24 | TARGET=11/15/2023 | PRE-GAME CUTOFF=11/14/2023 | STATUS: PASS
+  BASE PRE: PASS | rows=464 | seconds=0.969
+  BASE THROUGH TARGET: PASS | rows=467 | seconds=1.172
+  TARGET DAY LOGS: PASS | rows=184 | seconds=0.994
+  LEAKAGE BOUNDARY: PASS | target players=184 | +1 GP=184 | wrong target delta=0 | non-target changed=0
+  ADVANCED PRE: PASS | rows=464 | seconds=1.328
+  TRACKING Possessions PRE: PASS | rows=464 | seconds=0.785
+  TRACKING Passing PRE: PASS | rows=464 | seconds=0.899
+  TRACKING Drives PRE: PASS | rows=464 | seconds=0.688
+  TRACKING PaintTouch PRE: PASS | rows=464 | seconds=0.698
+
+Season 2019-20 | TARGET=11/15/2019 | PRE-GAME CUTOFF=11/14/2019 | STATUS: PASS
+  BASE PRE: PASS | rows=432 | seconds=1.117
+  BASE THROUGH TARGET: PASS | rows=436 | seconds=1.001
+  TARGET DAY LOGS: PASS | rows=165 | seconds=0.866
+  LEAKAGE BOUNDARY: PASS | target players=165 | +1 GP=165 | wrong target delta=0 | non-target changed=0
+  ADVANCED PRE: PASS | rows=432 | seconds=2.944
+  TRACKING Possessions PRE: PASS | rows=432 | seconds=0.727
+  TRACKING Passing PRE: PASS | rows=432 | seconds=0.909
+  TRACKING Drives PRE: PASS | rows=432 | seconds=1.175
+  TRACKING PaintTouch PRE: PASS | rows=432 | seconds=0.757
+
+INTERPRETATION:
+- PASS supports using D-1 season-to-date aggregates as leakage-safe day-level pregame features for a game on D.
+- Target-day player game logs are outcomes/labels, not pregame features.
+- This still does not solve exact intraday AS_OF_TIME for injury reports, confirmed lineups, news, or sportsbook markets.
+- Same-day earlier-game information is deliberately excluded by the D-1 rule; that is conservative and reproducible.
+- Do not train models yet.

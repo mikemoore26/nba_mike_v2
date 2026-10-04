@@ -1,0 +1,61 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId,_sub_anchor_index,_source_row_index
+0022500616,79,PT04M33.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,18,26,3,Made,1,20,25,45,v,Edwards 3' Running Dunk (5 PTS) (DiVincenzo 2 AST),Made Shot,Running Dunk Shot,1,2,60,61,59
+0022500616,81,PT04M32.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,61,61,60
+0022500616,83,PT04M32.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,SUB: Conley FOR DiVincenzo,Substitution,,0,0,62,61,61
+0022500616,84,PT04M32.00S,1,1610612750,MIN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Reid FOR Randle,Substitution,,0,0,63,61,62
+0022500616,87,PT04M32.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Filipowski FOR Mykhailiuk,Substitution,,0,0,64,61,63
+0022500616,81,PT04M32.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,61,62,60
+0022500616,83,PT04M32.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,SUB: Conley FOR DiVincenzo,Substitution,,0,0,62,62,61
+0022500616,84,PT04M32.00S,1,1610612750,MIN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Reid FOR Randle,Substitution,,0,0,63,62,62
+0022500616,87,PT04M32.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Filipowski FOR Mykhailiuk,Substitution,,0,0,64,62,63
+0022500616,88,PT04M32.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Collier FOR Bailey,Substitution,,0,0,65,62,64
+0022500616,83,PT04M32.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,SUB: Conley FOR DiVincenzo,Substitution,,0,0,62,63,61
+0022500616,84,PT04M32.00S,1,1610612750,MIN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Reid FOR Randle,Substitution,,0,0,63,63,62
+0022500616,87,PT04M32.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Filipowski FOR Mykhailiuk,Substitution,,0,0,64,63,63
+0022500616,88,PT04M32.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Collier FOR Bailey,Substitution,,0,0,65,63,64
+0022500616,89,PT04M32.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: Anderson FOR Nurkic,Substitution,,0,0,66,63,65
+0022500616,84,PT04M32.00S,1,1610612750,MIN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Reid FOR Randle,Substitution,,0,0,63,64,62
+0022500616,87,PT04M32.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Filipowski FOR Mykhailiuk,Substitution,,0,0,64,64,63
+0022500616,88,PT04M32.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Collier FOR Bailey,Substitution,,0,0,65,64,64
+0022500616,89,PT04M32.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: Anderson FOR Nurkic,Substitution,,0,0,66,64,65
+0022500616,93,PT04M08.00S,1,1610612762,UTA,1642268,Collier,I. Collier,-42,35,5,Missed,1,,,0,h,MISS Collier 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,67,64,66
+0022500616,87,PT04M32.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Filipowski FOR Mykhailiuk,Substitution,,0,0,64,65,63
+0022500616,88,PT04M32.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: Collier FOR Bailey,Substitution,,0,0,65,65,64
+0022500616,89,PT04M32.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: Anderson FOR Nurkic,Substitution,,0,0,66,65,65
+0022500616,93,PT04M08.00S,1,1610612762,UTA,1642268,Collier,I. Collier,-42,35,5,Missed,1,,,0,h,MISS Collier 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,67,65,66
+0022500616,93,PT04M08.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert BLOCK (2 BLK),,,1,2,68,65,67
+0022500616,96,PT04M02.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,58,206,21,Missed,1,,,0,v,MISS Edwards 21' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,70,71,69
+0022500616,97,PT04M00.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,71,71,70
+0022500616,99,PT04M00.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Clark FOR McDaniels,Substitution,,0,0,72,71,71
+0022500616,101,PT03M54.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,73,71,72
+0022500616,101,PT03M54.00S,1,1610612762,UTA,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson STEAL (1 STL),,,1,0,74,71,73
+0022500616,108,PT03M02.00S,1,1610612762,UTA,1641718,George,K. George,53,35,6,Missed,1,,,0,h,MISS George 6' Turnaround Bank Hook Shot,Missed Shot,Turnaround Bank Hook Shot,1,2,80,81,79
+0022500616,109,PT03M02.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,81,81,80
+0022500616,111,PT03M02.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Randle FOR Gobert,Substitution,,0,0,82,81,81
+0022500616,113,PT02M45.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,146,211,26,Made,1,20,28,48,v,Edwards 26' 3PT Jump Shot (8 PTS) (Randle 2 AST),Made Shot,Jump Shot,1,3,83,81,82
+0022500616,115,PT02M28.00S,1,1610612762,UTA,1641718,George,K. George,-154,198,25,Made,1,23,28,51,h,George 25' 3PT Jump Shot (11 PTS) (Collier 1 AST),Made Shot,Jump Shot,1,3,84,81,83
+0022500616,172,PT09M16.00S,2,1610612762,UTA,1642268,Collier,I. Collier,11,74,7,Made,1,38,41,79,h,Collier 7' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,120,121,119
+0022500616,173,PT09M16.00S,2,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley S.FOUL (P1.T2) (C.Washington),Foul,Shooting,1,0,121,121,120
+0022500616,175,PT09M16.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Clayton Jr. FOR Mykhailiuk,Substitution,,0,0,122,121,121
+0022500616,176,PT09M16.00S,2,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: Hyland FOR Conley,Substitution,,0,0,123,121,122
+0022500616,179,PT09M16.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,39,41,80,h,Collier Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,124,121,123
+0022500616,173,PT09M16.00S,2,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley S.FOUL (P1.T2) (C.Washington),Foul,Shooting,1,0,121,122,120
+0022500616,175,PT09M16.00S,2,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Clayton Jr. FOR Mykhailiuk,Substitution,,0,0,122,122,121
+0022500616,176,PT09M16.00S,2,1610612750,MIN,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: Hyland FOR Conley,Substitution,,0,0,123,122,122
+0022500616,179,PT09M16.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,39,41,80,h,Collier Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,124,122,123
+0022500616,180,PT08M58.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-233,12,0,Made,1,39,44,83,v,Reid 3PT Jump Shot (8 PTS) (DiVincenzo 4 AST),Made Shot,Jump Shot,1,3,125,122,124
+0022500616,195,PT07M42.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,136,137,135
+0022500616,196,PT07M42.00S,2,0,,194,Bowie,A. Bowie,0,0,0,,0,39,46,85,,Instant Replay2nd Period (9:43 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,137,137,136
+0022500616,200,PT07M42.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: Williams FOR Collier,Substitution,,0,0,138,137,137
+0022500616,201,PT07M42.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: George FOR Bailey,Substitution,,0,0,139,137,138
+0022500616,204,PT07M38.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P1.T4) (C.Washington),Foul,Personal,1,0,140,137,139
+0022500616,196,PT07M42.00S,2,0,,194,Bowie,A. Bowie,0,0,0,,0,39,46,85,,Instant Replay2nd Period (9:43 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,137,138,136
+0022500616,200,PT07M42.00S,2,1610612762,UTA,1642268,Collier,I. Collier,0,0,0,,0,,,0,h,SUB: Williams FOR Collier,Substitution,,0,0,138,138,137
+0022500616,201,PT07M42.00S,2,1610612762,UTA,1642846,Bailey,A. Bailey,0,0,0,,0,,,0,h,SUB: George FOR Bailey,Substitution,,0,0,139,138,138
+0022500616,204,PT07M38.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George P.FOUL (P1.T4) (C.Washington),Foul,Personal,1,0,140,138,139
+0022500616,206,PT07M36.00S,2,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo OFF.Foul (P2) (G.Petraitis),Foul,Offensive,1,0,141,138,140
+0022500616,209,PT07M26.00S,2,1610612750,MIN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland S.FOUL (P1.T3) (C.Washington),Foul,Shooting,1,0,143,144,142
+0022500616,211,PT07M26.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,40,46,86,h,George Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,144,144,143
+0022500616,212,PT07M26.00S,2,1610612762,UTA,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,SUB: Nurkic FOR Anderson,Substitution,,0,0,145,144,144
+0022500616,214,PT07M26.00S,2,1610612762,UTA,1641718,George,K. George,0,0,0,,0,41,46,87,h,George Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,146,144,145
+0022500616,216,PT07M15.00S,2,1610612750,MIN,1642866,Beringer,J. Beringer,0,0,0,,0,,,0,v,SUB: Gobert FOR Beringer,Substitution,,0,0,147,144,146

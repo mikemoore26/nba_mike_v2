@@ -1,0 +1,125 @@
+{
+  "poc": "P0-S2 POC-01",
+  "purpose": "core historical data and identity feasibility",
+  "run_utc": "2026-10-03T23:30:13.413625+00:00",
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seasons": [
+    "2025-26",
+    "2023-24",
+    "2019-20"
+  ],
+  "results": [
+    {
+      "season": "2025-26",
+      "team": {
+        "kind": "team",
+        "rows": 2460,
+        "columns": 29,
+        "missing_required_columns": [],
+        "duplicate_full_rows": 0,
+        "null_rate_GAME_ID": 0.0,
+        "null_rate_TEAM_ID": 0.0,
+        "null_rate_GAME_DATE": 0.0,
+        "null_rate_MIN": 0.0,
+        "null_rate_PTS": 0.0,
+        "unique_games": 1230,
+        "games_not_exactly_two_team_rows": 0,
+        "request_seconds": 0.838,
+        "status": "PASS"
+      },
+      "player": {
+        "kind": "player",
+        "rows": 26651,
+        "columns": 72,
+        "missing_required_columns": [],
+        "duplicate_full_rows": 0,
+        "null_rate_GAME_ID": 0.0,
+        "null_rate_TEAM_ID": 0.0,
+        "null_rate_PLAYER_ID": 0.0,
+        "null_rate_GAME_DATE": 0.0,
+        "null_rate_MIN": 0.0,
+        "null_rate_PTS": 0.0,
+        "unique_players": 582,
+        "unique_games": 1230,
+        "duplicate_player_game_keys": 0,
+        "request_seconds": 1.967,
+        "status": "PASS"
+      }
+    },
+    {
+      "season": "2023-24",
+      "team": {
+        "kind": "team",
+        "rows": 2460,
+        "columns": 29,
+        "missing_required_columns": [],
+        "duplicate_full_rows": 0,
+        "null_rate_GAME_ID": 0.0,
+        "null_rate_TEAM_ID": 0.0,
+        "null_rate_GAME_DATE": 0.0,
+        "null_rate_MIN": 0.0,
+        "null_rate_PTS": 0.0,
+        "unique_games": 1230,
+        "games_not_exactly_two_team_rows": 0,
+        "request_seconds": 0.2,
+        "status": "PASS"
+      },
+      "player": {
+        "kind": "player",
+        "rows": 26401,
+        "columns": 70,
+        "missing_required_columns": [],
+        "duplicate_full_rows": 0,
+        "null_rate_GAME_ID": 0.0,
+        "null_rate_TEAM_ID": 0.0,
+        "null_rate_PLAYER_ID": 0.0,
+        "null_rate_GAME_DATE": 0.0,
+        "null_rate_MIN": 0.0,
+        "null_rate_PTS": 0.0,
+        "unique_players": 572,
+        "unique_games": 1230,
+        "duplicate_player_game_keys": 0,
+        "request_seconds": 1.479,
+        "status": "PASS"
+      }
+    },
+    {
+      "season": "2019-20",
+      "team": {
+        "kind": "team",
+        "rows": 2118,
+        "columns": 29,
+        "missing_required_columns": [],
+        "duplicate_full_rows": 0,
+        "null_rate_GAME_ID": 0.0,
+        "null_rate_TEAM_ID": 0.0,
+        "null_rate_GAME_DATE": 0.0,
+        "null_rate_MIN": 0.0,
+        "null_rate_PTS": 0.0,
+        "unique_games": 1059,
+        "games_not_exactly_two_team_rows": 0,
+        "request_seconds": 0.179,
+        "status": "PASS"
+      },
+      "player": {
+        "kind": "player",
+        "rows": 22393,
+        "columns": 72,
+        "missing_required_columns": [],
+        "duplicate_full_rows": 0,
+        "null_rate_GAME_ID": 0.0,
+        "null_rate_TEAM_ID": 0.0,
+        "null_rate_PLAYER_ID": 0.0,
+        "null_rate_GAME_DATE": 0.0,
+        "null_rate_MIN": 0.0,
+        "null_rate_PTS": 0.0,
+        "unique_players": 529,
+        "unique_games": 1059,
+        "duplicate_player_game_keys": 0,
+        "request_seconds": 1.253,
+        "status": "PASS"
+      }
+    }
+  ]
+}

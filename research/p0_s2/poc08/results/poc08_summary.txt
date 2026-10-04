@@ -1,0 +1,39 @@
+P0-S2 POC-08 — Historical Cutoff / AS_OF_TIME Feasibility
+Run UTC: 2026-10-04T00:03:11.043770+00:00
+
+Season 2025-26 | EARLY=11/15/2025 | LATE=12/15/2025 | STATUS: PASS
+  BASE EARLY: PASS | rows=465 | seconds=1.395
+  BASE LATE:  PASS | rows=499 | seconds=1.209
+  CUTOFF TEST: PASS | matched=465 | GP increased=430 | GP decreased=0 | aggregates changed=430
+  ADVANCED EARLY: PASS | rows=465 | seconds=1.271
+  TRACKING Possessions EARLY: PASS | rows=465 | seconds=0.767
+  TRACKING Passing EARLY: PASS | rows=465 | seconds=0.866
+  TRACKING Drives EARLY: PASS | rows=465 | seconds=1.212
+  TRACKING PaintTouch EARLY: PASS | rows=465 | seconds=0.996
+
+Season 2023-24 | EARLY=11/15/2023 | LATE=12/15/2023 | STATUS: PASS
+  BASE EARLY: PASS | rows=467 | seconds=1.538
+  BASE LATE:  PASS | rows=501 | seconds=1.243
+  CUTOFF TEST: PASS | matched=467 | GP increased=432 | GP decreased=0 | aggregates changed=431
+  ADVANCED EARLY: PASS | rows=467 | seconds=1.315
+  TRACKING Possessions EARLY: PASS | rows=467 | seconds=0.835
+  TRACKING Passing EARLY: PASS | rows=467 | seconds=0.721
+  TRACKING Drives EARLY: PASS | rows=467 | seconds=0.823
+  TRACKING PaintTouch EARLY: PASS | rows=467 | seconds=0.765
+
+Season 2019-20 | EARLY=11/15/2019 | LATE=12/15/2019 | STATUS: PASS
+  BASE EARLY: PASS | rows=436 | seconds=1.059
+  BASE LATE:  PASS | rows=466 | seconds=1.457
+  CUTOFF TEST: PASS | matched=436 | GP increased=413 | GP decreased=0 | aggregates changed=413
+  ADVANCED EARLY: PASS | rows=436 | seconds=1.556
+  TRACKING Possessions EARLY: PASS | rows=436 | seconds=0.931
+  TRACKING Passing EARLY: PASS | rows=436 | seconds=0.715
+  TRACKING Drives EARLY: PASS | rows=436 | seconds=1.157
+  TRACKING PaintTouch EARLY: PASS | rows=436 | seconds=0.821
+
+INTERPRETATION:
+- PASS means the season-to-date endpoint responds to a historical DateTo cutoff and the later cutoff behaves like later information.
+- This is necessary for leakage-safe rolling features, but it is NOT sufficient proof of exact publication-time availability.
+- DateTo is day-level. It does not establish intraday AS_OF_TIME truth for injuries, lineups, odds, or late-breaking news.
+- Advanced/tracking availability at an early cutoff makes them research candidates only; predictive value remains unproven.
+- Do not train models yet.

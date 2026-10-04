@@ -1,0 +1,163 @@
+{
+  "poc": "P0-S2 POC-03",
+  "run_utc": "2026-10-03T23:36:14.189964+00:00",
+  "results": [
+    {
+      "season": "2025-26",
+      "game_id": "0022500616",
+      "request_seconds": 0.238,
+      "status": "PASS",
+      "rows": 518,
+      "action_number_violations": 5,
+      "action_id_violations": 0,
+      "clock_chronology_violations": 0,
+      "action_number_violation_examples": [
+        {
+          "previous_row_index": 134,
+          "previous_value": 197.0,
+          "row_index": 135,
+          "value": 195.0
+        },
+        {
+          "previous_row_index": 243,
+          "previous_value": 345.0,
+          "row_index": 244,
+          "value": 341.0
+        },
+        {
+          "previous_row_index": 356,
+          "previous_value": 488.0,
+          "row_index": 357,
+          "value": 487.0
+        },
+        {
+          "previous_row_index": 460,
+          "previous_value": 642.0,
+          "row_index": 461,
+          "value": 630.0
+        },
+        {
+          "previous_row_index": 512,
+          "previous_value": 702.0,
+          "row_index": 513,
+          "value": 700.0
+        }
+      ],
+      "action_id_violation_examples": [],
+      "clock_violation_examples": [],
+      "substitution_rows": 37,
+      "substitution_person_id_nulls": 0,
+      "substitution_team_id_nulls": 0,
+      "substitution_description_nulls": 0,
+      "unique_substitution_subtypes": [
+        ""
+      ],
+      "same_clock_multi_event_groups": 92,
+      "max_events_same_period_clock": 8,
+      "period_marker_rows": 8,
+      "periods": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "season": "2023-24",
+      "game_id": "0022300616",
+      "request_seconds": 0.234,
+      "status": "PASS",
+      "rows": 493,
+      "action_number_violations": 2,
+      "action_id_violations": 0,
+      "clock_chronology_violations": 0,
+      "action_number_violation_examples": [
+        {
+          "previous_row_index": 107,
+          "previous_value": 150.0,
+          "row_index": 108,
+          "value": 144.0
+        },
+        {
+          "previous_row_index": 229,
+          "previous_value": 328.0,
+          "row_index": 230,
+          "value": 321.0
+        }
+      ],
+      "action_id_violation_examples": [],
+      "clock_violation_examples": [],
+      "substitution_rows": 47,
+      "substitution_person_id_nulls": 0,
+      "substitution_team_id_nulls": 0,
+      "substitution_description_nulls": 0,
+      "unique_substitution_subtypes": [
+        ""
+      ],
+      "same_clock_multi_event_groups": 73,
+      "max_events_same_period_clock": 7,
+      "period_marker_rows": 8,
+      "periods": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "season": "2019-20",
+      "game_id": "0021900530",
+      "request_seconds": 0.338,
+      "status": "PASS",
+      "rows": 526,
+      "action_number_violations": 4,
+      "action_id_violations": 0,
+      "clock_chronology_violations": 0,
+      "action_number_violation_examples": [
+        {
+          "previous_row_index": 28,
+          "previous_value": 54.0,
+          "row_index": 29,
+          "value": 41.0
+        },
+        {
+          "previous_row_index": 314,
+          "previous_value": 457.0,
+          "row_index": 315,
+          "value": 432.0
+        },
+        {
+          "previous_row_index": 335,
+          "previous_value": 462.0,
+          "row_index": 336,
+          "value": 458.0
+        },
+        {
+          "previous_row_index": 428,
+          "previous_value": 618.0,
+          "row_index": 429,
+          "value": 588.0
+        }
+      ],
+      "action_id_violation_examples": [],
+      "clock_violation_examples": [],
+      "substitution_rows": 67,
+      "substitution_person_id_nulls": 0,
+      "substitution_team_id_nulls": 0,
+      "substitution_description_nulls": 0,
+      "unique_substitution_subtypes": [
+        ""
+      ],
+      "same_clock_multi_event_groups": 87,
+      "max_events_same_period_clock": 8,
+      "period_marker_rows": 10,
+      "periods": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

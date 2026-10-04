@@ -39,3 +39,8 @@ outputs/
 logs/
 tmp/
 *.log
+
+# Local email delivery state / secrets
+.local/
+.env
+

@@ -1,0 +1,27 @@
+{
+  "poc": "P0-S2 POC-06",
+  "run_utc": "2026-10-03T23:55:31.297949+00:00",
+  "results": [
+    {
+      "season": "2025-26",
+      "game_id": "0022500616",
+      "status": "ERROR",
+      "exception_type": "ReadTimeout",
+      "exception": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+      "season": "2023-24",
+      "game_id": "0022300616",
+      "status": "ERROR",
+      "exception_type": "ReadTimeout",
+      "exception": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+      "season": "2019-20",
+      "game_id": "0021900530",
+      "status": "ERROR",
+      "exception_type": "ReadTimeout",
+      "exception": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)"
+    }
+  ]
+}

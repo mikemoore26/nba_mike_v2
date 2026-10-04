@@ -1,0 +1,51 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022500616,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:12 PM EST),period,start,1,0,1
+0022500616,4,PT12M00.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Jump Ball Nurkic vs. Gobert: Tip to George,Jump Ball,,1,0,2
+0022500616,7,PT11M47.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,132,106,17,Missed,1,,,0,h,MISS Bailey 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,3
+0022500616,8,PT11M45.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022500616,9,PT11M27.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,232,7,0,Missed,1,,,0,v,MISS McDaniels 3PT Jump Shot,Missed Shot,Jump Shot,1,3,5
+0022500616,10,PT11M24.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0022500616,11,PT11M08.00S,1,1610612762,UTA,1641718,George,K. George,180,69,19,Made,1,2,0,2,h,George 19' Pullup Jump Shot (2 PTS) (Nurkic 1 AST),Made Shot,Pullup Jump shot,1,2,7
+0022500616,13,PT10M58.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,89,242,26,Made,1,2,3,5,v,Edwards 26' 3PT Step Back Jump Shot (3 PTS),Made Shot,Step Back Jump shot,1,3,8
+0022500616,14,PT10M39.00S,1,1610612762,UTA,1642262,Williams,C. Williams,26,10,3,Made,1,4,3,7,h,Williams 3' Reverse Layup (2 PTS) (George 1 AST),Made Shot,Reverse Layup Shot,1,2,9
+0022500616,16,PT10M20.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,-33,33,5,Made,1,4,5,9,v,McDaniels 5' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,10
+0022500616,17,PT10M12.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels Violation:Kicked Ball (C.Washington),Violation,Kicked Ball,0,0,11
+0022500616,18,PT10M02.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert S.FOUL (P1.T1) (E.Dalen),Foul,Shooting,1,0,12
+0022500616,20,PT10M02.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,5,5,10,h,George Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,13
+0022500616,21,PT10M02.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,MISS George Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,14
+0022500616,22,PT10M00.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022500616,23,PT09M50.00S,1,1610612750,MIN,203944,Randle,J. Randle,37,113,12,Missed,1,,,0,v,MISS Randle 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,16
+0022500616,24,PT09M46.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0022500616,25,PT09M37.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,61,100,12,Made,1,7,5,12,h,Nurkic 12' Floating Jump Shot (2 PTS) (George 2 AST),Made Shot,Floating Jump shot,1,2,18
+0022500616,27,PT09M18.00S,1,1610612750,MIN,203944,Randle,J. Randle,-214,131,25,Made,1,7,8,15,v,Randle 25' 3PT Jump Shot (3 PTS) (McDaniels 1 AST),Made Shot,Jump Shot,1,3,19
+0022500616,29,PT09M00.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,113,226,25,Missed,1,,,0,h,MISS Nurkic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,20
+0022500616,30,PT08M57.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,0,0,0,,0,,,0,v,DiVincenzo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,21
+0022500616,31,PT08M50.00S,1,1610612750,MIN,203944,Randle,J. Randle,-17,112,11,Made,1,7,10,17,v,Randle 11' Driving Floating Jump Shot (5 PTS) (DiVincenzo 1 AST),Made Shot,Driving Floating Jump Shot,1,2,22
+0022500616,33,PT08M34.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,-49,253,26,Missed,1,,,0,h,MISS Bailey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0022500616,34,PT08M29.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,24
+0022500616,35,PT08M14.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,6,21,2,Made,1,7,12,19,v,Gobert 2' Layup (2 PTS) (McDaniels 2 AST),Made Shot,Layup Shot,1,2,25
+0022500616,37,PT08M02.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,91,241,26,Missed,1,,,0,h,MISS Mykhailiuk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,26
+0022500616,38,PT08M00.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,27
+0022500616,39,PT07M56.00S,1,1610612762,UTA,1642262,Williams,C. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P1.T1) (E.Dalen),Foul,Shooting,1,0,28
+0022500616,41,PT07M56.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,7,13,20,v,McDaniels Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,29
+0022500616,42,PT07M56.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,7,14,21,v,McDaniels Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,30
+0022500616,43,PT07M43.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,12,252,25,Made,1,10,14,24,h,Bailey 25' 3PT Pullup Jump Shot (3 PTS) (Nurkic 2 AST),Made Shot,Pullup Jump shot,1,3,31
+0022500616,45,PT07M37.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,-27,7,3,Made,1,10,16,26,v,Gobert 3' Dunk (4 PTS) (Edwards 1 AST),Made Shot,Dunk Shot,1,2,32
+0022500616,47,PT07M36.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,33
+0022500616,48,PT07M27.00S,1,1610612762,UTA,1641718,George,K. George,0,0,0,,0,,,0,h,George Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,34
+0022500616,48,PT07M27.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (1 STL),,,1,0,35
+0022500616,50,PT07M22.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,174,231,29,Made,1,10,19,29,v,DiVincenzo 29' 3PT Running Jump Shot (3 PTS) (McDaniels 3 AST),Made Shot,Running Jump Shot,1,3,36
+0022500616,52,PT07M06.00S,1,1610612762,UTA,1641718,George,K. George,-109,224,25,Missed,1,,,0,h,MISS George 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,37
+0022500616,53,PT07M03.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,38
+0022500616,54,PT07M01.00S,1,1610612750,MIN,203944,Randle,J. Randle,13,28,3,Made,1,10,21,31,v,Randle 3' Running Dunk (7 PTS) (McDaniels 4 AST),Made Shot,Running Dunk Shot,1,2,39
+0022500616,56,PT06M48.00S,1,1610612762,UTA,1642846,Bailey,A. Bailey,23,246,25,Made,1,13,21,34,h,Bailey 25' 3PT Step Back Jump Shot (6 PTS) (Nurkic 3 AST),Made Shot,Step Back Jump shot,1,3,40
+0022500616,58,PT06M40.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,9,32,3,Made,1,13,23,36,v,McDaniels 3' Cutting Dunk Shot (6 PTS) (Randle 1 AST),Made Shot,Cutting Dunk Shot,1,2,41
+0022500616,60,PT06M27.00S,1,1610612762,UTA,1641718,George,K. George,-70,36,8,Made,1,15,23,38,h,George 8' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,42
+0022500616,61,PT06M08.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,-75,37,8,Missed,1,,,0,v,MISS McDaniels 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,43
+0022500616,62,PT06M05.00S,1,1610612762,UTA,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,44
+0022500616,63,PT05M59.00S,1,1610612762,UTA,1641718,George,K. George,15,247,25,Missed,1,,,0,h,MISS George 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,45
+0022500616,64,PT05M55.00S,1,1610612750,MIN,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,46
+0022500616,65,PT05M51.00S,1,1610612750,MIN,1628978,DiVincenzo,D. DiVincenzo,167,221,28,Missed,1,,,0,v,MISS DiVincenzo 28' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,47
+0022500616,66,PT05M49.00S,1,1610612762,UTA,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,48
+0022500616,67,PT05M34.00S,1,1610612762,UTA,1641718,George,K. George,-100,226,25,Made,1,18,23,41,h,George 25' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,49
+0022500616,69,PT05M18.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,70,251,26,Missed,1,,,0,v,MISS Edwards 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,50

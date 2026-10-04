@@ -1,0 +1,50 @@
+P0-S2 POC-04 — Rotation Reconstruction Truth Test
+Run UTC: 2026-10-03T23:45:02.057087+00:00
+
+Season 2025-26 | GAME_ID=0022500616
+  STATUS: FAIL
+  game_minutes=48.0
+  expected team-player minutes=240.0
+  MAE minutes=4.444938271604939
+  max abs error minutes=23.5
+  players >0.25 min error=9
+  players >1.0 min error=9
+  substitutions resolved=28
+  unresolved substitutions=0
+  reconstruction errors=2
+  error types={'STARTER_INFERENCE_FAILED': np.int64(2)}
+  TEAM 1610612750: official=240.000 reconstructed=240.000 expected=240.000
+  TEAM 1610612762: official=240.000 reconstructed=120.000 expected=240.000
+
+Season 2023-24 | GAME_ID=0022300616
+  STATUS: FAIL
+  game_minutes=48.0
+  expected team-player minutes=240.0
+  MAE minutes=2.401333333333333
+  max abs error minutes=8.816666666666666
+  players >0.25 min error=10
+  players >1.0 min error=10
+  substitutions resolved=41
+  unresolved substitutions=0
+  reconstruction errors=1
+  error types={'STARTER_INFERENCE_FAILED': np.int64(1)}
+  TEAM 1610612740: official=240.033 reconstructed=240.000 expected=240.000
+  TEAM 1610612762: official=240.000 reconstructed=180.000 expected=240.000
+
+Season 2019-20 | GAME_ID=0021900530
+  STATUS: FAIL
+  game_minutes=53.0
+  expected team-player minutes=265.0
+  MAE minutes=9.600133333333334
+  max abs error minutes=21.35
+  players >0.25 min error=19
+  players >1.0 min error=19
+  substitutions resolved=41
+  unresolved substitutions=0
+  reconstruction errors=4
+  error types={'STARTER_INFERENCE_FAILED': np.int64(4)}
+  TEAM 1610612742: official=265.000 reconstructed=145.000 expected=265.000
+  TEAM 1610612766: official=265.000 reconstructed=145.000 expected=265.000
+
+OVERALL: FAIL/INVESTIGATE
+A failure is useful evidence. Do not loosen the thresholds or guess missing lineups just to force PASS.

@@ -1,0 +1,33 @@
+P0-S2 POC-06 — Official GameRotation/Stint Feasibility Truth Test
+Run UTC: 2026-10-03T23:55:31.297949+00:00
+
+Season 2025-26 | GAME_ID=0022500616
+  STATUS: ERROR
+  rotation rows=n/a | players=n/a | teams=n/a
+  best time scale divisor=n/a
+  MAE minutes=n/a
+  max abs error minutes=n/a
+  players >0.25 min error=n/a
+  ERROR ReadTimeout: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+
+Season 2023-24 | GAME_ID=0022300616
+  STATUS: ERROR
+  rotation rows=n/a | players=n/a | teams=n/a
+  best time scale divisor=n/a
+  MAE minutes=n/a
+  max abs error minutes=n/a
+  players >0.25 min error=n/a
+  ERROR ReadTimeout: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+
+Season 2019-20 | GAME_ID=0021900530
+  STATUS: ERROR
+  rotation rows=n/a | players=n/a | teams=n/a
+  best time scale divisor=n/a
+  MAE minutes=n/a
+  max abs error minutes=n/a
+  players >0.25 min error=n/a
+  ERROR ReadTimeout: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+
+INTERPRETATION:
+PASS means GameRotation produced structurally valid stint data whose derived minutes reproduce official box-score minutes within the strict tolerance for the tested game.
+A PASS is feasibility evidence only; broader sampled validation is still required before production use.
