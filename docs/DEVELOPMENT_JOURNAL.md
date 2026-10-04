@@ -277,3 +277,22 @@ Use a source-independent canonical player-game builder with explicit column mapp
 ### Modeling gate
 Remains CLOSED. S5 proves data construction controls, not predictive validity.
 
+
+## P0-S3 S6 — Reproducible D-1 Point-in-Time Snapshot System
+
+Goal: convert canonical historical data into deterministic pregame statistical snapshots with a conservative D-1 boundary.
+
+Implemented:
+- D-1 cutoff enforcement for statistical history.
+- same-day and future statistical exclusion.
+- PASS-parent and SHA-256 provenance verification.
+- duplicate canonical player-game rejection.
+- deterministic logical snapshot hashing.
+- explicit target date, cutoff date, and as_of_time metadata.
+- explicit ZERO_HISTORY handling for players without eligible prior games.
+- snapshot artifact + manifest writing.
+- tests and acceptance runner.
+
+Important boundary:
+S6 does not establish timestamp truth for injuries, confirmed lineups, news, or sportsbook markets. Those remain independently gated. Predictive model training remains closed.
+

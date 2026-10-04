@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "d1_cutoff": true,
+    "same_day_future_blocked": true,
+    "parent_provenance": true,
+    "explicit_as_of_time": true,
+    "zero_history": true,
+    "deterministic_rebuild": true,
+    "non_pass_parent_blocked": true,
+    "duplicate_rejected": true,
+    "tamper_rejected": true,
+    "snapshot_written": true
+  },
+  "overall": "PASS"
+}

@@ -1,0 +1,12 @@
+P0-S3 S6 — Reproducible D-1 Point-in-Time Snapshot Acceptance
+  d1_cutoff: PASS
+  same_day_future_blocked: PASS
+  parent_provenance: PASS
+  explicit_as_of_time: PASS
+  zero_history: PASS
+  deterministic_rebuild: PASS
+  non_pass_parent_blocked: PASS
+  duplicate_rejected: PASS
+  tamper_rejected: PASS
+  snapshot_written: PASS
+OVERALL: PASS
