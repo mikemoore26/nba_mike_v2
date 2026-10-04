@@ -1,0 +1,9 @@
+P0-S3 S5 — Canonical Dataset Builder Acceptance
+  canonical_build: PASS
+  parent_provenance: PASS
+  non_pass_parent_blocked: PASS
+  tamper_rejected: PASS
+  duplicate_rejected: PASS
+  unresolved_identity_rejected: PASS
+  impossible_value_rejected: PASS
+OVERALL: PASS

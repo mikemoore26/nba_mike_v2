@@ -255,3 +255,25 @@ No predictive models were trained. S4 is infrastructure only.
 ### Next action
 After S4 is independently run and committed on the user's machine, continue according to the living P0-S3 milestone plan. Do not skip the next documented gate.
 
+
+
+## P0-S3 S5 — Canonical Dataset Builder & Raw -> Validated -> Canonical Pipeline
+
+### Goal
+Turn the S1-S4 governance architecture into an executable, fail-closed canonical build boundary before any predictive modeling begins.
+
+### Design decision
+Use a source-independent canonical player-game builder with explicit column mapping and identity resolution. Require a PASS parent manifest and verified SHA-256 before transformation. Publish a new canonical artifact and parent-linked manifest rather than modifying raw evidence.
+
+### Acceptance criteria
+- valid canonical build succeeds;
+- non-PASS parent is blocked;
+- parent tampering is rejected;
+- unresolved identity is rejected;
+- duplicate canonical player-game keys are rejected;
+- impossible values are rejected;
+- canonical manifest preserves parent provenance.
+
+### Modeling gate
+Remains CLOSED. S5 proves data construction controls, not predictive validity.
+

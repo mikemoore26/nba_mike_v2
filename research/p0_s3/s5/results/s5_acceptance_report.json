@@ -1,0 +1,13 @@
+{
+  "milestone": "P0-S3 S5",
+  "checks": {
+    "canonical_build": true,
+    "parent_provenance": true,
+    "non_pass_parent_blocked": true,
+    "tamper_rejected": true,
+    "duplicate_rejected": true,
+    "unresolved_identity_rejected": true,
+    "impossible_value_rejected": true
+  },
+  "overall": "PASS"
+}
