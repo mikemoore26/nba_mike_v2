@@ -1,0 +1,15 @@
+{
+  "milestone": "P0-S3 S4",
+  "name": "Schema Validation & Provenance Enforcement",
+  "checks": {
+    "valid_schema": true,
+    "missing_required_rejected": true,
+    "schema_drift_rejected": true,
+    "impossible_value_rejected": true,
+    "duplicate_key_rejected": true,
+    "parent_hash_verified": true,
+    "tamper_rejected": true,
+    "quarantined_parent_blocked": true
+  },
+  "overall": "PASS"
+}

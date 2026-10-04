@@ -215,3 +215,43 @@ P0-S3 S2 — Storage & Manifest Standard.
 
 **Next action:** P0-S3 S4 — Schema Validation & Provenance after S3 tests and Git checkpoint pass.
 
+
+## P0-S3 S4 — Schema Validation & Provenance Enforcement
+
+### Goal
+Add a fail-closed validation boundary between retained source evidence and trusted canonical/downstream data.
+
+### Problem
+Successful retrieval is not proof that an artifact is safe. APIs can drift, fields can disappear or change type, duplicate keys can enter datasets, values can be impossible, and retained bytes can be modified after a manifest was written.
+
+### Options considered
+1. Validate ad hoc inside each future ingestion script.
+   - Advantage: quick locally.
+   - Disadvantage: duplicated rules and inconsistent failure behavior.
+2. Use only permissive dataframe cleanup.
+   - Advantage: convenient.
+   - Disadvantage: dangerous because unexpected source changes can be silently normalized.
+3. Build a reusable explicit contract validator plus provenance gate.
+   - Advantage: deterministic, testable, fail-closed, source-independent.
+   - Disadvantage: requires contracts to be maintained deliberately.
+
+### Selected option
+Option 3.
+
+### Implementation
+Added `src/nba_mike/validation/` with explicit column/schema contracts, row validation, primary-key duplicate detection, schema-drift detection, numeric bounds, parent-manifest eligibility checks, and retained-byte SHA-256 verification.
+
+### Safety behavior
+A validation issue produces a non-PASS result. A non-PASS parent or hash mismatch raises a provenance error. The validator does not silently fix records to manufacture a PASS.
+
+### Tests / acceptance
+`tests/test_schema_validation.py` covers clean records, missing fields, schema drift, type mismatches, impossible values, duplicate keys, blocked non-PASS parents, verified hashes, and tamper rejection.
+
+`research/p0_s3/s4/run_s4_acceptance.py` provides milestone acceptance evidence.
+
+### Modeling status
+No predictive models were trained. S4 is infrastructure only.
+
+### Next action
+After S4 is independently run and committed on the user's machine, continue according to the living P0-S3 milestone plan. Do not skip the next documented gate.
+

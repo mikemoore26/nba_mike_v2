@@ -1,52 +1,69 @@
-# NEXT AGENT HANDOFF — P0-S3 S3
+# NBA_MIKE v2 — NEXT AGENT HANDOFF
 
-## Project
-NBA_MIKE v2
+## Current state
 
-## Current phase
-P0-S3 — Canonical Data Architecture & Dataset Contract
+Project: `nba_mike_v2`
 
-## Completed
-- P0-S1 research governance/project charter.
-- P0-S2 target/data feasibility POCs and conservative D-1 historical boundary.
-- P0-S3 S1 canonical layered architecture and dataset contract.
-- P0-S3 S2 storage/manifest standard with immutable raw evidence, SHA-256 integrity, validation/quarantine state, and replay semantics.
-- P0-S3 S3 canonical identity implementation prepared: project-owned player/team/game IDs, exact source mappings, fail-closed conflicts, aliases, effective-dated team membership, player-game keys, JSON replay, tests, and acceptance runner.
+Environment:
+- Windows
+- PowerShell
+- Python virtual environment `.venv`
+- CPU-only design
+- Git on `main`
 
-## Governing historical rule
-For initial statistical reconstruction of game date D, use statistical information through D-1. Same-day information remains excluded unless a later timestamp-safe standard explicitly proves eligibility.
+Last confirmed user Git checkpoint before S4:
+- `3eb7a28 Complete P0-S3 S3 canonical identity system`
 
-## Identity rules
-- Names are never primary keys.
-- Source IDs are mappings, not universal canonical IDs.
-- Established source mappings cannot be silently remapped.
-- Player identity survives team changes/trades.
-- Ambiguous aliases remain ambiguous; do not guess.
-- Canonical player-game grain uses (`game_id`, `player_id`).
+## Completed architecture milestones
 
-## Storage architecture
-raw -> validated -> canonical -> snapshots -> features/targets -> predictions -> decisions
+- P0-S3 S1 — Canonical Data Architecture
+- P0-S3 S2 — Storage & Manifest Standard
+- P0-S3 S3 — Canonical Identity System
+- P0-S3 S4 — Schema Validation & Provenance Enforcement package prepared; must be run and committed on the user's machine before calling it complete.
 
-## Unresolved domains
-- source-specific schema enforcement and field-level validation
-- authoritative historical transaction/membership timing at finer granularity
-- exact intraday injury history
-- confirmed lineup publication history
-- news timestamps
-- historical sportsbook props/odds/line movement
-- authoritative complete rotation/stint history where evidence is ambiguous
+## S4 implementation
 
-## Exact next task
-P0-S3 S4 — Schema Validation & Provenance.
-Implement source/dataset schema contracts, required columns/types, null/range rules, validation reports, quarantine/fail behavior, and provenance linkage to storage manifests and canonical identity.
+New standard:
+- `docs/SCHEMA_VALIDATION_STANDARD.md`
 
-## Communication requirement
-Maintain `docs/DEVELOPMENT_JOURNAL.md` and replace this living `docs/NEXT_AGENT_HANDOFF.md` at each stable milestone. The requested progress-email system for journal/handoff updates still needs to be implemented in NBA_MIKE v2; do not claim emails were sent until that subsystem exists and is tested.
+New code:
+- `src/nba_mike/validation/__init__.py`
+- `src/nba_mike/validation/schema.py`
+- `src/nba_mike/validation/provenance.py`
 
-## Prohibitions
-- Do not train predictive models.
-- Do not build ticket/parlay logic.
-- Do not call intraday historical data solved.
-- Do not silently substitute sources.
-- Do not merge identities by name alone.
-- Do not mutate raw evidence to make validation pass.
+Tests:
+- `tests/test_schema_validation.py`
+
+Acceptance:
+- `research/p0_s3/s4/run_s4_acceptance.py`
+
+Core behavior:
+- explicit required-column/type/null/value contracts;
+- primary-key duplicate detection;
+- schema-drift detection;
+- fail-closed validation;
+- non-PASS parent blocking;
+- SHA-256 parent verification/tamper rejection.
+
+## Required continuation discipline
+
+1. Run S4 tests and acceptance on the user's machine.
+2. Inspect `git status`.
+3. Commit only after PASS.
+4. Keep `docs/DEVELOPMENT_JOURNAL.md` updated at every material milestone.
+5. Keep this handoff file updated/replaced so another AI can resume without reconstructing project state.
+6. Keep Git checkpoints at stable milestones.
+7. Do not train predictive models until the governance/milestone plan explicitly opens that gate.
+8. Do not weaken validation thresholds merely to force PASS.
+
+## Email requirement
+
+The user wants automatic progress emails when the development journal and AI handoff are updated, with the updated files attached. That email subsystem has NOT yet been implemented in NBA_MIKE v2. Do not claim emails are being sent. Preserve this as an explicit project requirement until implemented and tested.
+
+## Research constraints still active
+
+- D-1 is the conservative reproducible statistical pregame boundary established by P0-S2.
+- Exact intraday historical truth for injuries, confirmed lineups, news, and sportsbook markets remains unsolved unless later evidence proves otherwise.
+- PBP access exists, but naive lineup reconstruction failed truth testing.
+- Official GameRotation feasibility encountered timeouts and was not proven.
+- Availability of advanced/tracking data does not prove predictive value.
