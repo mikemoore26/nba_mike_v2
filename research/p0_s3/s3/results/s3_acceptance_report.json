@@ -1,0 +1,13 @@
+{
+  "milestone": "P0-S3 S3",
+  "checks": {
+    "canonical_ids": true,
+    "source_resolution": true,
+    "conflict_rejected": true,
+    "ambiguous_alias": true,
+    "trade_safe_identity": true,
+    "duplicate_player_game_rejected": true,
+    "roundtrip": true
+  },
+  "overall": "PASS"
+}

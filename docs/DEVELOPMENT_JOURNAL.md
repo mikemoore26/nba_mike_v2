@@ -197,3 +197,21 @@ P0-S3 S2 — Storage & Manifest Standard.
 
 **Next action:** P0-S3 S3 — Canonical Identity System after S2 tests and Git checkpoint pass.
 
+## P0-S3 S3 — Canonical Identity System
+
+**Goal:** Establish stable project-owned identities before canonical player-game datasets or joins are built.
+
+**Problem:** Source IDs are provider-specific, names change/collide, players change teams, and schedule representations can change. Using names or one provider's ID as the universal primary key creates silent join errors and identity drift.
+
+**Options considered:** source IDs as primary keys; normalized names; deterministic composite strings; project-owned canonical IDs with explicit source mappings. Project-owned IDs were selected because they separate stable identity from provider representation and make conflicts explicit.
+
+**Selected solution:** immutable player/team/game canonical IDs; exact (`entity_type`, `source_name`, `source_id`) mappings; aliases that can remain ambiguous; fail-closed remap behavior; separate effective-dated player/team membership; game integrity rules; composite player-game keys; JSON registry replay.
+
+**Files:** `docs/CANONICAL_IDENTITY_STANDARD.md`, `src/nba_mike/identity/`, `tests/test_canonical_identity.py`, `research/p0_s3/s3/`.
+
+**Acceptance:** unit tests and S3 acceptance runner cover stable IDs, source resolution, remap conflict rejection, ambiguous names, trades, game integrity, duplicate player-game detection, and serialization round-trip.
+
+**Remaining risks:** This does not yet prove source records are correct, provide source-specific schema validation, solve historical team-membership timing from authoritative transactions, or establish intraday injury/lineup/market truth.
+
+**Next action:** P0-S3 S4 — Schema Validation & Provenance after S3 tests and Git checkpoint pass.
+

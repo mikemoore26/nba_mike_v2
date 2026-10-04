@@ -1,0 +1,9 @@
+P0-S3 S3 — Canonical Identity Acceptance
+  canonical_ids: PASS
+  source_resolution: PASS
+  conflict_rejected: PASS
+  ambiguous_alias: PASS
+  trade_safe_identity: PASS
+  duplicate_player_game_rejected: PASS
+  roundtrip: PASS
+OVERALL: PASS
