@@ -179,3 +179,21 @@ PENDING USER INSTALLATION / VALIDATION.
 ## Next action
 P0-S3 S2 — Storage & Manifest Standard.
 
+\n## P0-S3 S2 — Storage & Manifest Standard
+
+**Goal:** Turn the S1 layered architecture into an enforceable storage/provenance contract before building historical collectors.
+
+**Problem:** Prior sports workflows could preserve outputs without a sufficiently strict byte-level chain from source request to raw evidence to downstream artifacts. Cache and evidence also need different semantics.
+
+**Options considered:** loose filenames/README-only provenance; database-first metadata; file-backed JSON manifests plus SHA-256. The JSON-manifest approach is selected for the initial local CPU/Windows workflow because it is transparent, testable, portable, and can later feed a registry/database.
+
+**Selected solution:** immutable `data/raw`, explicit layers, JSON artifact manifests, SHA-256 verification, terminal validation states, explicit quarantine reasons, disposable cache, and replay by artifact identity/hash.
+
+**Files:** `docs/STORAGE_MANIFEST_STANDARD.md`, `src/nba_mike/storage/`, `tests/test_storage_manifest.py`, `research/p0_s3/s2/`.
+
+**Tests:** unit acceptance covers directory contract, manifest round-trip, hash verification, tamper detection, quarantine rules, and cache separation.
+
+**Remaining risks:** This does not yet implement source-specific schema validation, canonical identity resolution, large-data archival, or exact intraday historical truth. Those belong to later P0-S3 stages.
+
+**Next action:** P0-S3 S3 — Canonical Identity System after S2 tests and Git checkpoint pass.
+
