@@ -1,0 +1,50 @@
+{
+  "seasons": {
+    "2019-20": {
+      "source_rows": 22393,
+      "eligible_rows": 19822,
+      "scores": {
+        "prior_minutes_mae": 5.670657266337067,
+        "last3_mae": 5.019850670971647,
+        "last5_mae": 4.950781370867387,
+        "last10_mae": 5.004951791546617,
+        "season_avg_mae": 5.187300541653323
+      },
+      "best_simple_signal": "last5_mae",
+      "role_change_rows": 3001,
+      "role_change_best_mae": 5.673954903920915,
+      "stable_rows": 16821
+    },
+    "2023-24": {
+      "source_rows": 26401,
+      "eligible_rows": 23622,
+      "scores": {
+        "prior_minutes_mae": 5.813556007112014,
+        "last3_mae": 5.1116284725162044,
+        "last5_mae": 5.037610645443513,
+        "last10_mae": 5.064269198149066,
+        "season_avg_mae": 5.437105890320667
+      },
+      "best_simple_signal": "last5_mae",
+      "role_change_rows": 4167,
+      "role_change_best_mae": 5.6407849772018235,
+      "stable_rows": 19455
+    },
+    "2025-26": {
+      "source_rows": 26651,
+      "eligible_rows": 23805,
+      "scores": {
+        "prior_minutes_mae": 5.7854039767555845,
+        "last3_mae": 5.083006511237135,
+        "last5_mae": 5.000591192326542,
+        "last10_mae": 5.039665990343721,
+        "season_avg_mae": 5.315158427212361
+      },
+      "best_simple_signal": "last5_mae",
+      "role_change_rows": 4021,
+      "role_change_best_mae": 5.72099859073199,
+      "stable_rows": 19784
+    }
+  },
+  "interpretation": "Descriptive baseline research only; best simple signal is not a production model or proof of betting value."
+}

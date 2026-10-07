@@ -433,3 +433,30 @@ APPROVED_BASELINE means historically safe enough to test; it does not mean prove
 ### Preserved limitations
 Intraday injury/lineup truth and historical sportsbook prop lines remain BLOCKED. Advanced/tracking candidates remain RESEARCH_ONLY pending evidence.
 
+## P0-S4 S4 — Minutes / Role / Opportunity Research
+
+### Goal
+Begin empirical research on the upstream opportunity process before modeling counting stats.
+
+### Research signals
+Prior minutes; rolling 3/5/10 minutes means and volatility; season-to-date minutes; recent-vs-season role delta; role-change heuristic; prior-only per-minute PTS/REB/AST/3PM rates.
+
+### Leakage control
+Every rolling/expanding historical statistic is shifted one player-game. Same-game minutes and production remain outcomes.
+
+### Interpretation
+S4 compares simple descriptive minutes signals across 2019-20, 2023-24, and 2025-26. Results do not constitute a production model or betting edge.
+
+## P0-S4 S4.1 — Minutes research hardening
+Addressed same-calendar-date leakage in the opportunity feature builder, added research tests and segmented historical evaluation. The original S4 report is preserved. Same-date multi-game histories are aggregated at day level, so window semantics are prior dates rather than exact prior games; this remains a documented research limitation. S4.1 results require real-data execution and interpretation before committing.
+
+
+## S4.1 Research Conclusions — 2026-10-07
+
+- Last-five minutes average led the tested simple baselines in 2019-20, 2023-24, and 2025-26.
+- Stable-role last-five MAE: 4.822, 4.908, 4.854.
+- Role-change last-five MAE: 5.674, 5.641, 5.721.
+- Last-five outperformed last-three in both role groups.
+- Role-change flags indicate greater historical prediction uncertainty.
+- These are descriptive findings only, not validated betting edges.
+- S5 will investigate adaptive windows and chronological robustness.
