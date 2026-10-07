@@ -1,25 +1,24 @@
-# NEXT AGENT HANDOFF — P0-S4 S2
-
-## Project
-NBA_MIKE v2
+# NEXT AGENT HANDOFF — P0-S4 S3
 
 ## Current phase
 P0-S4 — Feature & Target Research Foundation
 
 ## Completed
-- S1 Feature & Target Research Plan.
-- S2 package implements governed observed player-game targets for minutes, points, rebounds, assists, and 3PM.
+S1 research plan; S2 target contract/outcome builder; S3 baseline feature registry package.
 
-## Important S2 rule
-Missing/DNP evidence is not fabricated as zero. The builder governs observed outcome rows. A complete player-availability universe requires separate evidence.
+## Governing rule
+APPROVED_BASELINE means safe enough to test, not proven predictive.
 
-## Governing historical feature boundary
-D-1.
+## D-1
+Target-date statistical feature inputs use eligible history through D-1.
 
-## Intraday quarantine
-Historical injuries, confirmed lineups, news, sportsbook props/odds, and line movement remain unresolved unless separately proven timestamp-safe.
+## Blocked
+Historical injury state, confirmed lineup publication state, and sportsbook prop lines remain blocked without timestamp-safe historical evidence.
 
-## Exact next task after S2
-P0-S4 S3 — Baseline Feature Registry.
+## Research-only
+Advanced usage/tracking remain research-only until coverage, stability, and incremental out-of-sample value are demonstrated.
 
-Define candidate baseline feature metadata, source/provenance requirements, historical/today parity, missingness policy, leakage status, and keeper/reject research status before building broad feature experiments.
+## Exact next task
+P0-S4 S4 — Minutes / Role / Opportunity Research.
+
+Study the upstream minutes process, role stability/change, usage/opportunity candidates, cold-start behavior, and which information can be reconstructed consistently before target games. Do not yet jump to broad model-family competition.

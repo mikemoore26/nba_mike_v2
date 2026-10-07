@@ -419,3 +419,17 @@ Do not treat missing minutes or absent player-game evidence as a zero-stat DNP. 
 ### Safety
 Targets remain labels and cannot be same-game feature inputs. D-1 remains the statistical feature boundary.
 
+## P0-S4 S3 — Baseline Feature Registry
+
+### Goal
+Create the governance registry controlling which candidate inputs may proceed into feature-building research.
+
+### Status model
+APPROVED_BASELINE, RESEARCH_ONLY, BLOCKED, REJECTED.
+
+### Key interpretation
+APPROVED_BASELINE means historically safe enough to test; it does not mean proven predictive.
+
+### Preserved limitations
+Intraday injury/lineup truth and historical sportsbook prop lines remain BLOCKED. Advanced/tracking candidates remain RESEARCH_ONLY pending evidence.
+

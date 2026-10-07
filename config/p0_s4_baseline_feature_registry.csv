@@ -1,0 +1,18 @@
+feature_name,feature_group,description,source_domain,pregame_available,historical_available,today_available,missing_value_policy,leakage_checked,coverage_status,research_status,feature_version,notes
+player_season_minutes_avg,player_history,D-1 season-to-date average minutes,canonical_player_game,true,true,true,require_prior_history,true,PASS,APPROVED_BASELINE,v1,D-1 only
+player_season_points_avg,player_history,D-1 season-to-date average points,canonical_player_game,true,true,true,require_prior_history,true,PASS,APPROVED_BASELINE,v1,D-1 only
+player_season_rebounds_avg,player_history,D-1 season-to-date average rebounds,canonical_player_game,true,true,true,require_prior_history,true,PASS,APPROVED_BASELINE,v1,D-1 only
+player_season_assists_avg,player_history,D-1 season-to-date average assists,canonical_player_game,true,true,true,require_prior_history,true,PASS,APPROVED_BASELINE,v1,D-1 only
+player_season_3pm_avg,player_history,D-1 season-to-date average made threes,canonical_player_game,true,true,true,require_prior_history,true,PASS,APPROVED_BASELINE,v1,D-1 only
+player_last5_minutes_avg,recent_form,D-1 rolling five-game minutes average,canonical_player_game,true,true,true,short_history_flag,true,PASS,APPROVED_BASELINE,v1,window value subject to S5 research
+player_last5_points_avg,recent_form,D-1 rolling five-game points average,canonical_player_game,true,true,true,short_history_flag,true,PASS,APPROVED_BASELINE,v1,window value subject to S5 research
+player_last5_rebounds_avg,recent_form,D-1 rolling five-game rebounds average,canonical_player_game,true,true,true,short_history_flag,true,PASS,APPROVED_BASELINE,v1,window value subject to S5 research
+player_last5_assists_avg,recent_form,D-1 rolling five-game assists average,canonical_player_game,true,true,true,short_history_flag,true,PASS,APPROVED_BASELINE,v1,window value subject to S5 research
+player_last5_3pm_avg,recent_form,D-1 rolling five-game made-threes average,canonical_player_game,true,true,true,short_history_flag,true,PASS,APPROVED_BASELINE,v1,window value subject to S5 research
+is_home,schedule_context,Target-game home indicator,schedule,true,true,true,reject_if_unknown,true,PASS,APPROVED_BASELINE,v1,Schedule-derived not outcome-derived
+rest_days,schedule_context,Days since player's prior game through D-1,schedule_player_history,true,true,true,first_game_flag,true,PASS,APPROVED_BASELINE,v1,Exact implementation tested in S6
+advanced_usage_pct,usage_opportunity,D-1 advanced usage candidate,nba_advanced,true,true,true,missing_flag,true,PARTIAL,RESEARCH_ONLY,v1,Coverage and value require S4/S7 evidence
+tracking_touches,tracking,D-1 tracking touches candidate,nba_tracking,true,true,true,missing_flag,true,UNPROVEN,RESEARCH_ONLY,v1,Must pass historical depth stability and OOS value
+historical_injury_status,intraday,Historical pregame injury state,injury_archive,false,false,true,do_not_impute,false,UNPROVEN,BLOCKED,v1,Exact historical timestamp truth unresolved
+confirmed_starting_lineup,intraday,Confirmed pregame lineup state,lineup_archive,false,false,true,do_not_impute,false,UNPROVEN,BLOCKED,v1,Historical publication-time truth unresolved
+sportsbook_prop_line,market,Historical sportsbook player prop line,market_archive,false,false,true,do_not_impute,false,UNPROVEN,BLOCKED,v1,Historical timestamped market archive unresolved
