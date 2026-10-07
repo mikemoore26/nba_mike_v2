@@ -500,3 +500,20 @@ Goal: correct S6 role-change interval undercoverage without unnecessary interval
 - Methods compared on the same S6.1 evaluation rows.
 - S6.1 remains RESEARCH_ONLY.
 - Next: S6.2 conditional uncertainty and chronological validation.
+
+## S6.2 — Conditional minutes uncertainty (pending local results)
+Implemented sequential role/history/volatility calibration with strictly prior-date residuals, sparse-cell fallback, common-row S6.1 comparison, five tests, and research-only reporting. Await acceptance and retrospective results before determining candidate direction. No production or betting promotion.
+
+
+## S6.2 Research Conclusions — 2026-10-07
+
+- Acceptance passed.
+- Full regression: 110 tests passed.
+- Conditional uncertainty evaluated on common S6.1 player-games.
+- History and volatility improve risk differentiation.
+- Role-change coverage does not consistently improve over role-specific calibration.
+- 2025-26 volatility-aware coverage: 89.14%; mean width: 19.64 minutes.
+- Role-specific baseline coverage: 89.54%; mean width: 20.15 minutes.
+- Retain role-specific as reference baseline.
+- S6.2 remains RESEARCH_ONLY.
+- Next: S6.3 error attribution and calibration stability.

@@ -54,3 +54,20 @@ New `src/nba_mike/features/role_aware_uncertainty.py`, `tests/test_role_aware_un
 - Methods compared on the same S6.1 evaluation rows.
 - S6.1 remains RESEARCH_ONLY.
 - Next: S6.2 conditional uncertainty and chronological validation.
+
+## S6.2 pending evaluation
+New `conditional_uncertainty.py`, S6.2 runner, tests and documentation. Run acceptance, offline report and full suite. Review common-sample coverage/width for role/history/volatility and existing S6.1 baselines. Preserve RESEARCH_ONLY until independent chronological validation.
+
+
+## S6.2 Research Conclusions — 2026-10-07
+
+- Acceptance passed.
+- Full regression: 110 tests passed.
+- Conditional uncertainty evaluated on common S6.1 player-games.
+- History and volatility improve risk differentiation.
+- Role-change coverage does not consistently improve over role-specific calibration.
+- 2025-26 volatility-aware coverage: 89.14%; mean width: 19.64 minutes.
+- Role-specific baseline coverage: 89.54%; mean width: 20.15 minutes.
+- Retain role-specific as reference baseline.
+- S6.2 remains RESEARCH_ONLY.
+- Next: S6.3 error attribution and calibration stability.
