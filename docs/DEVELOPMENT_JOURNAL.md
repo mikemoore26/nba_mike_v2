@@ -340,3 +340,33 @@ This milestone does not solve intraday historical injuries, confirmed lineups, n
 ### Next milestone
 P0-S3 S8 — Historical Reconstruction Sample: run governed reconstruction across multiple seasons/dates/games and compare repeated builds for reproducibility.
 
+
+## P0-S3 S8 — Historical Reconstruction Sample
+
+### Goal
+Move from controlled fixtures to a real multi-season reconstruction audit while preserving the conservative D-1 statistical boundary.
+
+### Design
+- Reuse the P0-S2 season anchors: 2019-20, 2023-24, 2025-26.
+- Retrieve regular-season player-game evidence using the NBA Stats API dependency already used during feasibility work.
+- Deterministically select an internal target date for each season.
+- Normalize source rows into minimum canonical game/player/team/date identities.
+- Rebuild D-1 state.
+- Compare D-1 versus D only as an audit of the temporal boundary.
+- Require deterministic rebuild hashes.
+- Fail closed on source/API failure or any violated invariant.
+
+### Non-claims
+S8 does not solve intraday injuries, confirmed lineup publication timing, news timestamps, sportsbook historical odds/line movement, or ambiguous rotation/stint truth.
+
+### Modeling
+Predictive model training remains locked.
+
+### Completion gate
+S8 is complete only after:
+1. targeted reconstruction tests pass;
+2. all three real historical season audits pass;
+3. S8 acceptance reports OVERALL PASS;
+4. the full project regression suite passes;
+5. Git checkpoint is clean.
+

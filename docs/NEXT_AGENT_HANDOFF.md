@@ -1,23 +1,45 @@
-# NBA_MIKE v2 — NEXT AGENT HANDOFF
+# NEXT AGENT HANDOFF — P0-S3 S8
 
-## Current checkpoint
-P0-S3 S1-S6 are complete. INFRA-01 packaging/execution is complete at commit `27ceaf9`. P0-S3 S7 — Leakage & Invariant Test Suite has been prepared and must pass targeted tests, full regression, acceptance, and Git review before being called complete.
+## Project
+NBA_MIKE v2
 
-## S7 package intent
-S7 adds fail-closed executable invariants for the conservative D-1 statistical boundary, player-game key uniqueness, feature/target separation, team/opponent consistency, snapshot metadata/provenance integrity, and explicit zero-history semantics. It deliberately injects invalid states and requires rejection.
+## Current phase
+P0-S3 — Canonical Data Architecture & Dataset Contract
 
-## Required S7 verification
-1. `python -m pytest .\tests\test_leakage_invariants.py -q`
-2. `python -m pytest -q`
-3. `python .\research\p0_s3\s7\run_s7_acceptance.py`
-4. Inspect `git status`; commit only after all checks pass.
+## Completed before S8
+- S1 canonical architecture/contracts
+- S2 storage/manifest
+- S3 canonical identity
+- S4 schema/provenance
+- S5 canonical dataset builder
+- S6 reproducible D-1 point-in-time snapshots
+- INFRA-01 packaging/execution
+- S7 leakage/invariant suite
 
-## Hard constraints
-- No predictive model training yet.
-- Statistical pregame boundary remains D-1; same-day earlier-game stats remain excluded.
-- Do not claim exact historical intraday injuries, confirmed lineups, news, or sportsbook prices are solved.
-- No hidden source fallback, raw mutation, name-based primary identity, target leakage, or missing-as-zero behavior without a field contract.
-- Automatic progress-email delivery is still a requirement but is not implemented in this repository; do not claim emails were sent.
+## S8 implementation
+Historical Reconstruction Sample is prepared for three established season anchors:
+- 2019-20
+- 2023-24
+- 2025-26
 
-## After S7
-Proceed to P0-S3 S8 — Historical Reconstruction Sample. Run across multiple seasons/dates/games and compare repeated builds for reproducibility. Then S9 closes P0-S3. Modeling remains locked until closeout explicitly opens the gate.
+The runner retrieves real regular-season PlayerGameLogs, chooses a deterministic internal target date, reconstructs statistical state through D-1, audits D-1 vs D deltas, and checks deterministic rebuilds.
+
+## Governing historical rule
+For target date D, statistical information is eligible only through D-1. Same-day earlier-game information is intentionally excluded.
+
+## Still unresolved / quarantined
+- exact intraday injury history
+- confirmed lineup publication history
+- news timestamps
+- historical sportsbook props/odds/line movement
+- authoritative rotation/stint truth where ambiguous
+
+## Prohibitions
+- Do not train predictive models.
+- Do not build betting/ticket logic.
+- Do not call intraday historical data solved.
+- Do not silently substitute a source when NBA Stats retrieval fails.
+- Do not weaken D-1 to make a test pass.
+
+## Next task after S8 passes and is committed
+P0-S3 S9 — Closeout: consolidate findings, unresolved risks, acceptance evidence, development journal, handoff, and Git state before deciding whether the phase gate can close.

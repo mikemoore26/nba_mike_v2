@@ -1,0 +1,6 @@
+P0-S3 S8 — Historical Reconstruction Sample
+2019-20: PASS | target=2019-12-14 | D-1 rows=8050
+2023-24: PASS | target=2023-12-25 | D-1 rows=9253
+2025-26: PASS | target=2025-12-19 | D-1 rows=8761
+OVERALL: PASS
+NOTE: This does not solve intraday injuries, confirmed lineups, news, odds, line movement, or ambiguous rotation truth.

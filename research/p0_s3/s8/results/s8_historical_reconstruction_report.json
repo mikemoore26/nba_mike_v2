@@ -1,0 +1,57 @@
+{
+  "milestone": "P0-S3 S8",
+  "scope": "Historical Reconstruction Sample",
+  "governing_rule": "For target game date D, statistical evidence is eligible only through D-1.",
+  "intraday_domains_solved": false,
+  "seasons": [
+    {
+      "season": "2019-20",
+      "source_row_count": 22393,
+      "canonical_row_count": 22393,
+      "target_date": "2019-12-14",
+      "target_date_player_rows": 171,
+      "d1_row_count": 8050,
+      "d1_max_event_date": "2019-12-13",
+      "d1_cutoff_pass": true,
+      "target_delta_pass": true,
+      "wrong_target_player_delta_count": 0,
+      "wrong_non_target_player_delta_count": 0,
+      "deterministic_rebuild_pass": true,
+      "snapshot_hash": "84529a1046a0cfca55725d46d5b2746dca894c5bfb8881d4c49e015903068135",
+      "pass": true
+    },
+    {
+      "season": "2023-24",
+      "source_row_count": 26401,
+      "canonical_row_count": 26401,
+      "target_date": "2023-12-25",
+      "target_date_player_rows": 98,
+      "d1_row_count": 9253,
+      "d1_max_event_date": "2023-12-23",
+      "d1_cutoff_pass": true,
+      "target_delta_pass": true,
+      "wrong_target_player_delta_count": 0,
+      "wrong_non_target_player_delta_count": 0,
+      "deterministic_rebuild_pass": true,
+      "snapshot_hash": "3be985052fbb870483b6ddbc93214b540d7c0bc4db26d5435fdf850673af2cf3",
+      "pass": true
+    },
+    {
+      "season": "2025-26",
+      "source_row_count": 26651,
+      "canonical_row_count": 26651,
+      "target_date": "2025-12-19",
+      "target_date_player_rows": 104,
+      "d1_row_count": 8761,
+      "d1_max_event_date": "2025-12-18",
+      "d1_cutoff_pass": true,
+      "target_delta_pass": true,
+      "wrong_target_player_delta_count": 0,
+      "wrong_non_target_player_delta_count": 0,
+      "deterministic_rebuild_pass": true,
+      "snapshot_hash": "3cfab8439747d47b7ff7cc057cd2e331e22ed5270f60402434cd930030d0a946",
+      "pass": true
+    }
+  ],
+  "overall_pass": true
+}

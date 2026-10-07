@@ -1,0 +1,14 @@
+{
+  "milestone": "P0-S3 S8",
+  "checks": {
+    "historical_runner": true,
+    "three_season_anchors": true,
+    "all_seasons_pass": true,
+    "d1_cutoff": true,
+    "target_delta": true,
+    "deterministic_rebuild": true,
+    "intraday_not_overclaimed": true,
+    "full_regression_suite": true
+  },
+  "overall_pass": true
+}
