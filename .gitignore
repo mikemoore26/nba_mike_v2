@@ -44,3 +44,6 @@ tmp/
 .local/
 .env
 
+
+# Python packaging metadata
+*.egg-info/

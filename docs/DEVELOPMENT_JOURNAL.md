@@ -296,3 +296,24 @@ Implemented:
 Important boundary:
 S6 does not establish timestamp truth for injuries, confirmed lineups, news, or sportsbook markets. Those remain independently gated. Predictive model training remains closed.
 
+
+## P0-S3 INFRA-01 — Project Packaging & Execution Standard
+
+Goal: remove reliance on manual `PYTHONPATH` configuration and make the existing `src/` package layout reproducibly installable in the project virtual environment.
+
+Baseline defect confirmed after S6:
+- `python -m pip install -e .` failed because the repository had neither `pyproject.toml` nor `setup.py`.
+- `import nba_mike` failed in a standalone Python process after removing `PYTHONPATH`.
+- Existing tests still passed (38 tests), showing this was an execution/packaging defect rather than evidence that S2-S6 logic was broken.
+
+Implemented:
+- minimal setuptools `pyproject.toml` for the `src/` layout;
+- explicit naming contract: repository `nba_mike_v2`, distribution `nba-mike-v2`, import package `nba_mike`;
+- editable-install development standard;
+- packaging/import regression tests;
+- acceptance runner that requires manual `PYTHONPATH` to be absent and runs the full regression suite;
+- packaging/execution documentation.
+
+Scope boundary:
+INFRA-01 does not change statistical logic, D-1 safety, provenance rules, source feasibility conclusions, or the model-training gate. The original P0-S3 S7 remains the Leakage & Invariant Test Suite.
+
