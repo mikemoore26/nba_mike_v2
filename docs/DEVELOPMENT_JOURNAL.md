@@ -468,3 +468,21 @@ Added candidate minutes windows 2/3/4/5/6/8/10/15, season-to-date, and EWM 3/5/1
 ## P0-S4 S5.1 — Retrospective EWM robustness (pending local run)
 Added fixed two-season training / 2025-26 chronological evaluation, date-block paired-error confidence intervals, immutable local source CSV snapshots with SHA-256 manifests, and tests. This is **not** a blind final holdout: 2025-26 outcomes influenced earlier S5 exploration. Results and promotion decision must be recorded after execution. No betting/model promotion.
 
+## P0-S4 S6 — Minutes uncertainty (pending local acceptance)
+Implemented expanding, prior-date-only EWM-5 residual intervals and subgroup error
+diagnostics. Uses existing S5.1 snapshots and checksum manifest. Research-only.
+Record local acceptance, coverage/width by season and group, and unresolved risks
+before checkpointing.
+
+
+## S6 Research Conclusions — 2026-10-07
+
+- Full regression: 100 tests passed.
+- Overall 90% interval coverage: 88.9%-89.3%.
+- Stable-role coverage: 89.8%-90.2%.
+- Role-change coverage: 84.4%-85.3%.
+- Mean interval width: approximately 19.7 minutes.
+- Role-change undercoverage is consistent across three seasons.
+- Pooled calibration is insufficient for reliable subgroup coverage.
+- S6 remains RESEARCH_ONLY; no betting promotion.
+- Next: S6.1 role-aware uncertainty calibration.

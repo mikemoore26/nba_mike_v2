@@ -1,0 +1,101 @@
+{
+  "status": "RESEARCH_ONLY",
+  "alpha": 0.1,
+  "calibration": "expanding prior-date absolute errors, pooled across players",
+  "seasons": {
+    "2019-20": {
+      "overall": {
+        "n": 17322,
+        "coverage": 0.8927952892275719,
+        "mean_width": 19.634667760488245,
+        "mae": 4.8093548270461834,
+        "error_over_5": 0.3804987876688604,
+        "error_over_10": 0.10587691952430435,
+        "error_over_15": 0.025574414039949197
+      },
+      "stable": {
+        "n": 14491,
+        "coverage": 0.9022841763853426,
+        "mean_width": 19.65432789121956,
+        "mae": 4.676181022026403,
+        "error_over_5": 0.36788351390518254,
+        "error_over_10": 0.09647367331447106,
+        "error_over_15": 0.02263473880339521
+      },
+      "role_change": {
+        "n": 2831,
+        "coverage": 0.8442246555987284,
+        "mean_width": 19.534033725014062,
+        "mae": 5.491029715262948,
+        "error_over_5": 0.4450724125750618,
+        "error_over_10": 0.15400918403391028,
+        "error_over_15": 0.040621688449311195
+      }
+    },
+    "2023-24": {
+      "overall": {
+        "n": 20821,
+        "coverage": 0.8901589741126748,
+        "mean_width": 19.759423553655107,
+        "mae": 4.9145374289422,
+        "error_over_5": 0.3873973392248211,
+        "error_over_10": 0.11387541424523318,
+        "error_over_15": 0.029201287161999902
+      },
+      "stable": {
+        "n": 16796,
+        "coverage": 0.8989640390569184,
+        "mean_width": 19.746531696031926,
+        "mae": 4.781815469202753,
+        "error_over_5": 0.3756846868301977,
+        "error_over_10": 0.10472731602762562,
+        "error_over_15": 0.02649440342938795
+      },
+      "role_change": {
+        "n": 4025,
+        "coverage": 0.853416149068323,
+        "mean_width": 19.813220234559203,
+        "mae": 5.468375450254937,
+        "error_over_5": 0.4362732919254658,
+        "error_over_10": 0.15204968944099378,
+        "error_over_15": 0.04049689440993789
+      }
+    },
+    "2025-26": {
+      "overall": {
+        "n": 21074,
+        "coverage": 0.889247413874917,
+        "mean_width": 19.72207104440576,
+        "mae": 4.89347698537889,
+        "error_over_5": 0.38602068900066433,
+        "error_over_10": 0.11246085223498149,
+        "error_over_15": 0.029752301414064725
+      },
+      "stable": {
+        "n": 17180,
+        "coverage": 0.8983701979045402,
+        "mean_width": 19.712044638695325,
+        "mae": 4.744801711505412,
+        "error_over_5": 0.3708963911525029,
+        "error_over_10": 0.10331781140861467,
+        "error_over_15": 0.026542491268917345
+      },
+      "role_change": {
+        "n": 3894,
+        "coverage": 0.8489984591679507,
+        "mean_width": 19.76630670185448,
+        "mae": 5.549419770470408,
+        "error_over_5": 0.45274781715459683,
+        "error_over_10": 0.15279917822290703,
+        "error_over_15": 0.04391371340523883
+      }
+    }
+  },
+  "source_manifest": "C:\\Users\\micha\\Coding\\python\\nba_mike_v2\\research\\p0_s4\\s5_1\\results\\s5_1_manifest.json",
+  "cautions": [
+    "Marginal pooled intervals do not guarantee per-player or role-group coverage",
+    "2025-26 previously inspected; not a pristine holdout",
+    "No DNP/injury/lineup/market integration",
+    "No betting recommendation or model promotion"
+  ]
+}

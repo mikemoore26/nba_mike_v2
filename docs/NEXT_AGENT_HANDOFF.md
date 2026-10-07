@@ -23,3 +23,20 @@ S4/S4.1 baseline was last-five minutes MAE ~5; role-change subgroup has higher e
 ## S5.1 pending validation
 Install research/p0_s4/s5_1, docs/S5_1_ROBUSTNESS_STANDARD.md, tests/test_s5_1_robustness.py. Run acceptance, runner, full pytest; inspect report and manifest. EWM-5 was selected after earlier inspection of 2025-26, so the 2025-26 split is a retrospective chronological check, not a truly untouched holdout. S5 remains RESEARCH_ONLY. No commit until review.
 
+## S6 handoff (pending execution)
+New `src/nba_mike/features/minutes_uncertainty.py`, S6 runner and tests.
+Run acceptance, offline snapshot-backed research and full regression. Review
+coverage and width; do not promote predictive intervals without additional validation.
+
+
+## S6 Research Conclusions — 2026-10-07
+
+- Full regression: 100 tests passed.
+- Overall 90% interval coverage: 88.9%-89.3%.
+- Stable-role coverage: 89.8%-90.2%.
+- Role-change coverage: 84.4%-85.3%.
+- Mean interval width: approximately 19.7 minutes.
+- Role-change undercoverage is consistent across three seasons.
+- Pooled calibration is insufficient for reliable subgroup coverage.
+- S6 remains RESEARCH_ONLY; no betting promotion.
+- Next: S6.1 role-aware uncertainty calibration.
