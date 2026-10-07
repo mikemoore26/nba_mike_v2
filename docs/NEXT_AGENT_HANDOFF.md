@@ -15,3 +15,11 @@ Run S4.1 acceptance, real-data runner, full regression; review JSON and CSV. Com
 - Role-change flags indicate greater historical prediction uncertainty.
 - These are descriptive findings only, not validated betting edges.
 - S5 will investigate adaptive windows and chronological robustness.
+
+## Current milestone: P0-S4 S5
+S4/S4.1 baseline was last-five minutes MAE ~5; role-change subgroup has higher error. S5 patch adds `features/adaptive_form.py`, tests, research runner and standard. S5 is RESEARCH_ONLY and uncommitted until local tests and historical results reviewed. Next: inspect candidate scores and prequential last-five vs adaptive MAE, plus role subgroup and selected counts. Preserve no-leakage rules and closed model-training gate.
+
+
+## S5.1 pending validation
+Install research/p0_s4/s5_1, docs/S5_1_ROBUSTNESS_STANDARD.md, tests/test_s5_1_robustness.py. Run acceptance, runner, full pytest; inspect report and manifest. EWM-5 was selected after earlier inspection of 2025-26, so the 2025-26 split is a retrospective chronological check, not a truly untouched holdout. S5 remains RESEARCH_ONLY. No commit until review.
+

@@ -1,0 +1,131 @@
+{
+  "train_rows": 43444,
+  "holdout_rows": 23805,
+  "selected_from_training": "ewm_5",
+  "train_candidate_mae": {
+    "last_2": 5.238165511923396,
+    "last_3": 5.069753424587463,
+    "last_4": 5.021488266504005,
+    "last_5": 4.997993439830586,
+    "last_6": 4.9881726692856185,
+    "last_8": 5.00953255486355,
+    "last_10": 5.037204709757718,
+    "last_15": 5.106840035095021,
+    "season": 5.323128318704699,
+    "ewm_3": 4.95627277293925,
+    "ewm_5": 4.8550647216756575,
+    "ewm_10": 4.891205352180726
+  },
+  "holdout": {
+    "ewm5_vs_last5": {
+      "n": 23805,
+      "dates": 155,
+      "mae_left": 5.000591192326542,
+      "mae_right": 4.861652320208292,
+      "gain_minutes": 0.13893887211824943,
+      "gain_ci95": [
+        0.1195193477142979,
+        0.1587029025219339
+      ]
+    },
+    "selected_vs_last5": {
+      "n": 23805,
+      "dates": 155,
+      "mae_left": 5.000591192326542,
+      "mae_right": 4.861652320208292,
+      "gain_minutes": 0.13893887211824943,
+      "gain_ci95": [
+        0.1195193477142979,
+        0.1587029025219339
+      ]
+    }
+  },
+  "role_groups": {
+    "stable": {
+      "n": 19784,
+      "dates": 155,
+      "mae_left": 4.85417195713708,
+      "mae_right": 4.718579133790293,
+      "gain_minutes": 0.1355928233467875,
+      "gain_ci95": [
+        0.11606482083003355,
+        0.15544807764252874
+      ]
+    },
+    "role_change": {
+      "n": 4021,
+      "dates": 152,
+      "mae_left": 5.72099859073199,
+      "mae_right": 5.565596592800609,
+      "gain_minutes": 0.15540199793138126,
+      "gain_ci95": [
+        0.10515291963392989,
+        0.20723118256023956
+      ]
+    },
+    "history_5-9": {
+      "n": 2601,
+      "dates": 155,
+      "mae_left": 4.925008970908625,
+      "mae_right": 4.776695430434751,
+      "gain_minutes": 0.14831354047387366,
+      "gain_ci95": [
+        0.08967499220173844,
+        0.21996021482150047
+      ]
+    },
+    "history_10-19": {
+      "n": 4713,
+      "dates": 145,
+      "mae_left": 5.135917462338213,
+      "mae_right": 4.983046696067395,
+      "gain_minutes": 0.15287076627081864,
+      "gain_ci95": [
+        0.10696677182319969,
+        0.20093191140071104
+      ]
+    },
+    "history_20+": {
+      "n": 16491,
+      "dates": 126,
+      "mae_left": 4.973837002001091,
+      "mae_right": 4.840358352400217,
+      "gain_minutes": 0.13347864960087402,
+      "gain_ci95": [
+        0.11153692211012269,
+        0.1573314995803278
+      ]
+    }
+  },
+  "status": "RESEARCH_ONLY",
+  "training_seasons": [
+    "2019-20",
+    "2023-24"
+  ],
+  "locked_holdout_season": "2025-26",
+  "snapshots": {
+    "2019-20": {
+      "file": "player_gamelogs_2019-20.csv",
+      "sha256": "14faa0d5aa7bd5b55d0c32de16bedef7067ef36880e5a2d87ee4e36004281bb7",
+      "rows": 22393
+    },
+    "2023-24": {
+      "file": "player_gamelogs_2023-24.csv",
+      "sha256": "76eeaebb5ccc86c0afd26f46f71390a731529dd7bbc32e1c49ace0a5163fa89c",
+      "rows": 26401
+    },
+    "2025-26": {
+      "file": "player_gamelogs_2025-26.csv",
+      "sha256": "dd8cf629b3baa39386d94902d899a73d5004b0dfd3b614c9d7fbb48277cfd546",
+      "rows": 26651
+    }
+  },
+  "bootstrap": "2000 seeded date-block resamples",
+  "cautions": [
+    "Season selection and EWM-5 hypothesis were informed by prior S5 research including 2025-26; this is a retrospective confirmation, NOT a genuinely untouched holdout.",
+    "Source snapshots created after original research; original historical provenance cannot be retroactively established.",
+    "No DNP, injury, lineup, or sportsbook data; not a betting edge.",
+    "Within-season features use only prior calendar dates; no cross-season feature history.",
+    "CI reflects game-date sampling, not player/season clustering or multiple comparisons."
+  ]
+}

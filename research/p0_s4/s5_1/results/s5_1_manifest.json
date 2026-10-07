@@ -1,0 +1,17 @@
+{
+  "2019-20": {
+    "file": "player_gamelogs_2019-20.csv",
+    "sha256": "14faa0d5aa7bd5b55d0c32de16bedef7067ef36880e5a2d87ee4e36004281bb7",
+    "rows": 22393
+  },
+  "2023-24": {
+    "file": "player_gamelogs_2023-24.csv",
+    "sha256": "76eeaebb5ccc86c0afd26f46f71390a731529dd7bbc32e1c49ace0a5163fa89c",
+    "rows": 26401
+  },
+  "2025-26": {
+    "file": "player_gamelogs_2025-26.csv",
+    "sha256": "dd8cf629b3baa39386d94902d899a73d5004b0dfd3b614c9d7fbb48277cfd546",
+    "rows": 26651
+  }
+}

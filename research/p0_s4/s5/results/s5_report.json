@@ -1,0 +1,265 @@
+{
+  "status": "RESEARCH_ONLY",
+  "seasons": {
+    "2019-20": {
+      "source_rows": 22393,
+      "evaluated_rows": 17322,
+      "last5_mae": 4.95394250086595,
+      "adaptive_mae": 4.809354827046184,
+      "candidate_scores": [
+        {
+          "candidate": "last_2",
+          "n": 19822,
+          "mae": 5.190433272794538
+        },
+        {
+          "candidate": "last_3",
+          "n": 19822,
+          "mae": 5.019850670971647
+        },
+        {
+          "candidate": "last_4",
+          "n": 19822,
+          "mae": 4.982633563717083
+        },
+        {
+          "candidate": "last_5",
+          "n": 19822,
+          "mae": 4.950781370867387
+        },
+        {
+          "candidate": "last_6",
+          "n": 19822,
+          "mae": 4.946896669245171
+        },
+        {
+          "candidate": "last_8",
+          "n": 19822,
+          "mae": 4.980372149631722
+        },
+        {
+          "candidate": "last_10",
+          "n": 19822,
+          "mae": 5.004951791546617
+        },
+        {
+          "candidate": "last_15",
+          "n": 19822,
+          "mae": 5.062113023801116
+        },
+        {
+          "candidate": "season",
+          "n": 19822,
+          "mae": 5.187300541653323
+        },
+        {
+          "candidate": "ewm_3",
+          "n": 19822,
+          "mae": 4.903611982712782
+        },
+        {
+          "candidate": "ewm_5",
+          "n": 19822,
+          "mae": 4.808444725726976
+        },
+        {
+          "candidate": "ewm_10",
+          "n": 19822,
+          "mae": 4.852081019221178
+        }
+      ],
+      "selected_counts": {
+        "ewm_5": 17322
+      },
+      "role_segments": {
+        "stable": {
+          "n": 14491,
+          "last5_mae": 4.816742207807145,
+          "adaptive_mae": 4.6761810220264035
+        },
+        "role_change": {
+          "n": 2831,
+          "last5_mae": 5.6562277169433655,
+          "adaptive_mae": 5.491029715262948
+        }
+      }
+    },
+    "2023-24": {
+      "source_rows": 26401,
+      "evaluated_rows": 20821,
+      "last5_mae": 5.067350751644974,
+      "adaptive_mae": 4.915164524735576,
+      "candidate_scores": [
+        {
+          "candidate": "last_2",
+          "n": 23622,
+          "mae": 5.278219209493975
+        },
+        {
+          "candidate": "last_3",
+          "n": 23622,
+          "mae": 5.1116284725162044
+        },
+        {
+          "candidate": "last_4",
+          "n": 23622,
+          "mae": 5.0540925302683934
+        },
+        {
+          "candidate": "last_5",
+          "n": 23622,
+          "mae": 5.037610645443513
+        },
+        {
+          "candidate": "last_6",
+          "n": 23622,
+          "mae": 5.022808723506336
+        },
+        {
+          "candidate": "last_8",
+          "n": 23622,
+          "mae": 5.034002013525191
+        },
+        {
+          "candidate": "last_10",
+          "n": 23622,
+          "mae": 5.064269198149066
+        },
+        {
+          "candidate": "last_15",
+          "n": 23622,
+          "mae": 5.144371946781914
+        },
+        {
+          "candidate": "season",
+          "n": 23622,
+          "mae": 5.437105890320667
+        },
+        {
+          "candidate": "ewm_3",
+          "n": 23622,
+          "mae": 5.000462180435189
+        },
+        {
+          "candidate": "ewm_5",
+          "n": 23622,
+          "mae": 4.894185099276825
+        },
+        {
+          "candidate": "ewm_10",
+          "n": 23622,
+          "mae": 4.924035871523887
+        }
+      ],
+      "selected_counts": {
+        "ewm_5": 20370,
+        "ewm_10": 451
+      },
+      "role_segments": {
+        "stable": {
+          "n": 16796,
+          "last5_mae": 4.9326897078669525,
+          "adaptive_mae": 4.782876300322571
+        },
+        "role_change": {
+          "n": 4025,
+          "last5_mae": 5.629280414078675,
+          "adaptive_mae": 5.467192603553179
+        }
+      }
+    },
+    "2025-26": {
+      "source_rows": 26651,
+      "evaluated_rows": 21074,
+      "last5_mae": 5.042000553604757,
+      "adaptive_mae": 4.89347698537889,
+      "candidate_scores": [
+        {
+          "candidate": "last_2",
+          "n": 23805,
+          "mae": 5.223729993698802
+        },
+        {
+          "candidate": "last_3",
+          "n": 23805,
+          "mae": 5.083006511237135
+        },
+        {
+          "candidate": "last_4",
+          "n": 23805,
+          "mae": 5.026999597423511
+        },
+        {
+          "candidate": "last_5",
+          "n": 23805,
+          "mae": 5.000591192326542
+        },
+        {
+          "candidate": "last_6",
+          "n": 23805,
+          "mae": 4.996920296856403
+        },
+        {
+          "candidate": "last_8",
+          "n": 23805,
+          "mae": 5.011827098732093
+        },
+        {
+          "candidate": "last_10",
+          "n": 23805,
+          "mae": 5.039665990343721
+        },
+        {
+          "candidate": "last_15",
+          "n": 23805,
+          "mae": 5.114644371197621
+        },
+        {
+          "candidate": "season",
+          "n": 23805,
+          "mae": 5.315158427212361
+        },
+        {
+          "candidate": "ewm_3",
+          "n": 23805,
+          "mae": 4.964557720415149
+        },
+        {
+          "candidate": "ewm_5",
+          "n": 23805,
+          "mae": 4.861652320208293
+        },
+        {
+          "candidate": "ewm_10",
+          "n": 23805,
+          "mae": 4.895585782426052
+        }
+      ],
+      "selected_counts": {
+        "ewm_5": 21074
+      },
+      "role_segments": {
+        "stable": {
+          "n": 17180,
+          "last5_mae": 4.889822332169189,
+          "adaptive_mae": 4.744801711505413
+        },
+        "role_change": {
+          "n": 3894,
+          "last5_mae": 5.713398048279404,
+          "adaptive_mae": 5.549419770470408
+        }
+      }
+    }
+  },
+  "method": "D-1 date-safe candidate features, prequential pooled global selector, last-5 comparator",
+  "limitations": [
+    "This is a research-only expanding prequential evaluation, not a locked final holdout",
+    "The selector is global and uses prior observed errors, not individualized player selection",
+    "S4 and S5 windows count prior distinct calendar dates; multiple same-day games are averaged",
+    "The prequential warmup and 100-error minimum are research design choices",
+    "Historical data fetched live; source snapshot/manifest is not yet immutable",
+    "Injuries, confirmed lineups, DNPs and market odds are not incorporated",
+    "No betting or model-training promotion is authorized"
+  ]
+}

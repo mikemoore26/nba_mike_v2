@@ -460,3 +460,11 @@ Addressed same-calendar-date leakage in the opportunity feature builder, added r
 - Role-change flags indicate greater historical prediction uncertainty.
 - These are descriptive findings only, not validated betting edges.
 - S5 will investigate adaptive windows and chronological robustness.
+
+## P0-S4 S5 — Adaptive form research (pending validation)
+Added candidate minutes windows 2/3/4/5/6/8/10/15, season-to-date, and EWM 3/5/10; strict prior-calendar-date feature construction; global prequential selector compared with last-five. Research runner and offline tests included. Pending local acceptance, historical evaluation, review of sample sizes and subgroup errors. No training or betting gate opened.
+
+
+## P0-S4 S5.1 — Retrospective EWM robustness (pending local run)
+Added fixed two-season training / 2025-26 chronological evaluation, date-block paired-error confidence intervals, immutable local source CSV snapshots with SHA-256 manifests, and tests. This is **not** a blind final holdout: 2025-26 outcomes influenced earlier S5 exploration. Results and promotion decision must be recorded after execution. No betting/model promotion.
+
