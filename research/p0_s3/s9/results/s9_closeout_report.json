@@ -1,0 +1,15 @@
+{
+  "milestone": "P0-S3 S9",
+  "decision": "PASS",
+  "scope": "canonical historical statistical-data foundation",
+  "checks": {
+    "required_artifacts": true,
+    "scoped_pass_language": true,
+    "unresolved_domains_preserved": true,
+    "d1_boundary_preserved": true,
+    "s8_three_season_evidence": true,
+    "intraday_not_overclaimed": true,
+    "full_regression_suite": true
+  },
+  "missing_artifacts": []
+}

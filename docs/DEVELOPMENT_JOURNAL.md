@@ -370,3 +370,24 @@ S8 is complete only after:
 4. the full project regression suite passes;
 5. Git checkpoint is clean.
 
+## P0-S3 S9 — Closeout
+
+### Purpose
+Close P0-S3 using accumulated acceptance evidence rather than adding another modeling or betting subsystem.
+
+### Decision rule
+P0-S3 may PASS only if the required architecture/contracts exist, the S8 multi-season reconstruction evidence remains PASS, unresolved intraday domains remain explicitly quarantined, the D-1 rule remains documented, and the full regression suite passes.
+
+### Scope of PASS
+A PASS applies only to the canonical historical statistical-data foundation. It does not assert exact historical intraday truth, model validity, calibration quality, betting edge, or profitability.
+
+### Unresolved domains carried forward
+- injuries/availability timing
+- confirmed lineup publication timing
+- news timestamps
+- sportsbook props/odds/line movement
+- authoritative complete rotation/stint truth where ambiguous
+
+### Next-phase principle
+Future feature/model work must consume governed point-in-time inputs and must not weaken P0-S3 controls for convenience.
+

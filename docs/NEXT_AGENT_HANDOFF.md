@@ -1,45 +1,41 @@
-# NEXT AGENT HANDOFF — P0-S3 S8
+# NEXT AGENT HANDOFF — P0-S3 S9 CLOSEOUT
 
 ## Project
 NBA_MIKE v2
 
-## Current phase
-P0-S3 — Canonical Data Architecture & Dataset Contract
+## P0-S3 status
+P0-S3 is eligible for **PASS**, scoped to the canonical historical statistical-data foundation, once the local S9 closeout runner passes and the milestone is committed.
 
-## Completed before S8
-- S1 canonical architecture/contracts
+## Evidence completed
+- S1 architecture/contracts
 - S2 storage/manifest
-- S3 canonical identity
+- S3 identity
 - S4 schema/provenance
-- S5 canonical dataset builder
-- S6 reproducible D-1 point-in-time snapshots
+- S5 canonical builder
+- S6 D-1 snapshots
 - INFRA-01 packaging/execution
-- S7 leakage/invariant suite
+- S7 leakage/invariant firewall
+- S8 real historical reconstruction across 2019-20, 2023-24, 2025-26
+- pre-S9 full regression: 55 tests passing
 
-## S8 implementation
-Historical Reconstruction Sample is prepared for three established season anchors:
-- 2019-20
-- 2023-24
-- 2025-26
+## Governing rule carried forward
+For game date D, historical statistical inputs use D-1 or earlier unless a stronger timestamp-safe rule is separately proven.
 
-The runner retrieves real regular-season PlayerGameLogs, chooses a deterministic internal target date, reconstructs statistical state through D-1, audits D-1 vs D deltas, and checks deterministic rebuilds.
-
-## Governing historical rule
-For target date D, statistical information is eligible only through D-1. Same-day earlier-game information is intentionally excluded.
-
-## Still unresolved / quarantined
-- exact intraday injury history
-- confirmed lineup publication history
+## Unresolved/quarantined
+- historical intraday injuries/availability
+- confirmed lineup publication timing
 - news timestamps
-- historical sportsbook props/odds/line movement
-- authoritative rotation/stint truth where ambiguous
+- sportsbook props/odds/line movement
+- ambiguous rotation/stint truth
+
+## Important interpretation
+P0-S3 PASS does not mean models are validated or bets are ready. It means later research can now be built on the governed historical statistical foundation.
+
+## Next phase
+Do not invent the next phase from memory. Before implementation, read the project roadmap/charter and define the next milestone against the original project plan and P0 findings.
 
 ## Prohibitions
-- Do not train predictive models.
-- Do not build betting/ticket logic.
-- Do not call intraday historical data solved.
-- Do not silently substitute a source when NBA Stats retrieval fails.
-- Do not weaken D-1 to make a test pass.
-
-## Next task after S8 passes and is committed
-P0-S3 S9 — Closeout: consolidate findings, unresolved risks, acceptance evidence, development journal, handoff, and Git state before deciding whether the phase gate can close.
+- no target leakage
+- no silent source substitution
+- no unproven intraday historical claims
+- no profitability claims without out-of-sample evidence
