@@ -405,3 +405,17 @@ Do not jump directly from P0-S3 into model-family competition. First prove targe
 ### Planned sequence
 S1 plan; S2 targets; S3 baseline feature registry; S4 minutes/role/opportunity; S5 recent form; S6 context; S7 advanced/tracking audit; S8 governed feature dataset; S9 baseline benchmarks; S10 closeout/model-training gate.
 
+## P0-S4 S2 — Target Contract & Outcome Builder
+
+### Goal
+Establish unambiguous player-game outcome semantics before feature experiments.
+
+### Initial targets
+minutes, points, rebounds, assists, 3PM, plus an explicit played flag derived only from valid observed outcome rows.
+
+### Key decision
+Do not treat missing minutes or absent player-game evidence as a zero-stat DNP. Historically complete availability/DNP truth remains a separate upstream research problem.
+
+### Safety
+Targets remain labels and cannot be same-game feature inputs. D-1 remains the statistical feature boundary.
+

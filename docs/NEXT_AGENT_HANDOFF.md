@@ -1,4 +1,4 @@
-# NEXT AGENT HANDOFF — P0-S4 S1
+# NEXT AGENT HANDOFF — P0-S4 S2
 
 ## Project
 NBA_MIKE v2
@@ -6,25 +6,20 @@ NBA_MIKE v2
 ## Current phase
 P0-S4 — Feature & Target Research Foundation
 
-## Previous phase
-P0-S3 closed PASS, scoped to the canonical historical statistical-data foundation.
+## Completed
+- S1 Feature & Target Research Plan.
+- S2 package implements governed observed player-game targets for minutes, points, rebounds, assists, and 3PM.
 
-## Current milestone
-S1 — Feature & Target Research Plan.
+## Important S2 rule
+Missing/DNP evidence is not fabricated as zero. The builder governs observed outcome rows. A complete player-availability universe requires separate evidence.
 
-## Governing architecture
-availability -> minutes -> role/usage/opportunity -> stat distribution -> market -> decision
-
-## Historical boundary
-For target game date D, statistical features remain D-1 or earlier unless stronger timestamp-safe evidence is proven.
+## Governing historical feature boundary
+D-1.
 
 ## Intraday quarantine
-Do not fabricate historical injuries, confirmed lineups, news, sportsbook props/odds, or line movement.
+Historical injuries, confirmed lineups, news, sportsbook props/odds, and line movement remain unresolved unless separately proven timestamp-safe.
 
-## S1 outcome
-P0-S4 is organized into S1-S10. Serious candidate-model training remains gated until S10 closeout. Simple baseline estimators in S9 are allowed only to establish benchmark difficulty and evaluation plumbing.
+## Exact next task after S2
+P0-S4 S3 — Baseline Feature Registry.
 
-## Exact next task after S1
-P0-S4 S2 — Target Contract & Outcome Builder.
-
-Define target semantics, units, null/DNP behavior, player-game alignment, component vs derived targets, outcome validation, and tests before building feature experiments.
+Define candidate baseline feature metadata, source/provenance requirements, historical/today parity, missingness policy, leakage status, and keeper/reject research status before building broad feature experiments.
