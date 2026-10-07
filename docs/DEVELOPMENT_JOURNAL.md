@@ -317,3 +317,26 @@ Implemented:
 Scope boundary:
 INFRA-01 does not change statistical logic, D-1 safety, provenance rules, source feasibility conclusions, or the model-training gate. The original P0-S3 S7 remains the Leakage & Invariant Test Suite.
 
+
+## P0-S3 S7 — Leakage & Invariant Test Suite
+
+### Goal
+Convert the canonical data architecture's leakage and integrity rules into executable fail-closed tests before multi-season historical reconstruction.
+
+### Why this milestone exists
+A pipeline can be reproducible and still be scientifically invalid if target-day outcomes, future rows, duplicate identities, malformed team/opponent relationships, or target columns leak into predictive inputs. S7 creates a reusable invariant layer and adversarial tests so these states fail explicitly instead of improving backtests silently.
+
+### Implementation
+- Added `src/nba_mike/validation/invariants.py` with D-1, key uniqueness, team/opponent, feature-target separation, snapshot metadata, and zero-history checks.
+- Exported invariant primitives through `nba_mike.validation`.
+- Added targeted adversarial tests in `tests/test_leakage_invariants.py`.
+- Added S7 acceptance runner and persisted acceptance outputs.
+- Added `docs/LEAKAGE_INVARIANT_STANDARD.md` and S7 research README.
+- Preserved S2-S6/INFRA-01 tests as regression gates.
+
+### Scientific/governance boundary
+This milestone does not solve intraday historical injuries, confirmed lineups, news, or market-price truth. Same-day statistical information remains excluded under the conservative D-1 contract. Model training remains prohibited until P0-S3 closes.
+
+### Next milestone
+P0-S3 S8 — Historical Reconstruction Sample: run governed reconstruction across multiple seasons/dates/games and compare repeated builds for reproducibility.
+

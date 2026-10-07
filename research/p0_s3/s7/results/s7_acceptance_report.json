@@ -1,0 +1,17 @@
+{
+  "milestone": "P0-S3 S7",
+  "overall": "PASS",
+  "checks": {
+    "d1_target_day_blocked": true,
+    "future_day_blocked": true,
+    "duplicate_key_blocked": true,
+    "team_opponent_consistency": true,
+    "target_separation": true,
+    "zero_history_contract": true,
+    "governed_snapshot_passes": true,
+    "non_pass_parent_blocked": true,
+    "full_regression_suite": true
+  },
+  "pytest_stdout": "..................................................                       [100%]\n50 passed in 0.54s",
+  "pytest_stderr": ""
+}

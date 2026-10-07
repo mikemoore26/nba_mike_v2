@@ -1,58 +1,23 @@
 # NBA_MIKE v2 — NEXT AGENT HANDOFF
 
-## Current state
-Project: `nba_mike_v2`
-Environment: Windows / PowerShell / Python `.venv` / CPU-only / Git `main`
+## Current checkpoint
+P0-S3 S1-S6 are complete. INFRA-01 packaging/execution is complete at commit `27ceaf9`. P0-S3 S7 — Leakage & Invariant Test Suite has been prepared and must pass targeted tests, full regression, acceptance, and Git review before being called complete.
 
-Last confirmed Git checkpoint before INFRA-01:
-- `5b8a0a5 Complete P0-S3 S6 point-in-time snapshot system`
+## S7 package intent
+S7 adds fail-closed executable invariants for the conservative D-1 statistical boundary, player-game key uniqueness, feature/target separation, team/opponent consistency, snapshot metadata/provenance integrity, and explicit zero-history semantics. It deliberately injects invalid states and requires rejection.
 
-## Completed milestones
-- P0-S3 S1 — Canonical Data Architecture
-- P0-S3 S2 — Storage & Manifest Standard
-- P0-S3 S3 — Canonical Identity System
-- P0-S3 S4 — Schema Validation & Provenance Enforcement
-- P0-S3 S5 — Canonical Dataset Builder
-- P0-S3 S6 — Reproducible D-1 Point-in-Time Snapshot System; tests/acceptance PASS; committed as `5b8a0a5`.
-- P0-S3 INFRA-01 — Project Packaging & Execution package prepared; run install/tests/acceptance and commit before calling complete.
+## Required S7 verification
+1. `python -m pytest .\tests\test_leakage_invariants.py -q`
+2. `python -m pytest -q`
+3. `python .\research\p0_s3\s7\run_s7_acceptance.py`
+4. Inspect `git status`; commit only after all checks pass.
 
-## INFRA-01 purpose
-A real src-layout execution defect was confirmed after S6:
-- editable install failed because packaging metadata did not exist;
-- standalone `import nba_mike` failed without manual `PYTHONPATH`;
-- existing regression suite still passed 38 tests.
+## Hard constraints
+- No predictive model training yet.
+- Statistical pregame boundary remains D-1; same-day earlier-game stats remain excluded.
+- Do not claim exact historical intraday injuries, confirmed lineups, news, or sportsbook prices are solved.
+- No hidden source fallback, raw mutation, name-based primary identity, target leakage, or missing-as-zero behavior without a field contract.
+- Automatic progress-email delivery is still a requirement but is not implemented in this repository; do not claim emails were sent.
 
-INFRA-01 adds minimal project packaging so the active `.venv` can use `python -m pip install -e .` and import `nba_mike` normally.
-
-## Naming contract
-- repository: `nba_mike_v2`
-- distribution: `nba-mike-v2`
-- import package: `nba_mike`
-
-Do not rename `src/nba_mike` just to match the repository name.
-
-## Next planned milestone after INFRA-01
-Return to the original milestone plan:
-- P0-S3 S7 — Leakage & Invariant Test Suite.
-
-Do not repurpose S7 as packaging.
-
-## Continuation discipline
-1. Remove manual `PYTHONPATH`.
-2. Install editable package with `python -m pip install -e .`.
-3. Prove standalone import.
-4. Run full pytest regression suite.
-5. Run INFRA-01 acceptance.
-6. Inspect git status and commit only after PASS.
-7. Update development journal and this handoff at every material milestone.
-8. Do not weaken gates to force PASS.
-9. Do not train predictive models until the governance plan explicitly opens that gate.
-
-## Unresolved research constraints
-- Exact intraday historical truth for injuries, confirmed lineups, news, and sportsbook markets remains unsolved.
-- PBP access exists, but naive lineup reconstruction failed truth testing.
-- Official GameRotation feasibility timed out and remains unproven.
-- Advanced/tracking availability does not establish predictive value.
-
-## Email requirement
-Automatic progress-email delivery for journal/handoff updates remains required but is not yet implemented or tested. Do not claim emails are being sent.
+## After S7
+Proceed to P0-S3 S8 — Historical Reconstruction Sample. Run across multiple seasons/dates/games and compare repeated builds for reproducibility. Then S9 closes P0-S3. Modeling remains locked until closeout explicitly opens the gate.
