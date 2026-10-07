@@ -40,3 +40,17 @@ coverage and width; do not promote predictive intervals without additional valid
 - Pooled calibration is insufficient for reliable subgroup coverage.
 - S6 remains RESEARCH_ONLY; no betting promotion.
 - Next: S6.1 role-aware uncertainty calibration.
+
+## S6.1 handoff — pending local evaluation
+New `src/nba_mike/features/role_aware_uncertainty.py`, `tests/test_role_aware_uncertainty.py`, `research/p0_s4/s6_1/` runner, and `docs/S6_1_ROLE_AWARE_UNCERTAINTY.md`. Requires S6 prediction CSVs. Compare matched-role coverage and interval width, verify 105 total tests if prior 100 pass, then decide on research-only checkpoint. Do not claim production or betting readiness.
+
+
+## S6.1 Research Conclusions — 2026-10-07
+
+- Full regression: 105 tests passed.
+- Role-specific calibration improved role-change coverage toward 90%.
+- Shrinkage achieved near-target coverage with slightly narrower intervals.
+- Role-specific calibration increased interval width for changing-role players.
+- Methods compared on the same S6.1 evaluation rows.
+- S6.1 remains RESEARCH_ONLY.
+- Next: S6.2 conditional uncertainty and chronological validation.

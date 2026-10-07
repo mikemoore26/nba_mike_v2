@@ -486,3 +486,17 @@ before checkpointing.
 - Pooled calibration is insufficient for reliable subgroup coverage.
 - S6 remains RESEARCH_ONLY; no betting promotion.
 - Next: S6.1 role-aware uncertainty calibration.
+
+## P0-S4 S6.1 — Role-aware uncertainty (pending local evaluation)
+Goal: correct S6 role-change interval undercoverage without unnecessary interval widening. Implemented sequential pooled, group-specific, and shrinkage calibration on frozen S6 forecasts, with prior-date-only error updates and minimum sample safeguards. Pending local acceptance and full regression; record empirical coverage, widths, tests, Git hash, and decision before promotion. Research-only.
+
+
+## S6.1 Research Conclusions — 2026-10-07
+
+- Full regression: 105 tests passed.
+- Role-specific calibration improved role-change coverage toward 90%.
+- Shrinkage achieved near-target coverage with slightly narrower intervals.
+- Role-specific calibration increased interval width for changing-role players.
+- Methods compared on the same S6.1 evaluation rows.
+- S6.1 remains RESEARCH_ONLY.
+- Next: S6.2 conditional uncertainty and chronological validation.
