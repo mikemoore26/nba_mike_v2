@@ -391,3 +391,17 @@ A PASS applies only to the canonical historical statistical-data foundation. It 
 ### Next-phase principle
 Future feature/model work must consume governed point-in-time inputs and must not weaken P0-S3 controls for convenience.
 
+## P0-S4 S1 — Feature & Target Research Plan
+
+### Goal
+Define the governed research path from canonical D-1 historical data to model-ready targets and features.
+
+### Architecture
+availability -> minutes -> role/usage/opportunity -> stat distribution -> market -> decision
+
+### Key decision
+Do not jump directly from P0-S3 into model-family competition. First prove target alignment, feature historical availability, training/prediction parity, minutes/role representation, recent-form behavior, context features, and baseline difficulty.
+
+### Planned sequence
+S1 plan; S2 targets; S3 baseline feature registry; S4 minutes/role/opportunity; S5 recent form; S6 context; S7 advanced/tracking audit; S8 governed feature dataset; S9 baseline benchmarks; S10 closeout/model-training gate.
+
