@@ -678,3 +678,7 @@ Added team-in-matchup checks, section-event state comparison, mutation tests, an
 ## S7.23 — Independent historical roster gate scaffold
 Implemented fail-closed external roster evidence schema and date-bounded player/team comparison with contradiction tests. Empty evidence means all candidates UNRESOLVED; no claim of independent verification. No training promotion.
 
+
+## S7.24 — Historical roster evidence staging
+Goal: independent date-specific player/team verification. Decision: reject season-level inference and name-only matching; stage only independently attested, date-bounded, stable-ID evidence. Implemented research/p0_s4/s7_24/run_s7_24.py, empty input template, six regression tests. No automatic network acquisition or S7.23 promotion. Training remains blocked. Next: authenticated raw-source acquisition and event chronology.
+

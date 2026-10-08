@@ -198,3 +198,6 @@ Run `python research/p0_s4/s7_22/run_s7_22.py` and `python -m pytest -q`. This c
 ## S7.23 handoff
 Run `python research/p0_s4/s7_23/run_s7_23.py` and `python -m pytest -q`. Header-only independent roster evidence template is intentionally empty. Never treat existing PDF section events as independent roster proof. Maintain RESEARCH_ONLY/BLOCK_TRAINING; next source feasibility and stable player ID validation.
 
+
+S7.24: Conservative roster evidence staging adapter, not a historical roster fetcher. Run python research/p0_s4/s7_24/run_s7_24.py; blank source template yields 0 qualified rows. Strict interval/ID/provenance checks; results are provisional and never auto-promoted. S7.23 baseline 475 unresolved. Historical PDF publication unverified. RESEARCH_ONLY / BLOCK_TRAINING. Next: source-specific authenticated acquisition and dated transaction reconstruction.
+

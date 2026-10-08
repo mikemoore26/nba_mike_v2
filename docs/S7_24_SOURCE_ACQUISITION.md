@@ -1,0 +1,5 @@
+# S7.24 — Roster source feasibility and staging
+
+S7.23 has 475 unresolved records. The NBA's season-level CommonTeamRoster API is useful for candidate IDs but not for proving exact-day roster membership. Dated official NBA transaction records can support membership boundaries but a single transaction is not proof of uninterrupted membership; effective intervals require independent supporting evidence, including later departures and two-way/ten-day changes. S7.24 therefore creates a fail-closed **manual-source staging adapter** rather than pretending a season roster is dated ground truth. It does not perform network acquisition.
+
+Evidence requires source URL, independently attested source-as-of time, stable player ID, explicit effective interval, and an independence assertion. Inputs lacking those fields are rejected. Even accepted inputs require human/source authentication and cross-source verification before S7.23 promotion. Historical injury-report publication remains unverified; all training blocked. Future S7.25 should implement authenticated raw-source snapshot retrieval and source-specific date reconstruction with tests.
