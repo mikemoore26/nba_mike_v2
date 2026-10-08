@@ -641,3 +641,10 @@ Goal: safely collect distinct official NBA injury report PDFs and rerun S7.14. I
 - Limitations: crops do not establish inherited context; manual inspection of original pages required. Candidate-only sampling cannot measure missing player rows. Publication time remains unverified. Training blocked.
 - Acceptance: isolated tests; full-suite verification on user's machine pending.
 
+
+### S7.17 — Targeted injury reason recovery
+- Motivation: S7.16 visual review found 7 missing reasons in 20 samples.
+- Design: separate, source-hash-verified, read-only geometry recovery proposals; no overwrites or as-of training.
+- Validation: run S7.17 acceptance, full suite, batch report, compare flagged samples; log actual local results after execution.
+- Open: visual confirmation of proposals, full-document context, missed-row recall, publication-time verification.
+

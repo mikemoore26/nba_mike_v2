@@ -169,3 +169,7 @@ New `src/nba_mike/data/injury_acquire.py`, `research/p0_s4/s7_15/` and `tests/te
 - Outputs: `s7_16_samples.csv`, `s7_16_blind_review.csv`, `GT*.png`, `s7_16_report.json`; grading creates `s7_16_grade.json`.
 - Review sheet deliberately blank. No automated ground truth. No historical publication proof. No as-of training.
 
+
+### S7.17 handoff
+S7.16 revealed seven blank reason fields among 20 sampled PDF crops. S7.17 adds `injury_reason_recovery.py` and a read-only batch runner. Inspect `research/p0_s4/s7_17/results/s7_17_reason_proposals.csv`, especially GT004/006/007/012/016/019/020, against the original PDFs. Do not promote proposed strings automatically. Training remains blocked.
+
