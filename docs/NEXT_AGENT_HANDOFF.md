@@ -201,3 +201,7 @@ Run `python research/p0_s4/s7_23/run_s7_23.py` and `python -m pytest -q`. Header
 
 S7.24: Conservative roster evidence staging adapter, not a historical roster fetcher. Run python research/p0_s4/s7_24/run_s7_24.py; blank source template yields 0 qualified rows. Strict interval/ID/provenance checks; results are provisional and never auto-promoted. S7.23 baseline 475 unresolved. Historical PDF publication unverified. RESEARCH_ONLY / BLOCK_TRAINING. Next: source-specific authenticated acquisition and dated transaction reconstruction.
 
+
+## S7.25 handoff
+Run `python research/p0_s4/s7_25/run_s7_25.py --team NYK --season 2025-26`. Check report and raw snapshot; endpoint may block. Eight targeted tests. Outputs untracked. All evidence remains season-level candidate only; S7.23 475 unresolved must not be auto-promoted. Next: dated transaction provenance and effective interval reconstruction.
+

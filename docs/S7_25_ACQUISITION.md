@@ -1,0 +1,3 @@
+# S7.25 evidence boundary
+
+Implemented a first-party NBA Stats CommonTeamRoster source adapter using only Python standard library. Preserves original JSON bytes with SHA256, request URL, retrieval UTC, stable NBA player IDs, season and team. All rows explicitly `SEASON_ROSTER_CANDIDATE_ONLY`; no historical daily membership, roster interval, publication timing or training eligibility is inferred. Endpoint access is not guaranteed. No bulk retry or request flooding. No S7.23/S7.24 merge. Future: source-backed dated transactions and interval reconstruction, verified source-as-of provenance, independent identity crosswalk, ambiguity resolution.

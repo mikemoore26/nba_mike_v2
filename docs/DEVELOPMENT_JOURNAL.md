@@ -682,3 +682,7 @@ Implemented fail-closed external roster evidence schema and date-bounded player/
 ## S7.24 — Historical roster evidence staging
 Goal: independent date-specific player/team verification. Decision: reject season-level inference and name-only matching; stage only independently attested, date-bounded, stable-ID evidence. Implemented research/p0_s4/s7_24/run_s7_24.py, empty input template, six regression tests. No automatic network acquisition or S7.23 promotion. Training remains blocked. Next: authenticated raw-source acquisition and event chronology.
 
+
+## S7.25 — NBA Stats season roster acquisition (research only)
+Added bounded NBA Stats CommonTeamRoster collector with content-addressed raw JSON, stable NBA IDs, source metadata, strict season validation, fail-closed errors and offline fixtures. Season-level roster rows are candidates only; no date-specific verification, no injury-row modifications, no training. Source access and historical timestamp provenance remain open.
+
