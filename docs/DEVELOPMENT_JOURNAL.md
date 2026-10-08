@@ -703,3 +703,6 @@ Goal: link S7.28 candidate names to NBA Stats CommonAllPlayers stable IDs withou
 ## S7.30 — Transaction identity and team structure review
 Implemented strict S7.28/S7.29 source-provenance join, deterministic flags for missing origin, unresolved player IDs, same-team and same-day multi-destination candidates, and fail-closed review output. No transaction or historical roster membership promoted. Validate complete test suite and actual source results before closeout.
 
+## S7.31 — Independent origin evidence review gate
+Added optional SHA-256 checked independent source excerpt staging and per-candidate NBA search discovery links, strict candidate joins, multi-source conflict flags and research-only reports. Missing evidence stays unresolved. No origin or roster promotion. Run full tests and review real output before closing milestone.
+

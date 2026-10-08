@@ -222,3 +222,6 @@ Run `python -m pytest -q`, then `python research/p0_s4/s7_29/run_s7_29.py`; insp
 ## S7.30 handoff
 From project root run `python -m pytest -q`, then `python research/p0_s4/s7_30/run_s7_30.py`. Inspect `research/p0_s4/s7_30/results/s7_30_report.json` and `s7_30_review.csv`. Requires S7.27 original HTML, S7.28 review, S7.29 identity candidates. All 80 candidates remain review-only; no S7.26/S7.23 promotion. Next: independent per-event verification and unmatched-name diagnosis. Historical injury publication still unverified; training blocked.
 
+## S7.31 handoff
+Run `python -m pytest -q`, then `python research/p0_s4/s7_31/run_s7_31.py`. Requires S7.30 review CSV. Inspect `research/p0_s4/s7_31/results/s7_31_report.json` and review CSV. Optional `independent_evidence.csv` contains only independently sourced, locally saved snapshots with matching SHA-256 and verbatim excerpt; empty by default. No automatic approval of origins, effective dates, historical availability, or training. Next: independently source original team and dated individual transactions.
+
