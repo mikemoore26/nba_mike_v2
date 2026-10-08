@@ -1,0 +1,29 @@
+{
+  "status": "AUDIT_ONLY_NO_MODEL_PROMOTION",
+  "count": 3,
+  "records": [
+    {
+      "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-03-27_06_30AM.pdf",
+      "status": "SOURCE_REFERENCE_ONLY",
+      "report_time_et": "2026-03-27T06:30:00-04:00",
+      "report_time_utc": "2026-03-27T10:30:00+00:00"
+    },
+    {
+      "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-04-04_12_45AM.pdf",
+      "status": "SOURCE_REFERENCE_ONLY",
+      "report_time_et": "2026-04-04T00:45:00-04:00",
+      "report_time_utc": "2026-04-04T04:45:00+00:00"
+    },
+    {
+      "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2025-10-27_07PM.pdf",
+      "status": "SOURCE_REFERENCE_ONLY",
+      "report_time_et": "2025-10-27T19:00:00-04:00",
+      "report_time_utc": "2025-10-27T23:00:00+00:00"
+    }
+  ],
+  "verified_for_historical_asof": 0,
+  "warning": "Report filename time is not independent proof of public availability; availability timestamps require evidence.",
+  "candidate_source": "https://official.nba.com/nba-injury-report-2025-26-season/",
+  "sample_coverage": "Not established; candidate registry is illustrative only",
+  "next_gate": "Acquire exact PDF bytes, verify SHA256 and report/publication timing, parse rows, link IDs, define tipoff cutoffs"
+}
