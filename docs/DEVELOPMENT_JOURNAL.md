@@ -697,3 +697,6 @@ Added fail-closed one-page official NBA trade tracker acquisition, immutable SHA
 ## S7.28 — Structured trade tracker review (2026-10-08)
 Goal: convert 80 S7.27 raw text candidates to inspectable date/team/player rows while preserving strict provenance. Selected deterministic parsing with source SHA verification, explicit `(via ...)` origins, optional stable-ID mapping, no fuzzy matches. Outputs are review-only. Tests: 10 new targeted tests. Pending: live project test and real snapshot report. No model training authorization.
 
+## S7.29 — Automated stable NBA player-ID candidate matching
+Goal: link S7.28 candidate names to NBA Stats CommonAllPlayers stable IDs without fuzzy matching. Implemented live/offline directory acquisition, immutable raw snapshot hash, exact name normalization, ambiguity and provenance checks, test coverage, fail-closed governance. No roster/date promotion; validate full-suite and live response locally before milestone closure.
+

@@ -216,3 +216,6 @@ Run `python research/p0_s4/s7_27/run_s7_27.py` and inspect `research/p0_s4/s7_27
 ## S7.28 handoff
 Run `python research/p0_s4/s7_28/run_s7_28.py` after S7.27. Uses S7.27 raw HTML and CSV. Optional independent `--id-map` CSV. Inspect `research/p0_s4/s7_28/results/s7_28_report.json` and review CSV. No automatic S7.26 export; historical injury as-of availability still unverified. Keep RESEARCH_ONLY/BLOCK_TRAINING.
 
+## S7.29 handoff
+Run `python -m pytest -q`, then `python research/p0_s4/s7_29/run_s7_29.py`; inspect `research/p0_s4/s7_29/results/s7_29_report.json`. Requires existing S7.27 HTML and S7.28 review CSV. If NBA Stats blocks request, use `--directory-json` with an independently obtained unmodified CommonAllPlayers JSON. Exact matches are provisional IDs only. S7.26/S7.23 unchanged, historical injury publication not verified, training blocked.
+
