@@ -690,3 +690,6 @@ Added bounded NBA Stats CommonTeamRoster collector with content-addressed raw JS
 ## S7.26 — Transaction chronology evidence gate
 Added schema-validated, offline dated transaction ledger, ordered event output, provenance requirements, same-day contradiction review, and fail-closed gates. No source data fabricated, no live scraping yet, no continuous membership claims, no injury row changes. Tests included. Next: authentic transaction source acquisition and evidence hash validation.
 
+## S7.27 — Official transaction source capture
+Added fail-closed one-page official NBA trade tracker acquisition, immutable SHA-256 raw HTML, provisional textual candidates, offline tests. Does not authenticate historical publication or create roster intervals. Await live acquisition results before promoting parsing scope.
+

@@ -1,0 +1,3 @@
+# S7.27 — Official transaction source capture
+
+Source: https://www.nba.com/news/2025-26-nba-trade-tracker. NBA.com identifies the tracker as official trades, but the current fetched HTML and its contents are not evidence of availability at a past prediction timestamp. This milestone captures immutable raw HTML and candidate lines; it does not solve player-ID resolution, dated effective membership, full signings/waivers coverage, or provenance of historical publication. No promotion to S7.26, S7.23, or model training. Next: examine real acquisition output, improve conservative parsing and ID matching with tests, add transaction-specific team releases.

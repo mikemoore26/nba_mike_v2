@@ -209,3 +209,6 @@ Run `python research/p0_s4/s7_25/run_s7_25.py --team NYK --season 2025-26`. Chec
 ## S7.26 handoff
 Run `python research/p0_s4/s7_26/run_s7_26.py`; empty template yields 0 events, training remains blocked. Code in `research/p0_s4/s7_26/run_s7_26.py`; outputs in `results/` are untracked. Input requires stable NBA player IDs, event dates, source URLs, original source SHA256 and timezone-aware timestamps. Chronology events are provisional, not roster intervals. Next S7.27: source capture and authentication; do not promote S7.23 rows.
 
+## S7.27 handoff
+Run `python research/p0_s4/s7_27/run_s7_27.py` and inspect `research/p0_s4/s7_27/results/s7_27_report.json`. HTML saved by SHA in results/objects; CSV contains provisional candidate text, not S7.26-compatible authenticated transactions. No training promotion. Need stable NBA IDs, source-published timestamps and transaction effective dates; do not infer from webpage headings alone.
+
