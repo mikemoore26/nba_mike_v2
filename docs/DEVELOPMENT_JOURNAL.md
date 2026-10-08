@@ -655,3 +655,11 @@ Goal: safely collect distinct official NBA injury report PDFs and rerun S7.14. I
 - Tests: diagnostic-derived coordinate fixtures and neighbor isolation; run full suite locally.
 - Gate: RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.19 — Local injury report publication provenance audit (2026-10-08)
+- Objective: audit independently verifiable historical source availability before as-of modeling.
+- Prior finding: S7.18 matched 475/475 reason strings and 475/475 recognizable status positions, but historical publication time is not established.
+- Implementation: added non-promoting SHA256/PDF-metadata evidence audit and four isolated regression tests.
+- Decision: `RESEARCH_ONLY / BLOCK_TRAINING`; internal PDF metadata, filename timestamps, and current HTTP headers are not historical publication proof.
+- Next: inspect audit outputs, pursue authenticated contemporaneous capture evidence, independently validate team/matchup inherited context.
+

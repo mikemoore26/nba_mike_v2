@@ -177,3 +177,9 @@ S7.16 revealed seven blank reason fields among 20 sampled PDF crops. S7.17 adds 
 ### S7.17.2 handoff
 Reason-recovery code updated for two-line geometry. Run `research/p0_s4/s7_17_2/run_s7_17_2.py`, inspect review-required proposals, compare against PDF crops. Historical as-of publication remains unverified. Do not train.
 
+
+### S7.19 handoff
+- Run `python research/p0_s4/s7_19/run_s7_19.py` and inspect `research/p0_s4/s7_19/results/`.
+- This stage audits the five local source PDFs only; it never promotes records or establishes historical publication time.
+- Gate stays `BLOCK_TRAINING` until independently authenticated contemporaneous public-availability evidence predating prediction cutoffs exists, and contextual assignments are validated.
+
