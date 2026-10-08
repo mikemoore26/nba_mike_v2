@@ -186,3 +186,7 @@ Reason-recovery code updated for two-line geometry. Run `research/p0_s4/s7_17_2/
 ## S7.20 handoff
 New: `src/nba_mike/data/injury_capture.py`, `research/p0_s4/s7_20/run_s7_20.py`, `tests/test_injury_capture_s720.py`, `docs/S7_20_SOURCE_FEASIBILITY.md`. Manual capture accepts only exact official NBA static injury-report PDF URLs and writes raw SHA-256 objects plus append-only UTC event lines. Existing five historical PDFs remain `RESEARCH_ONLY / BLOCK_TRAINING`; prospective retrieval proves local first possession only. Next: validate full identity/matchup associations and investigate independently timestamped historical captures. Do not auto-promote data to as-of eligibility.
 
+
+## S7.21 handoff
+Run `python research/p0_s4/s7_21/run_s7_21.py` and `python -m pytest -q`; inspect `research/p0_s4/s7_21/results/`. Independent coordinate check is not human truth or historical availability. Training blocked.
+

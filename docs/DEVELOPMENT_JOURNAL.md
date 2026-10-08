@@ -666,3 +666,7 @@ Goal: safely collect distinct official NBA injury report PDFs and rerun S7.14. I
 ## S7.20 — Historical source feasibility and prospective capture
 Goal: separate historical publication evidence from future local retrieval evidence. Reviewed official PDF, archived capture, licensed-feed, and prospective-source options. Chose a minimal exact-URL allowlisted capture with SHA-256 objects, append-only UTC event log, and explicit `BLOCK_TRAINING`. Alternative automatic historical backfill was rejected because current retrieval does not prove historical public availability. Tests cover URL validation, hash/bytes preservation, repeat events, and invalid inputs. Remaining: independent publication evidence, clock authentication, durable backups, full player/team/matchup audit, capture scheduling, and per-cutoff eligibility.
 
+
+## S7.21 — Context-coordinate validation
+Added independent PDF-coordinate audit of date, matchup and team provenance for all five reports. Structural results must be measured locally. Gate remains RESEARCH_ONLY / BLOCK_TRAINING.
+

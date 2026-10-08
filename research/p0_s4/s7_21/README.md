@@ -1,0 +1,1 @@
+S7.21: independently checks source PDF lane text at each provenance anchor for date, matchup, team. Run python research/p0_s4/s7_21/run_s7_21.py. Research only; does not verify publication time or promote training.
