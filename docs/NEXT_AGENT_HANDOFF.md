@@ -212,3 +212,7 @@ Run `python research/p0_s4/s7_26/run_s7_26.py`; empty template yields 0 events, 
 ## S7.27 handoff
 Run `python research/p0_s4/s7_27/run_s7_27.py` and inspect `research/p0_s4/s7_27/results/s7_27_report.json`. HTML saved by SHA in results/objects; CSV contains provisional candidate text, not S7.26-compatible authenticated transactions. No training promotion. Need stable NBA IDs, source-published timestamps and transaction effective dates; do not infer from webpage headings alone.
 
+
+## S7.28 handoff
+Run `python research/p0_s4/s7_28/run_s7_28.py` after S7.27. Uses S7.27 raw HTML and CSV. Optional independent `--id-map` CSV. Inspect `research/p0_s4/s7_28/results/s7_28_report.json` and review CSV. No automatic S7.26 export; historical injury as-of availability still unverified. Keep RESEARCH_ONLY/BLOCK_TRAINING.
+

@@ -693,3 +693,7 @@ Added schema-validated, offline dated transaction ledger, ordered event output, 
 ## S7.27 — Official transaction source capture
 Added fail-closed one-page official NBA trade tracker acquisition, immutable SHA-256 raw HTML, provisional textual candidates, offline tests. Does not authenticate historical publication or create roster intervals. Await live acquisition results before promoting parsing scope.
 
+
+## S7.28 — Structured trade tracker review (2026-10-08)
+Goal: convert 80 S7.27 raw text candidates to inspectable date/team/player rows while preserving strict provenance. Selected deterministic parsing with source SHA verification, explicit `(via ...)` origins, optional stable-ID mapping, no fuzzy matches. Outputs are review-only. Tests: 10 new targeted tests. Pending: live project test and real snapshot report. No model training authorization.
+
