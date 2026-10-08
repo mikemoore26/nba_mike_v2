@@ -634,3 +634,10 @@ Next: inspect real-PDF per-page structure and rendered pages, then design narrow
 ## S7.15 — Official PDF source acquisition (2026-10-08)
 Goal: safely collect distinct official NBA injury report PDFs and rerun S7.14. Implemented allowlisted URL manifest, bounded retrieval, hash deduplication, failure logging, provenance ledger, and batch audit. Manifest URLs are candidates, not verified live links. No inference of historical publication time, no training promotion. Verify local full-suite tests and live acquisition results before concluding source coverage.
 
+
+## S7.16 — Independent source-image review packet (research-only)
+- Purpose: move beyond structural self-consistency by generating a deterministic stratified PDF review sample across S7.14 reports.
+- Decision: produce source-PDF crops and a blank, explicit review sheet; never mark unreviewed predictions correct.
+- Limitations: crops do not establish inherited context; manual inspection of original pages required. Candidate-only sampling cannot measure missing player rows. Publication time remains unverified. Training blocked.
+- Acceptance: isolated tests; full-suite verification on user's machine pending.
+

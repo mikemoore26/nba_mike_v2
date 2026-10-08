@@ -162,3 +162,10 @@ Added `src/nba_mike/data/injury_multi_report.py`, `research/p0_s4/s7_14/run_s7_1
 ## S7.15 handoff
 New `src/nba_mike/data/injury_acquire.py`, `research/p0_s4/s7_15/` and `tests/test_injury_acquire_s715.py`. Run acceptance, full pytest, then `python research/p0_s4/s7_15/run_s7_15.py`. Inspect acquisition JSON for actual downloaded URLs, 404s, duplicate hashes, and S7.14 distinct count. Manifest candidate URLs not preverified. Continue RESEARCH_ONLY/BLOCK_TRAINING; never equate download time with historical publication time.
 
+
+### S7.16 handoff
+- Module: `src/nba_mike/data/injury_ground_truth.py`; runner `research/p0_s4/s7_16/run_s7_16.py`.
+- Inputs: S7.14 `input_pdfs/*.pdf` and `results/<sha>.s7_14_candidates.csv`.
+- Outputs: `s7_16_samples.csv`, `s7_16_blind_review.csv`, `GT*.png`, `s7_16_report.json`; grading creates `s7_16_grade.json`.
+- Review sheet deliberately blank. No automated ground truth. No historical publication proof. No as-of training.
+
