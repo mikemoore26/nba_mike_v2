@@ -1,0 +1,476 @@
+record_id,source_sha256,source_page,source_y,player,status,old_reason,proposed_reason,decision,evidence_y_min,evidence_y_max,notes
+79620f48feafb755d5c0,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,132.84,Trey Alexander,OUT,G League - Two-Way,,UNCHANGED,,,
+1d4242c8925116acdfda,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,154.88,Hunter Dickinson,OUT,G League - Two-Way,,UNCHANGED,,,
+cbbb0279d4c3b472fd8e,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,183.94,Bryce McGowens,OUT,,Injury/Illness - Right Small Toe; Fracture,PROPOSED_REVIEW_REQUIRED,170.81,197.06,Geometry proposal; compare to original PDF before approval
+2d59d933a56f3730bcc9,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,212.99,Trey Murphy III,QUESTIONABLE,Injury/Illness - Right Ankle; Sprain,,UNCHANGED,,,
+e4e0837e0c2bf0d79b53,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,242.05,Dejounte Murray,QUESTIONABLE,,Injury/Illness - Right Achilles; Injury Management,PROPOSED_REVIEW_REQUIRED,228.93,255.17,Geometry proposal; compare to original PDF before approval
+524061294ab6d1e184ad,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,271.11,Josh Oduro,OUT,G League - Two-Way,,UNCHANGED,,,
+5359a3c61821191c55a8,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,317.18,Trey Jemison III,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+815734935038cb335dbd,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,339.22,Dillon Jones,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+d8e221debc1bba5cad68,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,368.28,Miles McBride,OUT,,Injury/Illness - Pelvic; Core Muscle Surgery,PROPOSED_REVIEW_REQUIRED,355.15,381.4,Geometry proposal; compare to original PDF before approval
+bd3f30d20aa3c8d1dffb,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,397.34,Kevin McCullar Jr.,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+4ea5f67502a4938bd983,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,426.39,Landry Shamet,OUT,,Injury/Illness - Right Knee; Tibial Plateau Contusion,PROPOSED_REVIEW_REQUIRED,413.27,439.52,Geometry proposal; compare to original PDF before approval
+471bf446622cd335adb0,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,456.45,Pat Connaughton,QUESTIONABLE,Injury/Illness - Illness; Illness,,UNCHANGED,,,
+d798ac0f807873ad25b6,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,478.49,Tosan Evbuomwan,OUT,G League - Two-Way,,UNCHANGED,,,
+3e538f3b4f4899836add,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,1,500.53,PJ Hall,OUT,G League - Two-Way,,UNCHANGED,,,
+7e005251da80406ea425,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,86.51,Antonio Reeves,OUT,G League - Two-Way,,UNCHANGED,,,
+fbb6b3816c8f5eeff417,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,108.54,Tidjane Salaun,OUT,Injury/Illness - Left Calf; Strain,,UNCHANGED,,,
+3d6b1a1b0b5db015cc03,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,131.58,Precious Achiuwa,QUESTIONABLE,Injury/Illness - Lower Back; Soreness,,UNCHANGED,,,
+6052545caf4e7634026a,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,153.62,Nique Clifford,OUT,Injury/Illness - Left Midfoot; Sprain,,UNCHANGED,,,
+e2eb9f1e154c26121e60,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,182.68,Drew Eubanks,OUT,,Injury/Illness - Left Thumb; UCL Repair,PROPOSED_REVIEW_REQUIRED,169.55,195.8,Geometry proposal; compare to original PDF before approval
+4717962339c24535b525,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,218.75,Killian Hayes,QUESTIONABLE,,Injury/Illness - Left Toe; Inflammation,PROPOSED_REVIEW_REQUIRED,205.63,231.88,Geometry proposal; compare to original PDF before approval
+87cc2a83358f81263a24,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,254.83,De'Andre Hunter,OUT,,Injury/Illness - Left Eye; Retinal Repair,PROPOSED_REVIEW_REQUIRED,241.71,267.95,Geometry proposal; compare to original PDF before approval
+e5599a5fcaa94d815cea,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,290.91,Zach LaVine,OUT,,Injury/Illness - Right 5th Finger; Tendon Repair,PROPOSED_REVIEW_REQUIRED,277.78,304.03,Geometry proposal; compare to original PDF before approval
+96f9872a40f2601bbfb5,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,319.96,Keegan Murray,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+eadbd9d7925a9381cd38,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,349.02,Domantas Sabonis,OUT,,Injury/Illness - Left Knee; Meniscus Repair,PROPOSED_REVIEW_REQUIRED,335.9,362.14,Geometry proposal; compare to original PDF before approval
+194ae171e558429ea835,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,385.1,Russell Westbrook,OUT,,Injury/Illness - Right Toe; Joint Irritation,PROPOSED_REVIEW_REQUIRED,371.97,398.22,Geometry proposal; compare to original PDF before approval
+bf2535bc15ba9affb0a0,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,422.17,Anthony Black,OUT,,Injury/Illness - Left Lateral Abdominal; Strain,PROPOSED_REVIEW_REQUIRED,409.05,435.3,Geometry proposal; compare to original PDF before approval
+ceecfef1737ef7fc6b62,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,451.23,Jonathan Isaac,OUT,Injury/Illness - Left Knee; Sprain,,UNCHANGED,,,
+ab620ea51846782df08d,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,473.27,Jalen Suggs,QUESTIONABLE,Injury/Illness - N/A; Illness,,UNCHANGED,,,
+2fcc1a7368c254d66e9a,89e10f3065405ee9dc4781029af6c8cca0ce5c153f3f373ef7ff95ea6dbabd5f,2,502.33,Franz Wagner,OUT,,Injury/Illness - Left High Ankle; Sprain Injury Management,PROPOSED_REVIEW_REQUIRED,489.2,515.45,Geometry proposal; compare to original PDF before approval
+aa75b81520a54a7da913,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,132.84,Bradley Beal,OUT,Injury/Illness - Left Hip; Feature,,UNCHANGED,,,
+0d2dd2d4030d43d37063,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,154.88,Jordan Miller,QUESTIONABLE,Injury/Illness - Back; Soreness,,UNCHANGED,,,
+0762797549c60605224a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,183.94,Yanic Konan Niederhauser,OUT,,Injury/Illness - Right Lisfranc Ligament; Tear,PROPOSED_REVIEW_REQUIRED,170.81,197.06,Geometry proposal; compare to original PDF before approval
+4fc95f9d5a5910886592,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,213.99,Johnny Furphy,OUT,Injury/Illness - Right ACL; Tear,,UNCHANGED,,,
+e4b9e6141a40da797349,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,243.05,Tyrese Haliburton,OUT,,Injury/Illness - Right Achilles Tendon; Tear,PROPOSED_REVIEW_REQUIRED,229.93,256.17,Geometry proposal; compare to original PDF before approval
+7a749a36be10b29a339a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,272.11,Aaron Nesmith,PROBABLE,Injury/Illness - Low Back; Soreness,,UNCHANGED,,,
+5e057efad90cb28bdb0b,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,294.15,Jalen Slawson,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+e6ef9d9aa3235339e0a1,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,316.18,Obi Toppin,QUESTIONABLE,Injury/Illness - Low Back; Soreness,,UNCHANGED,,,
+01abdb3e3f9ffaf15cc5,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,338.22,Ivica Zubac,OUT,Injury/Illness - Rib; Fracture,,UNCHANGED,,,
+b46cf6db0ff7c0f7eb3e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,361.26,RayJ Dennis,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+b5ee43d6743668c2ae15,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,383.3,Keshon Gilbert,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+e4ab02f05859154624f2,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,405.34,Asa Newell,DOUBTFUL,G League - On Assignment,,UNCHANGED,,,
+a70f5576b02d13d3933e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,428.37,Jaylen Brown,QUESTIONABLE,Injury/Illness - Left Calf; Tightness,,UNCHANGED,,,
+46f600964a19de61d424,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,450.41,Neemias Queta,QUESTIONABLE,Injury/Illness - Right Thumb; Sprain,,UNCHANGED,,,
+d77405a74fa8080d5c3e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,479.47,Nikola Vucevic,OUT,,Injury/Illness - Right Ring Finger; Fracture,PROPOSED_REVIEW_REQUIRED,466.34,492.59,Geometry proposal; compare to original PDF before approval
+7d2b155be3dee618c898,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,1,508.53,Derrick White,QUESTIONABLE,Injury/Illness - Right Knee; Contusion,,UNCHANGED,,,
+a0a72daec7bdb81911da,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,87.51,Vladislav Goldin,OUT,G League - Two-Way,,UNCHANGED,,,
+1d45eafcdc90bc05ac1a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,109.54,Jaime Jaquez Jr.,QUESTIONABLE,Injury/Illness - Right Ankle; Sprain,,UNCHANGED,,,
+f4e58366be8246a57da8,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,138.6,Nikola Jovic,AVAILABLE,,Injury/Illness - Low Back; Injury Management,PROPOSED_REVIEW_REQUIRED,125.48,151.73,Geometry proposal; compare to original PDF before approval
+fe0803f332caf485bb3e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,167.66,Trevor Keels,OUT,G League - Two-Way,,UNCHANGED,,,
+c21dfe801ba1648cbe51,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,189.7,Terry Rozier,OUT,Not With Team,,UNCHANGED,,,
+831533d6b5579b449d79,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,218.75,Andrew Wiggins,AVAILABLE,,Injury/Illness - Left Big Toe; Sesamoiditis,PROPOSED_REVIEW_REQUIRED,205.63,231.88,Geometry proposal; compare to original PDF before approval
+db9425b5a6289117be2d,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,247.81,Jahmir Young,OUT,G League - Two-Way,,UNCHANGED,,,
+6ce015e17f93e5ab07be,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,270.85,Jarrett Allen,QUESTIONABLE,Injury/Illness - Right Knee; Tendonitis,,UNCHANGED,,,
+a14be93239a18c242c0e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,292.89,Tristan Enaruna,OUT,G League - Two-Way,,UNCHANGED,,,
+1d26abe017d04d73821a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,314.93,Riley Minix,OUT,G League - Two-Way,,UNCHANGED,,,
+0a07a8bcbfda3d038b86,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,336.96,Craig Porter Jr.,OUT,Injury/Illness - Left Groin; Strain,,UNCHANGED,,,
+8f20e0713e316c203088,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,359.0,Olivier Sarr,OUT,G League - Two-Way,,UNCHANGED,,,
+496bbcf94eb58d3e2b8d,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,388.06,Jaylon Tyson,OUT,,Injury/Illness - Left Great Toe; Bone Bruise,PROPOSED_REVIEW_REQUIRED,374.93,401.18,Geometry proposal; compare to original PDF before approval
+d8fcc197fa756545bfe2,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,417.12,Dean Wade,OUT,Injury/Illness - Right Ankle; Sprain,,UNCHANGED,,,
+ea728ee62487e94d8faa,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,440.15,Zach Collins,OUT,Injury/Illness - Right 1st Toe; Sprain,,UNCHANGED,,,
+a494763048980a46de61,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,469.21,Rob Dillingham,PROBABLE,,Injury/Illness - Bilateral Patella Tendon; Tendonitis,PROPOSED_REVIEW_REQUIRED,456.09,482.34,Geometry proposal; compare to original PDF before approval
+f0118ab26e085054488d,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,2,498.27,Noa Essengue,OUT,Injury/Illness - Left Shoulder; Surgery,,UNCHANGED,,,
+8d96f603e92acae6ef8b,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,93.53,Jaden Ivey,OUT,,Injury/Illness - Left Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,80.4,106.65,Geometry proposal; compare to original PDF before approval
+1ab69cf095f4796e9b74,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,122.58,Yuki Kawamura,OUT,G League - Two-Way,,UNCHANGED,,,
+c2f3d2b4e2885630bfc2,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,144.62,Mac McClung,OUT,G League - Two-Way,,UNCHANGED,,,
+7b41ca5b89f52ce49c4f,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,173.68,Isaac Okoro,PROBABLE,,Injury/Illness - Right Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,160.55,186.8,Geometry proposal; compare to original PDF before approval
+b6798548291b067fd38d,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,202.73,Nick Richards,QUESTIONABLE,Injury/Illness - Right Elbow; Sprain,,UNCHANGED,,,
+fafe419570bcab285710,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,231.79,Anfernee Simons,DOUBTFUL,,Injury/Illness - Left Ulnar Styloid; Fracture,PROPOSED_REVIEW_REQUIRED,218.67,244.92,Geometry proposal; compare to original PDF before approval
+037c7c30c4c54d5e4ebd,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,260.85,Jalen Smith,OUT,Injury/Illness - Right Calf; Strain,,UNCHANGED,,,
+e8d090df4acf07b3f2c7,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,282.89,Guerschon Yabusele,QUESTIONABLE,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+82a6d12e7e282b84c860,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,305.93,Brooks Barnhizer,OUT,G League - Two-Way,,UNCHANGED,,,
+a76046be7e0f9f8a4c7d,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,334.98,Thomas Sorber,OUT,,Injury/Illness - Right ACL; Surgical Recovery,PROPOSED_REVIEW_REQUIRED,321.86,348.11,Geometry proposal; compare to original PDF before approval
+3cb2f77ff02c9a7af246,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,364.04,Nikola Topic,OUT,G League - On Assignment,,UNCHANGED,,,
+85afd1738c38ce80519c,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,387.08,Steven Adams,OUT,Injury/Illness - Left Ankle; Surgery,,UNCHANGED,,,
+d41db1cc534e9a61f76e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,409.12,Tristen Newton,OUT,G League - Two-Way,,UNCHANGED,,,
+df1b1e7e9124894c8dcc,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,431.15,Fred VanVleet,OUT,Injury/Illness - Right Knee; ACL Repair,,UNCHANGED,,,
+9f8398d564c0f3869305,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,461.21,Santi Aldama,OUT,,Injury/Illness - Right Knee; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,448.09,474.34,Geometry proposal; compare to original PDF before approval
+aebec330f2b94828ab6b,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,3,497.29,Kentavious Caldwell-Pope,OUT,,Injury/Illness - Right 5th Finger; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,484.16,510.41,Geometry proposal; compare to original PDF before approval
+e010ce901edc6a4e2b76,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,86.51,Brandon Clarke,OUT,Injury/Illness - Right Calf; Strain,,UNCHANGED,,,
+955e3e2e81de3bdfcc5f,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,115.56,Zach Edey,OUT,,Injury/Illness - Left Ankle and Elbow; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,102.44,128.69,Geometry proposal; compare to original PDF before approval
+53e84f1d6a7464b12a89,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,144.62,Ty Jerome,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+86745cae0d1c2f5643d0,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,173.68,Jahmai Mashack,DOUBTFUL,,"Injury/Illness - Left Ankle; Sprain (Nasal Fracture, Face Mask)",PROPOSED_REVIEW_REQUIRED,160.55,186.8,Geometry proposal; compare to original PDF before approval
+c222001176a5ddf61aba,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,202.73,Ja Morant,OUT,Injury/Illness - Left Elbow; UCL Sprain,,UNCHANGED,,,
+7d2060d6bf2fa432561e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,231.79,Scotty Pippen Jr.,OUT,,Injury/Illness - Right Great Toe; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,218.67,244.92,Geometry proposal; compare to original PDF before approval
+b3d96dcd52295417dc63,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,267.87,Jaylen Wells,OUT,,Injury/Illness - Right Great Toe; Soreness,PROPOSED_REVIEW_REQUIRED,254.74,280.99,Geometry proposal; compare to original PDF before approval
+7242f23f5341de43d079,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,320.96,Chucky Hepburn,OUT,G League - Two-Way,,UNCHANGED,,,
+e5133b9d7875ccb2e068,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,343.0,A.J. Lawson,AVAILABLE,G League - Two-Way,,UNCHANGED,,,
+262ca47b367f705fe130,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,365.04,Alijah Martin,AVAILABLE,G League - Two-Way,,UNCHANGED,,,
+ed061de697319694fdd0,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,394.1,Immanuel Quickley,OUT,,Injury/Illness - Right Foot; Plantar Fasciitis,PROPOSED_REVIEW_REQUIRED,380.97,407.22,Geometry proposal; compare to original PDF before approval
+0596527e7895f92f2f3a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,431.17,Isaiah Collier,OUT,,Injury/Illness - Left Hamstring; Injury management,PROPOSED_REVIEW_REQUIRED,418.05,444.3,Geometry proposal; compare to original PDF before approval
+7f106cd101dcaffcfa8a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,460.23,Kyle Filipowski,PROBABLE,Injury/Illness - N/A; Illness,,UNCHANGED,,,
+d33b957ba7cc5fbead46,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,4,489.29,Keyonte George,OUT,,Injury/Illness - Right Hamstring; Strain,PROPOSED_REVIEW_REQUIRED,476.16,502.41,Geometry proposal; compare to original PDF before approval
+240576ffdb7d5650cfc3,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,86.51,Blake Hinson,OUT,G League - Two-Way,,UNCHANGED,,,
+668ebd08575fba8d1615,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,115.56,Jaren Jackson Jr.,OUT,,Injury/Illness - Left Knee; Injury recovery,PROPOSED_REVIEW_REQUIRED,102.44,128.69,Geometry proposal; compare to original PDF before approval
+ac6f529d070a8f3bbc9a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,151.64,Walker Kessler,OUT,,Injury/Illness - Left Shoulder; Injury recovery,PROPOSED_REVIEW_REQUIRED,138.52,164.76,Geometry proposal; compare to original PDF before approval
+0c695267f93e047e544e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,187.72,Lauri Markkanen,OUT,,Injury/Illness - Right Hip; Impingement,PROPOSED_REVIEW_REQUIRED,174.59,200.84,Geometry proposal; compare to original PDF before approval
+ff88ad49bd2691717a44,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,216.77,Jusuf Nurkic,OUT,Injury/Illness - Nose; Injury recovery,,UNCHANGED,,,
+144811b12a83d55b4a16,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,239.81,David Roddy,OUT,G League - Two-Way,,UNCHANGED,,,
+163812a35acb296a458c,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,261.85,KJ Simpson,OUT,G League - Two-Way,,UNCHANGED,,,
+091d681c49eb7dc89ab9,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,284.89,Moussa Cisse,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+ed0e803b575adcc3038f,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,306.93,Daniel Gafford,OUT,Injury/Illness - Right Shoulder; Sprain,,UNCHANGED,,,
+ea57740be5178bf3415a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,328.96,Kyrie Irving,OUT,Injury/Illness - Left Knee; Surgery,,UNCHANGED,,,
+2306eaf3f44af5cdc5fc,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,351.0,Dereck Lively II,OUT,Injury/Illness - Right Foot; Surgery,,UNCHANGED,,,
+9ed5f513c77f3f697e22,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,380.06,Caleb Martin,OUT,,Injury/Illness - Right Plantar Fascia; Strain,PROPOSED_REVIEW_REQUIRED,366.93,393.18,Geometry proposal; compare to original PDF before approval
+c3e051f3722f9f35fc83,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,409.12,John Poulakidas,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+7b2fd90bd3be83beb0a0,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,431.15,Tyler Smith,PROBABLE,G League - Two-Way,,UNCHANGED,,,
+62ffbec08d000cc45306,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,454.19,Jayson Kent,OUT,G League - Two-Way,,UNCHANGED,,,
+5e24744ba55c94983111,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,476.23,Vit Krejci,DOUBTFUL,Injury/Illness - Left Calf; Contusion,,UNCHANGED,,,
+c88c1458c3b8dc994ee1,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,5,498.27,Damian Lillard,OUT,Injury/Illness - Left Achilles Tendon;,,UNCHANGED,,,
+9406c34e1a6673b34033,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,113.56,Shaedon Sharpe,OUT,,Injury/Illness - Left Fibula; Stress Reaction,PROPOSED_REVIEW_REQUIRED,100.44,126.69,Geometry proposal; compare to original PDF before approval
+340593027edace00bb34,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,149.64,Robert Williams III,QUESTIONABLE,,Injury/Illness - Left Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,136.52,162.76,Geometry proposal; compare to original PDF before approval
+f098f762f2c7807e6872,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,178.7,Hansen Yang,OUT,G League - On Assignment,,UNCHANGED,,,
+6ef382dbe0a68deedd73,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,200.73,Chris Youngblood,OUT,G League - Two-Way,,UNCHANGED,,,
+8f9cf68bd16cf22b0558,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,230.79,Bilal Coulibaly,QUESTIONABLE,,Injury/Illness - Right Retrocalcaneal; Bursitis,PROPOSED_REVIEW_REQUIRED,217.67,243.92,Geometry proposal; compare to original PDF before approval
+502de7b8ef852f16f94a,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,259.85,Anthony Davis,OUT,Injury/Illness - Left Finger; Sprain,,UNCHANGED,,,
+65118e46469ab6ad33d7,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,281.89,Kyshawn George,OUT,Injury/Illness - Left Elbow; Sprain,,UNCHANGED,,,
+ac0e4cd8319daaae4ad2,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,303.93,Tre Johnson,QUESTIONABLE,Injury/Illness - Right Foot; Sprain,,UNCHANGED,,,
+6182faeffd0cdf4a4a87,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,325.96,D'Angelo Russell,OUT,Not With Team,,UNCHANGED,,,
+35db2ce1b81462e1d03b,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,348.0,Alex Sarr,QUESTIONABLE,Injury/Illness - Left Big Toe; Capsulitis,,UNCHANGED,,,
+c9294d97394ad88490a6,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,370.04,Tristan Vukcevic,QUESTIONABLE,Injury/Illness - Low Back; Tightness,,UNCHANGED,,,
+0346e9f667e76afd80ce,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,399.1,Cam Whitmore,OUT,,Injury/Illness - Right Shoulder; Deep Vein Thrombosis,PROPOSED_REVIEW_REQUIRED,385.97,412.22,Geometry proposal; compare to original PDF before approval
+18e8945f9d5e0e5619d5,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,435.17,Trae Young,OUT,,Injury/Illness - Low Back; Pain; Right Quad Contusion,PROPOSED_REVIEW_REQUIRED,422.05,448.3,Geometry proposal; compare to original PDF before approval
+b25d5d3d8e9459321f1e,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,465.23,Jimmy Butler III,OUT,Injury/Illness - Right ACL; Surgery,,UNCHANGED,,,
+9be17c6c4cbb7e060420,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,487.27,Seth Curry,OUT,Injury/Illness - Left Adductor; Strain,,UNCHANGED,,,
+ee14329844aaa7c737c5,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,6,509.31,Stephen Curry,OUT,Injury/Illness - Right Patellofemoral;,,UNCHANGED,,,
+efb6c8e87441eff68ed1,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,106.54,Al Horford,OUT,Injury/Illness - Right Soleus; Strain,,UNCHANGED,,,
+ad2b2cf09984169ecdea,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,135.6,Moses Moody,OUT,,Injury/Illness - Left Patellar Tendon; Rupture,PROPOSED_REVIEW_REQUIRED,122.48,148.73,Geometry proposal; compare to original PDF before approval
+51ce84caff2f72bf6388,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,171.68,Quinten Post,OUT,,Injury/Illness - Right Foot; Injury Management,PROPOSED_REVIEW_REQUIRED,158.55,184.8,Geometry proposal; compare to original PDF before approval
+67f624cd094573008585,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,201.73,Noah Clowney,PROBABLE,Injury/Illness - Right Wrist; Sprain,,UNCHANGED,,,
+3d39cf7cd9d7780104bf,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,230.79,Egor Demin,OUT,,Injury/Illness - Left Plantar Fascia; Injury Management,PROPOSED_REVIEW_REQUIRED,217.67,243.92,Geometry proposal; compare to original PDF before approval
+3246ff12a40d49441ead,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,259.85,Michael Porter Jr.,OUT,Injury/Illness - Left Hamstring; Strain,,UNCHANGED,,,
+511350d347600547d9d9,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,281.89,Day'Ron Sharpe,OUT,Injury/Illness - Left Thumb; Surgery,,UNCHANGED,,,
+9958a7bc8eec85198cf3,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,303.93,Danny Wolf,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+e484058406280d4cb30b,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,333.98,Luka Doncic,QUESTIONABLE,,Injury/Illness - Left Hamstring; Soreness,PROPOSED_REVIEW_REQUIRED,320.86,347.11,Geometry proposal; compare to original PDF before approval
+348e1f5e99b2e9e54918,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,370.06,Rui Hachimura,QUESTIONABLE,,Injury/Illness - Right Calf; Injury Management,PROPOSED_REVIEW_REQUIRED,356.93,383.18,Geometry proposal; compare to original PDF before approval
+a1f5a13a1aed3de47874,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,399.12,Marcus Smart,OUT,Injury/Illness - Right Ankle; Contusion,,UNCHANGED,,,
+5d6a76f34581052c00c0,934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e,7,421.15,Adou Thiero,OUT,Injury/Illness - Left Knee; Soreness,,UNCHANGED,,,
+724128d9b4f03059411a,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,132.84,Harrison Ingram,OUT,G League - Two-Way,,UNCHANGED,,,
+dfc71826a86a8d7e9ea1,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,154.88,David Jones Garcia,OUT,G League - Two-Way,,UNCHANGED,,,
+b352a935db00928544fd,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,176.92,Emanuel Miller,OUT,G League - Two-Way,,UNCHANGED,,,
+bd16252cfe640500f12e,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,199.95,Alex Antetokounmpo,OUT,G League - Two-Way,,UNCHANGED,,,
+bdef0b0df96d93c1b35f,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,229.01,Giannis Antetokounmpo,OUT,,Injury/Illness - Left Knee; Hyperextension; Bone Bruise,PROPOSED_REVIEW_REQUIRED,215.89,242.14,Geometry proposal; compare to original PDF before approval
+e2d0ed819565c1e4ec24,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,258.07,Gary Harris,QUESTIONABLE,Injury/Illness - Left Groin; Contusion,,UNCHANGED,,,
+e2f12ab7a0dc1e6d3179,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,287.13,Kyle Kuzma,QUESTIONABLE,,Injury/Illness - Right Achilles; Tendinopathy,PROPOSED_REVIEW_REQUIRED,274.0,300.25,Geometry proposal; compare to original PDF before approval
+24e9cb4b8a43b96900fd,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,316.18,Kevin Porter Jr.,OUT,Injury/Illness - Right Knee; Synovitis,,UNCHANGED,,,
+d3aa3076398c8920ad4f,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,338.22,Bobby Portis,QUESTIONABLE,Injury/Illness - Left Wrist; Sprain,,UNCHANGED,,,
+a4c8775ee9a4079c97a9,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,360.26,Myles Turner,QUESTIONABLE,Injury/Illness - Right Calf; Soreness,,UNCHANGED,,,
+859184d45d45cb87187a,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,390.32,Cade Cunningham,OUT,,Injury/Illness - Left Lung; Pneumothorax,PROPOSED_REVIEW_REQUIRED,377.19,403.44,Geometry proposal; compare to original PDF before approval
+cb40e7e3f5660ab76b67,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,426.39,Jalen Duren,QUESTIONABLE,,Injury/Illness - Right Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,413.27,439.52,Geometry proposal; compare to original PDF before approval
+1fc6c666bbe3ef1d92c9,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,455.45,Tobias Harris,QUESTIONABLE,Injury/Illness - Left Hip; Soreness,,UNCHANGED,,,
+1a2154daf5c6185282dd,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,477.49,Isaac Jones,OUT,G League - Two-Way,,UNCHANGED,,,
+51214a424a8b4740d75a,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,1,499.53,Bobi Klintman,OUT,G League - On Assignment,,UNCHANGED,,,
+dce4f81a5f9051e0ef64,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,93.53,Caris LeVert,PROBABLE,,Injury/Illness - Right Knee; Tendinopathy,PROPOSED_REVIEW_REQUIRED,80.4,106.65,Geometry proposal; compare to original PDF before approval
+a0f1d1e6e146518f81cd,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,122.58,Wendell Moore Jr.,OUT,G League - Two-Way,,UNCHANGED,,,
+81b513d5ad840a2baa19,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,144.62,Duncan Robinson,QUESTIONABLE,Injury/Illness - Right Hip; Strain,,UNCHANGED,,,
+347c962b6c7cf2c8ccfd,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,166.66,Marcus Sasser,PROBABLE,Injury/Illness - Right Hip; Strain,,UNCHANGED,,,
+c7387afab9fed8b2ec4b,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,188.7,Isaiah Stewart,OUT,Injury/Illness - Left Calf; Strain,,UNCHANGED,,,
+5fa4c14a44b6a7f97ef9,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,217.75,Ausar Thompson,QUESTIONABLE,,Injury/Illness - Right Ankle; Injury management,PROPOSED_REVIEW_REQUIRED,204.63,230.88,Geometry proposal; compare to original PDF before approval
+096db161a33e6a71b16c,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,247.81,Ayo Dosunmu,QUESTIONABLE,Injury/Illness - Right Calf; Soreness,,UNCHANGED,,,
+fc90ef7da4ce4cb0789f,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,276.87,Anthony Edwards,OUT,,Injury/Illness - Right Knee; Patellofemoral Pain Syndrome,PROPOSED_REVIEW_REQUIRED,263.74,289.99,Geometry proposal; compare to original PDF before approval
+3320583d228137c86eb8,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,305.93,Enrique Freeman,OUT,G League - Two-Way,,UNCHANGED,,,
+ee6569a461fdb9aa81fa,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,327.96,Jaden McDaniels,OUT,Injury/Illness - Right Knee; Soreness,,UNCHANGED,,,
+10322084efb0db806b50,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,350.0,Zyon Pullin,OUT,G League - Two-Way,,UNCHANGED,,,
+53f0cb9b73fe2acc0bcb,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,372.04,Rocco Zikarsky,OUT,G League - Two-Way,,UNCHANGED,,,
+4cf1b97b6b3d6380cbac,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,402.1,Johni Broome,OUT,,Injury/Illness - Right Knee; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,388.97,415.22,Geometry proposal; compare to original PDF before approval
+84ee04469356fe65a436,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,438.17,Tyrese Maxey,QUESTIONABLE,,Injury/Illness - Right Finger; Tendon Strain,PROPOSED_REVIEW_REQUIRED,425.05,451.3,Geometry proposal; compare to original PDF before approval
+ca850b40ef0b2cfec0d2,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,467.23,Kelly Oubre Jr.,QUESTIONABLE,Injury/Illness - Left Elbow; Sprain,,UNCHANGED,,,
+c732d50b0b0acf01a29a,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,2,490.27,Tosan Evbuomwan,OUT,G League - Two-Way,,UNCHANGED,,,
+419d227ee22a4432ddaa,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,86.51,PJ Hall,OUT,G League - Two-Way,,UNCHANGED,,,
+cbeccdd87cccddccdcef,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,108.54,Liam McNeeley,OUT,G League - On Assignment,,UNCHANGED,,,
+b031a2a37c01dff84a8c,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,130.58,Antonio Reeves,OUT,G League - Two-Way,,UNCHANGED,,,
+280a42a6645eb3f753a3,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,152.62,Tidjane Salaun,OUT,Injury/Illness - Left Calf; Strain,,UNCHANGED,,,
+8894aeeb1c33dab32fbf,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,175.66,Nique Clifford,QUESTIONABLE,Injury/Illness - Left Mid-foot; Sprain,,UNCHANGED,,,
+6b5154cdb4bdc9313df0,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,204.72,Drew Eubanks,OUT,,Injury/Illness - Left Thumb; UCL Repair,PROPOSED_REVIEW_REQUIRED,191.59,217.84,Geometry proposal; compare to original PDF before approval
+2632489a4a15d94755a9,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,233.77,Killian Hayes,QUESTIONABLE,Injury/Illness - Left Finger; Soreness,,UNCHANGED,,,
+3a44dd475fde4494e29a,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,255.81,De'Andre Hunter,OUT,Injury/Illness - Left Eye; Retinal repair,,UNCHANGED,,,
+6d6470c6aadfbe6763ed,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,284.87,Zach LaVine,OUT,,Injury/Illness - Right 5th Finger; Tendon Repair,PROPOSED_REVIEW_REQUIRED,271.74,297.99,Geometry proposal; compare to original PDF before approval
+a8c65476a154b41aea04,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,313.93,Keegan Murray,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+66b8c5d15b6b77e697a3,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,342.98,Domantas Sabonis,OUT,,Injury/Illness - Left Knee; Meniscus repair,PROPOSED_REVIEW_REQUIRED,329.86,356.11,Geometry proposal; compare to original PDF before approval
+698b831d70b677f40058,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,372.04,Isaiah Stevens,OUT,G League - Two-Way,,UNCHANGED,,,
+d51e38f407104dc5a027,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,3,401.1,Russell Westbrook,OUT,,Injury/Illness - Right Toe; Injury Management,PROPOSED_REVIEW_REQUIRED,387.97,414.22,Geometry proposal; compare to original PDF before approval
+34da4e4aaff272a06f39,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,4,87.51,Dillon Brooks,OUT,Injury/Illness - Left Hand; Fracture,,UNCHANGED,,,
+424bb52af60b0265d6b5,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,4,109.54,Amir Coffey,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+ac2c17ae4f6b89433a3a,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,4,138.6,Haywood Highsmith,OUT,,Injury/Illness - Right Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,125.48,151.73,Geometry proposal; compare to original PDF before approval
+42f12b4cf7cf91849b53,c858e015418a259ef3e4f83f3daa6906c0531f224996963e6f7ea8fba7d132ac,4,174.68,Mark Williams,OUT,,Injury/Illness - Left Foot Third Metatarsal; Stress Reaction,PROPOSED_REVIEW_REQUIRED,161.55,187.8,Geometry proposal; compare to original PDF before approval
+33301e423e3cbe7229c0,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,132.84,Bradley Beal,OUT,Injury/Illness - Left Hip; Feature,,UNCHANGED,,,
+519ca417dd7763ed9477,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,154.88,Jordan Miller,AVAILABLE,Injury/Illness - Back; Soreness,,UNCHANGED,,,
+387d0bf32e12d8afd975,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,183.94,Yanic Konan Niederhauser,OUT,,Injury/Illness - Right Lisfranc Ligament; Tear,PROPOSED_REVIEW_REQUIRED,170.81,197.06,Geometry proposal; compare to original PDF before approval
+4a3bde4bce609827cbc3,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,213.99,Johnny Furphy,OUT,Injury/Illness - Right ACL; Tear,,UNCHANGED,,,
+10cd18809a18fe5a7acf,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,243.05,Tyrese Haliburton,OUT,,Injury/Illness - Right Achilles Tendon; Tear,PROPOSED_REVIEW_REQUIRED,229.93,256.17,Geometry proposal; compare to original PDF before approval
+524ee1963d319d1b507a,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,272.11,Aaron Nesmith,PROBABLE,Injury/Illness - Low Back; Soreness,,UNCHANGED,,,
+9b318ff394f48ff56f10,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,294.15,Jalen Slawson,PROBABLE,G League - Two-Way,,UNCHANGED,,,
+4bdc1f81a27e35e6f08d,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,316.18,Obi Toppin,QUESTIONABLE,Injury/Illness - Low Back; Soreness,,UNCHANGED,,,
+8b432da13c6098dd18c7,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,338.22,Ivica Zubac,OUT,Injury/Illness - Rib; Fracture,,UNCHANGED,,,
+349c81801b375a3cb990,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,361.26,RayJ Dennis,OUT,G League - Two-Way,,UNCHANGED,,,
+e4eede06f786b949fcf4,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,383.3,Keshon Gilbert,OUT,G League - Two-Way,,UNCHANGED,,,
+03a217249eed45ad8127,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,412.35,Jock Landale,QUESTIONABLE,,Injury/Illness - Right Shoulder; Impingement,PROPOSED_REVIEW_REQUIRED,399.23,425.48,Geometry proposal; compare to original PDF before approval
+6e046e16fef0314ce52e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,441.41,Asa Newell,OUT,G League - On Assignment,,UNCHANGED,,,
+7813abdcd7f6e23ee14a,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,471.47,Jaylen Brown,OUT,,Injury/Illness - Left Achilles; Tendinitis,PROPOSED_REVIEW_REQUIRED,458.34,484.59,Geometry proposal; compare to original PDF before approval
+e9b12fe297e2e56e11dc,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,1,500.53,Neemias Queta,AVAILABLE,Injury/Illness - Right Thumb; Sprain,,UNCHANGED,,,
+c6ae8de7e87819584d40,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,93.53,Nikola Vucevic,OUT,,Injury/Illness - Right Ring Finger; Fracture,PROPOSED_REVIEW_REQUIRED,80.4,106.65,Geometry proposal; compare to original PDF before approval
+d9691eef321a427ccab8,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,122.58,Derrick White,AVAILABLE,Injury/Illness - Right Knee; Contusion,,UNCHANGED,,,
+9447451a5ef0db8283a7,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,145.62,Vladislav Goldin,OUT,G League - Two-Way,,UNCHANGED,,,
+caa5e11a88dd6298c1b8,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,167.66,Jaime Jaquez Jr.,PROBABLE,Injury/Illness - Right Ankle; Sprain,,UNCHANGED,,,
+c07e429845357844f975,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,196.72,Nikola Jovic,AVAILABLE,,Injury/Illness - Low Back; Injury Management,PROPOSED_REVIEW_REQUIRED,183.59,209.84,Geometry proposal; compare to original PDF before approval
+5fa50e59833d6f60fdbc,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,225.77,Trevor Keels,OUT,G League - Two-Way,,UNCHANGED,,,
+55e22f2fe9bed2ddea4e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,247.81,Terry Rozier,OUT,Not With Team,,UNCHANGED,,,
+98beb556769116e77a20,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,276.87,Andrew Wiggins,AVAILABLE,,Injury/Illness - Left Big Toe; Sesamoiditis,PROPOSED_REVIEW_REQUIRED,263.74,289.99,Geometry proposal; compare to original PDF before approval
+ca50ac12594ea618db07,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,305.93,Jahmir Young,OUT,G League - Two-Way,,UNCHANGED,,,
+2bf50a29183084089a74,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,328.96,Jarrett Allen,PROBABLE,Injury/Illness - Right Knee; Tendonitis,,UNCHANGED,,,
+3619256a1929e05889f9,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,351.0,Tristan Enaruna,OUT,G League - Two-Way,,UNCHANGED,,,
+a70b205f0526b0583453,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,373.04,Riley Minix,PROBABLE,G League - Two-Way,,UNCHANGED,,,
+3f54f942658ae37805d7,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,395.08,Craig Porter Jr.,OUT,Injury/Illness - Left Groin; Strain,,UNCHANGED,,,
+7c199a085f0314ab3d56,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,417.12,Olivier Sarr,PROBABLE,G League - Two-Way,,UNCHANGED,,,
+9b3f48045e7b314cff16,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,446.17,Jaylon Tyson,OUT,,Injury/Illness - Left Great Toe; Bone Bruise,PROPOSED_REVIEW_REQUIRED,433.05,459.3,Geometry proposal; compare to original PDF before approval
+440b549520de32a34d6a,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,475.23,Dean Wade,OUT,Injury/Illness - Right Ankle; Sprain,,UNCHANGED,,,
+0c54aa89ab1f99960ea1,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,2,498.27,Zach Collins,OUT,Injury/Illness - Right 1st Toe; Sprain,,UNCHANGED,,,
+26bab604411ecadb1969,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,93.53,Rob Dillingham,PROBABLE,,Injury/Illness - Bilateral Patella Tendon; Tendonitis,PROPOSED_REVIEW_REQUIRED,80.4,106.65,Geometry proposal; compare to original PDF before approval
+6638181e6a553c269dad,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,122.58,Noa Essengue,OUT,Injury/Illness - Left Shoulder; Surgery,,UNCHANGED,,,
+f5b4a4073d87481d1935,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,151.64,Jaden Ivey,OUT,,Injury/Illness - Left Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,138.52,164.76,Geometry proposal; compare to original PDF before approval
+eca1ba3f87351587a9d0,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,180.7,Yuki Kawamura,OUT,G League - Two-Way,,UNCHANGED,,,
+002d631e54df888e8e40,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,202.73,Mac McClung,OUT,G League - Two-Way,,UNCHANGED,,,
+58fc3482e22366653ce5,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,231.79,Isaac Okoro,PROBABLE,,Injury/Illness - Right Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,218.67,244.92,Geometry proposal; compare to original PDF before approval
+4f338efbb30748913e81,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,260.85,Nick Richards,QUESTIONABLE,Injury/Illness - Right Elbow; Sprain,,UNCHANGED,,,
+31d4434d78ad43d34158,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,289.91,Anfernee Simons,OUT,,Injury/Illness - Left Ulnar Styloid; Fracture,PROPOSED_REVIEW_REQUIRED,276.78,303.03,Geometry proposal; compare to original PDF before approval
+cded6a31b1c99d2deabb,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,318.96,Jalen Smith,OUT,Injury/Illness - Right Calf; Strain,,UNCHANGED,,,
+2bfca673f17b86103f03,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,341.0,Guerschon Yabusele,QUESTIONABLE,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+8b7f540da8c52bed055d,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,364.04,Brooks Barnhizer,OUT,G League - Two-Way,,UNCHANGED,,,
+34fc0a97a800a820fe18,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,386.08,Chet Holmgren,OUT,Injury/Illness - Right Hip; Contusion,,UNCHANGED,,,
+fbb439474a1cefe99427,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,415.13,Thomas Sorber,OUT,,Injury/Illness - Right ACL; Surgical Recovery,PROPOSED_REVIEW_REQUIRED,402.01,428.26,Geometry proposal; compare to original PDF before approval
+ad1077c77b43d3089843,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,444.19,Nikola Topic,OUT,G League - On Assignment,,UNCHANGED,,,
+814b058f0260c11b4fc4,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,467.23,Steven Adams,OUT,Injury/Illness - Left Ankle; Surgery,,UNCHANGED,,,
+702b3682dc1550e6ec22,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,3,489.27,Tristen Newton,OUT,G League - Two-Way,,UNCHANGED,,,
+e0d3e2f8f06b5cc8f905,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,86.51,Fred VanVleet,OUT,Injury/Illness - Right Knee; ACL Repair,,UNCHANGED,,,
+96886f2c1ad4c5bc9fa4,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,116.56,Santi Aldama,OUT,,Injury/Illness - Right Knee; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,103.44,129.69,Geometry proposal; compare to original PDF before approval
+50a15871e4f0f83e971a,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,152.64,Kentavious Caldwell-Pope,OUT,,Injury/Illness - Right 5th Finger; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,139.52,165.76,Geometry proposal; compare to original PDF before approval
+2763bf215ec7fb2bdb37,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,181.7,Brandon Clarke,OUT,Injury/Illness - Right Calf; Strain,,UNCHANGED,,,
+073cd2549261dcec04fe,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,210.75,Zach Edey,OUT,,Injury/Illness - Left Ankle and Elbow; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,197.63,223.88,Geometry proposal; compare to original PDF before approval
+bf9374ba9cc223a6f627,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,239.81,Ty Jerome,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+6509f6f86f038c84cad4,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,268.87,Jahmai Mashack,DOUBTFUL,,"Injury/Illness - Left Ankle; Sprain (Nasal Fracture, Face Mask)",PROPOSED_REVIEW_REQUIRED,255.74,281.99,Geometry proposal; compare to original PDF before approval
+af4be07fde236a03e79e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,297.93,Ja Morant,OUT,Injury/Illness - Left Elbow; UCL Sprain,,UNCHANGED,,,
+c02095dc14ec00f9835b,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,326.98,Scotty Pippen Jr.,OUT,,Injury/Illness - Right Great Toe; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,313.86,340.11,Geometry proposal; compare to original PDF before approval
+542c99d58dcf8380703f,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,363.06,Jaylen Wells,OUT,,Injury/Illness - Right Great Toe; Soreness,PROPOSED_REVIEW_REQUIRED,349.93,376.18,Geometry proposal; compare to original PDF before approval
+3118b6bf02587879d948,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,393.12,Trey Alexander,OUT,G League - Two-Way,,UNCHANGED,,,
+42d65af25940d6df9b2f,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,415.15,Hunter Dickinson,OUT,G League - Two-Way,,UNCHANGED,,,
+a33fad64953a97bfde85,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,444.21,Bryce McGowens,OUT,,Injury/Illness - Right Small Toe; Fracture,PROPOSED_REVIEW_REQUIRED,431.09,457.34,Geometry proposal; compare to original PDF before approval
+a47c79ad2e48929b8107,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,473.27,Trey Murphy III,OUT,Injury/Illness - Right Ankle; Sprain,,UNCHANGED,,,
+581e24f18d7c5be3ac99,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,4,502.33,Dejounte Murray,OUT,,Injury/Illness - Right Achilles; Injury Management,PROPOSED_REVIEW_REQUIRED,489.2,515.45,Geometry proposal; compare to original PDF before approval
+0d217d105bdfec9e45e6,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,86.51,Josh Oduro,OUT,G League - Two-Way,,UNCHANGED,,,
+fc7f14c9f48b21fa8b7d,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,109.54,Chucky Hepburn,OUT,G League - Two-Way,,UNCHANGED,,,
+d4a302477624dbe9c0c2,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,131.58,A.J. Lawson,AVAILABLE,G League - Two-Way,,UNCHANGED,,,
+a23b7effedb460b711b7,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,153.62,Alijah Martin,AVAILABLE,G League - Two-Way,,UNCHANGED,,,
+6c4ab55b239edd89ee25,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,182.68,Immanuel Quickley,OUT,,Injury/Illness - Right Foot; Plantar Fasciitis,PROPOSED_REVIEW_REQUIRED,169.55,195.8,Geometry proposal; compare to original PDF before approval
+29b5021921046f28c7ea,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,219.75,Isaiah Collier,OUT,,Injury/Illness - Left Hamstring; Injury management,PROPOSED_REVIEW_REQUIRED,206.63,232.88,Geometry proposal; compare to original PDF before approval
+735350c8ea4fda2241d2,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,248.81,Kyle Filipowski,AVAILABLE,Injury/Illness - N/A; Illness,,UNCHANGED,,,
+40db86fc60b73c4ae093,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,277.87,Keyonte George,OUT,,Injury/Illness - Right Hamstring; Strain,PROPOSED_REVIEW_REQUIRED,264.74,290.99,Geometry proposal; compare to original PDF before approval
+9fd85f87b88e62b264c6,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,306.93,Blake Hinson,OUT,G League - Two-Way,,UNCHANGED,,,
+19b340b19192c4f7c395,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,335.98,Jaren Jackson Jr.,OUT,,Injury/Illness - Left Knee; Injury recovery,PROPOSED_REVIEW_REQUIRED,322.86,349.11,Geometry proposal; compare to original PDF before approval
+7afc1639b72186943644,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,372.06,Walker Kessler,OUT,,Injury/Illness - Left Shoulder; Injury recovery,PROPOSED_REVIEW_REQUIRED,358.93,385.18,Geometry proposal; compare to original PDF before approval
+9e3f6e0c90a656fd8745,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,408.13,Lauri Markkanen,OUT,,Injury/Illness - Right Hip; Impingement,PROPOSED_REVIEW_REQUIRED,395.01,421.26,Geometry proposal; compare to original PDF before approval
+8b76c28e51a1155075c2,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,437.19,Jusuf Nurkic,OUT,Injury/Illness - Nose; Injury recovery,,UNCHANGED,,,
+67dd0dfdfa82190fedbd,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,460.23,David Roddy,OUT,G League - Two-Way,,UNCHANGED,,,
+4d6d015b3302f6121bfb,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,482.27,KJ Simpson,OUT,G League - Two-Way,,UNCHANGED,,,
+73e09750ca5c716484ce,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,5,505.31,Moussa Cisse,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+63a3eb5977016bfdc382,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,86.51,Daniel Gafford,OUT,Injury/Illness - Right Shoulder; Sprain,,UNCHANGED,,,
+8d6986af3804b5f9beb6,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,108.54,Kyrie Irving,OUT,Injury/Illness - Left Knee; Surgery,,UNCHANGED,,,
+d5d9d2a936fcdcdac228,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,130.58,Dereck Lively II,OUT,Injury/Illness - Right Foot; Surgery,,UNCHANGED,,,
+2fb0e72a931d89000870,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,159.64,Caleb Martin,OUT,,Injury/Illness - Right Plantar Fascia; Strain,PROPOSED_REVIEW_REQUIRED,146.52,172.76,Geometry proposal; compare to original PDF before approval
+95cf4c4da78e1e7f4fea,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,188.7,John Poulakidas,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+58b3c3cb84c5b2bb2e3f,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,210.73,Tyler Smith,PROBABLE,G League - Two-Way,,UNCHANGED,,,
+375022fce9cc99b11f63,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,233.77,Jayson Kent,OUT,G League - Two-Way,,UNCHANGED,,,
+4244f6f285d111d0ea24,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,255.81,Vit Krejci,DOUBTFUL,Injury/Illness - Left Calf; Contusion,,UNCHANGED,,,
+94d9667180d37eddbbae,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,284.87,Damian Lillard,OUT,,Injury/Illness - Left Achilles Tendon; Injury Management,PROPOSED_REVIEW_REQUIRED,271.74,297.99,Geometry proposal; compare to original PDF before approval
+4f3b25deed674603e6c2,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,320.94,Shaedon Sharpe,OUT,,Injury/Illness - Left Fibula; Stress Reaction,PROPOSED_REVIEW_REQUIRED,307.82,334.07,Geometry proposal; compare to original PDF before approval
+df3c54f1176b9eb3d51e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,357.02,Robert Williams III,QUESTIONABLE,,Injury/Illness - Left Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,343.9,370.14,Geometry proposal; compare to original PDF before approval
+8dda171d1ee5a50889ee,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,386.08,Hansen Yang,OUT,G League - On Assignment,,UNCHANGED,,,
+96da58b174de6dcf4b4e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,408.12,Chris Youngblood,OUT,G League - Two-Way,,UNCHANGED,,,
+0c6d665855c45ae3f8bc,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,438.17,Bilal Coulibaly,AVAILABLE,,Injury/Illness - Right Retrocalcaneal; Bursitis,PROPOSED_REVIEW_REQUIRED,425.05,451.3,Geometry proposal; compare to original PDF before approval
+a0349c9ed8325c34e474,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,467.23,Anthony Davis,OUT,Injury/Illness - Left Finger; Sprain,,UNCHANGED,,,
+fefeabcdfb216d4cef75,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,6,489.27,Kyshawn George,OUT,Injury/Illness - Left Elbow; Sprain,,UNCHANGED,,,
+3b06a1bee753873da6d2,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,86.51,Tre Johnson,AVAILABLE,Injury/Illness - Right Foot; Sprain,,UNCHANGED,,,
+52d709f0ad2dde17fcde,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,108.54,D'Angelo Russell,OUT,Not With Team,,UNCHANGED,,,
+4194045cfa526c878241,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,130.58,Alex Sarr,AVAILABLE,Injury/Illness - Left Big Toe; Capsulitis,,UNCHANGED,,,
+5eb040268c62fbe9b50d,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,152.62,Tristan Vukcevic,AVAILABLE,Injury/Illness - Low Back; Tightness,,UNCHANGED,,,
+9d59d715ce7aca353cb5,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,181.68,Cam Whitmore,OUT,,Injury/Illness - Right Shoulder; Deep Vein Thrombosis,PROPOSED_REVIEW_REQUIRED,168.55,194.8,Geometry proposal; compare to original PDF before approval
+9089c7d3e2990ea40cc1,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,217.75,Trae Young,OUT,,Injury/Illness - Low Back; Pain; Right Quad Contusion,PROPOSED_REVIEW_REQUIRED,204.63,230.88,Geometry proposal; compare to original PDF before approval
+d8b5cbe5b5477044e841,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,247.81,Jimmy Butler III,OUT,Injury/Illness - Right ACL; Surgery,,UNCHANGED,,,
+41db6a85cf3d37cff028,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,269.85,Seth Curry,OUT,Injury/Illness - Left Adductor; Strain,,UNCHANGED,,,
+f6eb4c093bdbdb068910,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,298.91,Stephen Curry,OUT,,Injury/Illness - Right Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,285.78,312.03,Geometry proposal; compare to original PDF before approval
+cf9e977ffc8542ecdcf8,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,327.96,Al Horford,OUT,Injury/Illness - Right Soleus; Strain,,UNCHANGED,,,
+554ccdaf09e2d6aec7cd,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,357.02,De'Anthony Melton,QUESTIONABLE,,Injury/Illness - Left Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,343.9,370.14,Geometry proposal; compare to original PDF before approval
+8342b4e0d9eb5aef0c4f,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,393.1,Moses Moody,OUT,,Injury/Illness - Left Patellar Tendon; Rupture,PROPOSED_REVIEW_REQUIRED,379.97,406.22,Geometry proposal; compare to original PDF before approval
+777dfeb3ff6170a6c69e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,429.17,Quinten Post,OUT,,Injury/Illness - Right Foot; Injury Management,PROPOSED_REVIEW_REQUIRED,416.05,442.3,Geometry proposal; compare to original PDF before approval
+901a4f748cd4e1c3e4eb,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,459.23,Noah Clowney,PROBABLE,Injury/Illness - Right Wrist; Sprain,,UNCHANGED,,,
+8751564cf052fcbd549c,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,7,488.29,Egor Demin,OUT,,Injury/Illness - Left Plantar Fascia; Injury Management,PROPOSED_REVIEW_REQUIRED,475.16,501.41,Geometry proposal; compare to original PDF before approval
+e802b33c45bb48748c6b,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,86.51,Michael Porter Jr.,OUT,Injury/Illness - Left Hamstring; Strain,,UNCHANGED,,,
+7129449921aad4d6d3d8,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,108.54,Day'Ron Sharpe,OUT,Injury/Illness - Left Thumb; Surgery,,UNCHANGED,,,
+f061f1e5a00646669411,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,130.58,Danny Wolf,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+bd6ae46c7a33ef38d7df,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,160.64,Luka Doncic,AVAILABLE,,Injury/Illness - Left Hamstring; Soreness,PROPOSED_REVIEW_REQUIRED,147.52,173.76,Geometry proposal; compare to original PDF before approval
+f5257d2ae82c1bc5d096,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,196.72,Rui Hachimura,AVAILABLE,,Injury/Illness - Right Calf; Injury Management,PROPOSED_REVIEW_REQUIRED,183.59,209.84,Geometry proposal; compare to original PDF before approval
+5b952ff9ae2c1bdaae7d,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,225.77,Marcus Smart,OUT,Injury/Illness - Right Ankle; Contusion,,UNCHANGED,,,
+d1c6d4d0efa845239f22,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,247.81,Adou Thiero,OUT,Injury/Illness - Left Knee; Soreness,,UNCHANGED,,,
+ca1425686db66e91c352,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,323.94,Cade Cunningham,OUT,,Injury/Illness - Left Lung; Pneumothorax,PROPOSED_REVIEW_REQUIRED,310.82,337.07,Geometry proposal; compare to original PDF before approval
+fae1a3980afc1a31e7ce,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,360.02,Jalen Duren,QUESTIONABLE,,Injury/Illness - Right Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,346.9,373.14,Geometry proposal; compare to original PDF before approval
+ca5d7ee726dcccf3ced9,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,389.08,Tobias Harris,QUESTIONABLE,Injury/Illness - Left Hip; Soreness,,UNCHANGED,,,
+9ee9ca40bafa5c9aeaa9,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,411.12,Isaac Jones,OUT,G League - Two-Way,,UNCHANGED,,,
+2fbc1da9054cc4625eb4,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,433.15,Bobi Klintman,OUT,G League - On Assignment,,UNCHANGED,,,
+65266e45ce0ea9cd6ccb,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,462.21,Caris LeVert,PROBABLE,,Injury/Illness - Right Knee; Tendinopathy,PROPOSED_REVIEW_REQUIRED,449.09,475.34,Geometry proposal; compare to original PDF before approval
+79bc1d50fa22f9a4fcfc,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,8,491.27,Wendell Moore Jr.,OUT,G League - Two-Way,,UNCHANGED,,,
+78e62f6cf4bd1bbae523,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,86.51,Duncan Robinson,QUESTIONABLE,Injury/Illness - Right Hip; Strain,,UNCHANGED,,,
+9d4df5a27fe0fdf7989e,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,108.54,Marcus Sasser,PROBABLE,Injury/Illness - Right Hip; Strain,,UNCHANGED,,,
+8bb1cd98704e92d30d28,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,130.58,Isaiah Stewart,OUT,Injury/Illness - Left Calf; Strain,,UNCHANGED,,,
+171ee116ecf8e765d847,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,159.64,Ausar Thompson,QUESTIONABLE,,Injury/Illness - Right Ankle; Injury management,PROPOSED_REVIEW_REQUIRED,146.52,172.76,Geometry proposal; compare to original PDF before approval
+ca7b0fbc0a6d03bd1efe,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,189.7,Ayo Dosunmu,QUESTIONABLE,Injury/Illness - Right Calf; Soreness,,UNCHANGED,,,
+c2ac88fdca8966ccb25f,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,218.75,Anthony Edwards,OUT,,Injury/Illness - Right Knee; Patellofemoral Pain Syndrome,PROPOSED_REVIEW_REQUIRED,205.63,231.88,Geometry proposal; compare to original PDF before approval
+0d371988cb8106484dd2,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,247.81,Enrique Freeman,OUT,G League - Two-Way,,UNCHANGED,,,
+cb513f0825c510039dd5,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,269.85,Jaden McDaniels,OUT,Injury/Illness - Right Knee; Soreness,,UNCHANGED,,,
+a4b4d51c2ed89cae4076,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,291.89,Zyon Pullin,OUT,G League - Two-Way,,UNCHANGED,,,
+6611c12ed9fd697166d7,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,313.93,Rocco Zikarsky,OUT,G League - Two-Way,,UNCHANGED,,,
+b57775786f0a29529fdb,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,343.98,Johni Broome,OUT,,Injury/Illness - Right Knee; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,330.86,357.11,Geometry proposal; compare to original PDF before approval
+e3b93c94d5604c72bfd0,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,380.06,Tyrese Maxey,QUESTIONABLE,,Injury/Illness - Right Finger; Tendon Strain,PROPOSED_REVIEW_REQUIRED,366.93,393.18,Geometry proposal; compare to original PDF before approval
+1c5599cd58c0cbf62e96,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,409.12,Kelly Oubre Jr.,QUESTIONABLE,Injury/Illness - Left Elbow; Sprain,,UNCHANGED,,,
+85f425fec280110ffd8d,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,432.15,Tosan Evbuomwan,OUT,G League - Two-Way,,UNCHANGED,,,
+6836bf6a3c3274f346be,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,454.19,PJ Hall,OUT,G League - Two-Way,,UNCHANGED,,,
+d980bc1942e1a43537ce,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,476.23,Liam McNeeley,OUT,G League - On Assignment,,UNCHANGED,,,
+71d256e753e8960caf1b,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,9,498.27,Antonio Reeves,OUT,G League - Two-Way,,UNCHANGED,,,
+bdc657f9e5c45dd3be01,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,86.51,Tidjane Salaun,OUT,Injury/Illness - Left Calf; Strain,,UNCHANGED,,,
+4503baea6f18bc265e00,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,109.54,Nique Clifford,QUESTIONABLE,Injury/Illness - Left Mid-foot; Sprain,,UNCHANGED,,,
+a1c50d964a057d8c4677,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,138.6,Drew Eubanks,OUT,,Injury/Illness - Left Thumb; UCL Repair,PROPOSED_REVIEW_REQUIRED,125.48,151.73,Geometry proposal; compare to original PDF before approval
+b292694b889eb8819a66,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,167.66,Killian Hayes,QUESTIONABLE,Injury/Illness - Left Finger; Soreness,,UNCHANGED,,,
+3ae9e40bf835949d5bca,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,189.7,De'Andre Hunter,OUT,Injury/Illness - Left Eye; Retinal repair,,UNCHANGED,,,
+c801134ddc84c5bad568,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,218.75,Zach LaVine,OUT,,Injury/Illness - Right 5th Finger; Tendon Repair,PROPOSED_REVIEW_REQUIRED,205.63,231.88,Geometry proposal; compare to original PDF before approval
+1ec48261a04cf390a6ec,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,247.81,Keegan Murray,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+75b9f9148525d09f9353,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,276.87,Domantas Sabonis,OUT,,Injury/Illness - Left Knee; Meniscus repair,PROPOSED_REVIEW_REQUIRED,263.74,289.99,Geometry proposal; compare to original PDF before approval
+5cd6896b4f9c88d5a8cf,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,305.93,Isaiah Stevens,OUT,G League - Two-Way,,UNCHANGED,,,
+c6218aeaecf02a16d751,ebdca739db4789a808858a31f2a32efdd4a06d4e046a32a409de6cc4c143766d,10,334.98,Russell Westbrook,OUT,,Injury/Illness - Right Toe; Injury Management,PROPOSED_REVIEW_REQUIRED,321.86,348.11,Geometry proposal; compare to original PDF before approval
+5f0d71f7dc9095642f51,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,132.84,RayJ Dennis,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+2466f3871673c21afe1d,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,154.88,Keshon Gilbert,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+0011f4f2859c3607160b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,183.94,Jalen Johnson,QUESTIONABLE,,Injury/Illness - Left Shoulder; Inflammation,PROPOSED_REVIEW_REQUIRED,170.81,197.06,Geometry proposal; compare to original PDF before approval
+a81a7d9772b25ee230fa,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,212.99,Asa Newell,DOUBTFUL,G League - On Assignment,,UNCHANGED,,,
+d55d356f9101c5ac4239,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,243.05,Cade Cunningham,OUT,,Injury/Illness - Left Lung; Pneumothorax,PROPOSED_REVIEW_REQUIRED,229.93,256.17,Geometry proposal; compare to original PDF before approval
+734d0e052b76bf9a27a0,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,272.11,Javonte Green,QUESTIONABLE,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+e7e1c86bf27f6cca39cd,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,294.15,Isaac Jones,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+794d58356a2084221b6b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,316.18,Bobi Klintman,QUESTIONABLE,G League - On Assignment,,UNCHANGED,,,
+ebfd7c68355cbbb8520a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,338.22,Chaz Lanier,QUESTIONABLE,G League - On Assignment,,UNCHANGED,,,
+ecd3263c932993b13d10,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,360.26,Wendell Moore Jr.,OUT,G League - Two-Way,,UNCHANGED,,,
+80c0cbc724e3e3520aef,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,382.3,Marcus Sasser,DOUBTFUL,Injury/Illness - Right Hip; Strain,,UNCHANGED,,,
+f61d8b8e8395e62c5a82,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,404.34,Tolu Smith,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+18b0ea091a16d58941f7,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,426.37,Isaiah Stewart,OUT,Injury/Illness - Left Calf; Strain,,UNCHANGED,,,
+f5ec60c8750074c37ff9,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,449.41,Zach Collins,OUT,Injury/Illness - Right 1st Toe; Surgery,,UNCHANGED,,,
+b4154c8692bae5ba7399,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,471.45,Noa Essengue,OUT,Injury/Illness - Left Shoulder; Surgery,,UNCHANGED,,,
+11e67c0a73b91fadbdfe,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,1,500.51,Jaden Ivey,OUT,,Injury/Illness - Left Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,487.38,513.63,Geometry proposal; compare to original PDF before approval
+f48bad89648592be969e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,86.51,Yuki Kawamura,OUT,G League - Two-Way,,UNCHANGED,,,
+178e2f85ee413ec30536,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,108.54,Mac McClung,OUT,G League - Two-Way,,UNCHANGED,,,
+821251f89ef42b5cd687,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,137.6,Isaac Okoro,DOUBTFUL,,Injury/Illness - Right Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,124.48,150.73,Geometry proposal; compare to original PDF before approval
+a1ee3cf368cfbfd39132,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,173.68,Anfernee Simons,DOUBTFUL,,Injury/Illness - Left Ulnar Styloid; Fracture,PROPOSED_REVIEW_REQUIRED,160.55,186.8,Geometry proposal; compare to original PDF before approval
+fb2e7f592d861169aa84,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,202.73,Guerschon Yabusele,DOUBTFUL,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+dc43a334420501497128,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,232.79,Johni Broome,OUT,,Injury/Illness - Right Knee; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,219.67,245.92,Geometry proposal; compare to original PDF before approval
+fd806e6f5bf0d8647fad,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,261.85,Joel Embiid,QUESTIONABLE,Injury/Illness - Right Oblique; Strain,,UNCHANGED,,,
+83e32072c55a8edbc30d,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,283.89,Quentin Grimes,QUESTIONABLE,Injury/Illness - N/a; Illness,,UNCHANGED,,,
+39977a2ddb8bcae783e1,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,305.93,Tyrese Martin,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+37946ab0dddfdc7f3363,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,334.98,Tyrese Maxey,OUT,,Injury/Illness - Right Finger; Tendon Strain,PROPOSED_REVIEW_REQUIRED,321.86,348.11,Geometry proposal; compare to original PDF before approval
+85c87722ea74fa24a98f,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,364.04,Kelly Oubre Jr.,OUT,Injury/Illness - Left Elbow; Sprain,,UNCHANGED,,,
+e171221027f32445af00,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,387.08,Rui Hachimura,QUESTIONABLE,Injury/Illness - Right Calf; Soreness,,UNCHANGED,,,
+16d772e364facde43230,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,409.12,Marcus Smart,DOUBTFUL,Injury/Illness - Right Ankle; Contusion,,UNCHANGED,,,
+b2d03a27be46d68ac774,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,431.15,Adou Thiero,QUESTIONABLE,Injury/Illness - Left Knee; Soreness,,UNCHANGED,,,
+e68ca80ea5501796a52c,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,454.19,Johnny Furphy,OUT,Injury/Illness - Right ACL; Tear,,UNCHANGED,,,
+f6bc7096a7d5486aad80,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,2,483.25,Tyrese Haliburton,OUT,,Injury/Illness - Right Achilles Tendon; Tear,PROPOSED_REVIEW_REQUIRED,470.13,496.37,Geometry proposal; compare to original PDF before approval
+3d237efaeae7a9b64c5a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,86.51,Andrew Nembhard,PROBABLE,Injury/Illness - Right Calf; Contusion,,UNCHANGED,,,
+f8ddc78535b2e38e2511,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,108.54,Aaron Nesmith,PROBABLE,Injury/Illness - Right Ankle; Injury,,UNCHANGED,,,
+aa48b6f6df454faaf62e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,130.58,Taelon Peter,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+7eaff281b1f45ae6771a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,152.62,Pascal Siakam,PROBABLE,Injury/Illness - Right Knee; Sprain,,UNCHANGED,,,
+c2917f6faffa17acd84c,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,174.66,Jalen Slawson,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+6b96d842589b6b830410,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,196.7,Ethan Thompson,DOUBTFUL,G League - Two-Way,,UNCHANGED,,,
+63022981adb87b241a06,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,225.75,Obi Toppin,PROBABLE,,Injury/Illness - Right Foot; Injury Management,PROPOSED_REVIEW_REQUIRED,212.63,238.88,Geometry proposal; compare to original PDF before approval
+766292b57a8fe3dd46d1,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,254.81,Ivica Zubac,OUT,Injury/Illness - Rib; Fracture,,UNCHANGED,,,
+e356c3c00835b7cb13b0,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,277.85,Vladislav Goldin,OUT,G League - Two-Way,,UNCHANGED,,,
+dc75e39b10d825060a76,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,306.91,Nikola Jovic,AVAILABLE,,Injury/Illness - Low Back; Injury Management,PROPOSED_REVIEW_REQUIRED,293.78,320.03,Geometry proposal; compare to original PDF before approval
+aeabf8b7a697357c1193,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,335.96,Trevor Keels,OUT,G League - Two-Way,,UNCHANGED,,,
+cec78c9f362329438cb9,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,358.0,Terry Rozier,OUT,Not With Team,,UNCHANGED,,,
+0d87eab38c0f523eb4db,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,387.06,Andrew Wiggins,AVAILABLE,,Injury/Illness - Left Big Toe; Sesamoiditis,PROPOSED_REVIEW_REQUIRED,373.93,400.18,Geometry proposal; compare to original PDF before approval
+2594562c247924259a1e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,416.12,Jahmir Young,OUT,G League - Two-Way,,UNCHANGED,,,
+c67f9839ff3fa8a79140,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,462.19,Brooks Barnhizer,OUT,G League - Two-Way,,UNCHANGED,,,
+0f20f4de29783733ec38,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,484.23,Payton Sandfort,OUT,G League - Two-Way,,UNCHANGED,,,
+b102a06b6c0fb0921bc3,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,3,506.27,Thomas Sorber,OUT,Injury/Illness - Right ACL; Surgical,,UNCHANGED,,,
+af60d2f5c2d790137dd0,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,106.54,Nikola Topic,OUT,G League - On Assignment,,UNCHANGED,,,
+026bcbc1dff465406927,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,129.58,Max Shulga,QUESTIONABLE,G League - On Assignment,,UNCHANGED,,,
+d8d38a96de13db1f6846,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,151.62,John Tonje,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+60be29516f8e3d46f150,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,180.68,Nikola Vucevic,OUT,,Injury/Illness - Right Ring Finger; Fracture,PROPOSED_REVIEW_REQUIRED,167.55,193.8,Geometry proposal; compare to original PDF before approval
+68b3b15178c14d393950,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,209.73,Amari Williams,QUESTIONABLE,G League - On Assignment,,UNCHANGED,,,
+9d5e336ab18c702a7d61,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,232.77,De'Aaron Fox,OUT,Injury/Illness - Low Back; Tightness,,UNCHANGED,,,
+a4069d47546cb6a63f9d,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,254.81,Harrison Ingram,OUT,G League - Two-Way,,UNCHANGED,,,
+ad85ddf6c69a067099db,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,276.85,David Jones Garcia,OUT,G League - Two-Way,,UNCHANGED,,,
+52efa617f339b19216f6,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,305.91,Luke Kornet,OUT,,Injury/Illness - Right Knee; Management,PROPOSED_REVIEW_REQUIRED,292.78,319.03,Geometry proposal; compare to original PDF before approval
+3393e1e1b34ed0750683,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,334.96,Emanuel Miller,OUT,G League - Two-Way,,UNCHANGED,,,
+aae250c61468944d741b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,365.02,Santi Aldama,OUT,,Injury/Illness - Right Knee; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,351.9,378.14,Geometry proposal; compare to original PDF before approval
+a606de7dcffebaa21f3e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,401.1,Kentavious Caldwell-Pope,OUT,,Injury/Illness - Right 5th Finger; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,387.97,414.22,Geometry proposal; compare to original PDF before approval
+cdb605df63e0ffceebe5,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,430.15,Brandon Clarke,OUT,Injury/Illness - Right Calf; Strain,,UNCHANGED,,,
+0a793d60a9058edac94e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,459.21,Zach Edey,OUT,,Injury/Illness - Left Ankle; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,446.09,472.34,Geometry proposal; compare to original PDF before approval
+6b65043f9538663c2f1f,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,4,488.27,Ty Jerome,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+94dc996299b980b7661d,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,86.51,Jahmai Mashack,DOUBTFUL,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+ee3dc49182e789cd3a28,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,108.54,Ja Morant,OUT,Injury/Illness - Left Elbow; UCL Sprain,,UNCHANGED,,,
+c1b2a02a65703a52195b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,137.6,Scotty Pippen Jr.,OUT,,Injury/Illness - Right Great Toe; Surgery Recovery,PROPOSED_REVIEW_REQUIRED,124.48,150.73,Geometry proposal; compare to original PDF before approval
+a40cc59ddc5a76cdd271,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,166.66,Javon Small,QUESTIONABLE,Injury/Illness - Low Back; Soreness,,UNCHANGED,,,
+e23d960a156fa64aaf58,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,195.72,Jaylen Wells,OUT,,Injury/Illness - Right Great Toe; Soreness,PROPOSED_REVIEW_REQUIRED,182.59,208.84,Geometry proposal; compare to original PDF before approval
+dedd00bceeb0c294bd98,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,232.79,Bilal Coulibaly,QUESTIONABLE,,Injury/Illness - Right Retrocalcaneal; Bursitis,PROPOSED_REVIEW_REQUIRED,219.67,245.92,Geometry proposal; compare to original PDF before approval
+b4323f6f705a855fecca,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,261.85,Anthony Davis,OUT,Injury/Illness - Left Finger; Sprain,,UNCHANGED,,,
+96d1d58171ec4c1d846b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,283.89,Kyshawn George,OUT,Injury/Illness - Left Elbow; Sprain,,UNCHANGED,,,
+7bc9e1e3f1fbf799ff9e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,305.93,Tre Johnson,OUT,Injury/Illness - Right Foot; Sprain,,UNCHANGED,,,
+1b83339cb6b132b0081e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,327.96,D'Angelo Russell,OUT,Not With Team,,UNCHANGED,,,
+0f68159bf7eab907437e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,350.0,Alex Sarr,OUT,Injury/Illness - Left Big Toe; Capsulitis,,UNCHANGED,,,
+259f45a72ff5c0f83cf5,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,372.04,Tristan Vukcevic,QUESTIONABLE,Injury/Illness - Low Back; Tightness,,UNCHANGED,,,
+528ec5979a514a7a249e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,401.1,Cam Whitmore,OUT,,Injury/Illness - Right Shoulder; Deep Vein Thrombosis,PROPOSED_REVIEW_REQUIRED,387.97,414.22,Geometry proposal; compare to original PDF before approval
+fb48c0ba1d3d59ed314a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,437.17,Trae Young,OUT,,Injury/Illness - Low Back; Pain; Right Quad Contusion,PROPOSED_REVIEW_REQUIRED,424.05,450.3,Geometry proposal; compare to original PDF before approval
+a41b8ebb3f0f3bffdf61,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,474.25,Isaiah Collier,OUT,,Injury/Illness - Left Hamstring; Injury management,PROPOSED_REVIEW_REQUIRED,461.13,487.37,Geometry proposal; compare to original PDF before approval
+7e4fa85ac82d1abf9b45,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,5,503.31,Kyle Filipowski,DOUBTFUL,Injury/Illness - N/A; Illness,,UNCHANGED,,,
+73097789f4292dfb36ed,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,93.53,Keyonte George,OUT,,Injury/Illness - Right Hamstring; Strain,PROPOSED_REVIEW_REQUIRED,80.4,106.65,Geometry proposal; compare to original PDF before approval
+d8a87a59117eeabd66f0,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,129.6,Jaren Jackson Jr.,OUT,,Injury/Illness - Right Knee; Injury recovery,PROPOSED_REVIEW_REQUIRED,116.48,142.73,Geometry proposal; compare to original PDF before approval
+92c35b1be42c275a2e5f,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,165.68,Walker Kessler,OUT,,Injury/Illness - Left Shoulder; Injury recovery,PROPOSED_REVIEW_REQUIRED,152.55,178.8,Geometry proposal; compare to original PDF before approval
+f81ba1ba0c7a617204ec,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,201.75,Lauri Markkanen,OUT,,Injury/Illness - Right Hip; Impingement,PROPOSED_REVIEW_REQUIRED,188.63,214.88,Geometry proposal; compare to original PDF before approval
+a4c0de8f6f0f02115fb7,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,230.81,Jusuf Nurkic,OUT,Injury/Illness - Nose; Injury recovery,,UNCHANGED,,,
+f17ad6e315388cfbcdea,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,252.85,Brice Sensabaugh,OUT,Rest,,UNCHANGED,,,
+2ef2efb028af10134cfe,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,281.91,Cody Williams,QUESTIONABLE,,Injury/Illness - Right Shoulder; Soreness,PROPOSED_REVIEW_REQUIRED,268.78,295.03,Geometry proposal; compare to original PDF before approval
+64eaa42797424ff985b5,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,311.96,Steven Adams,OUT,Injury/Illness - Left Ankle; Surgery,,UNCHANGED,,,
+06999fec82a191a287a1,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,334.0,Tristen Newton,OUT,G League - Two-Way,,UNCHANGED,,,
+50940d44b9e6f2d3f92b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,356.04,Fred VanVleet,OUT,Injury/Illness - Right Knee; ACL Repair,,UNCHANGED,,,
+6ab9ed6b38c71a156e9c,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,379.08,Ayo Dosunmu,QUESTIONABLE,Injury/Illness - Right Calf; Soreness,,UNCHANGED,,,
+b87b77a96b8cbda51b6f,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,408.13,Anthony Edwards,OUT,,Injury/Illness - Right Knee; Patellofemoral Pain Syndrome,PROPOSED_REVIEW_REQUIRED,395.01,421.26,Geometry proposal; compare to original PDF before approval
+aaa6b15b8fbdb95399f5,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,437.19,Enrique Freeman,OUT,G League - Two-Way,,UNCHANGED,,,
+e561f9b6e6eae008a1be,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,459.23,Zyon Pullin,OUT,G League - Two-Way,,UNCHANGED,,,
+68664e54efe3fc6f1526,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,481.27,Rocco Zikarsky,OUT,G League - Two-Way,,UNCHANGED,,,
+b3a30ea615f23ff3ea60,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,6,504.31,Noah Clowney,OUT,Injury/Illness - Right Wrist; Sprain,,UNCHANGED,,,
+5804dfd745e8ac0bc1f3,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,93.53,Egor Demin,OUT,,Injury/Illness - Left Plantar Fascia; Injury Management,PROPOSED_REVIEW_REQUIRED,80.4,106.65,Geometry proposal; compare to original PDF before approval
+c463eb8d8907442393a1,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,122.58,Michael Porter Jr.,OUT,Injury/Illness - Left Hamstring; Strain,,UNCHANGED,,,
+a9a5b35aea80036d6f20,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,144.62,Day'Ron Sharpe,OUT,Injury/Illness - Left Thumb; Surgery,,UNCHANGED,,,
+cede4c5c447eb619a913,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,166.66,Nolan Traore,OUT,Rest,,UNCHANGED,,,
+450edad638ff54e3d443,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,188.7,Danny Wolf,OUT,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+196ce0b20c59ae1980cb,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,211.73,Jimmy Butler III,OUT,Injury/Illness - Right ACL; Surgery,,UNCHANGED,,,
+9ebadc8c30d4935b7809,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,233.77,Seth Curry,OUT,Injury/Illness - Left Adductor; Strain,,UNCHANGED,,,
+6571c8ff2db8d13cd3a1,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,262.83,Stephen Curry,OUT,,Injury/Illness - Right Patellofemoral; Pain Syndrome,PROPOSED_REVIEW_REQUIRED,249.71,275.95,Geometry proposal; compare to original PDF before approval
+2c10d5b2928084aeac0c,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,291.89,Al Horford,OUT,Injury/Illness - Right Soleus; Strain,,UNCHANGED,,,
+ce99c09c3ff5caaa6a7e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,320.94,Moses Moody,OUT,,Injury/Illness - Left Patellar Tendon; Rupture,PROPOSED_REVIEW_REQUIRED,307.82,334.07,Geometry proposal; compare to original PDF before approval
+0c2ac5e1b3a687b170d4,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,357.02,Quinten Post,OUT,,Injury/Illness - Right Foot; Injury Management,PROPOSED_REVIEW_REQUIRED,343.9,370.14,Geometry proposal; compare to original PDF before approval
+575c674c61ac07ea8ca3,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,387.08,Moussa Cisse,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+26fe8236dacdc5c14a90,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,409.12,Daniel Gafford,QUESTIONABLE,Injury/Illness - Right Shoulder; Sprain,,UNCHANGED,,,
+0583e5fdf33f84ee4941,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,431.15,Kyrie Irving,OUT,Injury/Illness - Left Knee; Surgery,,UNCHANGED,,,
+88a0f2fda82c22855bc7,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,453.19,Dereck Lively II,OUT,Injury/Illness - Right Foot; Surgery,,UNCHANGED,,,
+285561d295bf6b90dc44,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,7,482.25,Caleb Martin,OUT,,Injury/Illness - Right Plantar Fascia; Strain,PROPOSED_REVIEW_REQUIRED,469.13,495.37,Geometry proposal; compare to original PDF before approval
+e9d3de341e1d96c687d6,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,86.51,John Poulakidas,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+aa6aecf5b6bb7dc90e98,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,108.54,Tyler Smith,QUESTIONABLE,G League - Two-Way,,UNCHANGED,,,
+2de237abd8a8c3abd25c,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,130.58,Brandon Williams,QUESTIONABLE,Concussion Protocol,,UNCHANGED,,,
+6501fdafdf6f6f34902a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,176.66,Alex Antetokounmpo,OUT,G League - Two-Way,,UNCHANGED,,,
+153924408520a1e173e7,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,205.72,Giannis Antetokounmpo,OUT,,Injury/Illness - Left Knee; Hyperextension; Bone Bruise,PROPOSED_REVIEW_REQUIRED,192.59,218.84,Geometry proposal; compare to original PDF before approval
+8be22779b15bb5070721,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,234.77,Gary Harris,OUT,Injury/Illness - Left Groin; Contusion,,UNCHANGED,,,
+880538e5a8dbbb33e016,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,263.83,Kyle Kuzma,QUESTIONABLE,,Injury/Illness - Right Achilles; Soreness,PROPOSED_REVIEW_REQUIRED,250.71,276.95,Geometry proposal; compare to original PDF before approval
+20de58a0156ba03d7670,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,292.89,Kevin Porter Jr.,OUT,Injury/Illness - Right Knee; Synovitis,,UNCHANGED,,,
+0d80b1e5e21746caed7b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,314.93,Bobby Portis,QUESTIONABLE,Injury/Illness - Right Wrist; Sprain,,UNCHANGED,,,
+c8a85e05a1f9571b4e7a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,337.96,Jerami Grant,QUESTIONABLE,Injury/Illness - Left Foot; Soreness,,UNCHANGED,,,
+810a302243879a774dd3,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,360.0,Jayson Kent,OUT,G League - Two-Way,,UNCHANGED,,,
+4fb08a574945f2376afb,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,382.04,Vit Krejci,QUESTIONABLE,Injury/Illness - Left Calf; Contusion,,UNCHANGED,,,
+b70498659e38073bcfd4,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,411.1,Damian Lillard,OUT,,Injury/Illness - Left Achilles Tendon; Injury Management,PROPOSED_REVIEW_REQUIRED,397.97,424.22,Geometry proposal; compare to original PDF before approval
+52a8f53d52dbfd53c1be,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,447.17,Shaedon Sharpe,OUT,,Injury/Illness - Left Fibula; Stress Reaction,PROPOSED_REVIEW_REQUIRED,434.05,460.3,Geometry proposal; compare to original PDF before approval
+54d6146a9e0b841a2da1,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,8,483.25,Robert Williams III,QUESTIONABLE,,Injury/Illness - Left Knee; Injury Management,PROPOSED_REVIEW_REQUIRED,470.13,496.37,Geometry proposal; compare to original PDF before approval
+e0d83c619ee04060356a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,86.51,Hansen Yang,OUT,G League - On Assignment,,UNCHANGED,,,
+8867d6338f5bf13716f8,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,108.54,Chris Youngblood,OUT,G League - Two-Way,,UNCHANGED,,,
+5c9f097b9176c441b82e,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,131.58,Chucky Hepburn,OUT,G League - Two-Way,,UNCHANGED,,,
+e968c54516dfd523a91a,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,160.64,Brandon Ingram,QUESTIONABLE,,Injury/Illness - Right Foot; Heel - inflammation,PROPOSED_REVIEW_REQUIRED,147.52,173.76,Geometry proposal; compare to original PDF before approval
+58af6613beaab3c888ff,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,189.7,A.J. Lawson,OUT,G League - Two-Way,,UNCHANGED,,,
+844044b6ad2e65b4cadf,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,211.73,Alijah Martin,OUT,G League - Two-Way,,UNCHANGED,,,
+bba726ebe815434b2d1f,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,240.79,Jakob Poeltl,QUESTIONABLE,,Injury/Illness - Back; Lower - strain - injury management,PROPOSED_REVIEW_REQUIRED,227.67,253.92,Geometry proposal; compare to original PDF before approval
+96ba4c2b199d5f6e2a84,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,276.87,Immanuel Quickley,QUESTIONABLE,,Injury/Illness - Right Foot; Plantar fasciitis,PROPOSED_REVIEW_REQUIRED,263.74,289.99,Geometry proposal; compare to original PDF before approval
+8e3ae651952d668729e5,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,306.93,Bradley Beal,OUT,Injury/Illness - Left Hip; Fracture,,UNCHANGED,,,
+3677ecc5a90fb3df0887,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,328.96,Kawhi Leonard,QUESTIONABLE,Injury/Illness - Left Ankle; Sprain,,UNCHANGED,,,
+473409b6808e85109ee0,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,351.0,Jordan Miller,QUESTIONABLE,Injury/Illness - Back; Soreness,,UNCHANGED,,,
+3d3fce6ccaf027b3f98b,fb8ff6ba8e0c71c548bc3a38af580636b1cafafefcbf5ba2f4cd7ce17e28a9b7,9,380.06,Yanic Konan Niederhauser,OUT,,Injury/Illness - Right Lisfranc Ligament; Tear,PROPOSED_REVIEW_REQUIRED,366.93,393.18,Geometry proposal; compare to original PDF before approval

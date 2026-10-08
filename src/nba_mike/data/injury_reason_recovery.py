@@ -16,7 +16,7 @@ def recover_page(rows, words, width=841.95):
 
     The PDF has a fixed reason lane beginning at x=665 on a width=841.95 page.
     Each row's y is a center-of-text anchor. A recovery needs a reason prefix
-    on the same visual row, with all continuation words above the next player.
+    within a guarded two-line band around the player anchor.
     """
     boundary=665.0*float(width)/841.95
     ordered=sorted(rows,key=lambda r:float(r['source_y']))
@@ -29,11 +29,14 @@ def recover_page(rows, words, width=841.95):
         if (r.get('reason') or '').strip():
             proposals.append(base);continue
         y=float(r['source_y'])
+        prev_y=float(ordered[i-1]['source_y']) if i else float('-inf')
         next_y=float(ordered[i+1]['source_y']) if i+1<len(ordered) else float('inf')
-        # Never borrow a line close to the next player, or too far below this one.
-        ceiling=min(y+34,next_y-4)
+        # NBA PDFs center the player/status text BETWEEN two reason lines,
+        # at approximately -7 and +7 PDF points. Midpoints isolate neighbors.
+        floor=max(y-12,(prev_y+y)/2)
+        ceiling=min(y+12,(y+next_y)/2)
         candidates=[w for w in words if float(w[0])>=boundary and
-                    y-4<=((float(w[1])+float(w[3]))/2)<ceiling]
+                    floor<=((float(w[1])+float(w[3]))/2)<ceiling]
         if not candidates:
             base.update(decision='UNRESOLVED',notes='No unambiguous words in reason lane')
             proposals.append(base);continue
@@ -44,9 +47,10 @@ def recover_page(rows, words, width=841.95):
             if not lines or abs(cy-lines[-1][0])>3:
                 lines.append((cy,[w]))
             else:lines[-1][1].append(w)
-        # An anchor-line reason must exist. Otherwise this could be the next row.
-        if abs(lines[0][0]-y)>4:
-            base.update(decision='UNRESOLVED',notes='Reason starts below player anchor')
+        # The first reason line may be above the player, but require a tight
+        # upper/anchor line and an explicit recognized reason prefix.
+        if not (y-10<=lines[0][0]<=y+4):
+            base.update(decision='UNRESOLVED',notes='No reason prefix near player anchor')
             proposals.append(base);continue
         text=' '.join(' '.join(str(w[4]) for w in sorted(ws,key=lambda z:float(z[0]))) for _,ws in lines).strip()
         # NBA reason prefixes; avoid filling from headers, stray page text or another row.

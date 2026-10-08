@@ -648,3 +648,10 @@ Goal: safely collect distinct official NBA injury report PDFs and rerun S7.14. I
 - Validation: run S7.17 acceptance, full suite, batch report, compare flagged samples; log actual local results after execution.
 - Open: visual confirmation of proposals, full-document context, missed-row recall, publication-time verification.
 
+
+### S7.17.2 — Geometry correction
+- Diagnosis: real NBA PDF reason prefix appears ~7 points above player row, continuation ~7 below.
+- Fix: guarded two-line band with adjacent-player midpoints; no source record edits.
+- Tests: diagnostic-derived coordinate fixtures and neighbor isolation; run full suite locally.
+- Gate: RESEARCH_ONLY / BLOCK_TRAINING.
+

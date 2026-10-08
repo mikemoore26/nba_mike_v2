@@ -1,0 +1,1 @@
+S7.17.2: guarded two-line reason recovery. Run `python research/p0_s4/s7_17_2/run_s7_17_2.py`. Outputs are review-required, not training eligible. Compare seven S7.16 failures against original PDF images.

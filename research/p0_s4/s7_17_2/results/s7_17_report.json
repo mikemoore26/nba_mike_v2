@@ -1,0 +1,20 @@
+{
+  "status": "RESEARCH_ONLY",
+  "decision": "BLOCK_TRAINING",
+  "distinct_reports": 5,
+  "records": 475,
+  "reason_recovery": {
+    "UNCHANGED": 320,
+    "PROPOSED_REVIEW_REQUIRED": 155,
+    "UNRESOLVED": 0
+  },
+  "source_records_modified": 0,
+  "historical_publication_verified": false,
+  "eligible_for_asof_training": false,
+  "proposals_csv": "C:\\Users\\micha\\Coding\\python\\nba_mike_v2\\research\\p0_s4\\s7_17_2\\results\\s7_17_reason_proposals.csv",
+  "limitations": [
+    "Geometry proposals are not independent ground truth",
+    "Proposed reason strings require visual verification",
+    "Missing-row recall and historical publication timing are not established"
+  ]
+}
