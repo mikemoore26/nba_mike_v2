@@ -144,3 +144,13 @@ New `src/nba_mike/data/injury_stateful.py` and `research/p0_s4/s7_11/run_s7_11.p
 ## S7.11 pending validation
 New `src/nba_mike/data/injury_stateful.py` and `research/p0_s4/s7_11/run_s7_11.py`. The parser carries explicitly observed date/matchup/team context across compatible pages and writes separate comparison outputs. Install ZIP, run tests and PDF audit, review difference CSV. Do not claim accuracy or allow training until PDF verification and historical publication evidence are independently established.
 
+
+## S7.12 checkpoint (pending local run)
+- S7.11 baseline from user: 230 tests, 108 matched records, zero missing context, no nonempty conflicts.
+- S7.12 adds read-only structural checks and review sample. Run acceptance, full suite, then real-PDF audit.
+- Do not infer independent validation from passing consistency checks. Preserve RESEARCH_ONLY/BLOCK_TRAINING.
+
+
+## S7.13 handoff
+S7.12: 242 tests passing, 108 records, three `TEAM_NOT_IN_MATCHUP` flags, all `LA Clippers` vs `LAC@IND`. S7.13 patches `injury_verify.py` to normalize NBA team labels, adds 30-team/alias tests, and runs the existing verification checks into `s7_13/results`. Await local test and real-PDF outputs. Do not promote data to training.
+

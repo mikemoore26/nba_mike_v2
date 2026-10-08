@@ -606,3 +606,19 @@ Next: inspect real-PDF per-page structure and rendered pages, then design narrow
 - **Safety:** All candidates REVIEW_REQUIRED; as-of training blocked. Column geometry and context inheritance require PDF-specific verification.
 - **Pending:** Run acceptance/full suite and inspect actual PDF output, especially changed nonempty fields.
 
+
+## S7.12 — Structural verification (pending local acceptance)
+- Goal: check S7.11 reconstructed context and provenance without altering the source records.
+- Decision: separate research-only audit, no training eligibility.
+- Files: `src/nba_mike/data/injury_verify.py`, `tests/test_injury_verify_s712.py`, `research/p0_s4/s7_12/`, `docs/S7_12_INJURY_VERIFICATION.md`.
+- Validation: run acceptance, full pytest suite, and real PDF audit; record observed results here after execution.
+- Next: review flagged and cross-page samples visually; test additional distinct injury PDFs and publication timestamps.
+
+
+## P0-S4 S7.13 — Team-name alias correction
+- Goal: distinguish genuine team/matchup conflicts from `LA Clippers` naming mismatch.
+- Decision: normalize names to NBA abbreviations; do not modify source injury records.
+- Tests: run S7.13 acceptance and full suite locally; results pending.
+- Real PDF: rerun corrected validator on 2026-03-27 report; results pending.
+- Gate: RESEARCH_ONLY / BLOCK_TRAINING; historical publication time not independently verified.
+
