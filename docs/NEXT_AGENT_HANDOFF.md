@@ -92,3 +92,55 @@ New `src/nba_mike/data/injury_asof.py`; registry in `research/p0_s4/s7_1/officia
 ### S7.2 handoff
 Files: `src/nba_mike/data/injury_pdf.py`, `research/p0_s4/s7_2/`, `tests/test_injury_pdf.py`, `docs/S7_2_INJURY_ACQUISITION.md`. Requires S7.1 module and PyMuPDF. Explicit `--url` triggers single official PDF download. No automatic bulk scraping. Candidate lines are quarantined; as-of eligibility false. Next S7.3 schema validation + independent publication-time evidence.
 
+## S7.3 handoff
+- Code: `src/nba_mike/data/injury_structure.py`; runner `research/p0_s4/s7_3/run_s7_3.py`.
+- Requires S7.2 PDF and exact source URL; offline CSV review and validator only.
+- Run `python research/p0_s4/s7_3/run_s7_3_acceptance.py`, then full pytest.
+- Gate remains RESEARCH_ONLY: verify original publication timestamps and manual schema before any feature training.
+
+## S7.4 handoff
+- Run `research/p0_s4/s7_4/run_s7_4.py --pdf <path> --url <official-url>`.
+- Inspect CSV and manifest; `AUTO_CANDIDATE` is unverified.
+- Training gate remains CLOSED.
+- S7.5 should address layout validation and historical as-of evidence.
+
+## S7.5 pending validation
+Run S7.5 against 2026-03-27 official PDF; compare counts and inspect suspicious records. No historical publication evidence or model promotion.
+
+
+### S7.6 handoff
+- Replaces `src/nba_mike/data/injury_layout.py` with multi-page column fallback.
+- Run `research/p0_s4/s7_6/run_s7_6.py` on the frozen SHA256 PDF.
+- Compare per-page diagnostics and spot-check page transitions against original PDF.
+- All fallback rows remain `REVIEW_REQUIRED`; historical as-of training is forbidden.
+- Preserve uncommitted S7.3–S7.5 changes; commit only after review.
+
+
+## S7.7 handoff
+- Updated `src/nba_mike/data/injury_layout.py` in place.
+- Runner: `research/p0_s4/s7_7/run_s7_7.py`.
+- Data stays RESEARCH_ONLY; inherited dates are flagged and require verification.
+- Next: inspect real-PDF counts, orphan continuation causes, spot-check row assignments and reason completeness; no training authorization.
+
+
+## S7.8 handoff
+Run `python research/p0_s4/s7_8/run_s7_8_acceptance.py`, then full pytest; run S7.8 with CSVs from same PDF SHA. Audit is read-only, BLOCK_TRAINING. Inspect counts, review sample, disagreements and missing dates. S7.7 reports 50 orphan continuations but row CSVs omit raw orphan traces: next step requires parser instrumentation if orphan diagnosis is needed. Do not interpret agreement as ground truth or filename timestamp as historical availability.
+
+## S7.9 handoff
+- S7.8 baseline: 108 records, 32 missing dates, 92 review flags, 50 reported orphans; parser agreement is not ground truth.
+- S7.9 adds `src/nba_mike/data/injury_context_audit.py`, audit runner, tests, and coordinate traces.
+- Run S7.9 on the official PDF with matching S7.7 CSV. Audit does not modify S7.7 output.
+- Keep training and betting gates closed. Do not claim historical publication verified.
+
+
+## S7.10 handoff (pending user run)
+S7.9: 205 project tests passed, 108 injury rows, 32 missing context, 0 safe context proposals, 84 reason-line traces (34 NEAR_PLAYER_UNATTACHED, 50 NO_SAFE_PLAYER_ANCHOR). S7.10 diagnostic patch adds `src/nba_mike/data/injury_table_diagnostic.py`, `tests/test_injury_table_s710.py`, `research/p0_s4/s7_10/{run_s7_10.py,run_s7_10_acceptance.py,README.md}`, and docs. Synthetic acceptance 13/13. Run full suite and real PDF; inspect per-page text and PNGs. Do not promote to training or infer publication timestamp from filename. No parser modifications in S7.10.
+
+
+## S7.11 pending validation
+New `src/nba_mike/data/injury_stateful.py` and `research/p0_s4/s7_11/run_s7_11.py`. The parser carries explicitly observed date/matchup/team context across compatible pages and writes separate comparison outputs. Install ZIP, run tests and PDF audit, review difference CSV. Do not claim accuracy or allow training until PDF verification and historical publication evidence are independently established.
+
+
+## S7.11 pending validation
+New `src/nba_mike/data/injury_stateful.py` and `research/p0_s4/s7_11/run_s7_11.py`. The parser carries explicitly observed date/matchup/team context across compatible pages and writes separate comparison outputs. Install ZIP, run tests and PDF audit, review difference CSV. Do not claim accuracy or allow training until PDF verification and historical publication evidence are independently established.
+

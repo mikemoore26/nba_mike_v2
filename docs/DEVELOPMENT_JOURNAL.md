@@ -538,3 +538,71 @@ Goal: identify candidate official timestamped injury report versions, introduce 
 ## P0-S4 S7.2 — Official injury PDF acquisition
 Implemented allowlisted, opt-in single-report acquisition; raw PDF SHA256 archive; UTC download timestamp; page-level text and quarantined status-line candidates. Offline tests and no model promotion. Historical as-of source remains unverified.
 
+## P0-S4 S7.3 — Manual injury-report structural review gate
+- Added offline source-hashed, page/line-referenced review worksheets and conservative validation.
+- Status-bearing lines remain candidates; manual review against original PDF required.
+- No historical as-of verification, player-game join, or training authorization.
+- Next: inspect annotated samples, develop layout-aware parser, and benchmark against manually verified rows.
+
+## P0-S4 S7.4 — automatic injury report candidates
+- Added heuristic line parser with explicit abstention flags and no training authorization.
+- Added CLI runner, isolated acceptance tests, and documentation.
+- Research-only; verify sample against PDF and audit historical publication before model use.
+
+## P0-S4 S7.5 — Coordinate-aware injury parsing
+Implemented header-based PDF word coordinate extraction, reason continuation handling, fail-closed pages, and S7.4 baseline comparison. Research-only; requires actual PDF evaluation.
+
+
+## P0-S4 S7.6 — Multi-page coordinate layout recovery
+- Problem: S7.5 only processed page 1 because later pages lacked repeated headers.
+- Choice: reuse header-derived columns across compatible page widths, reset game/team context per page, and quarantine fallback rows.
+- Validation: isolated 8-case tests; run full suite and real-PDF evaluation locally.
+- Gate: research-only; no historical public availability evidence, no model or betting use.
+
+
+## P0-S4 S7.7 — Document date context research
+- Added conservative unique-document-date inference for rows with explicit matchups.
+- Explicit provenance and review flags; no automatic trust promotion.
+- Added regression tests for conflicting dates, missing matchups, no dates, and training exclusion.
+- Pending: execute on actual March 27 PDF, evaluate page-wise results, validate independent ground truth and publication time.
+
+
+## P0-S4 / S7.8 — Cross-parser quality audit (research only)
+- Implemented read-only S7.4/S7.6/S7.7 comparison by PDF SHA, source page, and normalized player.
+- Inventories missing/inferred dates, matchup/team inconsistencies, duplicates, status disagreements, and page coverage.
+- Writes JSON diagnostics and a prioritized, page-diverse 12-record review CSV; does not request review of all 108 rows.
+- Orphan continuation raw text is not available in existing CSV; cannot reconstruct 50 orphans without additional instrumentation.
+- Gate remains BLOCK_TRAINING pending PDF-level validation and independent publication-time proof.
+- Run tests and real-file audit before committing. Record actual outputs in journal after execution.
+
+## P0-S4 S7.9 — Context evidence audit (pending local validation)
+- Goal: diagnose missing context and orphan lines from S7.8 without silent inference.
+- Implementation: read-only official PDF coordinate audit; page-local evidence proposals; reason line trace.
+- Tests: synthetic unit tests included; full project regression and real PDF pending user execution.
+- Data governance: research only, BLOCK_TRAINING; historical publication unverified.
+- Next: inspect real PDF audit and manually verify a small targeted sample before any promotion.
+
+
+## P0-S4 S7.10 — PDF Table Structure Investigation (pending real-PDF acceptance)
+Goal: diagnose why S7.9 had 32 unresolved contexts and 50 reason traces without safe anchors.
+Implementation: evidence-only `injury_table_diagnostic.py`, page-line CSV, row-centered context findings, optional PNG renders, SHA consistency gate, isolated tests.
+Tests: 13 isolated synthetic tests passed during patch creation; full project suite and real PDF pending local execution.
+Decision: do not modify injury records or infer missing context. RESEARCH_ONLY / BLOCK_TRAINING. Historical publication remains unverified.
+Next: inspect real-PDF per-page structure and rendered pages, then design narrowly supported parser correction.
+
+
+## P0-S4 S7.11 — Stateful table reconstruction (pending local acceptance)
+- **Goal:** Recover section context across page boundaries without roster-based inference.
+- **Evidence:** Visual pages 3–7 show continued player rows and explicit new game/team section boundaries.
+- **Implementation:** Add independent stateful research parser, section event ledger, before/after CSV, and tests. No modification to existing S7.7 rows.
+- **Safety:** All candidates REVIEW_REQUIRED; as-of training blocked. Column geometry and context inheritance require PDF-specific verification.
+- **Pending:** Run acceptance/full suite and inspect actual PDF output, especially changed nonempty fields.
+
+
+## P0-S4 S7.11 — Stateful table reconstruction (pending local acceptance)
+- **Goal:** Recover section context across page boundaries without roster-based inference.
+- **Evidence:** Visual pages 3–7 show continued player rows and explicit new game/team section boundaries.
+- **Implementation:** Add independent stateful research parser, section event ledger, before/after CSV, and tests. No modification to existing S7.7 rows.
+- **Safety:** All candidates REVIEW_REQUIRED; as-of training blocked. Column geometry and context inheritance require PDF-specific verification.
+- **Pending:** Run acceptance/full suite and inspect actual PDF output, especially changed nonempty fields.
+
