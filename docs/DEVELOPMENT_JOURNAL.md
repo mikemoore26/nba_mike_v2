@@ -517,3 +517,17 @@ Implemented sequential role/history/volatility calibration with strictly prior-d
 - Retain role-specific as reference baseline.
 - S6.2 remains RESEARCH_ONLY.
 - Next: S6.3 error attribution and calibration stability.
+## P0-S4 S6.3 — Error Attribution and Calibration Stability (research)
+- Added offline, paired S6.2 diagnostic analysis across three retrospective seasons.
+- Added month/season-phase, role, history, volatility coverage and large-error diagnostics.
+- Added calendar-date paired bootstrap uncertainty on coverage/width differences.
+- Guardrails and six focused tests; no model promotion. Record observed results after running.
+
+
+## S7.0 — Pregame availability feasibility (pending local execution)
+- Goal: audit historical availability and rotation data for point-in-time feasibility before adding features.
+- Decision: fail-closed timestamp provenance, offline inventory, candidate source registry, no external-source claims.
+- Files: `src/nba_mike/data/pregame_audit.py`, tests, `research/p0_s4/s7_0/`, `docs/S7_0_PREGAME_FEASIBILITY.md`.
+- Gates: provider/terms, historical publication/revision timestamps, DNP universe, prediction cutoff, chronological join tests.
+- Status: AUDIT ONLY; append local test and runner results after execution.
+

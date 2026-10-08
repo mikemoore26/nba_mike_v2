@@ -1,0 +1,176 @@
+{
+  "status": "AUDIT_ONLY_NO_MODEL_PROMOTION",
+  "sources": [
+    {
+      "family": "official injury reports",
+      "candidate": "NBA official injury report archives",
+      "status": "UNVERIFIED",
+      "asof_risk": "publication/revision times and historical archive completeness"
+    },
+    {
+      "family": "lineups",
+      "candidate": "historical starting lineup announcements",
+      "status": "UNVERIFIED",
+      "asof_risk": "actual starters may be known only at tipoff"
+    },
+    {
+      "family": "transactions/roster",
+      "candidate": "official roster and transaction logs",
+      "status": "UNVERIFIED",
+      "asof_risk": "effective date may differ from announcement date"
+    },
+    {
+      "family": "game participation",
+      "candidate": "existing game logs",
+      "status": "RETROSPECTIVE_ONLY",
+      "asof_risk": "cannot use target-game minutes or participation before game"
+    },
+    {
+      "family": "team rotation",
+      "candidate": "lagged prior-game minutes and availability",
+      "status": "REQUIRES_DERIVATION",
+      "asof_risk": "strictly exclude target game and later games"
+    }
+  ],
+  "local_research_inventory": [
+    {
+      "path": "research/p0_s4/s4/results/s4_1_opportunity_groups.csv",
+      "bytes": 5194,
+      "sha256": "71dab0922327239ea99b48765b97ec85965f784f3955316cd18e03ab140f28ad"
+    },
+    {
+      "path": "research/p0_s4/s4/results/s4_1_opportunity_research.json",
+      "bytes": 16868,
+      "sha256": "bbd83476563593a407ef4b8d6ab4f3873e21d2b03c03594a7274b34f95652e5c"
+    },
+    {
+      "path": "research/p0_s4/s4/results/s4_opportunity_research.json",
+      "bytes": 1616,
+      "sha256": "41e1c7a2bd80250d9bc3c702ed4f1c5a551f1e9d4db0f7ddf25d968a632c1732"
+    },
+    {
+      "path": "research/p0_s4/s4/results/s4_opportunity_summary.json",
+      "bytes": 1237,
+      "sha256": "4e2dd0310e949ebb32f9fef1c7d3b678f84ce0b1409482ab76b3030391c0d8c9"
+    },
+    {
+      "path": "research/p0_s4/s5/results/s5_candidates.csv",
+      "bytes": 1466,
+      "sha256": "cd8fd33820ff72c7e2ca717f69e14551420b3d2d328cf1731dd6b9e72b67ee93"
+    },
+    {
+      "path": "research/p0_s4/s5/results/s5_report.json",
+      "bytes": 6765,
+      "sha256": "08efcf448f9329d0e2b088682643a5fbc307ecc25a8733285aacbdf7c9fb7556"
+    },
+    {
+      "path": "research/p0_s4/s5_1/results/s5_1_manifest.json",
+      "bytes": 507,
+      "sha256": "9a391539d03ec3df9e707f0ab4e31f899ad0b5ee5ac8334164525caa48a2b0e2"
+    },
+    {
+      "path": "research/p0_s4/s5_1/results/s5_1_report.json",
+      "bytes": 3861,
+      "sha256": "0f251df6b6be37c8b7a41118943bedfb59bcf5306ee53aed3c90abdd54eb6f75"
+    },
+    {
+      "path": "research/p0_s4/s5_1/snapshots/player_gamelogs_2019-20.csv",
+      "bytes": 1646880,
+      "sha256": "14faa0d5aa7bd5b55d0c32de16bedef7067ef36880e5a2d87ee4e36004281bb7"
+    },
+    {
+      "path": "research/p0_s4/s5_1/snapshots/player_gamelogs_2023-24.csv",
+      "bytes": 1946545,
+      "sha256": "76eeaebb5ccc86c0afd26f46f71390a731529dd7bbc32e1c49ace0a5163fa89c"
+    },
+    {
+      "path": "research/p0_s4/s5_1/snapshots/player_gamelogs_2025-26.csv",
+      "bytes": 1968158,
+      "sha256": "dd8cf629b3baa39386d94902d899a73d5004b0dfd3b614c9d7fbb48277cfd546"
+    },
+    {
+      "path": "research/p0_s4/s6/results/s6_predictions_2019-20.csv",
+      "bytes": 2563108,
+      "sha256": "fcb8b846a27ce5b2d9adf8520ef6099524a6ae9a07d778c320304ad3161bc4a9"
+    },
+    {
+      "path": "research/p0_s4/s6/results/s6_predictions_2023-24.csv",
+      "bytes": 3088541,
+      "sha256": "542cb9232b1e1016fe23bff022eb2a47d14d18a60d1b72be19fd44e52ed95c18"
+    },
+    {
+      "path": "research/p0_s4/s6/results/s6_predictions_2025-26.csv",
+      "bytes": 3135672,
+      "sha256": "77b7fe06d5d44c0dd8008f6c525c8f51d73ed56cbfb8b82ffcb7c847cef02900"
+    },
+    {
+      "path": "research/p0_s4/s6/results/s6_report.json",
+      "bytes": 3398,
+      "sha256": "eaf60858c457a29ab6120bb1b07366d605f30d478ead26f150c1945ac104dec5"
+    },
+    {
+      "path": "research/p0_s4/s6_1/results/s6_1_predictions_2019-20.csv",
+      "bytes": 6129791,
+      "sha256": "18151e0b7150063bc6f6f9ffcba0d9071e27415cb2e7f4d489825afac5061d05"
+    },
+    {
+      "path": "research/p0_s4/s6_1/results/s6_1_predictions_2023-24.csv",
+      "bytes": 7799905,
+      "sha256": "516b889293d63e6e239037d7dd20b82ef7a13a9dd7facfbbfd4b1e6c37c39047"
+    },
+    {
+      "path": "research/p0_s4/s6_1/results/s6_1_predictions_2025-26.csv",
+      "bytes": 8207890,
+      "sha256": "daf660d4a539e448ed52656ffc346432e6976c4e626bb1d27603422a6de5f181"
+    },
+    {
+      "path": "research/p0_s4/s6_1/results/s6_1_report.json",
+      "bytes": 9706,
+      "sha256": "35a876df46a125107ad3ad956b30dc14564c04cec6fb4d915df29d1f6386f723"
+    },
+    {
+      "path": "research/p0_s4/s6_2/results/s6_2_predictions_2019-20.csv",
+      "bytes": 6873852,
+      "sha256": "d249a433d6bfac3003a6177df717b6f5f65f8d1084790bf42ecfa2f1aefea5a5"
+    },
+    {
+      "path": "research/p0_s4/s6_2/results/s6_2_predictions_2023-24.csv",
+      "bytes": 8730856,
+      "sha256": "ec1c07f6247a34b3376c79369fcd9d8111ef47c5beda1d0756fd70a36bfacb1b"
+    },
+    {
+      "path": "research/p0_s4/s6_2/results/s6_2_predictions_2025-26.csv",
+      "bytes": 9192629,
+      "sha256": "ed7a7c500b8d7d3be3510d320ff26c5aff120b6cdcffa2cf53e9620c09ee2daf"
+    },
+    {
+      "path": "research/p0_s4/s6_2/results/s6_2_report.json",
+      "bytes": 21767,
+      "sha256": "e2a9810aca6e7e385d9189daf2a32f34afceaadb491f71e7fa525ac254acd964"
+    },
+    {
+      "path": "research/p0_s4/s6_3/results/s6_3_report.json",
+      "bytes": 69718,
+      "sha256": "01e982a426154ee6ca9e652a5b108c76cc2cd3b235434468f793490e64676e75"
+    }
+  ],
+  "observation_audit": {
+    "total": 0,
+    "eligible": 0,
+    "reasons": {}
+  },
+  "gates": {
+    "historical_injury_asof_source_verified": false,
+    "historical_lineup_asof_source_verified": false,
+    "DNP_population_defined": false,
+    "pregame_cutoff_policy_finalized": false,
+    "eligible_for_feature_training": false
+  },
+  "next_actions": [
+    "verify licensing/access and historical as-of coverage",
+    "freeze prediction cutoff and update/revision rules",
+    "define player-game universe including DNPs",
+    "obtain historical source sample with publication timestamps",
+    "audit sample before modeling"
+  ]
+}

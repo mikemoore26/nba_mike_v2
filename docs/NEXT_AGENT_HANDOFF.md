@@ -71,3 +71,17 @@ New `conditional_uncertainty.py`, S6.2 runner, tests and documentation. Run acce
 - Retain role-specific as reference baseline.
 - S6.2 remains RESEARCH_ONLY.
 - Next: S6.3 error attribution and calibration stability.
+## S6.3 handoff
+- Module: `src/nba_mike/evaluation/s6_3_diagnostics.py`.
+- Runner: `research/p0_s4/s6_3/run_s6_3.py` (offline S6.2 outputs).
+- Acceptance: `research/p0_s4/s6_3/run_s6_3_acceptance.py`.
+- Report: `research/p0_s4/s6_3/results/s6_3_report.json`.
+- No production promotion. Await report, regression tests, Git review and commit.
+
+
+## S7.0 handoff (pending local execution)
+- Prior: S6.3 retrospective error attribution, role-specific minutes uncertainty baseline; no production promotion.
+- Current: offline S7.0 provenance validator and local research inventory; `research/p0_s4/s7_0/results/s7_0_feasibility_report.json` after runner.
+- No historical injury/lineup source verified; no network data acquisition; no betting models authorized.
+- Next: source-backed timestamped sample, define prediction cutoff and DNP player-game universe, then S7.1 leakage-safe join POC.
+
