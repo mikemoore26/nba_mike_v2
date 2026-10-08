@@ -686,3 +686,7 @@ Goal: independent date-specific player/team verification. Decision: reject seaso
 ## S7.25 — NBA Stats season roster acquisition (research only)
 Added bounded NBA Stats CommonTeamRoster collector with content-addressed raw JSON, stable NBA IDs, source metadata, strict season validation, fail-closed errors and offline fixtures. Season-level roster rows are candidates only; no date-specific verification, no injury-row modifications, no training. Source access and historical timestamp provenance remain open.
 
+
+## S7.26 — Transaction chronology evidence gate
+Added schema-validated, offline dated transaction ledger, ordered event output, provenance requirements, same-day contradiction review, and fail-closed gates. No source data fabricated, no live scraping yet, no continuous membership claims, no injury row changes. Tests included. Next: authentic transaction source acquisition and evidence hash validation.
+

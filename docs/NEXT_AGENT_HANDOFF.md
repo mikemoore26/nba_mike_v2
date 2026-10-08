@@ -205,3 +205,7 @@ S7.24: Conservative roster evidence staging adapter, not a historical roster fet
 ## S7.25 handoff
 Run `python research/p0_s4/s7_25/run_s7_25.py --team NYK --season 2025-26`. Check report and raw snapshot; endpoint may block. Eight targeted tests. Outputs untracked. All evidence remains season-level candidate only; S7.23 475 unresolved must not be auto-promoted. Next: dated transaction provenance and effective interval reconstruction.
 
+
+## S7.26 handoff
+Run `python research/p0_s4/s7_26/run_s7_26.py`; empty template yields 0 events, training remains blocked. Code in `research/p0_s4/s7_26/run_s7_26.py`; outputs in `results/` are untracked. Input requires stable NBA player IDs, event dates, source URLs, original source SHA256 and timezone-aware timestamps. Chronology events are provisional, not roster intervals. Next S7.27: source capture and authentication; do not promote S7.23 rows.
+
