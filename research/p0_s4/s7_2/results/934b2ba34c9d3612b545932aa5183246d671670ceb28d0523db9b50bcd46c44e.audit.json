@@ -1,0 +1,776 @@
+{
+  "status": "QUARANTINED_RESEARCH_ONLY",
+  "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-03-27_06_30AM.pdf",
+  "filename_report_time_utc": "2026-03-27T10:30:00+00:00",
+  "downloaded_at_utc": "2026-10-08T00:03:45.991474+00:00",
+  "sha256": "934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e",
+  "bytes": 82927,
+  "pdf_path": "research\\p0_s4\\s7_2\\results\\934b2ba34c9d3612b545932aa5183246d671670ceb28d0523db9b50bcd46c44e.pdf",
+  "pages": 8,
+  "text_chars": 28942,
+  "status_line_candidates": [
+    {
+      "page": 1,
+      "line": 7,
+      "raw_text": "03/27/2026           07:00 (ET)       LAC@IND     LA Clippers                             Beal, Bradley                     Out                 Injury/Illness - Left Hip; Feature",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 9,
+      "raw_text": "Miller, Jordan                       Questionable       Injury/Illness - Back; Soreness",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 12,
+      "raw_text": "Niederhauser, Yanic Konan          Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 15,
+      "raw_text": "Indiana Pacers                       Furphy, Johnny                    Out                 Injury/Illness - Right ACL; Tear",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 18,
+      "raw_text": "Haliburton, Tyrese                 Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 21,
+      "raw_text": "Nesmith, Aaron                     Probable            Injury/Illness - Low Back; Soreness",
+      "status_token": "PROBABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 23,
+      "raw_text": "Slawson, Jalen                       Doubtful       G League - Two-Way",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 25,
+      "raw_text": "Toppin, Obi                         Questionable       Injury/Illness - Low Back; Soreness",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 27,
+      "raw_text": "Zubac, Ivica                      Out                 Injury/Illness - Rib; Fracture",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 29,
+      "raw_text": "07:30 (ET)       ATL@BOS      Atlanta Hawks                        Dennis, RayJ                         Doubtful       G League - Two-Way",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 31,
+      "raw_text": "Gilbert, Keshon                      Doubtful       G League - Two-Way",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 33,
+      "raw_text": "Newell, Asa                         Doubtful       G League - On Assignment",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 35,
+      "raw_text": "Boston Celtics                     Brown, Jaylen                       Questionable       Injury/Illness - Left Calf; Tightness",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 37,
+      "raw_text": "Queta, Neemias                     Questionable       Injury/Illness - Right Thumb; Sprain",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 40,
+      "raw_text": "Vucevic, Nikola                    Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 1,
+      "line": 43,
+      "raw_text": "White, Derrick                       Questionable       Injury/Illness - Right Knee; Contusion",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 3,
+      "raw_text": "MIA@CLE     Miami Heat                           Goldin, Vladislav                  Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 5,
+      "raw_text": "Jaquez Jr., Jaime                     Questionable       Injury/Illness - Right Ankle; Sprain",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 8,
+      "raw_text": "Jovic, Nikola                           Available",
+      "status_token": "AVAILABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 11,
+      "raw_text": "Keels, Trevor                     Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 13,
+      "raw_text": "Rozier, Terry                      Out             Not With Team",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 16,
+      "raw_text": "Wiggins, Andrew                      Available",
+      "status_token": "AVAILABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 19,
+      "raw_text": "Young, Jahmir                    Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 21,
+      "raw_text": "Cleveland Cavaliers                     Allen, Jarrett                        Questionable       Injury/Illness - Right Knee; Tendonitis",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 23,
+      "raw_text": "Enaruna, Tristan                   Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 25,
+      "raw_text": "Minix, Riley                      Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 27,
+      "raw_text": "Porter Jr., Craig                   Out                 Injury/Illness - Left Groin; Strain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 29,
+      "raw_text": "Sarr, Olivier                      Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 32,
+      "raw_text": "Tyson, Jaylon                     Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 35,
+      "raw_text": "Wade, Dean                      Out                 Injury/Illness - Right Ankle; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 37,
+      "raw_text": "08:00 (ET)       CHI@OKC     Chicago Bulls                              Collins, Zach                      Out                 Injury/Illness - Right 1st Toe; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 40,
+      "raw_text": "Dillingham, Rob                     Probable",
+      "status_token": "PROBABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 2,
+      "line": 43,
+      "raw_text": "Essengue, Noa                    Out                 Injury/Illness - Left Shoulder; Surgery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 4,
+      "raw_text": "Ivey, Jaden                       Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 7,
+      "raw_text": "Kawamura, Yuki                   Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 9,
+      "raw_text": "McClung, Mac                    Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 12,
+      "raw_text": "Okoro, Isaac                        Probable",
+      "status_token": "PROBABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 15,
+      "raw_text": "Richards, Nick                       Questionable       Injury/Illness - Right Elbow; Sprain",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 18,
+      "raw_text": "Simons, Anfernee                    Doubtful",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 21,
+      "raw_text": "Smith, Jalen                      Out                 Injury/Illness - Right Calf; Strain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 23,
+      "raw_text": "Yabusele, Guerschon                 Questionable       Injury/Illness - Left Ankle; Sprain",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 25,
+      "raw_text": "Oklahoma City Thunder                Barnhizer, Brooks                  Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 28,
+      "raw_text": "Sorber, Thomas                   Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 31,
+      "raw_text": "Topic, Nikola                     Out          G League - On Assignment",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 33,
+      "raw_text": "HOU@MEM   Houston Rockets                  Adams, Steven                    Out                 Injury/Illness - Left Ankle; Surgery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 35,
+      "raw_text": "Newton, Tristen                   Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 37,
+      "raw_text": "VanVleet, Fred                    Out                 Injury/Illness - Right Knee; ACL Repair",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 40,
+      "raw_text": "Memphis Grizzlies                  Aldama, Santi                     Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 3,
+      "line": 44,
+      "raw_text": "Caldwell-Pope, Kentavious          Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 3,
+      "raw_text": "Clarke, Brandon                   Out                 Injury/Illness - Right Calf; Strain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 6,
+      "raw_text": "Edey, Zach                       Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 9,
+      "raw_text": "Jerome, Ty                       Out                 Injury/Illness - Left Ankle; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 12,
+      "raw_text": "Mashack, Jahmai                    Doubtful",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 15,
+      "raw_text": "Morant, Ja                       Out                 Injury/Illness - Left Elbow; UCL Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 18,
+      "raw_text": "Pippen Jr., Scotty                  Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 22,
+      "raw_text": "Wells, Jaylen                     Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 27,
+      "raw_text": "Toronto Raptors                    Hepburn, Chucky                  Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 29,
+      "raw_text": "Lawson, A.J.                           Available       G League - Two-Way",
+      "status_token": "AVAILABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 31,
+      "raw_text": "Martin, Alijah                          Available       G League - Two-Way",
+      "status_token": "AVAILABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 34,
+      "raw_text": "Quickley, Immanuel                Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 38,
+      "raw_text": "09:00 (ET)      UTA@DEN    Utah Jazz                                   Collier, Isaiah                     Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 41,
+      "raw_text": "Filipowski, Kyle                      Probable            Injury/Illness - N/A; Illness",
+      "status_token": "PROBABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 4,
+      "line": 44,
+      "raw_text": "George, Keyonte                  Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 3,
+      "raw_text": "Hinson, Blake                     Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 6,
+      "raw_text": "Jackson Jr., Jaren                  Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 10,
+      "raw_text": "Kessler, Walker                   Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 14,
+      "raw_text": "Markkanen, Lauri                  Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 17,
+      "raw_text": "Nurkic, Jusuf                      Out                 Injury/Illness - Nose; Injury recovery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 19,
+      "raw_text": "Denver Nuggets                    Roddy, David                     Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 21,
+      "raw_text": "Simpson, KJ                      Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 23,
+      "raw_text": "10:00 (ET)       DAL@POR     Dallas Mavericks                        Cisse, Moussa                       Doubtful       G League - Two-Way",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 25,
+      "raw_text": "Gafford, Daniel                    Out                 Injury/Illness - Right Shoulder; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 27,
+      "raw_text": "Irving, Kyrie                      Out                 Injury/Illness - Left Knee; Surgery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 29,
+      "raw_text": "Lively II, Dereck                   Out                 Injury/Illness - Right Foot; Surgery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 32,
+      "raw_text": "Martin, Caleb                     Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 35,
+      "raw_text": "Poulakidas, John                     Doubtful       G League - Two-Way",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 37,
+      "raw_text": "Smith, Tyler                         Probable       G League - Two-Way",
+      "status_token": "PROBABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 39,
+      "raw_text": "Portland Trail Blazers                  Kent, Jayson                      Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 41,
+      "raw_text": "Krejci, Vit                           Doubtful            Injury/Illness - Left Calf; Contusion",
+      "status_token": "DOUBTFUL",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 5,
+      "line": 43,
+      "raw_text": "Lillard, Damian                    Out                 Injury/Illness - Left Achilles Tendon;",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 6,
+      "raw_text": "Sharpe, Shaedon                  Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 10,
+      "raw_text": "Williams III, Robert                  Questionable",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 13,
+      "raw_text": "Yang, Hansen                     Out          G League - On Assignment",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 15,
+      "raw_text": "Youngblood, Chris                 Out          G League - Two-Way",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 18,
+      "raw_text": "WAS@GSW   Washington Wizards                   Coulibaly, Bilal                      Questionable",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 21,
+      "raw_text": "Davis, Anthony                    Out                 Injury/Illness - Left Finger; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 23,
+      "raw_text": "George, Kyshawn                  Out                 Injury/Illness - Left Elbow; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 25,
+      "raw_text": "Johnson, Tre                        Questionable       Injury/Illness - Right Foot; Sprain",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 27,
+      "raw_text": "Russell, D'Angelo                  Out             Not With Team",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 29,
+      "raw_text": "Sarr, Alex                           Questionable       Injury/Illness - Left Big Toe; Capsulitis",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 31,
+      "raw_text": "Vukcevic, Tristan                    Questionable       Injury/Illness - Low Back; Tightness",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 34,
+      "raw_text": "Whitmore, Cam                   Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 38,
+      "raw_text": "Young, Trae                      Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 41,
+      "raw_text": "Golden State Warriors                 Butler III, Jimmy                   Out                 Injury/Illness - Right ACL; Surgery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 43,
+      "raw_text": "Curry, Seth                       Out                 Injury/Illness - Left Adductor; Strain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 6,
+      "line": 45,
+      "raw_text": "Curry, Stephen                    Out                 Injury/Illness - Right Patellofemoral;",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 5,
+      "raw_text": "Horford, Al                       Out                 Injury/Illness - Right Soleus; Strain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 8,
+      "raw_text": "Moody, Moses                    Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 12,
+      "raw_text": "Post, Quinten                     Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 15,
+      "raw_text": "10:30 (ET)       BKN@LAL     Brooklyn Nets                      Clowney, Noah                      Probable            Injury/Illness - Right Wrist; Sprain",
+      "status_token": "PROBABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 18,
+      "raw_text": "Demin, Egor                      Out",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 21,
+      "raw_text": "Porter Jr., Michael                 Out                 Injury/Illness - Left Hamstring; Strain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 23,
+      "raw_text": "Sharpe, Day'Ron                   Out                 Injury/Illness - Left Thumb; Surgery",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 25,
+      "raw_text": "Wolf, Danny                      Out                 Injury/Illness - Left Ankle; Sprain",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 28,
+      "raw_text": "Los Angeles Lakers                    Doncic, Luka                        Questionable",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 32,
+      "raw_text": "Hachimura, Rui                      Questionable",
+      "status_token": "QUESTIONABLE",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 35,
+      "raw_text": "Smart, Marcus                    Out                 Injury/Illness - Right Ankle; Contusion",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    },
+    {
+      "page": 7,
+      "line": 37,
+      "raw_text": "Thiero, Adou                     Out                 Injury/Illness - Left Knee; Soreness",
+      "status_token": "OUT",
+      "review_status": "NEEDS_MANUAL_SCHEMA_VALIDATION"
+    }
+  ],
+  "historical_publication_verified": false,
+  "eligible_for_asof_training": false,
+  "limitations": [
+    "Filename time does not establish actual public availability",
+    "Status lines are unstructured candidates, not validated player-game records",
+    "No historical as-of authorization or training promotion"
+  ]
+}

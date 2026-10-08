@@ -85,3 +85,10 @@ New `conditional_uncertainty.py`, S6.2 runner, tests and documentation. Run acce
 - No historical injury/lineup source verified; no network data acquisition; no betting models authorized.
 - Next: source-backed timestamped sample, define prediction cutoff and DNP player-game universe, then S7.1 leakage-safe join POC.
 
+
+## S7.1 handoff (pending execution)
+New `src/nba_mike/data/injury_asof.py`; registry in `research/p0_s4/s7_1/official_report_registry.csv`; audit runner outputs `research/p0_s4/s7_1/results/s7_1_report.json`. Official PDF links are candidate references only. No PDF bytes, independent availability proof, historical coverage, or training permission. Do not assume filename timestamp proves availability. Next: obtain and audit exact archived PDF samples with evidence.
+
+### S7.2 handoff
+Files: `src/nba_mike/data/injury_pdf.py`, `research/p0_s4/s7_2/`, `tests/test_injury_pdf.py`, `docs/S7_2_INJURY_ACQUISITION.md`. Requires S7.1 module and PyMuPDF. Explicit `--url` triggers single official PDF download. No automatic bulk scraping. Candidate lines are quarantined; as-of eligibility false. Next S7.3 schema validation + independent publication-time evidence.
+

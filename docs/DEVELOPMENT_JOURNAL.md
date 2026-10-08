@@ -531,3 +531,10 @@ Implemented sequential role/history/volatility calibration with strictly prior-d
 - Gates: provider/terms, historical publication/revision timestamps, DNP universe, prediction cutoff, chronological join tests.
 - Status: AUDIT ONLY; append local test and runner results after execution.
 
+
+## S7.1 — Official injury report source registry (pending execution)
+Goal: identify candidate official timestamped injury report versions, introduce URL/byte-hash provenance controls, and fail closed when actual publication/availability evidence is missing. No PDF download or parsing, no verified historical as-of coverage, no training authorization. Run acceptance, registry audit, full tests; record actual results and commit only after review.
+
+## P0-S4 S7.2 — Official injury PDF acquisition
+Implemented allowlisted, opt-in single-report acquisition; raw PDF SHA256 archive; UTC download timestamp; page-level text and quarantined status-line candidates. Offline tests and no model promotion. Historical as-of source remains unverified.
+
