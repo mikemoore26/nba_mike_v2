@@ -700,3 +700,6 @@ Goal: convert 80 S7.27 raw text candidates to inspectable date/team/player rows 
 ## S7.29 — Automated stable NBA player-ID candidate matching
 Goal: link S7.28 candidate names to NBA Stats CommonAllPlayers stable IDs without fuzzy matching. Implemented live/offline directory acquisition, immutable raw snapshot hash, exact name normalization, ambiguity and provenance checks, test coverage, fail-closed governance. No roster/date promotion; validate full-suite and live response locally before milestone closure.
 
+## S7.30 — Transaction identity and team structure review
+Implemented strict S7.28/S7.29 source-provenance join, deterministic flags for missing origin, unresolved player IDs, same-team and same-day multi-destination candidates, and fail-closed review output. No transaction or historical roster membership promoted. Validate complete test suite and actual source results before closeout.
+

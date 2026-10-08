@@ -1,0 +1,2 @@
+# S7.30 — Cross-stage trade evidence review
+Run `python research/p0_s4/s7_30/run_s7_30.py` from project root after S7.29. Reads the S7.28 review CSV, S7.29 identity CSV, and original S7.27 HTML; compares candidate number, name, team, date, and SHA-256. Emits a review CSV and JSON report. Multiple destinations on the same date are **review flags**, not automatically contradictions. All rows remain research-only; no downstream export or membership inference. Generated files and HTML are not committed by default.

@@ -219,3 +219,6 @@ Run `python research/p0_s4/s7_28/run_s7_28.py` after S7.27. Uses S7.27 raw HTML 
 ## S7.29 handoff
 Run `python -m pytest -q`, then `python research/p0_s4/s7_29/run_s7_29.py`; inspect `research/p0_s4/s7_29/results/s7_29_report.json`. Requires existing S7.27 HTML and S7.28 review CSV. If NBA Stats blocks request, use `--directory-json` with an independently obtained unmodified CommonAllPlayers JSON. Exact matches are provisional IDs only. S7.26/S7.23 unchanged, historical injury publication not verified, training blocked.
 
+## S7.30 handoff
+From project root run `python -m pytest -q`, then `python research/p0_s4/s7_30/run_s7_30.py`. Inspect `research/p0_s4/s7_30/results/s7_30_report.json` and `s7_30_review.csv`. Requires S7.27 original HTML, S7.28 review, S7.29 identity candidates. All 80 candidates remain review-only; no S7.26/S7.23 promotion. Next: independent per-event verification and unmatched-name diagnosis. Historical injury publication still unverified; training blocked.
+
