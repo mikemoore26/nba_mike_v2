@@ -630,3 +630,7 @@ Next: inspect real-PDF per-page structure and rendered pages, then design narrow
 - Guardrails: research only, no training, no inferred historical publication timestamp, no original file modifications.
 - Next: run on 3+ distinct official reports, review PDF visual ground truth, quantify field accuracy, and investigate any structural failures.
 
+
+## S7.15 — Official PDF source acquisition (2026-10-08)
+Goal: safely collect distinct official NBA injury report PDFs and rerun S7.14. Implemented allowlisted URL manifest, bounded retrieval, hash deduplication, failure logging, provenance ledger, and batch audit. Manifest URLs are candidates, not verified live links. No inference of historical publication time, no training promotion. Verify local full-suite tests and live acquisition results before concluding source coverage.
+

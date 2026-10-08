@@ -1,0 +1,3 @@
+# S7.15 official report acquisition — research gate
+
+Goal: acquire distinct NBA-hosted injury report PDFs without inventing source availability, and rerun S7.14. URLs in the editable manifest are **unverified candidates**, not evidence of existence. Failures are logged and skipped; no synthetic source PDFs are created. Allowlisted HTTPS host and exact report filename pattern prevent arbitrary fetches and redirect-based host escape. PDFs are SHA256 deduplicated. S7.14 remains the structural validation stage; independent visual/ground-truth comparison and historical publication-time proof remain outstanding. Status RESEARCH_ONLY / BLOCK_TRAINING.

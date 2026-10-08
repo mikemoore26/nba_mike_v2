@@ -158,3 +158,7 @@ S7.12: 242 tests passing, 108 records, three `TEAM_NOT_IN_MATCHUP` flags, all `L
 ## S7.14 handoff
 Added `src/nba_mike/data/injury_multi_report.py`, `research/p0_s4/s7_14/run_s7_14.py`, and `tests/test_injury_multi_s714.py`. Requires local PDF inputs in `research/p0_s4/s7_14/input_pdfs`. Expected `INSUFFICIENT_DISTINCT_VALID_REPORTS` with only the existing one PDF. Do not promote parser or permit training based on structural consistency. Historical publication verification outstanding.
 
+
+## S7.15 handoff
+New `src/nba_mike/data/injury_acquire.py`, `research/p0_s4/s7_15/` and `tests/test_injury_acquire_s715.py`. Run acceptance, full pytest, then `python research/p0_s4/s7_15/run_s7_15.py`. Inspect acquisition JSON for actual downloaded URLs, 404s, duplicate hashes, and S7.14 distinct count. Manifest candidate URLs not preverified. Continue RESEARCH_ONLY/BLOCK_TRAINING; never equate download time with historical publication time.
+
