@@ -194,3 +194,7 @@ Run `python research/p0_s4/s7_21/run_s7_21.py` and `python -m pytest -q`; inspec
 ## S7.22 handoff
 Run `python research/p0_s4/s7_22/run_s7_22.py` and `python -m pytest -q`. This checks internal semantic consistency, not independent roster ground truth. Keep `RESEARCH_ONLY/BLOCK_TRAINING`; do not promote March PDFs based on creation dates.
 
+
+## S7.23 handoff
+Run `python research/p0_s4/s7_23/run_s7_23.py` and `python -m pytest -q`. Header-only independent roster evidence template is intentionally empty. Never treat existing PDF section events as independent roster proof. Maintain RESEARCH_ONLY/BLOCK_TRAINING; next source feasibility and stable player ID validation.
+

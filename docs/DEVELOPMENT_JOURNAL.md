@@ -674,3 +674,7 @@ Added independent PDF-coordinate audit of date, matchup and team provenance for 
 ## S7.22 — Internal semantic assignment / leakage audit
 Added team-in-matchup checks, section-event state comparison, mutation tests, and fail-closed training eligibility. Source: five S7.14 reports. No source rows changed. Independent roster and historical-publication verification remain unresolved.
 
+
+## S7.23 — Independent historical roster gate scaffold
+Implemented fail-closed external roster evidence schema and date-bounded player/team comparison with contradiction tests. Empty evidence means all candidates UNRESOLVED; no claim of independent verification. No training promotion.
+
