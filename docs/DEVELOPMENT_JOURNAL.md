@@ -622,3 +622,11 @@ Next: inspect real-PDF per-page structure and rendered pages, then design narrow
 - Real PDF: rerun corrected validator on 2026-03-27 report; results pending.
 - Gate: RESEARCH_ONLY / BLOCK_TRAINING; historical publication time not independently verified.
 
+
+## S7.14 — Multi-report generalization audit (implementation)
+- Goal: test whether S7.11/S7.13 behavior generalizes across distinct official injury PDFs.
+- Design: local-only SHA-deduplicated batch runner; per-report parser and validator; risk sample; explicit insufficiency and failure states.
+- Tests: 13 isolated unit tests included; full project tests and real report run pending on Windows.
+- Guardrails: research only, no training, no inferred historical publication timestamp, no original file modifications.
+- Next: run on 3+ distinct official reports, review PDF visual ground truth, quantify field accuracy, and investigate any structural failures.
+

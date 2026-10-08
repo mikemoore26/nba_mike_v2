@@ -154,3 +154,7 @@ New `src/nba_mike/data/injury_stateful.py` and `research/p0_s4/s7_11/run_s7_11.p
 ## S7.13 handoff
 S7.12: 242 tests passing, 108 records, three `TEAM_NOT_IN_MATCHUP` flags, all `LA Clippers` vs `LAC@IND`. S7.13 patches `injury_verify.py` to normalize NBA team labels, adds 30-team/alias tests, and runs the existing verification checks into `s7_13/results`. Await local test and real-PDF outputs. Do not promote data to training.
 
+
+## S7.14 handoff
+Added `src/nba_mike/data/injury_multi_report.py`, `research/p0_s4/s7_14/run_s7_14.py`, and `tests/test_injury_multi_s714.py`. Requires local PDF inputs in `research/p0_s4/s7_14/input_pdfs`. Expected `INSUFFICIENT_DISTINCT_VALID_REPORTS` with only the existing one PDF. Do not promote parser or permit training based on structural consistency. Historical publication verification outstanding.
+
