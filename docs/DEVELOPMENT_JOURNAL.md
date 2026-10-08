@@ -670,3 +670,7 @@ Goal: separate historical publication evidence from future local retrieval evide
 ## S7.21 — Context-coordinate validation
 Added independent PDF-coordinate audit of date, matchup and team provenance for all five reports. Structural results must be measured locally. Gate remains RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.22 — Internal semantic assignment / leakage audit
+Added team-in-matchup checks, section-event state comparison, mutation tests, and fail-closed training eligibility. Source: five S7.14 reports. No source rows changed. Independent roster and historical-publication verification remain unresolved.
+

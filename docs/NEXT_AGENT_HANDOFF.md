@@ -190,3 +190,7 @@ New: `src/nba_mike/data/injury_capture.py`, `research/p0_s4/s7_20/run_s7_20.py`,
 ## S7.21 handoff
 Run `python research/p0_s4/s7_21/run_s7_21.py` and `python -m pytest -q`; inspect `research/p0_s4/s7_21/results/`. Independent coordinate check is not human truth or historical availability. Training blocked.
 
+
+## S7.22 handoff
+Run `python research/p0_s4/s7_22/run_s7_22.py` and `python -m pytest -q`. This checks internal semantic consistency, not independent roster ground truth. Keep `RESEARCH_ONLY/BLOCK_TRAINING`; do not promote March PDFs based on creation dates.
+
