@@ -1007,3 +1007,7 @@ Goal: move from source inventory to actual artifact retrieval, while maintaining
 
 Created bounded offline-first source inventory and optional HTTP artifact acquisition for six Lakers–Nuggets October 24, 2023 candidate sources. Publisher date labels and current downloads are not historical availability certification. S8.17 Wayback attempts produced no verified captures. No training permitted. See `docs/S8_18_ALTERNATIVE_HISTORICAL_SOURCES.md`. Run tests and inspect report locally before marking milestone complete.
 
+## S8.19 — Offline publication evidence audit
+
+Goal: verify S8.18 artifact integrity and extract publisher/file date claims without confusing those with independently established historical publication. Added `research/p0_s8/s8_19/run_s8_19.py`, intake template, seven tests and documentation. No network, model fitting, training authorization or historical source certification. Review generated report before drawing conclusions. Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+

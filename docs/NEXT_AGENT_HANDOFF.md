@@ -419,3 +419,7 @@ Source `research/p0_s8/s8_17/run_s8_17.py`, tests `tests/test_s817_archive_diagn
 
 Run `python -m pytest -q tests/test_s818_alternative_sources.py`, then `python research/p0_s8/s8_18/run_s8_18.py --project-root . --acquire-sources` (network opt-in). Review `research/p0_s8/s8_18/results/s8_18_report.json` and `s8_18_source_audit.csv`. Current downloads, publisher timestamps, and syndication do not certify pregame publication. Never use postgame inactives as pregame features. Keep `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games unresolved.
 
+## S8.19 handoff
+
+Run `python -m pytest -q tests/test_s819_publication_audit.py` then `python research/p0_s8/s8_19/run_s8_19.py --project-root .`. Review `research/p0_s8/s8_19/results/s8_19_report.json`, `s8_19_artifact_review.csv`, `s8_19_publication_claims.csv`, `s8_19_capture_review.csv`. Source metadata and manual capture intake are **not independent proof**. No approved historical pregame sources; `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games unresolved.
+
