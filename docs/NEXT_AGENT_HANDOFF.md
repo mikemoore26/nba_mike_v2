@@ -292,3 +292,9 @@ Run `python research/p0_s4/s7_44/run_s7_44.py` after S7.43. Review the JSON repo
 
 S7.45 source: `research/p0_s4/s7_45/run_s7_45.py`; tests: `tests/test_s745_date_reconciliation.py`. Input: S7.44 local `results/s7_44_review.csv`; output: S7.45 local `results/s7_45_review.csv` and `s7_45_report.json`. Review conflicting publication dates first, then single publication candidates. S7.46 proposed: independent historical archive timestamp verification with exact URL, archived snapshot hash, capture timestamp, and prediction cutoff checks. Status `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S7.45 handoff
+
+S7.45 source: `research/p0_s4/s7_45/run_s7_45.py`; tests: `tests/test_s745_date_reconciliation.py`. Input: S7.44 local `results/s7_44_review.csv`; output: S7.45 local `results/s7_45_review.csv` and `s7_45_report.json`. Review conflicting publication dates first, then single publication candidates. S7.46 proposed: independent historical archive timestamp verification with exact URL, archived snapshot hash, capture timestamp, and prediction cutoff checks. Status `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+...
