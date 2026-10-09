@@ -776,3 +776,10 @@ Added offline multi-player transaction direction parsing, team alias handling, e
 **Tests:** run `python -m pytest -q`; verify reports before committing.
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S7.44 — Publication metadata provenance audit
+- Goal: audit historical publication claims using saved official NBA HTML without network access.
+- Approach: hash-check each captured article; inventory meta, JSON-LD and time-element dates; distinguish publication candidates, event dates, retrieval, and independently verified historical availability.
+- Validation: targeted tests and full suite on local machine; no evidence promotion.
+- Outputs: research/p0_s4/s7_44/results/ (untracked local evidence).
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING. No as-of historical proof.
+

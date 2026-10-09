@@ -284,3 +284,6 @@ Run `python research/p0_s4/s7_42/run_s7_42.py` after S7.41; review `research/p0_
 ## S7.43 handoff
 Runner: `python research/p0_s4/s7_43/run_s7_43.py`. Inputs S7.42 review CSV and S7.38 article objects. Tests `tests/test_s743_event_identity.py`. Outputs untracked `research/p0_s4/s7_43/results/`. Review Tyus Jones as unresolved event identity, not a proven conflict. Editorial independence and historical publication remain unverified. **RESEARCH_ONLY / BLOCK_TRAINING**. Next: event-date evidence provenance and independent reporting review, no automatic promotion.
 
+## S7.44 handoff
+Run `python research/p0_s4/s7_44/run_s7_44.py` after S7.43. Review the JSON report, CSV evidence, and article inventory. HTML timestamps are only self-reported candidates, not independent publication proof. No roster/transaction event verified, no training. Next evaluate independent historical archive snapshots or official timestamped transaction ledgers with documented provenance; avoid treating article URL date tokens as proof.
+
