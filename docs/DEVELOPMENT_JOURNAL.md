@@ -1031,3 +1031,13 @@ Goal: verify S8.18 artifact integrity and extract publisher/file date claims wit
 - **Validation:** Run `python -m pytest -q tests/test_s821_capture.py` then `python research/p0_s8/s8_21/run_s8_21.py --project-root . --demo`. Save actual local outcomes in the journal after execution.
 - **Unresolved:** No trusted clock, immutable database controls, real acquisition, automatic schedule, source terms assessment, game eligibility or DNP reconciliation. `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games remain blocked.
 
+
+## S8.22 — Manual NBA schedule source adapter (2026-10-09)
+- Goal: First bounded source adapter integrated with S8.21 append-only capture API.
+- Choice: NBA CDN candidate with explicit --live opt-in; synthetic offline fixture as default testing route.
+- Design: raw-first capture, per-event receipt, schema validation, normalized games CSV, failure logging.
+- Test: 14/14 offline tests passed in patch build; local installation/live accessibility still to be confirmed.
+- Limitations: CDN URL/schema not live-verified during packaging, no checkpoint-time enforcement, no player eligibility, no automatic scheduling, no training.
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING. 88 restart games separately blocked.
+- Next: User validates fixture/tests, optionally authorizes one live request, uploads reports; then review actual schema and tipoff coverage before S8.23.
+
