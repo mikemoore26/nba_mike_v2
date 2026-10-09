@@ -436,3 +436,12 @@ S8.20 adopted hybrid forward-first architecture. S8.21 adds **offline-only** fix
 ## S8.22 — Current handoff (2026-10-09)
 S8.21 fixture capture validated on user's PC (12 events, 2 successes, 7 duplicates, 3 failures, no corruption). S8.22 patch introduces `research/p0_s8/s8_22/run_s8_22.py`, offline fixture, tests, and docs. Tests: 14 passed in patch build. Install into existing repository; do not overwrite S8.21. First run offline fixture; review receipt/CSV. Optional `--live` performs one request to allowlisted `https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json` (endpoint unverified at packaging). Raw bytes are recorded in S8.21 even on parse failure. Live network errors are recorded as failures. Requested checkpoint label is not proof of actual T-minus timing. Do not train, certify as-of, approve eligibility, or remove 88-game block. Next assess real source accessibility/schema; S8.23 injury-report adapter only after review.
 
+
+## S8.22.1 handoff
+- Patch replaces only `research/p0_s8/s8_22/run_s8_22.py` and `tests/test_s822_schedule.py`; S8.21 untouched.
+- Run offline pytest before manually attempting one live NBA CDN schedule request.
+- New report fields: `http_error_diagnostics`, `source_assessment`; HTTP status retained on HTTPError.
+- No alternate endpoint chosen; diagnose status first and assess authorized source separately.
+- Do not advance S8.23 until a source is legally accessible, schema-validated, and captured reliably.
+- `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games remain blocked.
+

@@ -77,3 +77,56 @@ def test_live_url_restriction():
 
 def test_ambiguous_modes(root):
     with pytest.raises(ValueError,match='exactly one'):m.run(root)
+
+
+def test_http_403_preserves_status_headers_and_failure(root):
+    from urllib.error import HTTPError
+    from io import BytesIO
+    def forbidden(url):
+        raise HTTPError(url,403,'Forbidden',{'Date':'Fri, 09 Oct 2026 23:00:00 GMT','Set-Cookie':'secret','Retry-After':'60'},BytesIO(b'private error details'))
+    r=m.run(root,live=True,fetcher=forbidden)
+    assert r['http_status']==403 and r['retrieval_error']=='HTTP_403'
+    assert r['capture_outcome']=='FAILURE' and r['parse_status']=='NOT_ATTEMPTED'
+    assert r['http_error_diagnostics']['error_body_sample_sha256']
+    assert 'set-cookie' not in r['response_headers']
+    assert not (root/'research/p0_s8/s8_22/results/s8_22_games.csv').read_text().count('002')
+
+
+def test_http_404_not_retried(root):
+    from urllib.error import HTTPError
+    from io import BytesIO
+    calls=[]
+    def missing(url):
+        calls.append(url)
+        raise HTTPError(url,404,'Not Found',{},BytesIO(b'missing'))
+    r=m.run(root,live=True,fetcher=missing)
+    assert calls==[m.URL]
+    assert r['http_status']==404 and r['retrieval_error']=='HTTP_404'
+
+
+def test_http_429_retry_after_preserved(root):
+    from urllib.error import HTTPError
+    from io import BytesIO
+    def limited(url):
+        raise HTTPError(url,429,'Too Many Requests',{'Retry-After':'120'},BytesIO(b'limited'))
+    r=m.run(root,live=True,fetcher=limited)
+    assert r['response_headers']['retry-after']=='120'
+    assert r['capture_outcome']=='FAILURE'
+
+
+def test_bounded_error_body_hash_no_raw_leak():
+    from urllib.error import HTTPError
+    from io import BytesIO
+    e=HTTPError(m.URL,500,'Server Error',{},BytesIO(b'x'*5000))
+    d=m.classify_http_error(e)
+    assert d['error_body_truncated'] is True
+    assert d['error_body_sample_bytes']==2048
+    assert 'xxxxx' not in json.dumps(d)
+
+
+def test_non_http_network_error_remains_fail_closed(root):
+    from urllib.error import URLError
+    def broken(url):raise URLError('connection failed')
+    r=m.run(root,live=True,fetcher=broken)
+    assert r['http_status'] is None
+    assert r['capture_outcome']=='FAILURE' and r['parse_status']=='NOT_ATTEMPTED'

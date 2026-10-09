@@ -16,9 +16,12 @@ import ssl
 import sys
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlsplit
 
 URL = 'https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json'
 MAX_BYTES = 3_000_000
+MAX_ERROR_BODY = 2048
+SAFE_HEADERS = ('date','content-type','etag','last-modified','content-length','cache-control','retry-after')
 CHECKPOINTS = ('T-24H','T-6H','T-90M','T-30M')
 GAME_ID = re.compile(r'^\d{10}$')
 TEAM = re.compile(r'^[A-Z]{3}$')
@@ -76,15 +79,37 @@ def parse_schedule(payload: bytes):
     return sorted(rows,key=lambda r:(r['tipoff_utc'],r['game_id']))
 
 
+def filtered_headers(headers):
+    """Only non-sensitive response headers; no cookies or authentication."""
+    return {str(k).lower():str(v)[:300] for k,v in headers.items()
+            if str(k).lower() in SAFE_HEADERS}
+
+
 def fetch_live(url: str = URL):
     if url != URL: raise ValueError('UNAPPROVED_SOURCE_URL')
     req=Request(url,headers={'User-Agent':'NBA_MIKE_v2_research_capture/0.1','Accept':'application/json'})
     with urlopen(req,timeout=15,context=ssl.create_default_context()) as response:
         status=response.status
-        headers={k.lower():v for k,v in response.headers.items() if k.lower() in ('date','content-type','etag','last-modified','content-length','cache-control')}
+        headers=filtered_headers(response.headers)
         body=response.read(MAX_BYTES+1)
         if len(body)>MAX_BYTES: raise ValueError('RESPONSE_TOO_LARGE')
         return status,headers,body
+
+
+def classify_http_error(exc: HTTPError):
+    """Capture bounded diagnostics; do not persist the error body or secrets."""
+    code=int(exc.code)
+    headers=filtered_headers(exc.headers or {})
+    # Consume at most a bounded amount; record digest, not response text.
+    try:
+        sample=exc.read(MAX_ERROR_BODY+1)
+    except (OSError,ValueError):
+        sample=b''
+    return {'http_status':code,'response_headers':headers,
+            'error_body_sample_sha256':hashlib.sha256(sample).hexdigest() if sample else None,
+            'error_body_sample_bytes':min(len(sample),MAX_ERROR_BODY),
+            'error_body_truncated':len(sample)>MAX_ERROR_BODY,
+            'error_class':'HTTPError'}
 
 
 def write_json(path:Path,obj):
@@ -101,14 +126,18 @@ def run(project_root:Path, *, live=False, fixture:Path|None=None, checkpoint='T-
     resultdir=base/'results'
     resultdir.mkdir(parents=True,exist_ok=True)
     ledgerroot=project_root/'research/p0_s8/s8_21/artifacts'
-    headers={}; status=None; payload=None; error=None
+    headers={}; status=None; payload=None; error=None; diagnostics={}
     if live:
         try:
             status,headers,payload=fetcher(URL)
             if status!=200:
                 error=f'HTTP_{status}'
                 payload=None
-        except (HTTPError,URLError,TimeoutError,OSError,ValueError) as exc:
+        except HTTPError as exc:
+            diagnostics=classify_http_error(exc)
+            status=diagnostics['http_status'];headers=diagnostics['response_headers']
+            error=f'HTTP_{status}'
+        except (URLError,TimeoutError,OSError,ValueError) as exc:
             error='RETRIEVAL_FAILED_'+type(exc).__name__
     else:
         try:
@@ -136,7 +165,8 @@ def run(project_root:Path, *, live=False, fixture:Path|None=None, checkpoint='T-
               'mode':'LIVE_MANUAL' if live else 'OFFLINE_FIXTURE','requested_checkpoint':checkpoint,
               'request_finished_utc':received,'s821_received_utc_is_authoritative':True,
               'http_status':status,'response_headers':headers,'sha256':event['sha256'],
-              'capture_outcome':event['outcome'],'retrieval_error':error,
+              'capture_outcome':event['outcome'],'retrieval_error':error,'http_error_diagnostics':diagnostics,
+              'source_assessment':'NBA_CDN_CANDIDATE_UNVERIFIED',
               'parse_status':parse_status,'parsed_game_count':len(rows),
               'historical_asof_certified':False,'pregame_player_eligibility_verified':False,
               'decision':'BLOCK_TRAINING','status':'RESEARCH_ONLY'}

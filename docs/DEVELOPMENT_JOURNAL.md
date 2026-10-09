@@ -1041,3 +1041,12 @@ Goal: verify S8.18 artifact integrity and extract publisher/file date claims wit
 - Governance: RESEARCH_ONLY / BLOCK_TRAINING. 88 restart games separately blocked.
 - Next: User validates fixture/tests, optionally authorizes one live request, uploads reports; then review actual schema and tipoff coverage before S8.23.
 
+
+## S8.22.1 — HTTP diagnostics correction
+- **Problem:** S8.22 live run returned `RETRIEVAL_FAILED_HTTPError` with null status; offline fixture succeeded.
+- **Alternatives:** retry/bypass endpoint (rejected); replace source without review (rejected); preserve bounded status/headers/error fingerprint (selected).
+- **Implementation:** updated S8.22 runner, allowlisted HTTP headers, bounded error-body SHA-256 diagnostic, regression tests for 403/404/429/500 and network errors.
+- **Validation:** run local pytest; one explicit live request optional, no automated retries.
+- **Unresolved:** actual live HTTP status and source accessibility; prospective eligibility and all training gates.
+- **Governance:** `RESEARCH_ONLY / BLOCK_TRAINING`.
+
