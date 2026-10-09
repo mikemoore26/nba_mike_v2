@@ -813,3 +813,11 @@ Added offline extraction of archived HTML title, metadata, JSON-LD, headings and
 
 Added offline SHA-256 re-verification, strict grammatical transaction direction candidates, transaction stage classification, replay/metadata provenance flags, and missing mapping diagnostics. No historical publication or event dates verified. RESEARCH_ONLY / BLOCK_TRAINING. Generated research results remain untracked.
 
+
+## S7.50 — Full-article evidence and mapping audit
+- Goal: eliminate S7.49's 450-character excerpt limitation and diagnose incomplete player/team mapping.
+- Method: offline SHA-256 checks on S7.46 archived objects, full-length article/JSON-LD extraction, grammatical direction proposals, explicit mapping-gap status.
+- Constraints: no invented Anthony Davis team mapping, no network, no historical publication or event-date promotion.
+- Commands: `python -m pytest -q`; `python research/p0_s4/s7_50/run_s7_50.py`.
+- Decision: RESEARCH_ONLY / BLOCK_TRAINING pending user-run results and independent validation.
+

@@ -316,3 +316,7 @@ Run `python research/p0_s4/s7_48/run_s7_48.py`; inspect `research/p0_s4/s7_48/re
 
 Run `python research/p0_s4/s7_49/run_s7_49.py` and review `research/p0_s4/s7_49/results/s7_49_report.json` plus CSV. Inputs: S7.48 review and S7.46 SHA-addressed archived objects. No network, no training promotion. Next milestone should examine full localized article body and original archive provenance for any grammatical direction candidates, and resolve Anthony Davis mapping independently.
 
+
+## S7.50 — Full archived text audit
+Run `python research/p0_s4/s7_50/run_s7_50.py` after S7.49. Review `research/p0_s4/s7_50/results/s7_50_report.json` and `s7_50_review.csv`. Evidence is offline, SHA-checked, not independent archive publication proof. Anthony Davis mapping gaps remain flagged until independently sourced. Do not train from these records; status RESEARCH_ONLY / BLOCK_TRAINING.
+
