@@ -865,3 +865,25 @@ Implemented a read-only offline audit for 2019-20, 2023-24, and 2025-26 player g
 
 **Next:** S8.4 schedule cross-check, conditional on S8.3 findings.
 
+## S8.4 — Official NBA schedule crosscheck
+
+**Goal:** Verify S8.3 restart game IDs and dates against independently fetched NBA Stats team-game results.
+**Design:** Read-only S8.3 review; fetch `leaguegamefinder` over NBA Stats HTTPS; hash raw response; reject missing, mismatched, and conflicting dates. Distinguish offline user-supplied JSON from independently retrieved data. No manual promotion or training.
+**Validation:** Targeted unit tests and full suite should be run locally; inspect the JSON report before interpreting evidence.
+**Outputs:** `research/p0_s8/s8_4/results/` (untracked).
+**Remaining:** Official API may block retrieval; schedule match alone does not certify as-of feature history. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+## S8.5 — Offline historical feature-lineage feasibility
+
+**Goal:** Stop repeating a failed S8.4 official schedule request and audit strict prior-game feature construction on existing game logs.
+
+**Problem:** S8.4 source timed out; no game was verified. Historical feature as-of eligibility remains unproven.
+
+**Options:** (A) retry identical NBA Stats endpoint; low yield, no new evidence. (B) assume calendar verified; rejected as leakage risk. (C) preserve unresolved gate and audit offline strict prior-date feature feasibility; selected.
+
+**Implementation:** Added read-only S8.5 runner, schema and chronology checks, targeted regression tests and documentation. No original datasets modified, no models trained. Run the full suite locally before committing; record actual counts and test results from your machine.
+
+**Unresolved:** Official schedule verification, pre-tipoff publication, pregame player universe, injury/roster/market provenance, chronological OOS validation.
+
+**Next:** Review S8.5 report and audit S5/S6 feature generation for leakage, especially postgame participation selection and pre-tipoff feature timestamp.
+

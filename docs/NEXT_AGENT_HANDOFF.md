@@ -347,3 +347,11 @@ Runner: `research/p0_s8/s8_1/run_s8_1.py`. Test: `tests/test_s81_gamelog_quality
 
 S8.2 found 1,892 2019–20 rows dated July 1 or later, likely related to the pandemic-delayed 2020 season. S8.3 audits three existing snapshots offline and produces `s8_3_report.json`, `s8_3_game_calendar_review.csv`, and `s8_3_dataset_review.csv`. Candidate July 30–August 14 restart dates are **not verified official game schedule evidence**. Preserve original snapshots. No training or promotion; historical roster/transaction features remain `BLOCKED_S7_51`. Inspect observed flag count and date/game conflicts; if suitable, S8.4 should independently verify game IDs and dates against a trusted official schedule.
 
+## S8.4 — Official schedule gate
+
+Run `python research/p0_s8/s8_4/run_s8_4.py --project-root . --fetch-official`. Review `results/s8_4_report.json` and `results/s8_4_game_review.csv`. Official NBA Stats endpoint can fail; do not promote failed, missing, conflicting, or unattested matches. Continue to block model training and all historical roster/transaction features. Next milestone depends on actual report; never assume 88 official matches without evidence.
+
+## S8.5 — Feature-lineage feasibility handoff
+
+Runner: `research/p0_s8/s8_5/run_s8_5.py`. Inputs: three `research/p0_s4/s5_1/snapshots/player_gamelogs_<season>.csv`. Outputs: `research/p0_s8/s8_5/results/s8_5_report.json` and `s8_5_dataset_review.csv`. Tests: `tests/test_s85_lineage.py`. Offline, read-only, no training. S8.4 official NBA schedule fetch timed out: 88 restart candidates unverified. S7 roster/transaction/injury historical as-of blocked. Next: inspect existing feature builders for temporal leakage, historical player-universe selection, and as-of proof. Preserve `RESEARCH_ONLY / BLOCK_TRAINING`.
+
