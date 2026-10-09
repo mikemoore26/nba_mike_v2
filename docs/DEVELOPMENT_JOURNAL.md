@@ -821,3 +821,12 @@ Added offline SHA-256 re-verification, strict grammatical transaction direction 
 - Commands: `python -m pytest -q`; `python research/p0_s4/s7_50/run_s7_50.py`.
 - Decision: RESEARCH_ONLY / BLOCK_TRAINING pending user-run results and independent validation.
 
+
+## S7.51 — Evidence bottleneck decision gate
+- Goal: quantify why S7.50 did not yield historically verified transactions; stop repeated archive extraction without a new testable hypothesis.
+- Choice: offline read-only S7.50 CSV audit; distinct row/article/object counts and prioritized failure classifications.
+- Files: `research/p0_s4/s7_51/run_s7_51.py`, README, tests, `docs/S7_51_EVIDENCE_BOTTLENECK_DECISION.md`.
+- Run: `python -m pytest -q`; `python research/p0_s4/s7_51/run_s7_51.py`.
+- Decision: `RESEARCH_ONLY / BLOCK_TRAINING`; pause repetitive archive extraction, pursue independent timestamped transaction/roster sources only if available; independently validated non-roster development can continue in parallel.
+- Actual user-environment test counts and report results: pending execution.
+

@@ -320,3 +320,11 @@ Run `python research/p0_s4/s7_49/run_s7_49.py` and review `research/p0_s4/s7_49/
 ## S7.50 — Full archived text audit
 Run `python research/p0_s4/s7_50/run_s7_50.py` after S7.49. Review `research/p0_s4/s7_50/results/s7_50_report.json` and `s7_50_review.csv`. Evidence is offline, SHA-checked, not independent archive publication proof. Anthony Davis mapping gaps remain flagged until independently sourced. Do not train from these records; status RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.51 — Handoff
+- Read `docs/S7_51_EVIDENCE_BOTTLENECK_DECISION.md` and `research/p0_s4/s7_51/README.md`.
+- Runner uses `research/p0_s4/s7_50/results/s7_50_review.csv`, creates `s7_51_report.json`, `s7_51_review.csv`, `s7_51_article_inventory.csv` under S7.51 results.
+- Do not confuse per-player review rows with independent reports. No archived article, event date, or roster membership has been promoted to historical as-of proof.
+- Research track stop/go: pause same-object extraction; require independently timestamped transaction/roster evidence to reopen. Continue only independently validated non-roster modeling work in parallel.
+- Training decision remains `BLOCK_TRAINING` for chronology-dependent features.
+
