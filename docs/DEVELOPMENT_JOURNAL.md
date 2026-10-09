@@ -714,3 +714,12 @@ Goal: move beyond empty evidence templates by attempting official NBA article di
 ## S7.33 — Offline article relevance audit
 Goal: explain repeated S7.32 article captures and acquisition eligibility gap. Implemented SHA-256 snapshot verification, exact player mention detection, nearby trade-term and team-mention review, duplicate URL accounting, and eligibility decomposition. All extracted claims remain research leads. Run `python -m pytest -q` and `python research/p0_s4/s7_33/run_s7_33.py`; record observed counts. No promotion to S7.31/S7.26/S7.23. Status: RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.34 — Targeted official article discovery (implementation)
+
+**Starting evidence:** S7.33: 457 tests passed, commit `28285a4`; 24/24 captures PLAYER_NOT_FOUND, only two URLs, 71 missing origins (63 eligible, eight excluded).
+
+**Problem:** NBA site search returned repeated unrelated pages. **Options:** repeat site search; manual collection; targeted external index for discovery with official-source allowlist. **Selected:** RSS search as discovery-only, official NBA article capture, strict full-name + trade-vocabulary relevance gate. This reduces false confidence while preserving reproducible search/article snapshots.
+
+**Files:** `research/p0_s4/s7_34/run_s7_34.py`, README, `tests/test_s734_discovery.py`, `docs/S7_34_DISCOVERY_REPAIR.md`. **Outputs:** `s7_34_review.csv`, `s7_34_report.json`, content-addressed objects. **Testing:** local targeted tests included; run full suite and live research acquisition on user's Windows machine. **Risk:** search engine blocks/irrelevant hits, no historical as-of publication proof. **Decision:** `RESEARCH_ONLY / BLOCK_TRAINING`; do not export evidence automatically. **Next:** use measured relevant leads to prioritize semantic origin review or improve source discovery.
+

@@ -233,3 +233,7 @@ Script: `research/p0_s4/s7_32/run_s7_32.py`; default reads S7.30 review, capture
 ## S7.33 handoff
 Offline article relevance audit added in `research/p0_s4/s7_33/run_s7_33.py`. Requires S7.32 captured HTML and CSV, plus S7.30 review CSV. Report `research/p0_s4/s7_33/results/s7_33_report.json`; per-candidate excerpts in `s7_33_review.csv`. Repeated article URLs, missing-origin eligibility gap, and player/trade-term context are diagnostic only. No origin team verified, no historical publication proven. Maintain RESEARCH_ONLY / BLOCK_TRAINING. Next: fix player-specific source discovery based on measured relevance.
 
+
+## S7.34 Handoff
+S7.33 completed at Git `28285a4`, 457 passing tests. S7.33 found 24/24 article captures lacked target player name; 2 URLs reused 12 times each. S7.34 patch adds targeted Bing RSS discovery, NBA `/news/` URL allowlist, SHA-256 snapshots, full-player-name and trade-language relevance review. Requires S7.30 review CSV. Run `python -m pytest -q`, then `python research/p0_s4/s7_34/run_s7_34.py --limit 12 --max-links 8`; inspect `research/p0_s4/s7_34/results/s7_34_report.json` and `s7_34_review.csv`. Live success not assumed. Preserve `RESEARCH_ONLY / BLOCK_TRAINING`, zero automatic S7.31/S7.26/S7.23 promotions. Git commit source/docs/tests only; leave all historical snapshots/results untracked. Investigate any search engine blocking and check actual article relevance before moving on.
+
