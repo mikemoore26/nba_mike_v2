@@ -987,3 +987,10 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wi
 
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING. All candidate sources and evidence need independent verification. Next: review sample and obtain one source artifact with independently proven pre-tipoff publication.
 
+## S8.15 — Official injury-report evidence pilot
+
+- Objective: move from offline inventory to one genuine NBA-hosted historical source for `0022300061`.
+- Identified NBA injury report dated 2023-10-24 5:30 PM ET, ahead of scheduled 7:30 PM ET tipoff. Historical public availability of this exact version remains **unverified**.
+- Built offline intake with original-byte SHA-256 checks, timestamp validation and path containment. Tests must pass locally before commit.
+- Limits: no independent archive capture, no complete pregame roster, no DNP reconciliation, no training. `RESEARCH_ONLY / BLOCK_TRAINING`.
+

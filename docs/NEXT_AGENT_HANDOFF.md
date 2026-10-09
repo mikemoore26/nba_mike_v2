@@ -402,3 +402,7 @@ S8.13 creates a research-only training-boundary design and tests. `research/p0_s
 
 **Constraints:** Never claim verified publication from operator-supplied timestamps; no training; no endpoint retries; postgame participants not pregame universe; 88 restart games unresolved. Source registry candidates are not verified available.
 
+## S8.15 handoff
+
+Runner: `research/p0_s8/s8_15/run_s8_15.py`; test: `tests/test_s815_evidence_pilot.py`. Game `0022300061`, LAL@DEN, 2023-10-24 7:30 PM ET. NBA-hosted 5PM injury PDF identified (PDF header says 5:30 PM ET), but independent proof of pre-tipoff publication absent. Optional manual artifact intake via `evidence_intake_TEMPLATE.csv` copied to `evidence_intake.csv`; original bytes in `artifacts/`. Never mark as certified based on file label, operator CSV or current hosting. Review outputs `s8_15_report.json`, `s8_15_evidence_review.csv`, `s8_15_source_candidates.csv`. Training is blocked; restart 88 unresolved.
+

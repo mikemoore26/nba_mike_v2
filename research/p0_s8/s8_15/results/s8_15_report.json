@@ -1,0 +1,27 @@
+{
+  "milestone": "S8.15",
+  "mode": "OFFLINE_OFFICIAL_INJURY_EVIDENCE_PILOT",
+  "game_id": "0022300061",
+  "matchup": "LAL@DEN",
+  "scheduled_tipoff_et": "2023-10-24T19:30:00-04:00",
+  "official_pdf_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2023-10-24_05PM.pdf",
+  "document_label": "10/24/23 05:30 PM ET",
+  "source_discovery": "OFFICIAL_NBA_PDF_IDENTIFIED_PUBLIC_WEB_SEARCH",
+  "official_pdf_downloaded_by_runner": false,
+  "submitted_artifacts": 0,
+  "candidate_manual_review": 0,
+  "independently_verified_artifacts": 0,
+  "independently_verified_games": 0,
+  "full_pregame_population_verified": false,
+  "publication_time_independently_verified": false,
+  "decision": "BLOCK_TRAINING",
+  "status": "RESEARCH_ONLY",
+  "outcome": "OFFICIAL_ARTIFACT_DISCOVERED_NOT_ASOF_CERTIFIED",
+  "limitations": [
+    "Printed PDF time is not independent proof of public availability",
+    "CSV capture metadata is a claim requiring independent archival verification",
+    "Injury report is not a complete eligible-player roster",
+    "No historical data sources or games are approved for training",
+    "Restart 88 games remain separately blocked"
+  ]
+}

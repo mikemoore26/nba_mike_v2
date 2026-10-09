@@ -1,0 +1,5 @@
+source,url,scope,independent_pregame_capture,decision
+NBA official 5PM injury PDF,https://ak-static.cms.nba.com/referee/injury/Injury-Report_2023-10-24_05PM.pdf,LAL@DEN 2023-10-24; 05:30 PM document label,NOT_VERIFIED,CANDIDATE_ONLY
+NBA official 7PM injury PDF,https://ak-static.cms.nba.com/referee/injury/Injury-Report_2023-10-24_07PM.pdf,LAL@DEN 2023-10-24; 07:30 PM document label at scheduled tipoff,NOT_VERIFIED,DO_NOT_USE_AS_PREGAME_PROOF
+NBA 2023-24 schedule,https://www.nba.com/news/2023-24-nba-regular-season-schedule,Scheduled tipoff 7:30 PM ET,SCHEDULE_PUBLISHED_BEFORE_GAME,SCHEDULE_CONTEXT_ONLY
+NBA opening-night roster announcement,https://www.nba.com/news/nba-rosters-regular-season-2023-24,"Opening-night rosters, publication shown 5:03 PM ET",HISTORICAL_PUBLICATION_NOT_INDEPENDENTLY_ARCHIVED,ROSTER_CANDIDATE_ONLY
