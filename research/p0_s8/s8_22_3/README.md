@@ -1,0 +1,3 @@
+# S8.22.3 — Provider authorization and coverage review
+
+Run `python -m pytest -q tests/test_s8223_provider_review.py` then `python research/p0_s8/s8_22_3/run_s8_22_3.py --project-root .` from the repository root. This is an offline documentation comparison. It does not request an API key, access the internet, or approve live ingestion. Check provider dashboard entitlements and legal terms manually. Never paste API keys into chats, source code, Git, or uploaded reports. Generated results are in `research/p0_s8/s8_22_3/results/` and should not be committed. Keep `RESEARCH_ONLY / BLOCK_TRAINING`.

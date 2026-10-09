@@ -1060,3 +1060,7 @@ Goal: verify S8.18 artifact integrity and extract publisher/file date claims wit
 - Results: no network calls, no live source approved, BLOCK_TRAINING.
 - Next: provider terms, access, costs, coverage, game-ID mapping and UTC tipoff audit. Keep 88 restart games blocked.
 
+
+## S8.22.3 — Provider selection and authorization review (2026-10-09)
+Goal: select a documented NBA schedule candidate without bypassing HTTP 403 or asserting unauthorized live access. Compared official BALLDONTLIE and API-Sports documentation. Selected BALLDONTLIE for *manual terms/account review* based on documented free-tier NBA Games endpoint and date filters; API-Sports is fallback. Implemented offline CSV/JSON report and tests. No live request, account access, secrets, training, or certified game records. Pending: verify terms and user account entitlement, perform permitted manual live test, validate schema and ID crosswalk. Governance RESEARCH_ONLY/BLOCK_TRAINING.
+

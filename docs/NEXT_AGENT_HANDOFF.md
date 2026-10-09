@@ -449,3 +449,7 @@ S8.21 fixture capture validated on user's PC (12 events, 2 successes, 7 duplicat
 ## S8.22.2 handoff
 The NBA CDN returned HTTP 403 in S8.22.1. Do not retry or bypass. S8.22.2 compares five candidates offline, with eight unfulfilled acceptance gates. Run `python research/p0_s8/s8_22_2/run_s8_22_2.py --project-root .`; inspect three results in `research/p0_s8/s8_22_2/results/`. No source authorized for collection. Next task: verify written provider permissions, affordable plans and actual schedule coverage before building a live adapter. Preserve S8.21 receipts, explicit source-ID crosswalk, independent eligibility gate and `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games remain blocked.
 
+
+## S8.22.3 — Handoff
+Provider comparison is documentation-only. Candidate BALLDONTLIE `/v1/games` (free NBA Games advertised, 5 req/min; key required), fallback API-Sports NBA. Existing NBA CDN yielded 403; do not retry. Runner `research/p0_s8/s8_22_3/run_s8_22_3.py`, tests `tests/test_s8223_provider_review.py`, results in `research/p0_s8/s8_22_3/results/`. Next S8.22.4: after terms and user entitlement confirmation, create explicit manual authorized adapter; store secrets in environment; no secrets in logs, artifacts, Git. Verify real schema, tipoff, provider-to-NBA IDs, and S8.21 provenance. Still RESEARCH_ONLY/BLOCK_TRAINING, 88 restart games separately blocked.
+
