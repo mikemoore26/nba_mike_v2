@@ -1021,3 +1021,13 @@ Goal: verify S8.18 artifact integrity and extract publisher/file date claims wit
 
 **Unresolved:** implement and test a small prospective capture proof of concept with authorized sources, verify independent pregame population/DNP process, fold-local validation and calibration, 88 restart games. Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.21 — Offline forward evidence capture prototype
+
+- **Goal:** Implement S8.20 forward evidence storage without implying historical certification.
+- **Decision:** Standard-library SQLite append-only application API plus content-addressed raw bytes, SHA-256 integrity, duplicate and failure events, checkpoint health report.
+- **Alternatives:** JSONL (simpler but weaker queries) and full production service (premature before adapters); SQLite chosen for simple local testing and audit queries.
+- **Files:** `research/p0_s8/s8_21/run_s8_21.py`, README, `tests/test_s821_capture.py`, `docs/S8_21_FORWARD_CAPTURE_INFRASTRUCTURE.md`.
+- **Validation:** Run `python -m pytest -q tests/test_s821_capture.py` then `python research/p0_s8/s8_21/run_s8_21.py --project-root . --demo`. Save actual local outcomes in the journal after execution.
+- **Unresolved:** No trusted clock, immutable database controls, real acquisition, automatic schedule, source terms assessment, game eligibility or DNP reconciliation. `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games remain blocked.
+

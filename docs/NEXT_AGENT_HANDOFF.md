@@ -427,3 +427,8 @@ Run `python -m pytest -q tests/test_s819_publication_audit.py` then `python rese
 
 Run `python -m pytest -q tests/test_s820_strategy.py`, then `python research/p0_s8/s8_20/run_s8_20.py --project-root .`. Upload five result files from `research/p0_s8/s8_20/results/`. Historical snapshots and all pre-2026 capture artifacts remain **exploratory**. No training path is authorized; S8.13 remains fail-closed. Proposed next milestone S8.21: local, offline fixture-based immutable capture-store proof of concept with deterministic IDs, UTC receipt timestamps, hash integrity, duplicate detection, and failure logs; do not claim pregame certification or run production collection without separately authorized source access.
 
+
+## S8.21 — Handoff
+
+S8.20 adopted hybrid forward-first architecture. S8.21 adds **offline-only** fixture capture: SQLite ledger, SHA256 raw bytes, duplicate/failure tracking, integrity check, health reports. Install patch and run `python -m pytest -q tests/test_s821_capture.py`; run demo with `python research/p0_s8/s8_21/run_s8_21.py --project-root . --demo`. Outputs in `research/p0_s8/s8_21/artifacts/results/`. Exclude artifacts from Git. Next: S8.22 authorized live schedule adapter after source policy and schema review. No source or player certified, no real prospective snapshots, no model fitting; `RESEARCH_ONLY / BLOCK_TRAINING`. 88 restart games separately blocked.
+
