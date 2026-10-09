@@ -749,3 +749,13 @@ Goal: replace ineffective generic search discovery with direct article leads fro
 
 Added SHA256-gated extraction of candidate player and transaction verbs in the same visible-text sentence, with team mention annotations and exact statement review rows. Fail closed on missing or modified article objects. No verified origin or historical publication proof; RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.40 — Evidence Quality and Direction Review (2026-10-09)
+- **Goal:** Improve precision of S7.39 transaction statements before any origin-team verification.
+- **Problem:** 22 review rows, 21 same-sentence matches, but S7.39 status counts summed to 23; some sentences contained navigation/long unrelated team lists.
+- **Alternatives:** Expand acquisition immediately (rejected: propagates noise); infer direction from team co-mentions (rejected: unsound); conservative offline direction proposals (chosen).
+- **Implementation:** `research/p0_s4/s7_40/run_s7_40.py`, review CSV and JSON; strict schema and verification checks, quality flags, deduplication, limited direction regex, tracker destination conflicts, per-candidate conflict checks, reconciled counts.
+- **Validation:** 12 focused tests passed in patch build; run complete repository suite locally before commit.
+- **Unresolved:** Confirm real captured evidence precision, investigate any zero-proposal outcome, independent transaction corroboration, historical as-of publication proof.
+- **Governance:** `RESEARCH_ONLY / BLOCK_TRAINING`; zero automatic promotion.
+

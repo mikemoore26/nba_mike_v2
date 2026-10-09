@@ -263,3 +263,12 @@ Prerequisite: S7.37 `results/s7_37_review.csv`. Run `python research/p0_s4/s7_38
 
 Run `python research/p0_s4/s7_39/run_s7_39.py` after S7.38. Review `research/p0_s4/s7_39/results/s7_39_review.csv` and report. Statements and team mentions are review-only. Next: independent transaction-direction assessment, evidence conflicts, and historical publication provenance. Never auto-promote.
 
+
+## S7.40 handoff — evidence quality review
+- Previous stable stage S7.39 commit `b325939` (530 tests reported by user).
+- New stage: `research/p0_s4/s7_40/run_s7_40.py`; reads `research/p0_s4/s7_39/results/s7_39_review.csv` and writes `research/p0_s4/s7_40/results/s7_40_review.csv` plus report JSON.
+- S7.39 status-count inconsistency: 22 emitted rows vs 23 sum in status_counts; S7.40 recomputes counts from rows only.
+- New tests: `tests/test_s740_quality.py` (12 focused tests passed in patch build); expected full suite 542 if prior 530 baseline unchanged.
+- Do not equate `DIRECTION_PROPOSAL_REVIEW_ONLY` with verified origin. Never enable as-of training. Do not `git add .` or delete untracked historical outputs.
+- Next action: review user S7.40 report and statement-level CSV, then decide whether to build independent source corroboration or improve extraction.
+
