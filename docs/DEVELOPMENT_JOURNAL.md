@@ -849,3 +849,19 @@ Implemented a read-only offline audit for 2019-20, 2023-24, and 2025-26 player g
 - **Verification:** run full pytest and S8.2 audit locally; inspect findings before further steps.
 - **Governance:** RESEARCH_ONLY / BLOCK_TRAINING; historical roster/transaction evidence still blocked S7.51.
 
+## S8.3 — Historical calendar exception audit
+
+**Goal:** Diagnose 1,892 broad-window flags in 2019–20 without changing source data.
+
+**Problem:** S8.2's generic July 1 upper bound marks pandemic-era August games as out of season.
+
+**Options:** (A) discard flagged rows (unsafe); (B) extend window and auto-certify (unjustified); (C) classify game IDs/dates and require independent schedule corroboration (selected).
+
+**Implementation:** `research/p0_s8/s8_3/run_s8_3.py`, targeted tests, per-game calendar review, per-season counts and SHA-256. No source changes, no network, no model training.
+
+**Verification:** Run `python -m pytest -q` and S8.3 runner locally; attach generated reports for analysis. Do not claim full-suite success until user reports it.
+
+**Unresolved:** Official game-ID/date independent validation; pre-tipoff as-of feature provenance; historical roster/transaction evidence (S7.51).
+
+**Next:** S8.4 schedule cross-check, conditional on S8.3 findings.
+

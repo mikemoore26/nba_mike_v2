@@ -343,3 +343,7 @@ Runner: `research/p0_s8/s8_1/run_s8_1.py`. Test: `tests/test_s81_gamelog_quality
 - Never promote a quality-check pass into pre-tipoff availability certification. Historical roster/transactions remain BLOCKED_S7_51.
 - Decide S8.3 based on genuine issues in rerun; otherwise audit lagging/as-of and OOS evaluation protocol.
 
+## S8.3 — Calendar audit handoff
+
+S8.2 found 1,892 2019–20 rows dated July 1 or later, likely related to the pandemic-delayed 2020 season. S8.3 audits three existing snapshots offline and produces `s8_3_report.json`, `s8_3_game_calendar_review.csv`, and `s8_3_dataset_review.csv`. Candidate July 30–August 14 restart dates are **not verified official game schedule evidence**. Preserve original snapshots. No training or promotion; historical roster/transaction features remain `BLOCKED_S7_51`. Inspect observed flag count and date/game conflicts; if suitable, S8.4 should independently verify game IDs and dates against a trusted official schedule.
+
