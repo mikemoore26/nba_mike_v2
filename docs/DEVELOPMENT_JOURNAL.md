@@ -973,3 +973,17 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wi
 
 **Decision:** `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S8.14 — Historical Pregame Provenance and Eligibility Feasibility
+
+**Goal:** Move from synthetic boundary tests to a small offline historical-source feasibility sample.
+
+**Problem:** Historical player game logs show postgame participants and do not prove pre-tipoff eligibility, DNP status, or publication timing. Official calendar endpoint previously timed out.
+
+**Options:** (1) bulk fetch history (high failure/ambiguity risk), (2) small offline sample plus evidence intake (chosen), (3) train anyway (rejected).
+
+**Implementation:** Deterministic 3-game-per-season offline sampling, separate restart exclusion, candidate source registry, strict timezone/checksum evidence-intake checks, research-only reports and unit tests. No network calls or training.
+
+**Tests:** `python -m pytest -q tests/test_s814_provenance.py`; `python research/p0_s8/s8_14/run_s8_14.py --project-root .`. Record local results after execution.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING. All candidate sources and evidence need independent verification. Next: review sample and obtain one source artifact with independently proven pre-tipoff publication.
+

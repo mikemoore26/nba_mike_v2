@@ -390,3 +390,15 @@ Read-only source map only. Script: `research/p0_s8/s8_12/run_s8_12.py`. Run from
 
 S8.13 creates a research-only training-boundary design and tests. `research/p0_s8/s8_13/boundary.py` unconditionally denies training; even complete self-asserted evidence cannot authorize. Runner: `python research/p0_s8/s8_13/run_s8_13.py --project-root .`; outputs `s8_13_report.json` and `s8_13_cases.csv` in `research/p0_s8/s8_13/results/`. Uses existing S8.10 contract for synthetic checks. Do not enable fitting, infer verified as-of lineage, or approve a predictor list. Next: review reports, prioritize independent data-source lineage and player-eligibility evidence, then design future training-service integration with separate approval.
 
+## S8.14 — Next agent handoff
+
+**Current status:** RESEARCH_ONLY / BLOCK_TRAINING. S8.13 standalone boundary exists but is not integrated into training. S8.14 is an offline source-feasibility audit, not as-of certification.
+
+**Files:** `research/p0_s8/s8_14/run_s8_14.py`, `README.md`, `evidence_intake_TEMPLATE.csv`, `tests/test_s814_provenance.py`, `docs/S8_14_HISTORICAL_PREGAME_FEASIBILITY.md`.
+
+**Run:** `python -m pytest -q tests/test_s814_provenance.py` then `python research/p0_s8/s8_14/run_s8_14.py --project-root .`.
+
+**User should upload:** `research/p0_s8/s8_14/results/s8_14_report.json`, `s8_14_sample_games.csv`, `s8_14_source_registry.csv` and `s8_14_evidence_review.csv` if used.
+
+**Constraints:** Never claim verified publication from operator-supplied timestamps; no training; no endpoint retries; postgame participants not pregame universe; 88 restart games unresolved. Source registry candidates are not verified available.
+
