@@ -298,3 +298,8 @@ S7.45 source: `research/p0_s4/s7_45/run_s7_45.py`; tests: `tests/test_s745_date_
 S7.45 source: `research/p0_s4/s7_45/run_s7_45.py`; tests: `tests/test_s745_date_reconciliation.py`. Input: S7.44 local `results/s7_44_review.csv`; output: S7.45 local `results/s7_45_review.csv` and `s7_45_report.json`. Review conflicting publication dates first, then single publication candidates. S7.46 proposed: independent historical archive timestamp verification with exact URL, archived snapshot hash, capture timestamp, and prediction cutoff checks. Status `RESEARCH_ONLY / BLOCK_TRAINING`.
 
 ...
+
+## S7.46 handoff
+
+Input: `research/p0_s4/s7_45/results/s7_45_review.csv`. Runner: `research/p0_s4/s7_46/run_s7_46.py`. Outputs: `research/p0_s4/s7_46/results/s7_46_report.json` and `s7_46_review.csv`, optional `archive_objects/<sha256>.html`. Archive index candidates are not verified historical availability; downloaded captures require original URL, timestamp, and transaction-claim review. All prior evidence gates remain blocked. Next step should depend on the actual CDX results, not assumed archive availability.
+
