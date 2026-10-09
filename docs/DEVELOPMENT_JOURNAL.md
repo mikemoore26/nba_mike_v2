@@ -727,3 +727,7 @@ Goal: explain repeated S7.32 article captures and acquisition eligibility gap. I
 ## S7.35 — Offline source discovery diagnosis
 Added an offline, hash-checked diagnostic for S7.34 captured search responses. It measures RSS format, item links, and official-source filter exclusions without fetching new material. User must run full suite and review live diagnostic before selecting a repair. RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.36 — Offline rejected URL classification (pending local execution)
+Goal: explain 114 S7.35 rejected RSS links by source host and URL filter reason. Decision: offline hash-verified audit before changing source policy. Added run_s7_36.py, focused tests, README, and classification design. Local user execution and actual host counts pending. No evidence promotion; RESEARCH_ONLY / BLOCK_TRAINING.
+

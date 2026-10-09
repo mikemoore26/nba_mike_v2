@@ -241,3 +241,7 @@ S7.33 completed at Git `28285a4`, 457 passing tests. S7.33 found 24/24 article c
 ## S7.35 handoff
 Run `python research/p0_s4/s7_35/run_s7_35.py` after S7.34. Review `research/p0_s4/s7_35/results/s7_35_report.json` and `s7_35_review.csv` for root cause. No evidence promotion, no training. Next S7.36 must address measured cause rather than replacing discovery blindly.
 
+
+## S7.36 handoff — pending execution
+Run `python -m pytest -q` then `python research/p0_s4/s7_36/run_s7_36.py` from project root. Review `results/s7_36_report.json`, `results/s7_36_domain_counts.csv` and `results/s7_36_url_review.csv`. Source inputs: S7.34 review and preserved SHA-256 XML objects. Fail closed on missing or altered snapshots. Next decision: repair narrowly evidenced official path filtering or investigate external source leads separately. Do not promote any transaction, roster interval or training row.
+
