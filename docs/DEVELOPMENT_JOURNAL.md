@@ -999,3 +999,7 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wi
 
 Goal: move from source inventory to actual artifact retrieval, while maintaining a fail-closed historical publication standard. Added opt-in official NBA PDF download, optional Wayback CDX query, immutable artifact paths, SHA-256 manifest, PDF metadata claim inspection, and conservative archive-index candidate classification. Local tests validate default offline behavior, candidate-only status, malformed input, unsafe hosts and overwrite protection. No source approved, no model training. Operator must record local command results and any network errors. Next: independent archive replay/capture review and separate pregame population/DNP evidence. Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S8.17 — bounded archive response diagnostic (2026-10-09)
+
+**Goal:** resolve whether the S8.16 three-byte CDX response was a valid empty result and probe limited alternative archive lookup methods. **Method:** preserve immutable response bytes and SHA-256, run four explicitly opted-in archive queries, record candidate-only classifications. **Limits:** no replay verification, independent publication proof, eligible roster or DNP evidence. **Status:** `RESEARCH_ONLY / BLOCK_TRAINING`; review generated local report before determining next action. **Tests:** `python -m pytest -q tests/test_s817_archive_diagnostics.py`. **Runner:** `python research/p0_s8/s8_17/run_s8_17.py --project-root . --query-archives`.
+

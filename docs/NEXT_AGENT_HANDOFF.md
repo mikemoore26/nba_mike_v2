@@ -411,3 +411,7 @@ Runner: `research/p0_s8/s8_15/run_s8_15.py`; test: `tests/test_s815_evidence_pil
 
 New module `research/p0_s8/s8_16/run_s8_16.py`, tests `tests/test_s816_evidence_acquisition.py`, documentation `docs/S8_16_OFFICIAL_EVIDENCE_ACQUISITION.md`. Runner defaults offline; flags `--acquire-official --query-wayback` explicitly permit two network retrievals. Outputs `results/s8_16_report.json`, `results/s8_16_artifact_manifest.csv`, `results/s8_16_archive_candidates.csv`; preserved bytes under `artifacts/`. Review actual reports before proceeding. CDX candidates, PDF metadata, current headers, and claimed publication time are NOT independent pregame proof. Zero certified games; no training, no eligible-player certification; 88 restart games blocked. `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S8.17 — archive diagnostics handoff
+
+Source `research/p0_s8/s8_17/run_s8_17.py`, tests `tests/test_s817_archive_diagnostics.py`. S8.16 official NBA PDF checksum `126bd5162d1dc4d568a536029fc4fc4a5557ef23ac25652dd706b3d79c8a0e2f` is historical **artifact identity only**, not historical public availability. Review `results/s8_17_report.json`, `s8_17_request_audit.csv`, `s8_17_capture_candidates.csv` and optionally raw artifacts. Valid empty CDX `[]` means no returned matches, not schema failure. Archive indexes alone never certify pregame availability. Keep `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games unresolved.
+
