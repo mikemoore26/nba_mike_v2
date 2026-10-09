@@ -921,3 +921,20 @@ Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 - Limitations: no verified end-to-end training matrix, fold-local fit, pregame universe, source timestamps or 88 restart games.
 - Status: `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.10 — Standalone fail-closed predictor contract (2026-10-09)
+
+**Goal:** Establish executable safeguards before any future model-input integration, following S8.9's 45 source-review findings.
+
+**Problem:** S8.9 did not certify a real downstream predictor matrix or chronological preprocessing.
+
+**Options:** Another broad static scan (rejected: little incremental value); integrate directly into unknown training code (rejected: unsafe); standalone tested contract (selected).
+
+**Implementation:** Added `research/p0_s8/s8_10/contract.py`, offline self-check runner, README, tests and research documentation. Explicit numeric predictor allowlist, target/outcome/ID exclusions, finite values, date-separated folds, and permanent BLOCK_TRAINING guard. No existing source modules changed.
+
+**Tests/commands:** `python -m pytest -q tests/test_s810_contract.py`; `python research/p0_s8/s8_10/run_s8_10.py --project-root .`. Record actual local results before milestone closeout.
+
+**Unresolved:** No live matrix inspection, no fold-local preprocessing/calibration verification, no independent pregame roster/DNP or historical as-of timestamps; 88 restart games unverified.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING. No model training, promotion, or bets.
+

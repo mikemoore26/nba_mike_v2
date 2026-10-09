@@ -372,3 +372,8 @@ S8.7 traced six unchanged source files; five gates remained unverified/blocked. 
 ## S8.9 handoff
 S8.8: 14/14 synthetic behavior checks passed, but pipeline not certified. S8.9 adds read-only downstream source scanning and conservative predictor-list contract tests. Run `python -m pytest -q tests/test_s89_downstream.py` then `python research/p0_s8/s8_9/run_s8_9.py --project-root .`. Review `research/p0_s8/s8_9/results/s8_9_report.json` and `s8_9_findings.csv` with the next agent. Never infer actual model matrix safety from source patterns or tests of an unintegrated helper. Do not train/promote/bet. Governance `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.10 handoff (2026-10-09)
+
+Standalone fail-closed predictor contract created at `research/p0_s8/s8_10/contract.py`, with `run_s8_10.py`, README and `tests/test_s810_contract.py`. Run offline tests and runner; upload `s8_10_report.json` and `s8_10_cases.csv`. No existing model source changed and contract is not wired into training. Do not interpret passing synthetic contract tests as pipeline certification. Next: inspect actual X construction and fold-local preprocessing; maintain independent as-of, pregame eligibility/DNP, and calendar gates. Governance: RESEARCH_ONLY / BLOCK_TRAINING.
+
