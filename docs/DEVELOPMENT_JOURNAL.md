@@ -759,3 +759,7 @@ Added SHA256-gated extraction of candidate player and transaction verbs in the s
 - **Unresolved:** Confirm real captured evidence precision, investigate any zero-proposal outcome, independent transaction corroboration, historical as-of publication proof.
 - **Governance:** `RESEARCH_ONLY / BLOCK_TRAINING`; zero automatic promotion.
 
+
+## S7.41 — Offline article evidence recovery
+Goal: recover headline and paragraph-level transaction leads from already captured S7.38 HTML after S7.40 yielded one direction proposal and 9 quality rejections. Decision: prefer source-preserving, SHA256-checked block extraction over flattened sentence scanning; keep all evidence review-only. Added `research/p0_s4/s7_41/run_s7_41.py`, README, tests and documentation. Focused development tests: 14 passed. Full-suite and live-data results must be verified on the user's machine. Risks: page templates, metadata headlines, alias ambiguity, article publication as-of unknown. Next: evaluate recovered rows and compare with S7.40; do not promote or train.
+

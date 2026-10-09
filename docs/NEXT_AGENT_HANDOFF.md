@@ -272,3 +272,7 @@ Run `python research/p0_s4/s7_39/run_s7_39.py` after S7.38. Review `research/p0_
 - Do not equate `DIRECTION_PROPOSAL_REVIEW_ONLY` with verified origin. Never enable as-of training. Do not `git add .` or delete untracked historical outputs.
 - Next action: review user S7.40 report and statement-level CSV, then decide whether to build independent source corroboration or improve extraction.
 
+
+## S7.41 handoff
+Source code: `research/p0_s4/s7_41/run_s7_41.py`; tests: `tests/test_s741_recovery.py`; docs: `docs/S7_41_ARTICLE_EVIDENCE_RECOVERY.md`. Inputs: S7.38 `results/s7_38_review.csv` and `results/objects/<sha256>.html`. Run `python -m pytest -q` then `python research/p0_s4/s7_41/run_s7_41.py`. Review `results/s7_41_report.json` and `results/s7_41_review.csv`. Offline only; verify hashes, reconcile counts, review headlines vs body, compare S7.40 proposals. No historical as-of publication verification, no roster evidence promotion, no training. Status remains `RESEARCH_ONLY / BLOCK_TRAINING`.
+
