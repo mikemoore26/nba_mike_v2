@@ -958,3 +958,18 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wi
 
 **Governance:** `RESEARCH_ONLY / BLOCK_TRAINING`. Review generated CSVs before deciding integration. Independent as-of and pregame player eligibility remain blocked.
 
+
+## S8.13 — Training boundary architecture
+
+**Goal:** design a centralized fail-closed research-only boundary following S8.12 source mapping.
+
+**Prior evidence:** S8.12 scanned 131 files and found no identified model-fit, chronological split, or contract call candidates. This is not proof of absence across the full repository or external jobs.
+
+**Implementation:** added `research/p0_s8/s8_13/boundary.py` with ten evidence gates, unconditional training denial, and an optional S8.10 synthetic validation adapter; `run_s8_13.py` writes JSON/CSV reports; added targeted pytest tests and documentation. No existing source feature code or models modified.
+
+**Verification:** run `python -m pytest -q tests/test_s813_boundary.py` and `python research/p0_s8/s8_13/run_s8_13.py --project-root .` in the target checkout. Record local results before marking complete.
+
+**Unresolved:** historical as-of publication, pregame eligibility, DNPs, 88 restart games, independent gate proof, fold-local transformations, runtime training integration.
+
+**Decision:** `RESEARCH_ONLY / BLOCK_TRAINING`.
+

@@ -385,3 +385,8 @@ New: `research/p0_s8/s8_11/run_s8_11.py`, README, tests, integration-feasibility
 
 Read-only source map only. Script: `research/p0_s8/s8_12/run_s8_12.py`. Run from repo root. Collect `s8_12_report.json`, `s8_12_priority_paths.csv`, `s8_12_call_sites.csv`, `s8_12_assignment_edges.csv`. Review source locations for real downstream consumers and any actual training matrix construction. AST matches are not proof of model fitting or dataflow. No feature allowlist approved. Do not enable fitting, promotion, or bets. Maintain `RESEARCH_ONLY / BLOCK_TRAINING`; as-of publication, pregame player universe/DNP, fold-local transforms and 88 restart games unresolved.
 
+
+## S8.13 handoff
+
+S8.13 creates a research-only training-boundary design and tests. `research/p0_s8/s8_13/boundary.py` unconditionally denies training; even complete self-asserted evidence cannot authorize. Runner: `python research/p0_s8/s8_13/run_s8_13.py --project-root .`; outputs `s8_13_report.json` and `s8_13_cases.csv` in `research/p0_s8/s8_13/results/`. Uses existing S8.10 contract for synthetic checks. Do not enable fitting, infer verified as-of lineage, or approve a predictor list. Next: review reports, prioritize independent data-source lineage and player-eligibility evidence, then design future training-service integration with separate approval.
+
