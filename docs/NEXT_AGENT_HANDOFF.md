@@ -225,3 +225,7 @@ From project root run `python -m pytest -q`, then `python research/p0_s4/s7_30/r
 ## S7.31 handoff
 Run `python -m pytest -q`, then `python research/p0_s4/s7_31/run_s7_31.py`. Requires S7.30 review CSV. Inspect `research/p0_s4/s7_31/results/s7_31_report.json` and review CSV. Optional `independent_evidence.csv` contains only independently sourced, locally saved snapshots with matching SHA-256 and verbatim excerpt; empty by default. No automatic approval of origins, effective dates, historical availability, or training. Next: independently source original team and dated individual transactions.
 
+## S7.32 handoff
+
+Script: `research/p0_s4/s7_32/run_s7_32.py`; default reads S7.30 review, captures up to 12 eligible player searches, up to 2 official NBA news articles per player. Results: `research/p0_s4/s7_32/results/s7_32_report.json`, `s7_32_capture.csv`, `objects/*.html`. NBA search may return zero article links; record this honestly. Run full pytest, inspect counts, commit only code/tests/docs. Next: evidence semantic extraction and human review, not automatic origin assignment. Training blocked.
+

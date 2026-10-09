@@ -706,3 +706,7 @@ Implemented strict S7.28/S7.29 source-provenance join, deterministic flags for m
 ## S7.31 — Independent origin evidence review gate
 Added optional SHA-256 checked independent source excerpt staging and per-candidate NBA search discovery links, strict candidate joins, multi-source conflict flags and research-only reports. Missing evidence stays unresolved. No origin or roster promotion. Run full tests and review real output before closing milestone.
 
+## S7.32 — Official article discovery and immutable capture
+
+Goal: move beyond empty evidence templates by attempting official NBA article discovery for S7.30 missing-origin candidates. Introduced rate-limited acquisition, SHA-256 source snapshots, failure reporting, and tests for URL allowlisting, deduplication, missing links, redirect checks, and fail-closed training gate. Captured article is a research lead, not a verified transaction. No promotion to S7.31/S7.26/S7.23. Await local full-suite tests and real acquisition report.
+
