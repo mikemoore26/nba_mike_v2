@@ -896,3 +896,10 @@ Implemented a read-only offline audit for 2019-20, 2023-24, and 2025-26 player g
 **Safety:** RESEARCH_ONLY / BLOCK_TRAINING. Prior S7.51 historical roster/injury gate and S8.4 88-game schedule gate unchanged.
 **Next:** review generated findings with source context and establish fold-local, pregame-as-of lineage. Record user's test results and scan counts after run.
 
+
+## S8.7 — Targeted source tracing
+Goal: triage S8.6 medium findings against actual source, without editing production logic.
+Decision: use local read-only AST/source excerpts and SHA-256 checks; dynamic mutation tests deferred until source interfaces are inspected.
+Artifacts: `research/p0_s8/s8_7/`, `tests/test_s87_trace.py`, `docs/S8_7_TARGETED_SOURCE_TRACE.md`.
+Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+

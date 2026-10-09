@@ -360,3 +360,7 @@ Runner: `research/p0_s8/s8_5/run_s8_5.py`. Inputs: three `research/p0_s4/s5_1/sn
 
 Run `python research/p0_s8/s8_6/run_s8_6.py --project-root .` after full pytest. Review `research/p0_s8/s8_6/results/s8_6_report.json`, `s8_6_findings.csv`, and `s8_6_file_inventory.csv`. Heuristic patterns are review candidates only. Never assert confirmed leakage from a string match or approve training from absence of matches. Check actual S5/S6 functions and chronological folds; source may be missing from scoped directories. Keep RESEARCH_ONLY / BLOCK_TRAINING; S7.51 and S8.4 blockers persist.
 
+
+## S8.7 handoff
+Run `python research/p0_s8/s8_7/run_s8_7.py --project-root .` after installing patch. Upload `s8_7_report.json` and `s8_7_trace.csv`. Six priority sources traced; hashes compared to S8.6 inventory. Do not interpret static traces as actual mutation-test success. Next: contract-aware adversarial tests; pregame universe remains blocked. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
