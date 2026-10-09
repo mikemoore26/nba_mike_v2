@@ -808,3 +808,8 @@ Implemented offline archived-object SHA-256 verification, exact article URL cros
 
 Added offline extraction of archived HTML title, metadata, JSON-LD, headings and paragraphs with SHA-256 re-verification and URL-only separation. Added 15 targeted tests. Review-only transaction candidates; historical publication and event identity not verified. No training promotion.
 
+
+## S7.49 — Archived transaction claim audit
+
+Added offline SHA-256 re-verification, strict grammatical transaction direction candidates, transaction stage classification, replay/metadata provenance flags, and missing mapping diagnostics. No historical publication or event dates verified. RESEARCH_ONLY / BLOCK_TRAINING. Generated research results remain untracked.
+

@@ -311,3 +311,8 @@ Run `python research/p0_s4/s7_47/run_s7_47.py` after S7.46 capture download; ins
 
 Run `python research/p0_s4/s7_48/run_s7_48.py`; inspect `research/p0_s4/s7_48/results/s7_48_report.json` and `s7_48_review.csv`. Inputs: S7.47 review and S7.46 saved archive_objects. Investigate article-content localization and archive replay contamination before any promotion. Maintain `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S7.49 — Next agent handoff
+
+Run `python research/p0_s4/s7_49/run_s7_49.py` and review `research/p0_s4/s7_49/results/s7_49_report.json` plus CSV. Inputs: S7.48 review and S7.46 SHA-addressed archived objects. No network, no training promotion. Next milestone should examine full localized article body and original archive provenance for any grammatical direction candidates, and resolve Anthony Davis mapping independently.
+
