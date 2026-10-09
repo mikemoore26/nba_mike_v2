@@ -800,3 +800,7 @@ Goal: reconcile 38 S7.44 metadata records from nine SHA-verified NBA article obj
 
 Goal: query historical archive index for nine SHA-addressed NBA article URL candidates from S7.45. Added exact host/path URL checks, archive-index timestamp parsing, explicit network error categories, optional content-addressed archived HTML preservation, offline mode, and 15 targeted tests. Archive timestamps and saved replay content remain review-only, and no historical publication, transaction event, roster, or training evidence is promoted. Commands: `python -m pytest -q`, `python research/p0_s4/s7_46/run_s7_46.py`. Record observed results after local execution.
 
+## S7.47 — Archived transaction claim review
+
+Implemented offline archived-object SHA-256 verification, exact article URL cross-checks, localized direction candidate extraction and optional timezone-aware cutoff comparison. Added 15 targeted tests. No verified historical publication, transaction date, roster promotion or model training.
+

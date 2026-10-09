@@ -303,3 +303,7 @@ S7.45 source: `research/p0_s4/s7_45/run_s7_45.py`; tests: `tests/test_s745_date_
 
 Input: `research/p0_s4/s7_45/results/s7_45_review.csv`. Runner: `research/p0_s4/s7_46/run_s7_46.py`. Outputs: `research/p0_s4/s7_46/results/s7_46_report.json` and `s7_46_review.csv`, optional `archive_objects/<sha256>.html`. Archive index candidates are not verified historical availability; downloaded captures require original URL, timestamp, and transaction-claim review. All prior evidence gates remain blocked. Next step should depend on the actual CDX results, not assumed archive availability.
 
+## S7.47 — Archived claims handoff
+
+Run `python research/p0_s4/s7_47/run_s7_47.py` after S7.46 capture download; inspect `research/p0_s4/s7_47/results/s7_47_report.json` and review CSV. The source inputs are S7.46 review, saved archive_objects and S7.42 review. Treat all extracted claims as review-only; continue `RESEARCH_ONLY / BLOCK_TRAINING`.
+
