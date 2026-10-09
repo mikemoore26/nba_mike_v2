@@ -368,3 +368,7 @@ Run `python research/p0_s8/s8_7/run_s8_7.py --project-root .` after installing p
 
 S8.7 traced six unchanged source files; five gates remained unverified/blocked. S8.8 provides a read-only, offline behavioral test harness for `build_opportunity_research_frame` and `make_form_frame`, 14 cases on synthetic two-player/same-day data. Run `python -m pytest -q tests/test_s88_adversarial.py` and `python research/p0_s8/s8_8/run_s8_8.py --project-root .`; review JSON/CSV under `research/p0_s8/s8_8/results/`. No claim of historical as-of certification even if all pass. Pending: consumer-level target exclusion, fold-local preprocessing, independent pregame player universe, S8.4 restart calendar 88 games. Maintain `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.9 handoff
+S8.8: 14/14 synthetic behavior checks passed, but pipeline not certified. S8.9 adds read-only downstream source scanning and conservative predictor-list contract tests. Run `python -m pytest -q tests/test_s89_downstream.py` then `python research/p0_s8/s8_9/run_s8_9.py --project-root .`. Review `research/p0_s8/s8_9/results/s8_9_report.json` and `s8_9_findings.csv` with the next agent. Never infer actual model matrix safety from source patterns or tests of an unintegrated helper. Do not train/promote/bet. Governance `RESEARCH_ONLY / BLOCK_TRAINING`.
+

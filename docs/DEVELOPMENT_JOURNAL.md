@@ -912,3 +912,12 @@ Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 **Results:** Pending execution in user's actual checkout. Inspect `s8_8_report.json` and `s8_8_cases.csv`.
 **Limitations:** Synthetic only; historical pregame player universe, as-of evidence, target downstream consumers, and fold-local calibration not certified. `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.9 — Downstream predictor leakage reconnaissance
+- Goal: investigate whether realized box-score outcomes or targets can enter model inputs after S8.8 synthetic feature tests passed.
+- Decision: read-only source discovery plus unit tests for a conservative predictor-list validation helper; no changes to production feature/model logic.
+- Files: `research/p0_s8/s8_9/run_s8_9.py`, `research/p0_s8/s8_9/README.md`, `tests/test_s89_downstream.py`, `docs/S8_9_DOWNSTREAM_PREDICTOR_AUDIT.md`.
+- Tests: run local pytest; attach report and findings before assessing real call sites.
+- Limitations: no verified end-to-end training matrix, fold-local fit, pregame universe, source timestamps or 88 restart games.
+- Status: `RESEARCH_ONLY / BLOCK_TRAINING`.
+
