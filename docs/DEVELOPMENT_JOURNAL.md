@@ -767,3 +767,12 @@ Goal: recover headline and paragraph-level transaction leads from already captur
 ## S7.42 — Transaction direction and source-family review
 Added offline multi-player transaction direction parsing, team alias handling, evidence SHA verification, article-object verification, tracker-destination conflict gate, source-family grouping, and explicit report reconciliation. All results are RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S7.43 — Transaction event identity audit
+**Goal:** avoid treating same-player, different-event transaction reports as contradictions; audit editorial independence.
+**Choice:** fail-closed offline event identity audit with SHA-256 lineage and zero automatic date/source verification.
+**Inputs:** S7.42 review; S7.38 objects. **Outputs:** S7.43 report and review CSV.
+**Limits:** no historical publication proof; no event dates assigned from tracker; no source independence established.
+**Tests:** run `python -m pytest -q`; verify reports before committing.
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
+

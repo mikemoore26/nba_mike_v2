@@ -280,3 +280,7 @@ Source code: `research/p0_s4/s7_41/run_s7_41.py`; tests: `tests/test_s741_recove
 ## S7.42 handoff
 Run `python research/p0_s4/s7_42/run_s7_42.py` after S7.41; review `research/p0_s4/s7_42/results/`. Do not promote direction candidates, multi-family agreement, or historical as-of training without independent evidence and publication timing proof. Check tracker mismatch and source editorial independence.
 
+
+## S7.43 handoff
+Runner: `python research/p0_s4/s7_43/run_s7_43.py`. Inputs S7.42 review CSV and S7.38 article objects. Tests `tests/test_s743_event_identity.py`. Outputs untracked `research/p0_s4/s7_43/results/`. Review Tyus Jones as unresolved event identity, not a proven conflict. Editorial independence and historical publication remain unverified. **RESEARCH_ONLY / BLOCK_TRAINING**. Next: event-date evidence provenance and independent reporting review, no automatic promotion.
+
