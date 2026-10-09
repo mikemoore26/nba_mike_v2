@@ -331,3 +331,7 @@ Run `python research/p0_s4/s7_50/run_s7_50.py` after S7.49. Review `research/p0_
 ## S8.0 — Handoff
 Run `python research/p0_s8/s8_0/run_s8_0.py --project-root .`; inspect `research/p0_s8/s8_0/results/s8_0_report.json`, inventory and component review. This is a path/schema-only triage, not a source-quality certification. Never promote roster or transaction chronology from S7.51. Next stage should perform focused row-level as-of audit on discovered minutes/player-stat candidates and baseline code, without training.
 
+
+## S8.1 — Next-agent handoff
+Runner: `research/p0_s8/s8_1/run_s8_1.py`. Test: `tests/test_s81_gamelog_quality.py`. Inputs: `research/p0_s4/s5_1/snapshots/player_gamelogs_{2019-20,2023-24,2025-26}.csv`. Outputs under `research/p0_s8/s8_1/results/`. Review the report and schema CSV before S8.2. Keep `RESEARCH_ONLY / BLOCK_TRAINING`; S7.51 historical roster and transaction data remain blocked. No full-suite run or live dataset execution has been verified by this patch alone.
+

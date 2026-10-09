@@ -836,3 +836,7 @@ Added offline SHA-256 re-verification, strict grammatical transaction direction 
 - Decision: `RESEARCH_ONLY / BLOCK_TRAINING`; S7.51 chronology blocked. No training authorization from this step.
 - Results: populate after local execution; record pytest count, component statuses, and git commit.
 
+
+## S8.1 — Game-log quality audit
+Implemented a read-only offline audit for 2019-20, 2023-24, and 2025-26 player game-log snapshots. Checks identifiers, duplicate player-game keys, minutes, statistics, dates, schema consistency, file hashes, and incomplete scans. Outputs three review artifacts. Targeted tests included; full-suite results and actual dataset findings must be recorded after user execution. Decision: RESEARCH_ONLY / BLOCK_TRAINING. No historical roster/transaction promotion.
+
