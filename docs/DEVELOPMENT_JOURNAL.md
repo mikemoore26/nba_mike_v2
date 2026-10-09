@@ -1003,3 +1003,7 @@ Goal: move from source inventory to actual artifact retrieval, while maintaining
 
 **Goal:** resolve whether the S8.16 three-byte CDX response was a valid empty result and probe limited alternative archive lookup methods. **Method:** preserve immutable response bytes and SHA-256, run four explicitly opted-in archive queries, record candidate-only classifications. **Limits:** no replay verification, independent publication proof, eligible roster or DNP evidence. **Status:** `RESEARCH_ONLY / BLOCK_TRAINING`; review generated local report before determining next action. **Tests:** `python -m pytest -q tests/test_s817_archive_diagnostics.py`. **Runner:** `python research/p0_s8/s8_17/run_s8_17.py --project-root . --query-archives`.
 
+## S8.18 — Alternative historical evidence source investigation
+
+Created bounded offline-first source inventory and optional HTTP artifact acquisition for six Lakers–Nuggets October 24, 2023 candidate sources. Publisher date labels and current downloads are not historical availability certification. S8.17 Wayback attempts produced no verified captures. No training permitted. See `docs/S8_18_ALTERNATIVE_HISTORICAL_SOURCES.md`. Run tests and inspect report locally before marking milestone complete.
+

@@ -415,3 +415,7 @@ New module `research/p0_s8/s8_16/run_s8_16.py`, tests `tests/test_s816_evidence_
 
 Source `research/p0_s8/s8_17/run_s8_17.py`, tests `tests/test_s817_archive_diagnostics.py`. S8.16 official NBA PDF checksum `126bd5162d1dc4d568a536029fc4fc4a5557ef23ac25652dd706b3d79c8a0e2f` is historical **artifact identity only**, not historical public availability. Review `results/s8_17_report.json`, `s8_17_request_audit.csv`, `s8_17_capture_candidates.csv` and optionally raw artifacts. Valid empty CDX `[]` means no returned matches, not schema failure. Archive indexes alone never certify pregame availability. Keep `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games unresolved.
 
+## S8.18 handoff
+
+Run `python -m pytest -q tests/test_s818_alternative_sources.py`, then `python research/p0_s8/s8_18/run_s8_18.py --project-root . --acquire-sources` (network opt-in). Review `research/p0_s8/s8_18/results/s8_18_report.json` and `s8_18_source_audit.csv`. Current downloads, publisher timestamps, and syndication do not certify pregame publication. Never use postgame inactives as pregame features. Keep `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games unresolved.
+
