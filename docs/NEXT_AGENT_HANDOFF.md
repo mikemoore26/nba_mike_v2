@@ -453,3 +453,14 @@ The NBA CDN returned HTTP 403 in S8.22.1. Do not retry or bypass. S8.22.2 compar
 ## S8.22.3 — Handoff
 Provider comparison is documentation-only. Candidate BALLDONTLIE `/v1/games` (free NBA Games advertised, 5 req/min; key required), fallback API-Sports NBA. Existing NBA CDN yielded 403; do not retry. Runner `research/p0_s8/s8_22_3/run_s8_22_3.py`, tests `tests/test_s8223_provider_review.py`, results in `research/p0_s8/s8_22_3/results/`. Next S8.22.4: after terms and user entitlement confirmation, create explicit manual authorized adapter; store secrets in environment; no secrets in logs, artifacts, Git. Verify real schema, tipoff, provider-to-NBA IDs, and S8.21 provenance. Still RESEARCH_ONLY/BLOCK_TRAINING, 88 restart games separately blocked.
 
+
+## S8.22.4 — Handoff (2026-10-09)
+
+- Installed new standalone `research/p0_s8/s8_22_4/run_s8_22_4.py` (do not overwrite S8.21/S8.22).
+- Local user confirmed `BALLDONTLIE_API_KEY` is readable from `.env` and `git check-ignore -v .env` matches `.gitignore`. Never request the key.
+- 15/15 offline tests passed. Execute `python -m pytest -q tests/test_s8224_balldontlie.py` before any live run.
+- Fixture run: `python research/p0_s8/s8_22_4/run_s8_22_4.py --project-root . --date 2026-10-10 --fixture research/p0_s8/s8_22_4/fixture_games.json`.
+- Explicit live run after user reviews terms: same command with `--live` instead of `--fixture ...`. Do not repeatedly retry HTTP 403/429.
+- Review `research/p0_s8/s8_22_4/results/s8_22_4_report.json` and `s8_22_4_games.csv`. Raw evidence remains under S8.21 artifacts; never commit raw artifacts or `.env`.
+- Schedule-source acceptance, provider-to-NBA game IDs, tipoff correctness, eligibility, chronological gates and historical as-of evidence remain unverified. `RESEARCH_ONLY / BLOCK_TRAINING`. 88 restart games blocked.
+

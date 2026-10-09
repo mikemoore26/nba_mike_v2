@@ -1064,3 +1064,18 @@ Goal: verify S8.18 artifact integrity and extract publisher/file date claims wit
 ## S8.22.3 — Provider selection and authorization review (2026-10-09)
 Goal: select a documented NBA schedule candidate without bypassing HTTP 403 or asserting unauthorized live access. Compared official BALLDONTLIE and API-Sports documentation. Selected BALLDONTLIE for *manual terms/account review* based on documented free-tier NBA Games endpoint and date filters; API-Sports is fallback. Implemented offline CSV/JSON report and tests. No live request, account access, secrets, training, or certified game records. Pending: verify terms and user account entitlement, perform permitted manual live test, validate schema and ID crosswalk. Governance RESEARCH_ONLY/BLOCK_TRAINING.
 
+
+## S8.22.4 — Controlled BALLDONTLIE NBA Games adapter (2026-10-09)
+
+**Goal:** Move from provider documentation review to an explicitly authorized, single-request schedule adapter without weakening S8.21 evidence provenance.
+
+**Context/problem:** NBA CDN returned HTTP 403. S8.22.3 shortlisted BALLDONTLIE, and user locally confirmed `.env` loads the API key and Git ignores `.env`. API authentication/entitlement is not yet proven.
+
+**Options:** Continue blocked CDN (rejected); unofficial ESPN endpoint (permission unverified); documented key-authenticated BALLDONTLIE adapter (selected for controlled testing).
+
+**Implementation:** `research/p0_s8/s8_22_4/run_s8_22_4.py` plus fixture, tests and docs. Explicit `.env` path avoids `python-dotenv` stdin stack issue. One date-scoped GET, no automatic retries, bounded body, SHA-256-backed S8.21 capture, strict schema/pagination/date checks, provider ID namespace, CSV and JSON report. No credential disclosure.
+
+**Validation:** 15/15 offline tests passed, including integration with S8.21 ledger; live account response remains pending. Known risks: plan permissions, licensing, provider schema, time precision, ID mapping, coverage, missing eligible player population. No training.
+
+**Next:** Review real response, resolve any schema mismatch, verify authorization/coverage and game ID crosswalk, then consider limited forward schedule collection. Status `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games separately blocked.
+
