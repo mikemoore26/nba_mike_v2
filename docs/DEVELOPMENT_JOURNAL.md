@@ -1096,3 +1096,7 @@ Goal: select a documented NBA schedule candidate without bypassing HTTP 403 or a
 
 **Next:** Run offline audit on 2026-10-10 CSV; manually collect a known populated date if authorized; acquire official independent schedule and reviewed team crosswalk; audit candidate matches. Remain `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.22.6 — Curated NBA official opening-night cross-validation
+Goal: compare two BALLDONTLIE historical opening-night rows against independently published NBA game schedule and IDs. Issue: S8.22.5 had provider rows but no official reference or team crosswalk. Options: retry restricted NBA CDN (rejected), treat provider IDs as official (rejected), curated official NBA publication and game pages (chosen, with limitations). Implementation: offline deterministic comparator, strict crosswalk inputs, duplicate/date checks, tipoff UTC comparisons, provider SHA256, candidate-only outputs. Validation: dedicated synthetic tests; run locally and record result. Outstanding: fill provider-ID crosswalk from real historical CSV with evidence, inspect actual comparison, preserve official source bytes if possible, validate additional dates and independent historical as-of. No automated approval or training.
+

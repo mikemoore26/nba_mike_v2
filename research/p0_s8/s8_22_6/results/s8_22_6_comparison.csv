@@ -1,0 +1,3 @@
+provider_game_id,official_nba_game_id_candidate,home_team,away_team,tipoff_difference_minutes,crosswalk_evidence_present,match_status
+1037593,,,,,False,UNMAPPED_TEAM
+1037594,,,,,False,UNMAPPED_TEAM

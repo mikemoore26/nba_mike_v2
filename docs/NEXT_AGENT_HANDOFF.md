@@ -474,3 +474,7 @@ Provider comparison is documentation-only. Candidate BALLDONTLIE `/v1/games` (fr
 - Never infer official NBA game IDs from BALLDONTLIE IDs; matched crosswalk outputs candidate IDs only. No automatic requests, retries, scheduling, training, or betting.
 - Next: run with existing zero-game CSV, then authorized manual populated-date test and independently sourced official schedule review. `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.22.6 handoff
+Offline cross-validation patch uses NBA official opening-night publication and game pages for 2023-10-24: LAL@DEN 0022300061 23:30 UTC; PHX@GSW 0022300062 02:00 UTC on 2023-10-25. Provider rows and BALLDONTLIE IDs are **not** official IDs. The user must populate research/p0_s8/s8_22_6/team_crosswalk_review.csv from actual S8.22.4 historical provider records, with independently documented evidence. Run tests and CLI; review report and comparison. Do not promote crosswalk, automate schedules, or train models. Governance RESEARCH_ONLY / BLOCK_TRAINING. Reference source URLs in docs/S8_22_6_OFFICIAL_CROSS_VALIDATION.md.
+

@@ -1,0 +1,37 @@
+{
+  "milestone": "S8.22.6",
+  "mode": "OFFLINE_OFFICIAL_REFERENCE_CROSS_VALIDATION",
+  "requested_date": "2023-10-24",
+  "provider_rows": 2,
+  "official_reference_rows": 2,
+  "matched_candidates": 0,
+  "missing_official_games": [
+    "0022300061",
+    "0022300062"
+  ],
+  "unmatched_provider_rows": 2,
+  "candidate_date_coverage": "INCOMPLETE_OR_UNVERIFIED",
+  "source_urls": {
+    "announcement": "https://www.nba.com/news/2023-24-nba-regular-season-schedule",
+    "game_61": "https://www.nba.com/game/lal-vs-den-0022300061",
+    "game_62": "https://www.nba.com/game/phx-vs-gsw-0022300062"
+  },
+  "reference_kind": "NBA official publication and game pages; curated reference, not raw independently timestamped acquisition",
+  "reference_publication_date": "2023-08-17",
+  "provider_csv_sha256": "37bfa371f89128d9af3846a56cc3b5bc3f233b5e18fca9fd822f5ae575a75091",
+  "provider_crosswalk": "CANDIDATE_ONLY",
+  "tipoff_accuracy": "CANDIDATE_ONLY",
+  "historical_asof_availability": "NOT_CERTIFIED",
+  "future_schedule_approval": "NOT_GRANTED",
+  "player_eligibility_verified": false,
+  "training_eligible": false,
+  "status": "RESEARCH_ONLY",
+  "decision": "BLOCK_TRAINING",
+  "limitations": [
+    "No live network requests by this script",
+    "Official reference is curated from publicly accessible NBA pages; not archived source bytes",
+    "Crosswalk must be independently documented and reviewed",
+    "One date cannot establish general schedule coverage",
+    "No training or production schedule approval"
+  ]
+}
