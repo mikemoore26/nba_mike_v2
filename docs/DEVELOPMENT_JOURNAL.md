@@ -946,3 +946,15 @@ Design: offline read-only AST inventory plus synthetic candidate matrix construc
 
 Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wiring, source timestamps, pregame eligibility, fold-local preprocessing and 88 restart games.
 
+## S8.12 — Read-only pipeline boundary mapping
+
+**Goal:** Map five S8.11 research feature-builder call sites and candidate downstream fitting boundaries without modifying project runtime or training.
+
+**Decision:** AST call/assignment evidence, SHA-256 of priority sources, explicit limitations, offline tests. No automatic training enforcement or predictor certification.
+
+**Files:** `research/p0_s8/s8_12/run_s8_12.py`, `README.md`, `tests/test_s812_pipeline_mapping.py`, `docs/S8_12_PIPELINE_BOUNDARY_MAPPING.md`.
+
+**Commands:** `python -m pytest -q tests/test_s812_pipeline_mapping.py`; `python research/p0_s8/s8_12/run_s8_12.py --project-root .`.
+
+**Governance:** `RESEARCH_ONLY / BLOCK_TRAINING`. Review generated CSVs before deciding integration. Independent as-of and pregame player eligibility remain blocked.
+

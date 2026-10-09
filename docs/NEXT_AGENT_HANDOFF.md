@@ -381,3 +381,7 @@ Standalone fail-closed predictor contract created at `research/p0_s8/s8_10/contr
 
 New: `research/p0_s8/s8_11/run_s8_11.py`, README, tests, integration-feasibility documentation. The runner produces `s8_11_report.json`, `s8_11_cases.csv`, `s8_11_entrypoints.csv`. Inspect local reports before selecting actual training integration points. S8.10 contract remains standalone. Do not train or approve any candidate predictors. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.12 handoff — Pipeline boundary mapping
+
+Read-only source map only. Script: `research/p0_s8/s8_12/run_s8_12.py`. Run from repo root. Collect `s8_12_report.json`, `s8_12_priority_paths.csv`, `s8_12_call_sites.csv`, `s8_12_assignment_edges.csv`. Review source locations for real downstream consumers and any actual training matrix construction. AST matches are not proof of model fitting or dataflow. No feature allowlist approved. Do not enable fitting, promotion, or bets. Maintain `RESEARCH_ONLY / BLOCK_TRAINING`; as-of publication, pregame player universe/DNP, fold-local transforms and 88 restart games unresolved.
+
