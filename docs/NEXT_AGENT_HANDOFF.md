@@ -423,3 +423,7 @@ Run `python -m pytest -q tests/test_s818_alternative_sources.py`, then `python r
 
 Run `python -m pytest -q tests/test_s819_publication_audit.py` then `python research/p0_s8/s8_19/run_s8_19.py --project-root .`. Review `research/p0_s8/s8_19/results/s8_19_report.json`, `s8_19_artifact_review.csv`, `s8_19_publication_claims.csv`, `s8_19_capture_review.csv`. Source metadata and manual capture intake are **not independent proof**. No approved historical pregame sources; `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games unresolved.
 
+## S8.20 handoff — hybrid forward-evidence-first design
+
+Run `python -m pytest -q tests/test_s820_strategy.py`, then `python research/p0_s8/s8_20/run_s8_20.py --project-root .`. Upload five result files from `research/p0_s8/s8_20/results/`. Historical snapshots and all pre-2026 capture artifacts remain **exploratory**. No training path is authorized; S8.13 remains fail-closed. Proposed next milestone S8.21: local, offline fixture-based immutable capture-store proof of concept with deterministic IDs, UTC receipt timestamps, hash integrity, duplicate detection, and failure logs; do not claim pregame certification or run production collection without separately authorized source access.
+

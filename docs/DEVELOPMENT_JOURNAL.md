@@ -1011,3 +1011,13 @@ Created bounded offline-first source inventory and optional HTTP artifact acquis
 
 Goal: verify S8.18 artifact integrity and extract publisher/file date claims without confusing those with independently established historical publication. Added `research/p0_s8/s8_19/run_s8_19.py`, intake template, seven tests and documentation. No network, model fitting, training authorization or historical source certification. Review generated report before drawing conclusions. Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S8.20 — Historical data strategy redesign (2026-10-09)
+
+**Goal:** Decide a scalable path after S8.19 confirmed source integrity but no independently verified historical publication captures.
+
+**Alternatives:** historical reconstruction (large retrospective coverage but uncertain as-of), forward-only collection (strong prospective retrieval provenance but no immediate history), hybrid (strictly separate exploratory history from prospective evidence). **Decision:** hybrid, forward-evidence-first.
+
+**Implementation:** Added offline read-only strategy runner, strategy comparison, source/checkpoint designs, prior-report integrity inventory, tests, and architecture documentation. **No network calls, captures, fitting, training or betting.** The runner may observe prior report claims but cannot promote them.
+
+**Unresolved:** implement and test a small prospective capture proof of concept with authorized sources, verify independent pregame population/DNP process, fold-local validation and calibration, 88 restart games. Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+
