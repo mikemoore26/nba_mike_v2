@@ -1,0 +1,22 @@
+{
+  "milestone": "S8.22.5",
+  "mode": "OFFLINE_INDEPENDENT_SCHEDULE_AUDIT",
+  "requested_date": "2023-10-24",
+  "provider_rows": 2,
+  "other_date_rows": 0,
+  "schedule_state": "PROVIDER_GAMES_PRESENT_UNVERIFIED",
+  "independent_comparison": "NOT_PERFORMED",
+  "source_provenance": "NOT_PROVIDED",
+  "official_nba_id_mapping": "UNVERIFIED",
+  "tipoff_accuracy": "UNVERIFIED",
+  "coverage": "UNVERIFIED",
+  "provider_entitlement": "NOT_INDEPENDENTLY_VERIFIED",
+  "pregame_player_eligibility_verified": false,
+  "training_eligible": false,
+  "status": "RESEARCH_ONLY",
+  "decision": "BLOCK_TRAINING",
+  "findings": [
+    "No independent official schedule supplied; cannot certify empty or populated coverage.",
+    "No provider IDs promoted to official IDs; no training or automated schedule approval."
+  ]
+}

@@ -464,3 +464,13 @@ Provider comparison is documentation-only. Candidate BALLDONTLIE `/v1/games` (fr
 - Review `research/p0_s8/s8_22_4/results/s8_22_4_report.json` and `s8_22_4_games.csv`. Raw evidence remains under S8.21 artifacts; never commit raw artifacts or `.env`.
 - Schedule-source acceptance, provider-to-NBA game IDs, tipoff correctness, eligibility, chronological gates and historical as-of evidence remain unverified. `RESEARCH_ONLY / BLOCK_TRAINING`. 88 restart games blocked.
 
+
+## S8.22.5 handoff — 2026-10-09
+
+- Prior S8.22.4: BALLDONTLIE HTTP 200 and capture SUCCESS for 2026-10-10, zero rows. No coverage certification.
+- New offline audit: `research/p0_s8/s8_22_5/run_s8_22_5.py`; 11 passing tests. Reads S8.22.4 CSV, optionally independent official schedule CSV and manually reviewed provider-to-official team crosswalk.
+- New output: `research/p0_s8/s8_22_5/results/s8_22_5_report.json` and `s8_22_5_comparison.csv`.
+- Explicit states: `EMPTY_SCHEDULE_UNVERIFIED`, `EMPTY_SCHEDULE_CONTRADICTED_BY_REFERENCE`, `PROVIDER_GAMES_PRESENT_UNVERIFIED`, `PARTIAL_OR_UNVERIFIED_COVERAGE`, `CANDIDATE_DATE_COVERAGE_MATCH_REQUIRES_REVIEW`.
+- Never infer official NBA game IDs from BALLDONTLIE IDs; matched crosswalk outputs candidate IDs only. No automatic requests, retries, scheduling, training, or betting.
+- Next: run with existing zero-game CSV, then authorized manual populated-date test and independently sourced official schedule review. `RESEARCH_ONLY / BLOCK_TRAINING`.
+

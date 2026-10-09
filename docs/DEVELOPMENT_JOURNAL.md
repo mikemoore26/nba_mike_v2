@@ -1079,3 +1079,20 @@ Goal: select a documented NBA schedule candidate without bypassing HTTP 403 or a
 
 **Next:** Review real response, resolve any schema mismatch, verify authorization/coverage and game ID crosswalk, then consider limited forward schedule collection. Status `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games separately blocked.
 
+
+## S8.22.5 — Independent schedule audit (2026-10-09)
+
+**Goal:** Detect falsely reassuring empty schedules and compare provider game records to an independently acquired official reference without promoting uncertain IDs or tipoffs.
+
+**Problem/evidence:** S8.22.4 returned HTTP 200, captured SHA256 evidence and parsed zero records for 2026-10-10. That does not establish no games are scheduled.
+
+**Options:** Assume empty is valid (rejected); rely solely on BALLDONTLIE (rejected as circular); offline independent reference plus manually reviewed team crosswalk (selected).
+
+**Implementation:** Added `research/p0_s8/s8_22_5/run_s8_22_5.py`, README, `tests/test_s8225_schedule_validation.py`, and audit design. Produces fail-closed report and candidate-only comparison CSV. No network access or API secrets. No automatic changes to S8.22.4.
+
+**Tests:** 11 offline tests passed: empty, contradicted empty, candidate matchup, mismatched time, missing provenance, partial reference, schema, other date, bad date, duplicate crosswalk and naive timestamp. No live provider validation performed for this milestone.
+
+**Risks:** Official reference and team-ID crosswalk not yet independently acquired; coverage, provider entitlement, prospective timestamps, as-of player eligibility unresolved.
+
+**Next:** Run offline audit on 2026-10-10 CSV; manually collect a known populated date if authorized; acquire official independent schedule and reviewed team crosswalk; audit candidate matches. Remain `RESEARCH_ONLY / BLOCK_TRAINING`.
+
