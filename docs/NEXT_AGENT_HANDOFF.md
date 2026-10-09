@@ -307,3 +307,7 @@ Input: `research/p0_s4/s7_45/results/s7_45_review.csv`. Runner: `research/p0_s4/
 
 Run `python research/p0_s4/s7_47/run_s7_47.py` after S7.46 capture download; inspect `research/p0_s4/s7_47/results/s7_47_report.json` and review CSV. The source inputs are S7.46 review, saved archive_objects and S7.42 review. Treat all extracted claims as review-only; continue `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S7.48 — Archived content recovery handoff
+
+Run `python research/p0_s4/s7_48/run_s7_48.py`; inspect `research/p0_s4/s7_48/results/s7_48_report.json` and `s7_48_review.csv`. Inputs: S7.47 review and S7.46 saved archive_objects. Investigate article-content localization and archive replay contamination before any promotion. Maintain `RESEARCH_ONLY / BLOCK_TRAINING`.
+

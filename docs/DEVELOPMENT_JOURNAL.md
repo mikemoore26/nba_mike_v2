@@ -804,3 +804,7 @@ Goal: query historical archive index for nine SHA-addressed NBA article URL cand
 
 Implemented offline archived-object SHA-256 verification, exact article URL cross-checks, localized direction candidate extraction and optional timezone-aware cutoff comparison. Added 15 targeted tests. No verified historical publication, transaction date, roster promotion or model training.
 
+## S7.48 — Archived content recovery
+
+Added offline extraction of archived HTML title, metadata, JSON-LD, headings and paragraphs with SHA-256 re-verification and URL-only separation. Added 15 targeted tests. Review-only transaction candidates; historical publication and event identity not verified. No training promotion.
+
