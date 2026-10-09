@@ -731,3 +731,12 @@ Added an offline, hash-checked diagnostic for S7.34 captured search responses. I
 ## S7.36 — Offline rejected URL classification (pending local execution)
 Goal: explain 114 S7.35 rejected RSS links by source host and URL filter reason. Decision: offline hash-verified audit before changing source policy. Added run_s7_36.py, focused tests, README, and classification design. Local user execution and actual host counts pending. No evidence promotion; RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+
+## S7.37 — Controlled official tracker-link discovery
+- Motivation: S7.36 found 114 external Bing results and zero NBA-hosted articles; S7.27 official tracker HTML embeds official article links.
+- Implementation: SHA-verified offline HTML anchor extraction; NBA host and team/news allowlist; conservative player-token candidate matching; review-only CSV/catalog/report.
+- Safety: no network, no origin inference, no historical publication verification, no training promotion.
+- Run: `python research/p0_s4/s7_37/run_s7_37.py`; tests: `python -m pytest -q`.
+- Next: inspect results, then independently fetch and verify promising articles in S7.38.
+

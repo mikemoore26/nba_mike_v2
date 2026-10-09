@@ -245,3 +245,12 @@ Run `python research/p0_s4/s7_35/run_s7_35.py` after S7.34. Review `research/p0_
 ## S7.36 handoff — pending execution
 Run `python -m pytest -q` then `python research/p0_s4/s7_36/run_s7_36.py` from project root. Review `results/s7_36_report.json`, `results/s7_36_domain_counts.csv` and `results/s7_36_url_review.csv`. Source inputs: S7.34 review and preserved SHA-256 XML objects. Fail closed on missing or altered snapshots. Next decision: repair narrowly evidenced official path filtering or investigate external source leads separately. Do not promote any transaction, roster interval or training row.
 
+
+
+## S7.37 handoff
+- S7.36 demonstrated Bing RSS produced only external links (114/114).
+- S7.37 discovers official NBA news and NBA-hosted team news URLs directly from the SHA-verified S7.27 tracker capture and matches player tokens against S7.30 candidates.
+- Code: `research/p0_s4/s7_37/run_s7_37.py`; results: `research/p0_s4/s7_37/results/`.
+- All findings are URL leads only; no article contents or historical publication proven. `RESEARCH_ONLY / BLOCK_TRAINING` remains mandatory.
+- Next: S7.38 selective article fetch and independent provenance/semantic checks, no automatic training promotion.
+
