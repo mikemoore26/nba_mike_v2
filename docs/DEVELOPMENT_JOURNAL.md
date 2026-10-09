@@ -840,3 +840,12 @@ Added offline SHA-256 re-verification, strict grammatical transaction direction 
 ## S8.1 — Game-log quality audit
 Implemented a read-only offline audit for 2019-20, 2023-24, and 2025-26 player game-log snapshots. Checks identifiers, duplicate player-game keys, minutes, statistics, dates, schema consistency, file hashes, and incomplete scans. Outputs three review artifacts. Targeted tests included; full-suite results and actual dataset findings must be recorded after user execution. Decision: RESEARCH_ONLY / BLOCK_TRAINING. No historical roster/transaction promotion.
 
+
+## S8.2 — Schema recognition repair and re-audit
+- **Goal:** repair S8.1 false schema flags without altering source game logs.
+- **Cause:** `event_date` absent from DATE_KEYS; TARGETS uppercase but snapshot columns lowercase.
+- **Decision:** new offline runner in `research/p0_s8/s8_2/` rather than modifying past milestone.
+- **Implementation:** case-insensitive target matching, date aliases, finite-number check, targeted regression tests, separate JSON/CSV outputs.
+- **Verification:** run full pytest and S8.2 audit locally; inspect findings before further steps.
+- **Governance:** RESEARCH_ONLY / BLOCK_TRAINING; historical roster/transaction evidence still blocked S7.51.
+

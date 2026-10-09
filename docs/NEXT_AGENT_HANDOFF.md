@@ -335,3 +335,11 @@ Run `python research/p0_s8/s8_0/run_s8_0.py --project-root .`; inspect `research
 ## S8.1 — Next-agent handoff
 Runner: `research/p0_s8/s8_1/run_s8_1.py`. Test: `tests/test_s81_gamelog_quality.py`. Inputs: `research/p0_s4/s5_1/snapshots/player_gamelogs_{2019-20,2023-24,2025-26}.csv`. Outputs under `research/p0_s8/s8_1/results/`. Review the report and schema CSV before S8.2. Keep `RESEARCH_ONLY / BLOCK_TRAINING`; S7.51 historical roster and transaction data remain blocked. No full-suite run or live dataset execution has been verified by this patch alone.
 
+
+## S8.2 — Next agent handoff
+- Run `python research/p0_s8/s8_2/run_s8_2.py --project-root .`.
+- Inspect `research/p0_s8/s8_2/results/s8_2_report.json`, `s8_2_dataset_review.csv`, `s8_2_schema_review.csv`.
+- S8.1 false flags: `event_date` and lowercase target columns. S8.2 repairs detection; snapshots remain unchanged.
+- Never promote a quality-check pass into pre-tipoff availability certification. Historical roster/transactions remain BLOCKED_S7_51.
+- Decide S8.3 based on genuine issues in rerun; otherwise audit lagging/as-of and OOS evaluation protocol.
+
