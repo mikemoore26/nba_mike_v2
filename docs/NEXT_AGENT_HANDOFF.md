@@ -355,3 +355,8 @@ Run `python research/p0_s8/s8_4/run_s8_4.py --project-root . --fetch-official`. 
 
 Runner: `research/p0_s8/s8_5/run_s8_5.py`. Inputs: three `research/p0_s4/s5_1/snapshots/player_gamelogs_<season>.csv`. Outputs: `research/p0_s8/s8_5/results/s8_5_report.json` and `s8_5_dataset_review.csv`. Tests: `tests/test_s85_lineage.py`. Offline, read-only, no training. S8.4 official NBA schedule fetch timed out: 88 restart candidates unverified. S7 roster/transaction/injury historical as-of blocked. Next: inspect existing feature builders for temporal leakage, historical player-universe selection, and as-of proof. Preserve `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.6 — Code leakage triage handoff
+
+Run `python research/p0_s8/s8_6/run_s8_6.py --project-root .` after full pytest. Review `research/p0_s8/s8_6/results/s8_6_report.json`, `s8_6_findings.csv`, and `s8_6_file_inventory.csv`. Heuristic patterns are review candidates only. Never assert confirmed leakage from a string match or approve training from absence of matches. Check actual S5/S6 functions and chronological folds; source may be missing from scoped directories. Keep RESEARCH_ONLY / BLOCK_TRAINING; S7.51 and S8.4 blockers persist.
+

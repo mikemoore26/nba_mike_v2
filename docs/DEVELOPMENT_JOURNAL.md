@@ -887,3 +887,12 @@ Implemented a read-only offline audit for 2019-20, 2023-24, and 2025-26 player g
 
 **Next:** Review S8.5 report and audit S5/S6 feature generation for leakage, especially postgame participation selection and pre-tipoff feature timestamp.
 
+
+## S8.6 — Read-only feature code leakage triage
+
+**Goal:** inspect the actual S5/S6 feature/evaluation code before any new model training.
+**Decision:** conservative static source scan; source hashes and line-level review findings; no automatic leakage certification.
+**Implementation:** `research/p0_s8/s8_6/run_s8_6.py`, targeted tests, report/findings/inventory outputs.
+**Safety:** RESEARCH_ONLY / BLOCK_TRAINING. Prior S7.51 historical roster/injury gate and S8.4 88-game schedule gate unchanged.
+**Next:** review generated findings with source context and establish fold-local, pregame-as-of lineage. Record user's test results and scan counts after run.
+
