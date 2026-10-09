@@ -364,3 +364,7 @@ Run `python research/p0_s8/s8_6/run_s8_6.py --project-root .` after full pytest.
 ## S8.7 handoff
 Run `python research/p0_s8/s8_7/run_s8_7.py --project-root .` after installing patch. Upload `s8_7_report.json` and `s8_7_trace.csv`. Six priority sources traced; hashes compared to S8.6 inventory. Do not interpret static traces as actual mutation-test success. Next: contract-aware adversarial tests; pregame universe remains blocked. `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S8.8 handoff (2026-10-09)
+
+S8.7 traced six unchanged source files; five gates remained unverified/blocked. S8.8 provides a read-only, offline behavioral test harness for `build_opportunity_research_frame` and `make_form_frame`, 14 cases on synthetic two-player/same-day data. Run `python -m pytest -q tests/test_s88_adversarial.py` and `python research/p0_s8/s8_8/run_s8_8.py --project-root .`; review JSON/CSV under `research/p0_s8/s8_8/results/`. No claim of historical as-of certification even if all pass. Pending: consumer-level target exclusion, fold-local preprocessing, independent pregame player universe, S8.4 restart calendar 88 games. Maintain `RESEARCH_ONLY / BLOCK_TRAINING`.
+

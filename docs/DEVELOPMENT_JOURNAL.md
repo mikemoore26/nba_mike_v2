@@ -903,3 +903,12 @@ Decision: use local read-only AST/source excerpts and SHA-256 checks; dynamic mu
 Artifacts: `research/p0_s8/s8_7/`, `tests/test_s87_trace.py`, `docs/S8_7_TARGETED_SOURCE_TRACE.md`.
 Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+## S8.8 — Offline adversarial leakage testing (2026-10-09)
+
+**Goal:** Move from S8.7 static trace to real behavioral tests of S4/S5 feature builders.
+**Decision:** Synthetic mutation, same-day, player-isolation, row-order, cold-start, and target-output checks. No network, production mutation, or training.
+**Artifacts:** `research/p0_s8/s8_8/run_s8_8.py`, `README.md`, `tests/test_s88_adversarial.py`, `docs/S8_8_ADVERSARIAL_LEAKAGE_TESTS.md`.
+**Commands:** `python -m pytest -q tests/test_s88_adversarial.py`; `python research/p0_s8/s8_8/run_s8_8.py --project-root .`.
+**Results:** Pending execution in user's actual checkout. Inspect `s8_8_report.json` and `s8_8_cases.csv`.
+**Limitations:** Synthetic only; historical pregame player universe, as-of evidence, target downstream consumers, and fold-local calibration not certified. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
