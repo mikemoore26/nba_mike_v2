@@ -830,3 +830,9 @@ Added offline SHA-256 re-verification, strict grammatical transaction direction 
 - Decision: `RESEARCH_ONLY / BLOCK_TRAINING`; pause repetitive archive extraction, pursue independent timestamped transaction/roster sources only if available; independently validated non-roster development can continue in parallel.
 - Actual user-environment test counts and report results: pending execution.
 
+## S8.0 — Modeling readiness inventory
+- Goal: shift from repeated archive extraction to controlled audit of NBA minutes, player stats, baselines, validation, market, and roster components.
+- Implementation: read-only artifact inventory, CSV/Parquet schema hints, explicit conservative status classifications, machine-readable reports, tests.
+- Decision: `RESEARCH_ONLY / BLOCK_TRAINING`; S7.51 chronology blocked. No training authorization from this step.
+- Results: populate after local execution; record pytest count, component statuses, and git commit.
+

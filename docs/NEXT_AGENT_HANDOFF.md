@@ -328,3 +328,6 @@ Run `python research/p0_s4/s7_50/run_s7_50.py` after S7.49. Review `research/p0_
 - Research track stop/go: pause same-object extraction; require independently timestamped transaction/roster evidence to reopen. Continue only independently validated non-roster modeling work in parallel.
 - Training decision remains `BLOCK_TRAINING` for chronology-dependent features.
 
+## S8.0 — Handoff
+Run `python research/p0_s8/s8_0/run_s8_0.py --project-root .`; inspect `research/p0_s8/s8_0/results/s8_0_report.json`, inventory and component review. This is a path/schema-only triage, not a source-quality certification. Never promote roster or transaction chronology from S7.51. Next stage should perform focused row-level as-of audit on discovered minutes/player-stat candidates and baseline code, without training.
+
