@@ -377,3 +377,7 @@ S8.8: 14/14 synthetic behavior checks passed, but pipeline not certified. S8.9 a
 
 Standalone fail-closed predictor contract created at `research/p0_s8/s8_10/contract.py`, with `run_s8_10.py`, README and `tests/test_s810_contract.py`. Run offline tests and runner; upload `s8_10_report.json` and `s8_10_cases.csv`. No existing model source changed and contract is not wired into training. Do not interpret passing synthetic contract tests as pipeline certification. Next: inspect actual X construction and fold-local preprocessing; maintain independent as-of, pregame eligibility/DNP, and calendar gates. Governance: RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.11 — Handoff
+
+New: `research/p0_s8/s8_11/run_s8_11.py`, README, tests, integration-feasibility documentation. The runner produces `s8_11_report.json`, `s8_11_cases.csv`, `s8_11_entrypoints.csv`. Inspect local reports before selecting actual training integration points. S8.10 contract remains standalone. Do not train or approve any candidate predictors. RESEARCH_ONLY / BLOCK_TRAINING.
+

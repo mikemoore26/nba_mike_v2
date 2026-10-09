@@ -938,3 +938,11 @@ Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING. No model training, promotion, or bets.
 
+## S8.11 — Contract integration feasibility
+
+Goal: trace candidate training calls and exercise S8.10 predictor contract on synthetic outputs from actual feature builders.
+
+Design: offline read-only AST inventory plus synthetic candidate matrix construction. Never fit models, enable training, or approve predictors. Tests: `python -m pytest -q tests/test_s811_integration_feasibility.py`. Runner: `python research/p0_s8/s8_11/run_s8_11.py --project-root .`. Record local results before closeout.
+
+Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wiring, source timestamps, pregame eligibility, fold-local preprocessing and 88 restart games.
+
