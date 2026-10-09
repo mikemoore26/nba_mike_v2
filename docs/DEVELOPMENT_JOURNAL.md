@@ -723,3 +723,7 @@ Goal: explain repeated S7.32 article captures and acquisition eligibility gap. I
 
 **Files:** `research/p0_s4/s7_34/run_s7_34.py`, README, `tests/test_s734_discovery.py`, `docs/S7_34_DISCOVERY_REPAIR.md`. **Outputs:** `s7_34_review.csv`, `s7_34_report.json`, content-addressed objects. **Testing:** local targeted tests included; run full suite and live research acquisition on user's Windows machine. **Risk:** search engine blocks/irrelevant hits, no historical as-of publication proof. **Decision:** `RESEARCH_ONLY / BLOCK_TRAINING`; do not export evidence automatically. **Next:** use measured relevant leads to prioritize semantic origin review or improve source discovery.
 
+
+## S7.35 — Offline source discovery diagnosis
+Added an offline, hash-checked diagnostic for S7.34 captured search responses. It measures RSS format, item links, and official-source filter exclusions without fetching new material. User must run full suite and review live diagnostic before selecting a repair. RESEARCH_ONLY / BLOCK_TRAINING.
+
