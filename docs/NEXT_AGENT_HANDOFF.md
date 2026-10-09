@@ -229,3 +229,7 @@ Run `python -m pytest -q`, then `python research/p0_s4/s7_31/run_s7_31.py`. Requ
 
 Script: `research/p0_s4/s7_32/run_s7_32.py`; default reads S7.30 review, captures up to 12 eligible player searches, up to 2 official NBA news articles per player. Results: `research/p0_s4/s7_32/results/s7_32_report.json`, `s7_32_capture.csv`, `objects/*.html`. NBA search may return zero article links; record this honestly. Run full pytest, inspect counts, commit only code/tests/docs. Next: evidence semantic extraction and human review, not automatic origin assignment. Training blocked.
 
+
+## S7.33 handoff
+Offline article relevance audit added in `research/p0_s4/s7_33/run_s7_33.py`. Requires S7.32 captured HTML and CSV, plus S7.30 review CSV. Report `research/p0_s4/s7_33/results/s7_33_report.json`; per-candidate excerpts in `s7_33_review.csv`. Repeated article URLs, missing-origin eligibility gap, and player/trade-term context are diagnostic only. No origin team verified, no historical publication proven. Maintain RESEARCH_ONLY / BLOCK_TRAINING. Next: fix player-specific source discovery based on measured relevance.
+

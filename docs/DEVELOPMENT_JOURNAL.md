@@ -710,3 +710,7 @@ Added optional SHA-256 checked independent source excerpt staging and per-candid
 
 Goal: move beyond empty evidence templates by attempting official NBA article discovery for S7.30 missing-origin candidates. Introduced rate-limited acquisition, SHA-256 source snapshots, failure reporting, and tests for URL allowlisting, deduplication, missing links, redirect checks, and fail-closed training gate. Captured article is a research lead, not a verified transaction. No promotion to S7.31/S7.26/S7.23. Await local full-suite tests and real acquisition report.
 
+
+## S7.33 — Offline article relevance audit
+Goal: explain repeated S7.32 article captures and acquisition eligibility gap. Implemented SHA-256 snapshot verification, exact player mention detection, nearby trade-term and team-mention review, duplicate URL accounting, and eligibility decomposition. All extracted claims remain research leads. Run `python -m pytest -q` and `python research/p0_s4/s7_33/run_s7_33.py`; record observed counts. No promotion to S7.31/S7.26/S7.23. Status: RESEARCH_ONLY / BLOCK_TRAINING.
+
