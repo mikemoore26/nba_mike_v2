@@ -445,3 +445,7 @@ S8.21 fixture capture validated on user's PC (12 events, 2 successes, 7 duplicat
 - Do not advance S8.23 until a source is legally accessible, schema-validated, and captured reliably.
 - `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games remain blocked.
 
+
+## S8.22.2 handoff
+The NBA CDN returned HTTP 403 in S8.22.1. Do not retry or bypass. S8.22.2 compares five candidates offline, with eight unfulfilled acceptance gates. Run `python research/p0_s8/s8_22_2/run_s8_22_2.py --project-root .`; inspect three results in `research/p0_s8/s8_22_2/results/`. No source authorized for collection. Next task: verify written provider permissions, affordable plans and actual schedule coverage before building a live adapter. Preserve S8.21 receipts, explicit source-ID crosswalk, independent eligibility gate and `RESEARCH_ONLY / BLOCK_TRAINING`; 88 restart games remain blocked.
+

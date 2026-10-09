@@ -1050,3 +1050,13 @@ Goal: verify S8.18 artifact integrity and extract publisher/file date claims wit
 - **Unresolved:** actual live HTTP status and source accessibility; prospective eligibility and all training gates.
 - **Governance:** `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.22.2 — Alternative schedule source evaluation
+- Goal: replace the blocked NBA CDN candidate with a sustainable, authorized NBA schedule source.
+- Trigger: S8.22.1 confirmed HTTP 403, zero live games.
+- Options: undocumented ESPN site API; documented provider plans (balldontlie, API-Sports); licensed Sportradar; blocked NBA CDN.
+- Decision: offline comparison only. ESPN's undocumented reachability is not permission; source approval remains pending.
+- Implementation: source matrix, eight acceptance gates, read-only prior report inventory, ten regression tests.
+- Results: no network calls, no live source approved, BLOCK_TRAINING.
+- Next: provider terms, access, costs, coverage, game-ID mapping and UTC tipoff audit. Keep 88 restart games blocked.
+
