@@ -783,3 +783,8 @@ Added offline multi-player transaction direction parsing, team alias handling, e
 - Outputs: research/p0_s4/s7_44/results/ (untracked local evidence).
 - Governance: RESEARCH_ONLY / BLOCK_TRAINING. No as-of historical proof.
 
+
+## S7.45 — Publication date reconciliation
+
+Goal: reconcile 38 S7.44 metadata records from nine SHA-verified NBA article objects and prioritize independent archive verification. Implemented offline grouping by article SHA, distinct publication/modification/creation/unattributed date categories, publication-field conflict detection, date-order anomaly flags, and per-article archive priority. Added 15 targeted tests. No external publication verification, event chronology, roster evidence or training promotion. Run `python -m pytest -q` and `python research/p0_s4/s7_45/run_s7_45.py` on the local evidence before recording observed results.
+
