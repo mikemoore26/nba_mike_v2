@@ -994,3 +994,8 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Pending: actual training entrypoint wi
 - Built offline intake with original-byte SHA-256 checks, timestamp validation and path containment. Tests must pass locally before commit.
 - Limits: no independent archive capture, no complete pregame roster, no DNP reconciliation, no training. `RESEARCH_ONLY / BLOCK_TRAINING`.
 
+
+## S8.16 — Historical artifact acquisition and timestamp audit
+
+Goal: move from source inventory to actual artifact retrieval, while maintaining a fail-closed historical publication standard. Added opt-in official NBA PDF download, optional Wayback CDX query, immutable artifact paths, SHA-256 manifest, PDF metadata claim inspection, and conservative archive-index candidate classification. Local tests validate default offline behavior, candidate-only status, malformed input, unsafe hosts and overwrite protection. No source approved, no model training. Operator must record local command results and any network errors. Next: independent archive replay/capture review and separate pregame population/DNP evidence. Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+

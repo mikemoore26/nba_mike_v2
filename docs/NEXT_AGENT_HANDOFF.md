@@ -406,3 +406,8 @@ S8.13 creates a research-only training-boundary design and tests. `research/p0_s
 
 Runner: `research/p0_s8/s8_15/run_s8_15.py`; test: `tests/test_s815_evidence_pilot.py`. Game `0022300061`, LAL@DEN, 2023-10-24 7:30 PM ET. NBA-hosted 5PM injury PDF identified (PDF header says 5:30 PM ET), but independent proof of pre-tipoff publication absent. Optional manual artifact intake via `evidence_intake_TEMPLATE.csv` copied to `evidence_intake.csv`; original bytes in `artifacts/`. Never mark as certified based on file label, operator CSV or current hosting. Review outputs `s8_15_report.json`, `s8_15_evidence_review.csv`, `s8_15_source_candidates.csv`. Training is blocked; restart 88 unresolved.
 
+
+## S8.16 — Handoff
+
+New module `research/p0_s8/s8_16/run_s8_16.py`, tests `tests/test_s816_evidence_acquisition.py`, documentation `docs/S8_16_OFFICIAL_EVIDENCE_ACQUISITION.md`. Runner defaults offline; flags `--acquire-official --query-wayback` explicitly permit two network retrievals. Outputs `results/s8_16_report.json`, `results/s8_16_artifact_manifest.csv`, `results/s8_16_archive_candidates.csv`; preserved bytes under `artifacts/`. Review actual reports before proceeding. CDX candidates, PDF metadata, current headers, and claimed publication time are NOT independent pregame proof. Zero certified games; no training, no eligible-player certification; 88 restart games blocked. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
