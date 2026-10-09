@@ -254,3 +254,7 @@ Run `python -m pytest -q` then `python research/p0_s4/s7_36/run_s7_36.py` from p
 - All findings are URL leads only; no article contents or historical publication proven. `RESEARCH_ONLY / BLOCK_TRAINING` remains mandatory.
 - Next: S7.38 selective article fetch and independent provenance/semantic checks, no automatic training promotion.
 
+
+## S7.38 handoff
+Prerequisite: S7.37 `results/s7_37_review.csv`. Run `python research/p0_s4/s7_38/run_s7_38.py --limit 12`. Outputs in `research/p0_s4/s7_38/results/`: `s7_38_report.json`, `s7_38_review.csv`, SHA256-addressed HTML objects. This stage is strictly RESEARCH_ONLY/BLOCK_TRAINING. Relevant leads are not evidence of originating team or historical as-of availability. Review real report before designing S7.39. Never git-add raw downloaded HTML or results by default.
+

@@ -740,3 +740,7 @@ Goal: explain 114 S7.35 rejected RSS links by source host and URL filter reason.
 - Run: `python research/p0_s4/s7_37/run_s7_37.py`; tests: `python -m pytest -q`.
 - Next: inspect results, then independently fetch and verify promising articles in S7.38.
 
+
+## S7.38 — Official NBA announcement capture (research only)
+Goal: replace ineffective generic search discovery with direct article leads from the SHA-verified official trade tracker. Added restricted NBA-only fetching, safe redirects, SHA-addressed immutable captures, player-name/transaction relevance review, failure reporting, tests, and documentation. No historical publication verification or origin-team promotion; BLOCK_TRAINING. Run `python research/p0_s4/s7_38/run_s7_38.py --limit 12`. Record actual local results before any further decision.
+
