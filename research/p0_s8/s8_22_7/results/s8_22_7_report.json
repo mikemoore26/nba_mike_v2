@@ -1,0 +1,22 @@
+{
+  "milestone": "S8.22.7",
+  "mode": "OFFLINE_MULTI_DATE_AUDIT",
+  "dates_requested": 5,
+  "dates_with_candidate_matches": 0,
+  "date_status_counts": {
+    "INDEPENDENT_REFERENCE_MISSING": 1,
+    "PROVIDER_SNAPSHOT_MISSING": 4
+  },
+  "independent_reference_provenance": "USER_SUPPLIED_UNVERIFIED",
+  "historical_asof_availability": "NOT_CERTIFIED",
+  "routine_collection_approved": false,
+  "training_eligible": false,
+  "status": "RESEARCH_ONLY",
+  "decision": "BLOCK_TRAINING",
+  "limitations": [
+    "Reference source URLs and SHA256 values require independent manual verification",
+    "Retrospective matches cannot prove pregame availability",
+    "No network requests, no model fitting, no provider approval",
+    "Blank reference is not proof of a no-game date"
+  ]
+}

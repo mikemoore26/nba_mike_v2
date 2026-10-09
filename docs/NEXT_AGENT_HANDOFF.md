@@ -478,3 +478,7 @@ Provider comparison is documentation-only. Candidate BALLDONTLIE `/v1/games` (fr
 ## S8.22.6 handoff
 Offline cross-validation patch uses NBA official opening-night publication and game pages for 2023-10-24: LAL@DEN 0022300061 23:30 UTC; PHX@GSW 0022300062 02:00 UTC on 2023-10-25. Provider rows and BALLDONTLIE IDs are **not** official IDs. The user must populate research/p0_s8/s8_22_6/team_crosswalk_review.csv from actual S8.22.4 historical provider records, with independently documented evidence. Run tests and CLI; review report and comparison. Do not promote crosswalk, automate schedules, or train models. Governance RESEARCH_ONLY / BLOCK_TRAINING. Reference source URLs in docs/S8_22_6_OFFICIAL_CROSS_VALIDATION.md.
 
+## S8.22.7 — Handoff
+
+S8.22.6 had 2/2 candidate matches on 2023-10-24; not approved. S8.22.7 introduces `research/p0_s8/s8_22_7/run_s8_22_7.py`, `date_manifest.csv`, and `independent_reference_TEMPLATE.csv`. It reads per-date provider CSVs and independently sourced references only; no live network or model training. Empty or missing evidence is fail-closed. Run `python -m pytest -q tests/test_s8227_multi_date.py`, then `python research/p0_s8/s8_22_7/run_s8_22_7.py --project-root .`. Upload report and date audit. Do not equate retrospective schedule matches with historical as-of availability. Remains RESEARCH_ONLY / BLOCK_TRAINING.
+

@@ -1,0 +1,6 @@
+date,status,provider_rows,reference_rows,matched_candidates,missing_official_games,unmatched_provider_games,duplicate_provider_ids,duplicate_reference_ids,tipoff_discrepancies,ambiguous_matches,missing_evidence,provider_sha256,reference_sha256,phase,selection_reason
+2023-10-24,INDEPENDENT_REFERENCE_MISSING,2,0,0,0,0,0,0,0,0,0,37bfa371f89128d9af3846a56cc3b5bc3f233b5e18fca9fd822f5ae575a75091,,regular,opening_night_known_two_games
+2023-11-15,PROVIDER_SNAPSHOT_MISSING,0,0,0,0,0,0,0,0,0,0,,,regular,ordinary_regular_season_sample
+2024-01-15,PROVIDER_SNAPSHOT_MISSING,0,0,0,0,0,0,0,0,0,0,,,regular,multi_game_regular_season_sample
+2024-06-20,PROVIDER_SNAPSHOT_MISSING,0,0,0,0,0,0,0,0,0,0,,,offseason,candidate_no_game_day_requires_independent_proof
+2026-10-10,PROVIDER_SNAPSHOT_MISSING,0,0,0,0,0,0,0,0,0,0,,,preseason,prospective_preseason_provider_coverage_question

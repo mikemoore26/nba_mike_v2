@@ -1,0 +1,6 @@
+date,phase,provider_csv,reference_csv,selection_reason
+2023-10-24,regular,research/p0_s8/s8_22_4/results/s8_22_4_games.csv,,opening_night_known_two_games
+2023-11-15,regular,,,ordinary_regular_season_sample
+2024-01-15,regular,,,multi_game_regular_season_sample
+2024-06-20,offseason,,,candidate_no_game_day_requires_independent_proof
+2026-10-10,preseason,,,prospective_preseason_provider_coverage_question
