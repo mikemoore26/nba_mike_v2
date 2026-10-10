@@ -1259,3 +1259,11 @@ Reviewed official NBA injury-report archive, SportsDataIO, BALLDONTLIE, and stri
 ## S8.22.10 — Historical official injury PDF pilot
 
 Implemented manual-only official NBA PDF intake with SHA256 archive, embedded edition-label extraction, eight November 15, 2023 tipoffs, and 60-minute cutoff comparison. The PDF edition label is NOT proof of historical public availability. No network calls, automatic retries, player eligibility claims, training, or production approval. Pilot requires an actual manually obtained original PDF before it can produce evidence. Decision: RESEARCH_ONLY / BLOCK_TRAINING.
+
+## S8.22.10.2 — Coordinate-aware injury candidate attribution
+- Implemented offline coordinate-aware candidate extraction from the archived 2023-11-15 NBA injury PDF; player rows and team-level NOT YET SUBMITTED notices are separate.
+- SHA256/receipt verification, page and coordinate provenance, conservative game/team matching, ambiguity flags, manual review required.
+- Runtime dependency: pypdf; test dependency: pytest. Previous S8.22.10.1 tests additionally require reportlab.
+- Outputs remain local; do not stage raw PDFs or generated result files.
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING; historical as-of NOT_CERTIFIED.
+- Next: inspect actual candidate CSV and ambiguities against original PDF pages before certifying extraction quality.
