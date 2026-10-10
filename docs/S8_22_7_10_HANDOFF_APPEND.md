@@ -1,0 +1,3 @@
+## S8.22.7.10 handoff
+
+Offline schedule governance implementation available at `research/p0_s8/s8_22_7_10/`. Run with archived 2023-11-15 official receipt/source, official S8.22.7.7 report, provider snapshot/capture report, S8.22.7.8 comparison, and S8.22.7.9 verified crosswalk/review/receipt. Audit rehashes inputs and reconstructs all eight matchups/tipoffs. It never certifies date completeness or historical pregame as-of from retrospective snapshots. User must review generated report. Preserve prior modified/untracked files. No `git add .`, no training, no automated requests. Decision remains BLOCK_TRAINING.
