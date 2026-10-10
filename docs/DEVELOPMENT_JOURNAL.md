@@ -1118,3 +1118,7 @@ Next: acquire full-date official references for 2023-10-24, 2023-11-15, 2024-01-
 
 Decision: RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.3 — Multi-source official game references
+
+Goal: correctly associate each game with its own archived official NBA source instead of assigning a single evidence receipt to a full-date reference. Implemented offline source-integrity validation, structured game extraction, per-row provenance, duplicate/ambiguity rejection, and optional provisional S8.22.7 comparison without manifest changes. Verified parsing against the two uploaded Oct 24 2023 NBA HTML sources; automated tests passed during patch construction. Independent full-date completeness and historical pregame availability remain unproven. Decision: RESEARCH_ONLY / BLOCK_TRAINING.
+

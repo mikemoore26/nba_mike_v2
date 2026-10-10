@@ -492,3 +492,7 @@ The patch supplies `research/p0_s8/s8_22_7_2/run_s8_22_7_2.py` and tests. Only o
 
 **Critical:** Never use partial-date reference as complete schedule. Blank reference cannot certify no-game day. Do not infer as-of availability from current page snapshots. Continue source verification and multi-date reliability testing. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.3 — Handoff
+
+Runner: `research/p0_s8/s8_22_7_3/run_s8_22_7_3.py`; repeat `--receipt` for each independently archived official NBA game. Output includes one reference CSV row per game with individual source URL, SHA-256 and retrieval UTC. Optional `--provider-csv` and `--crosswalk` call the existing S8.22.7 provisional comparator. Does NOT update S8.22.7 manifest or certify full-date completeness. Date-level schedule evidence and historical as-of proof remain outstanding. No automatic training or routine collection approval. RESEARCH_ONLY / BLOCK_TRAINING.
+
