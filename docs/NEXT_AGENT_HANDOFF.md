@@ -514,3 +514,7 @@ Five-date offline coverage expansion. Manifest at `research/p0_s8/s8_22_7_5/cove
 
 New offline `research/p0_s8/s8_22_7_6/run_s8_22_7_6.py` consumes S8.22.7.5 JSON and creates a five-date evidence queue. Priority P1 Nov 15, P2 Jan 15, P3 June 20 negative evidence, P4 Oct 10 2026 preseason; Oct 24 preserved as control. Optional receipt manifest validates official NBA saved-source SHA256 and size but never certifies coverage. No network, no automatic approval. Outputs in `research/p0_s8/s8_22_7_6/results/`. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.7 — Handoff
+
+Official NBA date snapshot for 2023-11-15 captured at `research/p0_s8/s8_22_7_2/evidence/2023-11-15/21684d55a7e446e4b8da7288d5750d26/`; SHA-256 `85ea943f3b9cba374728ba6c37f05848bbbe2b34bbd4956ceda367d0c66ae0f4`. `run_s8_22_7_7.py` offline verifies receipt and extracts eight official games `0022300192`–`0022300199` from `__NEXT_DATA__`. Provider count eight known from S8.22.7.5, but per-game matchup/tipoff agreement not yet proven. Need original provider CSV for comparison. No date completeness or historical as-of certification; BLOCK_TRAINING.
+

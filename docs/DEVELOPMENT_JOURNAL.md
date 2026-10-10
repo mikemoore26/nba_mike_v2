@@ -1170,3 +1170,17 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.7 — November 15 official schedule extraction
+
+**Goal:** Validate independent NBA date-level evidence for November 15, 2023.
+
+**Evidence:** User-provided official NBA Games page `source.bin` and S8.22.7.2 receipt; SHA-256 verified, 506293 bytes. Structured Next.js game cards contain eight official game IDs, home/away teams and UTC tipoffs.
+
+**Choice:** Reuse archived S8.22.7.2 source; implement an offline structured extractor instead of scraping or refetching. Optional provider comparison is fail-closed when team fields are unavailable; tipoff agreement not assumed.
+
+**Tests:** `python -m pytest -q tests/test_s82277_official_date.py`.
+
+**Unresolved:** Match eight provider rows against official matchup/tipoff, independent date exhaustiveness, historical pregame availability.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
+
