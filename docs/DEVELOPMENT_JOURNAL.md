@@ -1108,3 +1108,13 @@ Goal: compare two BALLDONTLIE historical opening-night rows against independentl
 ## S8.22.7.1 — Immutable manual schedule acquisition
 Goal: preserve date-specific BALLDONTLIE schedule evidence while avoiding S8.22.4 overwrite risk. Decision: standalone manual collector reusing S8.22.4 parsing and S8.21 append-only capture, unique capture directories, optional guarded manifest updates. No scheduled collection, no retries, no independent reference fabrication. Validation: offline unit tests and fixture run; live account permission and multi-date coverage remain unverified. Governance: RESEARCH_ONLY / BLOCK_TRAINING. Next: collect authorized provider dates and independently archived official schedule references, audit S8.22.7.
 
+## S8.22.7.2 — Independent reference evidence acquisition
+
+Goal: close missing-reference evidence gaps without guessing official schedules or overwriting snapshots.
+
+Implemented: allowlisted NBA HTTPS/manual source archival, SHA-256 receipts, manually reviewed row normalization, duplicate/date/time validation, and safe one-time manifest insertion. Empty reference refused. Explicit opt-in network; offline tests. No game counts certified, no historical as-of claims, no training.
+
+Next: acquire full-date official references for 2023-10-24, 2023-11-15, 2024-01-15 and independent negative/positive date coverage evidence for 2024-06-20 and 2026-10-10. Verify provenance and rerun S8.22.7.
+
+Decision: RESEARCH_ONLY / BLOCK_TRAINING.
+

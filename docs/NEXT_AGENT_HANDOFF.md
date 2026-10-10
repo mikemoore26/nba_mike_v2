@@ -486,3 +486,9 @@ S8.22.6 had 2/2 candidate matches on 2023-10-24; not approved. S8.22.7 introduce
 ## S8.22.7.1 — Handoff
 Installed module: research/p0_s8/s8_22_7_1/run_s8_22_7_1.py. CLI: --date YYYY-MM-DD (--fixture PATH | --live) [--update-manifest]. Reuses S8.22.4 and S8.21; date-specific captures in research/p0_s8/s8_22_7_1/captures/. Optional manifest update only fills blank provider_csv and never modifies reference_csv. Existing 2023-10-24 data preserved. Verify local test results, obtain independent references, run S8.22.7 again. Never commit secrets; no production or training authorization. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.2 — Handoff
+
+The patch supplies `research/p0_s8/s8_22_7_2/run_s8_22_7_2.py` and tests. Only official NBA HTTPS pages accepted. Source snapshots are immutable unique paths, receipt metadata includes SHA-256 and UTC time. Normalization requires user-reviewed CSV and source receipt; no automatic HTML parsing. Manifest only updated on explicit opt-in, no overwrite.
+
+**Critical:** Never use partial-date reference as complete schedule. Blank reference cannot certify no-game day. Do not infer as-of availability from current page snapshots. Continue source verification and multi-date reliability testing. RESEARCH_ONLY / BLOCK_TRAINING.
+
