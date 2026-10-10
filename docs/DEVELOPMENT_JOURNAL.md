@@ -1130,3 +1130,17 @@ Implementation: offline receipt hash verification, manual date-level schedule in
 
 Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level NBA source and submit source receipt + reviewed rows for audit.
 
+## S8.22.7.4.1 — Official schedule announcement validation fix
+
+**Goal:** Correct S8.22.7.4's requirement that date-level NBA announcement pages include official game IDs.
+
+**Observed problem:** NBA 2023–24 official schedule announcement describes the Oct 24 opening-night doubleheader and lists matchups/tipoffs, but not IDs. IDs exist in separately archived official game pages.
+
+**Alternatives:** (A) Require IDs and reject valid announcement; (B) trust provider counts without provenance; (C) verify announcement matchup/time excerpts and join to independently sourced official IDs. Chose (C).
+
+**Implementation:** New offline runner with source integrity checks, visible-text quote validation, missing/extra game IDs, team and UTC tipoff comparisons, and candidate-only report. Curated candidate CSV requires manual review. No network, training, or manifest modifications.
+
+**Remaining:** Run against locally archived announcement and S8.22.7.3 reference; review evidence semantics and date coverage. Historical as-of and pregame player universe remain blocked.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
+

@@ -502,3 +502,7 @@ New module: `research/p0_s8/s8_22_7_4/run_s8_22_7_4.py`. Inputs: date-level S8.2
 
 All successful comparisons are candidates only. No-game dates cannot be certified by empty CSV. Date completeness and historical pregame as-of remain NOT_CERTIFIED. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.4.1 — Handoff
+
+Fix to S8.22.7.4 announcement incompatibility: separate `research/p0_s8/s8_22_7_4_1/run_s8_22_7_4_1.py` verifies archived official NBA schedule announcement SHA-256 and visible-text matchup/tipoff/coverage excerpts, then compares against S8.22.7.3 official per-game ID reference. The announcement itself need not contain game IDs. Candidate CSV for Oct 24 requires human verification. No network, no manifest writes, no full-date completeness or historical pregame as-of certification. RESEARCH_ONLY / BLOCK_TRAINING.
+
