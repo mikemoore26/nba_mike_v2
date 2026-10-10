@@ -1184,3 +1184,17 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.8 — Team crosswalk and formal provider comparison
+
+**Goal:** Reproduce eight-game November 15 comparison with explicit team-ID provenance and fail-closed integrity checks.
+
+**Problem:** Game-derived mappings are not independent evidence; the prior four-team crosswalk did not cover all 16 teams on November 15.
+
+**Options:** trust row-order inference (rejected); auto-approve inferred mappings (rejected); seed clearly labeled candidate mappings and require independent `/v1/teams` evidence for upgrade (chosen).
+
+**Implementation:** Offline runner, 16 candidate team-ID mappings, capture SHA-256 validation, matchup and UTC tipoff comparison, conflict reporting, unit tests. No API calls.
+
+**Next:** Execute locally with original capture report and official review; independently verify team IDs from archived team list, then rerun.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
+

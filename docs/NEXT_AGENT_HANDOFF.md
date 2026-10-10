@@ -518,3 +518,7 @@ New offline `research/p0_s8/s8_22_7_6/run_s8_22_7_6.py` consumes S8.22.7.5 JSON 
 
 Official NBA date snapshot for 2023-11-15 captured at `research/p0_s8/s8_22_7_2/evidence/2023-11-15/21684d55a7e446e4b8da7288d5750d26/`; SHA-256 `85ea943f3b9cba374728ba6c37f05848bbbe2b34bbd4956ceda367d0c66ae0f4`. `run_s8_22_7_7.py` offline verifies receipt and extracts eight official games `0022300192`–`0022300199` from `__NEXT_DATA__`. Provider count eight known from S8.22.7.5, but per-game matchup/tipoff agreement not yet proven. Need original provider CSV for comparison. No date completeness or historical as-of certification; BLOCK_TRAINING.
 
+## S8.22.7.8 — Handoff
+
+`research/p0_s8/s8_22_7_8/run_s8_22_7_8.py` compares Nov 15 BALLDONTLIE provider CSV to official S8.22.7.7 extracted NBA games; crosswalk is **candidate inferred**, not independently verified. Checks capture hash, unique home/away matchup, UTC tipoff tolerance, missing/extra and duplicate games. Input files are user-local and not bundled. Report is always BLOCK_TRAINING. Next task: verify `/v1/teams` team-ID mappings from independent archived bytes before promoting crosswalk evidence; date completeness/historical as-of remain NOT_CERTIFIED.
+
