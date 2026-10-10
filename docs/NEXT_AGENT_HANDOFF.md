@@ -532,3 +532,8 @@ S8.22.7.8 had eight candidate November 15 game matches but 16 game-inferred team
 ## S8.22.7.11 handoff
 
 S8.22.7.10 completed on user machine: 4 tests passed, 8/8 games and zero tipoff deltas, all mechanical checks PASS, but `date_completeness=NOT_CERTIFIED`, `historical_asof=NOT_CERTIFIED`, `BLOCK_TRAINING`; commit `9a69e67` pushed to main. S8.22.7.11 is offline independent completeness evidence review at `research/p0_s8/s8_22_7_11/`. Run against latest S8.22.7.10 report; no new source is bundled. Source/receipt/manifest inputs are optional, must be manually acquired and reviewed, and can yield candidate status only. Use `append_docs.py` once to merge append fragments into existing primary docs with backups. Preserve all existing untracked and modified evidence; never `git add .` or `git clean`. Continue RESEARCH_ONLY / BLOCK_TRAINING.
+
+<!-- S8.22.7.12 documentation checkpoint -->
+## S8.22.7.12 handoff
+
+Offline source-intake runner: `research/p0_s8/s8_22_7_12/run_s8_22_7_12.py`. Source must be manually acquired, then archived with actual retrieval UTC and SHA256. Review report before making any completeness claim. Even 8/8 matching games means candidate corroboration only; historical as-of and training blocked. Do not make automatic requests or stage evidence indiscriminately.

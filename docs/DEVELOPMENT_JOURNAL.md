@@ -1226,3 +1226,8 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 **Validation:** Run `python -m pytest tests/test_s822711_completeness.py -q` and local report. Verify actual output before claiming success. No automatic completeness or historical as-of certification.
 
 **Unresolved:** Acquire independently governed authoritative full-date slate proof and historically timestamped pregame evidence; remain `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+<!-- S8.22.7.12 documentation checkpoint -->
+## S8.22.7.12 — Independent schedule-source acquisition
+
+Goal: acquire and archive original bytes from a separate third-party date-level NBA schedule listing and compare all eight 2023-11-15 matchups offline. Candidate: SportsGamesToday date-specific TV listing. New source does not prove contemporaneous publication, upstream independence, or exhaustive slate. Source receipt and SHA256 produced only after actual manual acquisition. RESEARCH_ONLY / BLOCK_TRAINING.
