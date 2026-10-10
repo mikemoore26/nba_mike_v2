@@ -1231,3 +1231,13 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 ## S8.22.7.12 — Independent schedule-source acquisition
 
 Goal: acquire and archive original bytes from a separate third-party date-level NBA schedule listing and compare all eight 2023-11-15 matchups offline. Candidate: SportsGamesToday date-specific TV listing. New source does not prove contemporaneous publication, upstream independence, or exhaustive slate. Source receipt and SHA256 produced only after actual manual acquisition. RESEARCH_ONLY / BLOCK_TRAINING.
+
+
+<!-- S8.22.7.13 documentation checkpoint -->
+## S8.22.7.13 — Independent source governance review
+
+**Goal:** Offline audit of S8.22.7.12 third-party source integrity and the limits of eight-game agreement.
+
+**Decision:** Distinct publisher domain is observed, but upstream editorial independence, exhaustive date completeness, and 2023 pregame publication are not established. Keep `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+**Validation:** `python -m pytest tests/test_s822713_source_governance.py -q` and review local source-governance report. Source bytes are not modified or committed automatically.

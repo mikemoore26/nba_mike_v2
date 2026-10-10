@@ -537,3 +537,13 @@ S8.22.7.10 completed on user machine: 4 tests passed, 8/8 games and zero tipoff 
 ## S8.22.7.12 handoff
 
 Offline source-intake runner: `research/p0_s8/s8_22_7_12/run_s8_22_7_12.py`. Source must be manually acquired, then archived with actual retrieval UTC and SHA256. Review report before making any completeness claim. Even 8/8 matching games means candidate corroboration only; historical as-of and training blocked. Do not make automatic requests or stage evidence indiscriminately.
+
+
+<!-- S8.22.7.13 documentation checkpoint -->
+## S8.22.7.13 — Independent source governance review
+
+**Goal:** Offline audit of S8.22.7.12 third-party source integrity and the limits of eight-game agreement.
+
+**Decision:** Distinct publisher domain is observed, but upstream editorial independence, exhaustive date completeness, and 2023 pregame publication are not established. Keep `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+**Validation:** `python -m pytest tests/test_s822713_source_governance.py -q` and review local source-governance report. Source bytes are not modified or committed automatically.
