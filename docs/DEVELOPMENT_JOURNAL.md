@@ -1158,3 +1158,15 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 
 **Next:** Acquire official independent date-level evidence for 2023-11-15 and 2024-01-15; independently evaluate no-game and preseason dates; review reports and provenance. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.6 — Independent schedule evidence acquisition queue
+
+**Problem:** S8.22.7.5 found one candidate date agreement, two missing official references, and two zero-provider-row dates. A zero-row snapshot cannot prove no games.
+
+**Options:** (A) collect all dates blindly; (B) treat zero rows as no games; (C) prioritize independent source acquisition and validate saved receipts offline. **Selected:** (C), to avoid redundant captures and false completeness claims.
+
+**Implementation:** offline five-date acquisition queue, optional receipt/source SHA-256 integrity validation, candidate-only source states, negative-evidence and preseason-specific tasks, tests and README. No network or model code.
+
+**Next:** Run against actual S8.22.7.5 report; review official NBA date-wide source for Nov 15 first, then Jan 15; require human assessment of date coverage and source meaning.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
+

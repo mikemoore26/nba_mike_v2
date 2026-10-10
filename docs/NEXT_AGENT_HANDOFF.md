@@ -510,3 +510,7 @@ Fix to S8.22.7.4 announcement incompatibility: separate `research/p0_s8/s8_22_7_
 
 Five-date offline coverage expansion. Manifest at `research/p0_s8/s8_22_7_5/coverage_manifest.csv` intentionally leaves paths blank until user fills verified local paths. Runner `run_s8_22_7_5.py` emits UUID-named JSON/CSV reports and always BLOCK_TRAINING. October 24 candidate announcement may be linked to S8.22.7.4.1; November 15/January 15 need independent date-level official references; June 20 and October 10 zero-provider results cannot certify no games. Never automatically fetch, retry NBA CDN, or claim historical as-of.
 
+## S8.22.7.6 — Handoff
+
+New offline `research/p0_s8/s8_22_7_6/run_s8_22_7_6.py` consumes S8.22.7.5 JSON and creates a five-date evidence queue. Priority P1 Nov 15, P2 Jan 15, P3 June 20 negative evidence, P4 Oct 10 2026 preseason; Oct 24 preserved as control. Optional receipt manifest validates official NBA saved-source SHA256 and size but never certifies coverage. No network, no automatic approval. Outputs in `research/p0_s8/s8_22_7_6/results/`. RESEARCH_ONLY / BLOCK_TRAINING.
+
