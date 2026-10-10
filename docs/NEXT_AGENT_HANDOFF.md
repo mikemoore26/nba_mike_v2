@@ -496,3 +496,9 @@ The patch supplies `research/p0_s8/s8_22_7_2/run_s8_22_7_2.py` and tests. Only o
 
 Runner: `research/p0_s8/s8_22_7_3/run_s8_22_7_3.py`; repeat `--receipt` for each independently archived official NBA game. Output includes one reference CSV row per game with individual source URL, SHA-256 and retrieval UTC. Optional `--provider-csv` and `--crosswalk` call the existing S8.22.7 provisional comparator. Does NOT update S8.22.7 manifest or certify full-date completeness. Date-level schedule evidence and historical as-of proof remain outstanding. No automatic training or routine collection approval. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.4 — Handoff
+
+New module: `research/p0_s8/s8_22_7_4/run_s8_22_7_4.py`. Inputs: date-level S8.22.7.2 official NBA evidence receipt, manually curated date-level CSV, and S8.22.7.3 per-game reference. No network, no manifest modification. Reports missing/extra game IDs, team/tipoff discrepancies, and source-byte ID presence.
+
+All successful comparisons are candidates only. No-game dates cannot be certified by empty CSV. Date completeness and historical pregame as-of remain NOT_CERTIFIED. RESEARCH_ONLY / BLOCK_TRAINING.
+

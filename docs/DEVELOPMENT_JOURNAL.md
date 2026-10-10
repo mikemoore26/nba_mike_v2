@@ -1122,3 +1122,11 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING.
 
 Goal: correctly associate each game with its own archived official NBA source instead of assigning a single evidence receipt to a full-date reference. Implemented offline source-integrity validation, structured game extraction, per-row provenance, duplicate/ambiguity rejection, and optional provisional S8.22.7 comparison without manifest changes. Verified parsing against the two uploaded Oct 24 2023 NBA HTML sources; automated tests passed during patch construction. Independent full-date completeness and historical pregame availability remain unproven. Decision: RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.4 — Independent date-level schedule audit
+
+Goal: compare official date-level evidence to the two-game October 24 reference without assuming those two games are the complete schedule.
+
+Implementation: offline receipt hash verification, manual date-level schedule input, game-ID presence in archived bytes, set and field comparisons, immutable report, explicit fail-closed status. No live retrieval or automatic date-completeness certification.
+
+Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level NBA source and submit source receipt + reviewed rows for audit.
+
