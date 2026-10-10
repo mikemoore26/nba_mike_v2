@@ -522,3 +522,7 @@ Official NBA date snapshot for 2023-11-15 captured at `research/p0_s8/s8_22_7_2/
 
 `research/p0_s8/s8_22_7_8/run_s8_22_7_8.py` compares Nov 15 BALLDONTLIE provider CSV to official S8.22.7.7 extracted NBA games; crosswalk is **candidate inferred**, not independently verified. Checks capture hash, unique home/away matchup, UTC tipoff tolerance, missing/extra and duplicate games. Input files are user-local and not bundled. Report is always BLOCK_TRAINING. Next task: verify `/v1/teams` team-ID mappings from independent archived bytes before promoting crosswalk evidence; date completeness/historical as-of remain NOT_CERTIFIED.
 
+## S8.22.7.9 — Handoff
+
+S8.22.7.8 had eight candidate November 15 game matches but 16 game-inferred team mappings. New `research/p0_s8/s8_22_7_9/` contains an offline `/v1/teams` archive verifier and a local receipt creator; no live fetching. Requires authentic directory JSON bytes, SHA-256 receipt, original S8.22.7.8 crosswalk and comparison JSON. Outputs unique JSON review and verified mapping CSV; rejects missing/duplicate/conflicting mappings. Even with verified identities, schedule completeness, historical pregame as-of and training remain blocked. RESEARCH_ONLY / BLOCK_TRAINING.
+

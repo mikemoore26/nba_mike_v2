@@ -1198,3 +1198,15 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.9 — Independent team directory verification
+
+**Problem:** November 15 eight-game cross-source candidate matches used 16 team mappings inferred from the same games, so independence was unproven.
+
+**Options:** Reuse inferred mappings (circular), refetch game data (does not solve independence), or validate against an archived BALLDONTLIE `/v1/teams` response. Chose archived directory bytes, offline SHA-256 verification, and explicit conflict reporting.
+
+**Implementation:** Added offline receipt creation for a user-managed manual capture, team-directory validator, unit tests, and documentation. No network calls, API secrets, training, or automated capture.
+
+**Next:** User locates or manually obtains an authorized `/v1/teams` JSON snapshot, records actual capture time, generates receipt, runs validator, uploads review. Review conflicts before any downstream promotion.
+
+**Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
+
