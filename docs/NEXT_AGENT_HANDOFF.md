@@ -559,3 +559,9 @@ Added offline five-category evidence manifest and fail-closed feasibility report
 ## S8.22.9 — Historical pregame provider shortlist
 
 Reviewed official NBA injury-report archive, SportsDataIO, BALLDONTLIE, and strictly lagged local game-log derivations. Provider descriptions and URLs are in `research/p0_s8/s8_22_9/source_candidates.json`. This is a source-discovery shortlist only; November 2023 as-of timestamps, licensing, and access are NOT_VERIFIED. Priority: manually examine dated official injury reports, ask commercial provider about 2023 replay and timestamps, then design a lag-only minutes/opportunity proof. No credentials, network calls, training, or routine collection. Decision: RESEARCH_ONLY / BLOCK_TRAINING.
+
+
+<!-- S8.22.10 documentation checkpoint -->
+## S8.22.10 — Historical official injury PDF pilot
+
+Implemented manual-only official NBA PDF intake with SHA256 archive, embedded edition-label extraction, eight November 15, 2023 tipoffs, and 60-minute cutoff comparison. The PDF edition label is NOT proof of historical public availability. No network calls, automatic retries, player eligibility claims, training, or production approval. Pilot requires an actual manually obtained original PDF before it can produce evidence. Decision: RESEARCH_ONLY / BLOCK_TRAINING.
