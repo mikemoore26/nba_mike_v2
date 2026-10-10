@@ -553,3 +553,9 @@ Offline source-intake runner: `research/p0_s8/s8_22_7_12/run_s8_22_7_12.py`. Sou
 ## S8.22.8 — Historical pregame feasibility audit
 
 Added offline five-category evidence manifest and fail-closed feasibility report. Categories: player availability, expected minutes, starting lineups, player opportunity, betting markets. Historical as-of, licensing, and pre-tipoff evidence are unverified until independently substantiated. No source requests or model training. Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: manually review a permitted, historically timestamped source.
+
+
+<!-- S8.22.9 documentation checkpoint -->
+## S8.22.9 — Historical pregame provider shortlist
+
+Reviewed official NBA injury-report archive, SportsDataIO, BALLDONTLIE, and strictly lagged local game-log derivations. Provider descriptions and URLs are in `research/p0_s8/s8_22_9/source_candidates.json`. This is a source-discovery shortlist only; November 2023 as-of timestamps, licensing, and access are NOT_VERIFIED. Priority: manually examine dated official injury reports, ask commercial provider about 2023 replay and timestamps, then design a lag-only minutes/opportunity proof. No credentials, network calls, training, or routine collection. Decision: RESEARCH_ONLY / BLOCK_TRAINING.
