@@ -506,3 +506,7 @@ All successful comparisons are candidates only. No-game dates cannot be certifie
 
 Fix to S8.22.7.4 announcement incompatibility: separate `research/p0_s8/s8_22_7_4_1/run_s8_22_7_4_1.py` verifies archived official NBA schedule announcement SHA-256 and visible-text matchup/tipoff/coverage excerpts, then compares against S8.22.7.3 official per-game ID reference. The announcement itself need not contain game IDs. Candidate CSV for Oct 24 requires human verification. No network, no manifest writes, no full-date completeness or historical pregame as-of certification. RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.5 — Handoff
+
+Five-date offline coverage expansion. Manifest at `research/p0_s8/s8_22_7_5/coverage_manifest.csv` intentionally leaves paths blank until user fills verified local paths. Runner `run_s8_22_7_5.py` emits UUID-named JSON/CSV reports and always BLOCK_TRAINING. October 24 candidate announcement may be linked to S8.22.7.4.1; November 15/January 15 need independent date-level official references; June 20 and October 10 zero-provider results cannot certify no games. Never automatically fetch, retry NBA CDN, or claim historical as-of.
+

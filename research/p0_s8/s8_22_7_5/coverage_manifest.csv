@@ -1,0 +1,6 @@
+"date","phase","provider_csv","official_reference_csv","announcement_report_json","date_receipt_json","reviewed_date_csv","negative_evidence_receipt_json","reviewer_note"
+"2023-10-24","regular","research/p0_s8/s8_22_4/results/s8_22_4_games.csv","research\p0_s8\s8_22_7_3\results\2023-10-24\official_reference_12b83b046af442a28a1dba2e6f5503f6.csv","research\p0_s8\s8_22_7_4_1\results\2023-10-24\announcement_review_e1c17944fbce47f9a8f75d9a5f947a30.json","","","","opening_night_two_game_control"
+"2023-11-15","regular","research/p0_s8/s8_22_7_1/captures/2023-11-15/20261010T000232337404Z_a9a15e539765/provider_games.csv","","","","","","ordinary_regular_season_eight_provider_games"
+"2024-01-15","regular","research/p0_s8/s8_22_7_1/captures/2024-01-15/20261010T000232865472Z_10a60fdfbb82/provider_games.csv","","","","","","multi_game_regular_season_eleven_provider_games"
+"2024-06-20","offseason","research/p0_s8/s8_22_7_1/captures/2024-06-20/20261010T000233401709Z_d1267466324d/provider_games.csv","","","","","","zero_provider_rows_not_no_game_proof"
+"2026-10-10","preseason","research/p0_s8/s8_22_7_1/captures/2026-10-10/20261010T000233875803Z_f4cf3d79e5f3/provider_games.csv","","","","","","zero_provider_rows_not_no_game_proof"

@@ -1144,3 +1144,17 @@ Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: acquire independent date-level N
 
 **Decision:** RESEARCH_ONLY / BLOCK_TRAINING.
 
+## S8.22.7.5 — Offline five-date schedule coverage expansion
+
+**Goal:** Broaden S8.22.7.4.1 opening-night candidate validation to five dates with different coverage risks.
+
+**Issue:** Two positive game matches cannot establish provider completeness. Zero-row provider snapshots are not independent negative evidence.
+
+**Options:** Trust provider counts (rejected), fetch additional data automatically (rejected), or stage independent references and offline date-level review (selected).
+
+**Files:** `research/p0_s8/s8_22_7_5/coverage_manifest.csv`, `run_s8_22_7_5.py`, `README.md`, `tests/test_s82275_coverage.py`, `docs/S8_22_7_5_COVERAGE_EXPANSION.md`.
+
+**Validation:** Run pytest and offline five-date audit after filling manifest paths. Do not claim live source verification until user runs it. No model fitting or training.
+
+**Next:** Acquire official independent date-level evidence for 2023-11-15 and 2024-01-15; independently evaluate no-game and preseason dates; review reports and provenance. RESEARCH_ONLY / BLOCK_TRAINING.
+
