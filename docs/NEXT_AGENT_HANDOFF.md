@@ -482,3 +482,7 @@ Offline cross-validation patch uses NBA official opening-night publication and g
 
 S8.22.6 had 2/2 candidate matches on 2023-10-24; not approved. S8.22.7 introduces `research/p0_s8/s8_22_7/run_s8_22_7.py`, `date_manifest.csv`, and `independent_reference_TEMPLATE.csv`. It reads per-date provider CSVs and independently sourced references only; no live network or model training. Empty or missing evidence is fail-closed. Run `python -m pytest -q tests/test_s8227_multi_date.py`, then `python research/p0_s8/s8_22_7/run_s8_22_7.py --project-root .`. Upload report and date audit. Do not equate retrospective schedule matches with historical as-of availability. Remains RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+## S8.22.7.1 — Handoff
+Installed module: research/p0_s8/s8_22_7_1/run_s8_22_7_1.py. CLI: --date YYYY-MM-DD (--fixture PATH | --live) [--update-manifest]. Reuses S8.22.4 and S8.21; date-specific captures in research/p0_s8/s8_22_7_1/captures/. Optional manifest update only fills blank provider_csv and never modifies reference_csv. Existing 2023-10-24 data preserved. Verify local test results, obtain independent references, run S8.22.7 again. Never commit secrets; no production or training authorization. RESEARCH_ONLY / BLOCK_TRAINING.
+
