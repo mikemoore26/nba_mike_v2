@@ -526,3 +526,9 @@ Official NBA date snapshot for 2023-11-15 captured at `research/p0_s8/s8_22_7_2/
 
 S8.22.7.8 had eight candidate November 15 game matches but 16 game-inferred team mappings. New `research/p0_s8/s8_22_7_9/` contains an offline `/v1/teams` archive verifier and a local receipt creator; no live fetching. Requires authentic directory JSON bytes, SHA-256 receipt, original S8.22.7.8 crosswalk and comparison JSON. Outputs unique JSON review and verified mapping CSV; rejects missing/duplicate/conflicting mappings. Even with verified identities, schedule completeness, historical pregame as-of and training remain blocked. RESEARCH_ONLY / BLOCK_TRAINING.
 
+
+
+<!-- S8.22.7.11 documentation checkpoint -->
+## S8.22.7.11 handoff
+
+S8.22.7.10 completed on user machine: 4 tests passed, 8/8 games and zero tipoff deltas, all mechanical checks PASS, but `date_completeness=NOT_CERTIFIED`, `historical_asof=NOT_CERTIFIED`, `BLOCK_TRAINING`; commit `9a69e67` pushed to main. S8.22.7.11 is offline independent completeness evidence review at `research/p0_s8/s8_22_7_11/`. Run against latest S8.22.7.10 report; no new source is bundled. Source/receipt/manifest inputs are optional, must be manually acquired and reviewed, and can yield candidate status only. Use `append_docs.py` once to merge append fragments into existing primary docs with backups. Preserve all existing untracked and modified evidence; never `git add .` or `git clean`. Continue RESEARCH_ONLY / BLOCK_TRAINING.
