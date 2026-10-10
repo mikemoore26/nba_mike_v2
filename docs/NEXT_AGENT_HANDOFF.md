@@ -547,3 +547,9 @@ Offline source-intake runner: `research/p0_s8/s8_22_7_12/run_s8_22_7_12.py`. Sou
 **Decision:** Distinct publisher domain is observed, but upstream editorial independence, exhaustive date completeness, and 2023 pregame publication are not established. Keep `RESEARCH_ONLY / BLOCK_TRAINING`.
 
 **Validation:** `python -m pytest tests/test_s822713_source_governance.py -q` and review local source-governance report. Source bytes are not modified or committed automatically.
+
+
+<!-- S8.22.8 documentation checkpoint -->
+## S8.22.8 — Historical pregame feasibility audit
+
+Added offline five-category evidence manifest and fail-closed feasibility report. Categories: player availability, expected minutes, starting lineups, player opportunity, betting markets. Historical as-of, licensing, and pre-tipoff evidence are unverified until independently substantiated. No source requests or model training. Decision: RESEARCH_ONLY / BLOCK_TRAINING. Next: manually review a permitted, historically timestamped source.
