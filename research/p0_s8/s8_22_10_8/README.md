@@ -1,0 +1,5 @@
+# S8.22.10.8 — Game-ID evidence intake and repository inventory
+
+Run `python research/p0_s8/s8_22_10_8/run_s8_22_10_8.py --project-root .` after S8.22.10.7. With no evidence CSV, the output includes a **template** (not verification). To supply evidence, copy the template to `research/p0_s8/s8_22_10_8/manual_input/game_id_evidence.csv`; archive authoritative source files in the same `manual_input/` directory, use relative `snapshot_path`, SHA256, HTTPS URL, exact source row reference, and reviewer details. Run again. The script checks the snapshot hash, not whether the claimed row is actually present or authoritative; **manual row-level inspection is required**. `review_decision=ACCEPT` never promotes certification. All source files and Git artifacts are preserved; nothing is cleaned, staged, or committed automatically. Output contains `game_id_evidence_audit.csv`, `git_inventory.json`, `review.json` and, if applicable, `game_id_evidence_template.csv`.
+
+Do not `git add .`, `git clean -fd`, or `git reset --hard`. Review Git inventory before selecting paths to commit. `RESEARCH_ONLY / BLOCK_TRAINING`.

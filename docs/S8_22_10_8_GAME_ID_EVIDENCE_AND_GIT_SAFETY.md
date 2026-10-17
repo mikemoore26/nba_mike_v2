@@ -1,0 +1,3 @@
+# S8.22.10.8 — Independent game-ID evidence intake and Git safety
+
+Eight 2023-11-15 game IDs inherited from S8.22.10.7 are hypotheses, not verified identities. The tool produces an evidence template, checks provided local source snapshots against SHA256 and flags disagreement, but **does not assert official provenance, confirm the game row exists, or promote any game ID**. It also inventories modified/untracked files without altering them. No PDF player verification, source publication as-of certification, eligibility, DNP or model training is permitted. Manual source-row inspection and evidence-based acceptance require a later milestone. `RESEARCH_ONLY / BLOCK_TRAINING`.

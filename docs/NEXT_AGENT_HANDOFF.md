@@ -599,3 +599,6 @@ Created read-only date-aware external schedule crosswalk; manual player verifica
 
 ### S8.22.10.7 — Provisional game-ID crosswalk and manual review staging
 Prepared non-destructive, date-aware game-ID hypotheses and human-review ledger. Game IDs remain unverified; all manual reviews pending; RESEARCH_ONLY / BLOCK_TRAINING.
+
+### S8.22.10.8 — Game-ID evidence intake and safe Git inventory
+Added SHA256-validated source snapshot intake, fail-closed provisional game-ID checks, and read-only Git inventory. No game IDs or player records certified; RESEARCH_ONLY / BLOCK_TRAINING.
