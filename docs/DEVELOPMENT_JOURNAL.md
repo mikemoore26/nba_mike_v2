@@ -1323,3 +1323,10 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - Game-ID linkage is automated evidence only; injury statuses, player identity, and historical publication times remain NOT_CERTIFIED.
 - Exception queue and full row-level triage retained for follow-up; no invented human approvals or missing timestamps.
 - Governance: RESEARCH_ONLY / BLOCK_TRAINING.
+
+## S8.22.10.15 MAPPING EXCEPTION DIAGNOSIS
+- Report: `research/p0_s8/s8_22_10_15/results/2023-11-15/4778b69c0f4f43fc/review.json`.
+- Exceptions analyzed: 4; outcomes: {'MANUAL_EXCEPTION_REQUIRED': 4}; reasons: {'DATE_MISMATCH_NO_AUTOMATIC_REPAIR': 4}.
+- No original ledger changes, no injury certifications, no fabricated publication timestamps.
+- Next: inspect deterministic candidates versus unresolved conflicts; preserve provenance and as-of gates.
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING.
