@@ -610,3 +610,7 @@ Added a fail-closed historical NBA CDN JSON acquisition and SHA256 receipt workf
 
 ## S8.22.10.10 — NBA public game-page evidence intake
 Added a fail-closed NBA public HTML game-page acquisition and immutable SHA256 evidence receipts for eight November 15, 2023 matchups. CDN returned HTTP 403 in prior step. Page title checks are only preliminary: game ID is present in requested URL and is NOT independently certified. Historical as-of and player review remain unresolved. RESEARCH_ONLY / BLOCK_TRAINING. See docs/S8_22_10_10_PUBLIC_GAME_PAGE_EVIDENCE.md.
+
+
+## S8.22.10.11 — independent schedule-link discovery
+Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE_REVIEW_REQUIRED': 8}; certified IDs=0; as-of NOT_CERTIFIED; RESEARCH_ONLY / BLOCK_TRAINING. Source report: research\p0_s8\s8_22_10_11\results\2023-11-15\ca59d35f24e2ac8c\review.json.
