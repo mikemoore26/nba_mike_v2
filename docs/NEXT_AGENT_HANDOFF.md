@@ -621,3 +621,11 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - Crosswalk: SHA256 `ca59d35f24e2ac8c1ba70971b5fec60ec7ce654a938b4d9d1902848f8d115212`; resolved from actual S8.22.10.7 output rather than an assumed folder token.
 - Automated evidence checks are not independent human certification, publisher authentication, or historical as-of proof.
 - Historical as-of and player identity: NOT_CERTIFIED; injury reviews: 0; governance: RESEARCH_ONLY / BLOCK_TRAINING.
+
+## S8.22.10.14 INJURY LEDGER AUTOMATED TRIAGE
+- Report: `research/p0_s8/s8_22_10_14/results/2023-11-15/adb81a71349eb82f/review.json`.
+- Original records: 54; triage counts: {'EVIDENCE_PENDING': 50, 'EXCEPTION_REVIEW_REQUIRED': 4}.
+- Record types: {'PLAYER': 44, 'TEAM_SUBMISSION': 10}.
+- Game-ID linkage is automated evidence only; injury statuses, player identity, and historical publication times remain NOT_CERTIFIED.
+- Exception queue and full row-level triage retained for follow-up; no invented human approvals or missing timestamps.
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING.
