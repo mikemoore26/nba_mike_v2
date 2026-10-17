@@ -1290,3 +1290,6 @@ Implemented manual-only official NBA PDF intake with SHA256 archive, embedded ed
 
 ### S8.22.10.6 — independent schedule reconciliation
 Created read-only date-aware external schedule crosswalk; manual player verification and historical as-of remain pending. RESEARCH_ONLY / BLOCK_TRAINING. See docs/S8_22_10_6_SCHEDULE_RECONCILIATION.md.
+
+### S8.22.10.7 — Provisional game-ID crosswalk and manual review staging
+Prepared non-destructive, date-aware game-ID hypotheses and human-review ledger. Game IDs remain unverified; all manual reviews pending; RESEARCH_ONLY / BLOCK_TRAINING.
