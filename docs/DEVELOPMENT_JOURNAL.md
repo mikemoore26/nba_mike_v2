@@ -1308,3 +1308,10 @@ Added a fail-closed NBA public HTML game-page acquisition and immutable SHA256 e
 
 ## S8.22.10.11 — independent schedule-link discovery
 Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE_REVIEW_REQUIRED': 8}; certified IDs=0; as-of NOT_CERTIFIED; RESEARCH_ONLY / BLOCK_TRAINING. Source report: research\p0_s8\s8_22_10_11\results\2023-11-15\ca59d35f24e2ac8c\review.json.
+
+## S8.22.10.13 AUTOMATED GAME-ID EVIDENCE VERIFICATION
+- Report: `research/p0_s8/s8_22_10_13/results/2023-11-15/b5c5d636e3c05242/review.json`.
+- Automated verified: 8/8; exceptions: 0.
+- Crosswalk: SHA256 `ca59d35f24e2ac8c1ba70971b5fec60ec7ce654a938b4d9d1902848f8d115212`; resolved from actual S8.22.10.7 output rather than an assumed folder token.
+- Automated evidence checks are not independent human certification, publisher authentication, or historical as-of proof.
+- Historical as-of and player identity: NOT_CERTIFIED; injury reviews: 0; governance: RESEARCH_ONLY / BLOCK_TRAINING.
