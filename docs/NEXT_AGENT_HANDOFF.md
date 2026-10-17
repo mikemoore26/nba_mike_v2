@@ -587,3 +587,9 @@ Implemented manual-only official NBA PDF intake with SHA256 archive, embedded ed
 - Corrected page-four y-coordinate coverage and game-date transitions; preserve 11/15 Lakers and classify 11/16 BKN@MIA / OKC@GSW outside the eight-game research slate.
 - Inputs: SHA256-verified archived injury PDF. Outputs: date-scoped candidate CSVs and ambiguity review. Five synthetic regression tests pass in patch environment; run against archived PDF locally and inspect results before promotion.
 - Manual table verification, player identity, publication as-of, DNP population and training gates remain unresolved. Status: RESEARCH_ONLY / BLOCK_TRAINING.
+
+## S8.22.10.5 — Manual evidence verification packet
+- Added PDF-anchored review ledger for S8.22.10.4 candidates and notices.
+- Explicitly flags prior-slate home/away orientation conflicts and potential column-header artifacts.
+- All candidate rows start PENDING; no automated player or as-of certification.
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING.
