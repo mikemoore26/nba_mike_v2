@@ -1287,3 +1287,6 @@ Implemented manual-only official NBA PDF intake with SHA256 archive, embedded ed
 - Explicitly flags prior-slate home/away orientation conflicts and potential column-header artifacts.
 - All candidate rows start PENDING; no automated player or as-of certification.
 - Governance: RESEARCH_ONLY / BLOCK_TRAINING.
+
+### S8.22.10.6 — independent schedule reconciliation
+Created read-only date-aware external schedule crosswalk; manual player verification and historical as-of remain pending. RESEARCH_ONLY / BLOCK_TRAINING. See docs/S8_22_10_6_SCHEDULE_RECONCILIATION.md.
