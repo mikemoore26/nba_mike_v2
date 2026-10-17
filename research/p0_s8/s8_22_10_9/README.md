@@ -1,0 +1,3 @@
+# S8.22.10.9 — NBA CDN evidence acquisition
+
+Run `python research/p0_s8/s8_22_10_9/run_s8_22_10_9.py --project-root .`. Requires network on your Windows computer; downloads from `cdn.nba.com` may fail or change. Original JSON snapshots and SHA256 receipts go under `evidence/2023-11-15/<game_id>/`. Existing snapshots are reused and never overwritten. Run `--offline` to re-evaluate existing snapshots. No evidence is automatically promoted to verified, and historical as-of is never certified. The report is stored under `results/2023-11-15/<crosswalk-hash>/`. Review all mismatches and acquisition failures. Do not commit raw research evidence automatically; preserve backups and check repository status.

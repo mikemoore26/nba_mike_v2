@@ -1,0 +1,3 @@
+# S8.22.10.9 — Independent NBA game record acquisition
+
+Goal: fetch actual game boxscore JSON from the NBA CDN for the eight provisional 2023-11-15 NBA game IDs, archive byte-identical responses with SHA256, compare ID, date and home/away NBA team IDs. **The CDN is a source of historical game records, not proof of when the information became public.** A `CONTENT_MATCH` means the response fields matched, not that a human independently certified the game ID. Any missing `gameDate` and `gameTimeLocal` produces `DATE_NOT_CHECKED`. Failed requests and mismatches are not promoted. S8.22.10.7 original crosswalk is unchanged. No player reviews are approved. Research only; block training.

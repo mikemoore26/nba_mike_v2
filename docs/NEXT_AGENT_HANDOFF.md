@@ -602,3 +602,7 @@ Prepared non-destructive, date-aware game-ID hypotheses and human-review ledger.
 
 ### S8.22.10.8 — Game-ID evidence intake and safe Git inventory
 Added SHA256-validated source snapshot intake, fail-closed provisional game-ID checks, and read-only Git inventory. No game IDs or player records certified; RESEARCH_ONLY / BLOCK_TRAINING.
+
+
+## S8.22.10.9 — NBA CDN game source acquisition
+Added a fail-closed historical NBA CDN JSON acquisition and SHA256 receipt workflow for eight provisional game IDs. Source content checks do not independently certify game IDs or historical as-of. Manual player reviews remain pending; RESEARCH_ONLY / BLOCK_TRAINING. See docs/S8_22_10_9_SOURCE_ACQUISITION.md.
