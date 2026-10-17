@@ -1357,3 +1357,12 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - These are local text-layout diagnostics, not independent identity, injury-status, or historical-as-of certifications.
 - Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 - Next: inspect classifications, then obtain authoritative player ID, injury status and publication-time evidence.
+
+<!-- S8.22.10.19 COORDINATE NAME REPAIR -->
+### S8.22.10.19 — Coordinate-aware name comparison
+- 44 player candidates evaluated, 10 team notices excluded.
+- Local matches: 44; unmatched: 0; classes: `{'LOCAL_NAME_MATCH': 44}`.
+- Original ledger SHA-256: `70cc499b1c35cd65cde2ce0c8836e1db13e9194a43ac290450755f067ff3c3db`.
+- Source diagnostic SHA-256: `5c5e3471673d639e0cd1e6cb97dcf747157eaa7bfe274edd29c32cf8e76ab092`.
+- Local name matches are NOT independently verified player IDs, injury statuses, or historical publication timestamps.
+- Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
