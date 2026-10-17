@@ -582,3 +582,8 @@ Implemented manual-only official NBA PDF intake with SHA256 archive, embedded ed
 - Scope is the independently corroborated eight-game research slate, NOT necessarily the entire NBA injury report.
 - No historical publication-time proof, player identity certification, eligibility, DNP labeling or model training. RESEARCH_ONLY / BLOCK_TRAINING.
 - Test-only dependency: reportlab (S8.22.10.1); this milestone's tests use no reportlab.
+
+## S8.22.10.4 — Date-aware injury PDF attribution
+- Corrected page-four y-coordinate coverage and game-date transitions; preserve 11/15 Lakers and classify 11/16 BKN@MIA / OKC@GSW outside the eight-game research slate.
+- Inputs: SHA256-verified archived injury PDF. Outputs: date-scoped candidate CSVs and ambiguity review. Five synthetic regression tests pass in patch environment; run against archived PDF locally and inspect results before promotion.
+- Manual table verification, player identity, publication as-of, DNP population and training gates remain unresolved. Status: RESEARCH_ONLY / BLOCK_TRAINING.
