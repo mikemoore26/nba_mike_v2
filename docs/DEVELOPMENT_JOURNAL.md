@@ -1347,3 +1347,13 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - No independent player ID, injury status, or historical publication-time certifications.
 - Research governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
 - Next: acquire authoritative timestamped source evidence; do not promote parser candidates.
+
+<!-- S8.22.10.18 NAME LAYOUT DIAGNOSTICS -->
+### S8.22.10.18 — Uniform name diagnostic failure investigation
+- 44 candidate rows diagnosed; no original evidence modified.
+- Name-layout classifications: `{'NO_LOCAL_NAME_CORROBORATION': 44}`.
+- Ledger SHA-256: `70cc499b1c35cd65cde2ce0c8836e1db13e9194a43ac290450755f067ff3c3db`.
+- Prior audit SHA-256: `9aea8afbc3d40f4c2337ad9630e07e103b91c7d7f28c94dd4a0b44c24947a213`.
+- These are local text-layout diagnostics, not independent identity, injury-status, or historical-as-of certifications.
+- Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+- Next: inspect classifications, then obtain authoritative player ID, injury status and publication-time evidence.
