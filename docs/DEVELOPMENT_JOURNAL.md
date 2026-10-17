@@ -1337,3 +1337,13 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - No corrected game dates, new verified game IDs, injury certifications, or original-ledger edits.
 - Next: independent PDF/date provenance for notices; player identity and as-of evidence for 44 player candidates.
 - Governance: RESEARCH_ONLY / BLOCK_TRAINING.
+
+<!-- S8.22.10.17 PLAYER EVIDENCE AUDIT -->
+### S8.22.10.17 — Player identity / injury evidence inventory
+- 44 player candidates audited; 10 team-submission notices excluded.
+- Dispositions: {'REVIEW_PRIORITY': 44}.
+- Source ledger SHA-256: `70cc499b1c35cd65cde2ce0c8836e1db13e9194a43ac290450755f067ff3c3db`.
+- Source triage SHA-256: `a39093fadb1f7ba1ff533bf968cfa2bd681ca1217c19c90e4e04863bf6e17817`.
+- No independent player ID, injury status, or historical publication-time certifications.
+- Research governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+- Next: acquire authoritative timestamped source evidence; do not promote parser candidates.
