@@ -636,3 +636,10 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - No original ledger changes, no injury certifications, no fabricated publication timestamps.
 - Next: inspect deterministic candidates versus unresolved conflicts; preserve provenance and as-of gates.
 - Governance: RESEARCH_ONLY / BLOCK_TRAINING.
+
+## S8.22.10.16 DATE-AWARE TEAM NOTICE CLASSIFICATION
+- Report: `research/p0_s8/s8_22_10_16/results/2023-11-15/fd8cc23e9b5c812a/review.json`.
+- Four team-submission notices classified; outcomes: {'DATE_SCOPE_MISMATCH_REVIEW_REQUIRED': 4}.
+- No corrected game dates, new verified game IDs, injury certifications, or original-ledger edits.
+- Next: independent PDF/date provenance for notices; player identity and as-of evidence for 44 player candidates.
+- Governance: RESEARCH_ONLY / BLOCK_TRAINING.
