@@ -680,3 +680,10 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - Classification: `{'REGISTRY_NOT_SUPPLIED': 44}`.
 - Evidence hashes: `{'ledger': '70cc499b1c35cd65cde2ce0c8836e1db13e9194a43ac290450755f067ff3c3db', 'corroboration': '30d8b7b6a76976db4f3e7883d33016b3268e109dd32117d64f9a437397935215', 'diagnostic': '5c5e3471673d639e0cd1e6cb97dcf747157eaa7bfe274edd29c32cf8e76ab092', 'registry': None}`.
 - No independent identity, injury status or historical-as-of certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+### S8.22.10.22A — local nba_api registry integration
+- Local installed nba_api 1.11.4: 5103 player records, SHA256 `dccbad110b3e08811f4526d7ee25a805cf75d8ef62d894d90da6e8193d0667ba`.
+- Name/ID candidates: {'UNIQUE_NAME_ID_CANDIDATE': 44}.
+- Evidence manifest: `research/p0_s8/s8_22_10_22a/results/2023-11-15/dccbad110b3e0881/capture_manifest.json`.
+- Local third-party names do not prove 2023 team membership or historical as-of. Player IDs certified: 0.
+- Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
