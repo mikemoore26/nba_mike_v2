@@ -1366,3 +1366,11 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - Source diagnostic SHA-256: `5c5e3471673d639e0cd1e6cb97dcf747157eaa7bfe274edd29c32cf8e76ab092`.
 - Local name matches are NOT independently verified player IDs, injury statuses, or historical publication timestamps.
 - Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+<!-- S8.22.10.20 PLAYER REGISTRY RECONCILIATION -->
+### S8.22.10.20 — Player registry reconciliation
+- 44 locally corroborated player names; 10 team notices excluded.
+- Registry supplied: `False`; candidate IDs proposed: `0`.
+- Classification: `{'REGISTRY_NOT_SUPPLIED': 44}`.
+- Evidence hashes: `{'ledger': '70cc499b1c35cd65cde2ce0c8836e1db13e9194a43ac290450755f067ff3c3db', 'corroboration': '30d8b7b6a76976db4f3e7883d33016b3268e109dd32117d64f9a437397935215', 'diagnostic': '5c5e3471673d639e0cd1e6cb97dcf747157eaa7bfe274edd29c32cf8e76ab092', 'registry': None}`.
+- No independent identity, injury status or historical-as-of certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
