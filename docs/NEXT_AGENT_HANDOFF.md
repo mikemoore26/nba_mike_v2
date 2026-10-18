@@ -702,3 +702,8 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 
 ## S8.22.10.26 OPENING-WEEK READINESS AUDIT
 Read-only static inventory: 687 candidate files. All operational gates NOT_VERIFIED; real-money approval DENIED. Research only; training blocked. Report: research/p0_s8/s8_22_10_26/results/opening_week_readiness.json. Next: inspect candidate files, run current-season data and OOS/odds/paper-ticket checks.
+
+<!-- NBA_MIKE_S8_22_10_31 -->
+## Latest milestone — S8.22.10.31
+S8.22.10.30 completed: 7/7 synthetic integration tests passed on user Windows, commit `5aa18df` pushed. S8.22.10.31 adds `src/nba_mike/adapters/canonical_snapshot.py`, strict canonical-to-D-1 mapping and `tests/test_s8221031_adapter.py` (12 isolated local passes; run in actual repo). See `docs/S8_22_10_31_ADAPTER_CONTRACT.md`. Do not assume historical as-of availability. Current governance: RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. Next: inspect user test output, as-of certification, and maintain fail-closed behavior.
+

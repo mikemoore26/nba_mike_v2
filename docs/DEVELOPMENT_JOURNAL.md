@@ -1396,3 +1396,12 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 
 ## S8.22.10.26 OPENING-WEEK READINESS AUDIT
 Read-only static inventory: 687 candidate files. All operational gates NOT_VERIFIED; real-money approval DENIED. Research only; training blocked. Report: research/p0_s8/s8_22_10_26/results/opening_week_readiness.json. Next: inspect candidate files, run current-season data and OOS/odds/paper-ticket checks.
+
+<!-- NBA_MIKE_S8_22_10_31 -->
+## S8.22.10.31 — Canonical-to-D-1 adapter
+- Previous S8.22.10.30: 7 synthetic cross-module tests passed on user Windows environment; Git commit `5aa18df` pushed to `main`.
+- New: explicit, fail-closed canonical-to-snapshot adapter; validates artifact hash/path/row count, exact schema, numeric ranges, duplicate keys, D-1 boundaries and metadata.
+- Local isolated tests against uploaded module source: 12 passed; repository test outcome must be recorded separately.
+- Decision: RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. Historical publication/as-of evidence is not certified.
+- Follow-up: verify repository tests and establish as-of provenance gates before any model training.
+
