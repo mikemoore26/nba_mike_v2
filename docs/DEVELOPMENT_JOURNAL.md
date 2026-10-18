@@ -1393,3 +1393,6 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 ### S8.22.10.25 — Adjacent-game historical evidence acquisition
 - Evidence: `research\p0_s8\s8_22_10_25\results\2023-11-15\701dd1081620376b\review.json`; 29 adjacent games; 754 listings; 44 candidates (35 without target-day listings).
 - Adjacent classifications: `{"ADJACENT_OTHER_TEAM_LISTING_REVIEW": 1, "ADJACENT_SAME_TEAM_LISTING_UNCERTIFIED": 17, "NO_ADJACENT_BOX_SCORE_LISTING": 26}`. Adjacent game appearances do not prove 2023-11-15 roster membership. No player-ID, injury, or as-of certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+## S8.22.10.26 OPENING-WEEK READINESS AUDIT
+Read-only static inventory: 687 candidate files. All operational gates NOT_VERIFIED; real-money approval DENIED. Research only; training blocked. Report: research/p0_s8/s8_22_10_26/results/opening_week_readiness.json. Next: inspect candidate files, run current-season data and OOS/odds/paper-ticket checks.
