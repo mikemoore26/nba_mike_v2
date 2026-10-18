@@ -1381,3 +1381,7 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 - Evidence manifest: `research/p0_s8/s8_22_10_22a/results/2023-11-15/dccbad110b3e0881/capture_manifest.json`.
 - Local third-party names do not prove 2023 team membership or historical as-of. Player IDs certified: 0.
 - Governance: `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+### S8.22.10.23 — Historical team evidence intake
+- Review: `research\p0_s8\s8_22_10_23\results\2023-11-15\e558f4c1bd4e6c56\review.json`; classifications: `{"NO_DATED_EVIDENCE": 44}`.
+- Dated evidence imported: 0 rows; no identity, team, injury or as-of certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
