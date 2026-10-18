@@ -691,3 +691,7 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 ### S8.22.10.23 — Historical team evidence intake
 - Review: `research\p0_s8\s8_22_10_23\results\2023-11-15\e558f4c1bd4e6c56\review.json`; classifications: `{"NO_DATED_EVIDENCE": 44}`.
 - Dated evidence imported: 0 rows; no identity, team, injury or as-of certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+### S8.22.10.24 — Historical ESPN boxscore evidence capture
+- Evidence report: `research\p0_s8\s8_22_10_24\results\2023-11-15\a13c7b9a4d3c1860\review.json`; 8 games; 212 boxscore listings; 44 candidates.
+- Classifications: `{"NO_BOX_SCORE_LISTING_NOT_NEGATIVE_PROOF": 35, "SAME_TEAM_BOX_SCORE_LISTING_UNCERTIFIED": 9}`. Third-party game-day evidence only; no roster, player ID, injury or publication-time certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
