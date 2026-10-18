@@ -1389,3 +1389,7 @@ Schedule acquisition=DOWNLOADED; discovery={'ID_MATCH': 8}; evidence={'CANDIDATE
 ### S8.22.10.24 — Historical ESPN boxscore evidence capture
 - Evidence report: `research\p0_s8\s8_22_10_24\results\2023-11-15\a13c7b9a4d3c1860\review.json`; 8 games; 212 boxscore listings; 44 candidates.
 - Classifications: `{"NO_BOX_SCORE_LISTING_NOT_NEGATIVE_PROOF": 35, "SAME_TEAM_BOX_SCORE_LISTING_UNCERTIFIED": 9}`. Third-party game-day evidence only; no roster, player ID, injury or publication-time certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
+
+### S8.22.10.25 — Adjacent-game historical evidence acquisition
+- Evidence: `research\p0_s8\s8_22_10_25\results\2023-11-15\701dd1081620376b\review.json`; 29 adjacent games; 754 listings; 44 candidates (35 without target-day listings).
+- Adjacent classifications: `{"ADJACENT_OTHER_TEAM_LISTING_REVIEW": 1, "ADJACENT_SAME_TEAM_LISTING_UNCERTIFIED": 17, "NO_ADJACENT_BOX_SCORE_LISTING": 26}`. Adjacent game appearances do not prove 2023-11-15 roster membership. No player-ID, injury, or as-of certification. `RESEARCH_ONLY / BLOCK_TRAINING`.
