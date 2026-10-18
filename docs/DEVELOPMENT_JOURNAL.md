@@ -1405,3 +1405,11 @@ Read-only static inventory: 687 candidate files. All operational gates NOT_VERIF
 - Decision: RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. Historical publication/as-of evidence is not certified.
 - Follow-up: verify repository tests and establish as-of provenance gates before any model training.
 
+<!-- NBA_MIKE_S8_22_10_32 -->
+## S8.22.10.32 — Adapter integration and regression audit
+- Previous S8.22.10.31: 12/12 tests passed in Windows; commit `0bd98c2` pushed to main.
+- Added cross-module synthetic regression tests: canonical builder -> canonical-to-D-1 adapter -> opportunity research features.
+- Test coverage: historical cutoff, expected entity history, repeatability, artifact hash, manifest row count, same-day leakage.
+- Confirmed `target_minutes` is an evaluation label and must be stripped before any pregame prediction.
+- Local isolated test result: 6/6 passed; Windows repository result must be independently verified before declaring milestone complete.
+- Status: RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. No historical as-of source certification or OOS betting validation.

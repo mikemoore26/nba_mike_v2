@@ -707,3 +707,6 @@ Read-only static inventory: 687 candidate files. All operational gates NOT_VERIF
 ## Latest milestone — S8.22.10.31
 S8.22.10.30 completed: 7/7 synthetic integration tests passed on user Windows, commit `5aa18df` pushed. S8.22.10.31 adds `src/nba_mike/adapters/canonical_snapshot.py`, strict canonical-to-D-1 mapping and `tests/test_s8221031_adapter.py` (12 isolated local passes; run in actual repo). See `docs/S8_22_10_31_ADAPTER_CONTRACT.md`. Do not assume historical as-of availability. Current governance: RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. Next: inspect user test output, as-of certification, and maintain fail-closed behavior.
 
+<!-- NBA_MIKE_S8_22_10_32 -->
+## Latest milestone — S8.22.10.32
+S8.22.10.31 passed 12/12 Windows tests, committed `0bd98c2`. S8.22.10.32 introduces `tests/test_s8221032_regression.py` for real canonical builder -> adapter -> opportunity feature flow, with 6 isolated local passes; verify in user's Windows repository. Snapshot D-1 date exclusion is not historical publication/as-of certification. Opportunity research output contains `target_minutes` (evaluation-only). Keep RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. Next: review Windows test result, then as-of provenance certification and safe feature-only interface.
