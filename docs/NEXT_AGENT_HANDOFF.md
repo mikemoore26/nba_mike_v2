@@ -710,3 +710,9 @@ S8.22.10.30 completed: 7/7 synthetic integration tests passed on user Windows, c
 <!-- NBA_MIKE_S8_22_10_32 -->
 ## Latest milestone — S8.22.10.32
 S8.22.10.31 passed 12/12 Windows tests, committed `0bd98c2`. S8.22.10.32 introduces `tests/test_s8221032_regression.py` for real canonical builder -> adapter -> opportunity feature flow, with 6 isolated local passes; verify in user's Windows repository. Snapshot D-1 date exclusion is not historical publication/as-of certification. Opportunity research output contains `target_minutes` (evaluation-only). Keep RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. Next: review Windows test result, then as-of provenance certification and safe feature-only interface.
+
+<!-- NBA_MIKE_S8_22_10_32_CLOSEOUT -->
+## S8.22.10.32 — Verified regression handoff
+- Six regression tests and 25 combined synthetic tests passed in user's Windows environment; closeout reruns all three suites.
+- Canonical → adapter → opportunity-feature contract and tamper defenses verified on synthetic fixtures only.
+- Next: historical as-of evidence certification and source availability audit. No model training or betting approval.

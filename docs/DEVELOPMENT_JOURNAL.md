@@ -1413,3 +1413,10 @@ Read-only static inventory: 687 candidate files. All operational gates NOT_VERIF
 - Confirmed `target_minutes` is an evaluation label and must be stripped before any pregame prediction.
 - Local isolated test result: 6/6 passed; Windows repository result must be independently verified before declaring milestone complete.
 - Status: RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED. No historical as-of source certification or OOS betting validation.
+
+<!-- NBA_MIKE_S8_22_10_32_CLOSEOUT -->
+## S8.22.10.32 — Verified regression closeout
+- User-run Windows Python 3.13.15: six regression tests passed; 25/25 combined S8.22.10.30–32 tests passed.
+- Coverage: real canonical builder into adapter, prior-only opportunity features, deterministic repeat execution, artifact/manifest tamper rejection, and same-day isolation.
+- S8.22.10.32 closeout reran combined suites successfully before documentation updates.
+- No historical as-of source certification or out-of-sample predictive validation established. RESEARCH_ONLY / BLOCK_TRAINING / REAL-MONEY DENIED.

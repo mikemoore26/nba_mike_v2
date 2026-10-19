@@ -56,3 +56,7 @@ P0-S1 intentionally creates governance only. The first evidence-gathering work b
 
 **Status:** ACCEPTED FOR DATASET DESIGN.
 
+<!-- NBA_MIKE_S8_22_10_32_CLOSEOUT -->
+## S8.22.10.32 — Engineering validation (not a predictive discovery)
+- 6/6 regression and 25/25 combined synthetic tests passed in user-run Windows environment; closeout reverified.
+- No accepted new basketball pattern or betting edge; historical as-of evidence remains uncertified.
